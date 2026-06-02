@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "skills": {
+    "developing-genkit-js": {
+      "source": "genkit-ai/skills",
+      "ref": "main",
+      "sourceType": "github",
+      "skillPath": "skills/developing-genkit-js/SKILL.md",
+      "computedHash": "bedbb7516a325a4cd942b8ad6e92e2159bcd8a7c5ad047089cd3737644243ef9"
+    }
+  }
+}
