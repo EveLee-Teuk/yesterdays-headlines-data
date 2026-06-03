@@ -52,7 +52,7 @@ def fetch_today_history():
 
     print(f"⏳ 正在向 DeepSeek 请求 {today_str} 的历史成就数据...")
     
-    try:
+try:
         # 发送网络请求
         response = requests.post(API_URL, headers=headers, json=payload)
         response.raise_for_status() # 检查网络请求是否成功
@@ -60,8 +60,12 @@ def fetch_today_history():
         # 提取大模型返回的文本
         result_text = response.json()['choices'][0]['message']['content'].strip()
         
-        # 将文本解析为 Python 的字典/列表对象，顺便验证 AI 是否按要求输出了规范的 JSON
+        # 将文本解析为 Python 的字典/列表对象
         data = json.loads(result_text)
+        
+        # 👇 新增的排序逻辑：按照 year 字段从小到大（最早到最新）排序
+        # 如果某条数据意外缺失 year，默认放到最后(9999)
+        data = sorted(data, key=lambda x: x.get('year', 9999))
         
         # 将结构化的数据保存到本地文件中
         with open("today_news.json", "w", encoding="utf-8") as f:
