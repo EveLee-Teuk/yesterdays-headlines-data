@@ -3,7 +3,6 @@ import json
 import datetime
 import os
 
-
 # --- 1. 核心配置区 ---
 # 请将下方的字符串替换为你真实的 DeepSeek API Key
 API_KEY = os.environ.get("DEEPSEEK_API_KEY")
@@ -14,16 +13,15 @@ API_URL = "https://api.deepseek.com/chat/completions"
 today_str = datetime.datetime.now().strftime("%m月%d日")
 
 # --- 2. 核心指令 (Prompt) 设定 ---
-# 这就是我们的“铁律”，通过 JSON 示例锁死输出格式与内容边界
 system_instruction = f"""
-你是一个严谨的中国历史编辑。请搜索并提取12到15条发生在历史上的今天（{today_str}）的“中国伟大成就”。
+你是一个严谨的中国历史编辑。请搜索并提取15到18条发生在历史上的今天（{today_str}）的“中国伟大成就”。
 严格遵守以下规则：
 1. 标签分类：只能从【科技】、【民生】、【社会】中选择。
 2. 真实性：事件必须绝对真实，不可捏造历史。
 3. 详情开头：summary（摘要）字段的内容，**必须且只能**以具体的年月日开头，格式严格为“XXXX年XX月XX日，...”。
 4. 输出格式：**必须且只能**输出纯 JSON 数组，不能有任何开头/结尾的问候语，绝对不要输出 ```json 这样的 Markdown 标记。
 
-必须完全匹配以下 JSON 结构（注意我新增了 year 字段）：
+必须完全匹配以下 JSON 结构：
 [
   {{
     "title": "简短有力的大标题（例：神舟十四号发射成功）",
@@ -52,7 +50,7 @@ def fetch_today_history():
 
     print(f"⏳ 正在向 DeepSeek 请求 {today_str} 的历史成就数据...")
     
-try:
+    try:
         # 发送网络请求
         response = requests.post(API_URL, headers=headers, json=payload)
         response.raise_for_status() # 检查网络请求是否成功
@@ -60,14 +58,12 @@ try:
         # 提取大模型返回的文本
         result_text = response.json()['choices'][0]['message']['content'].strip()
         
-        # 将文本解析为 Python 的字典/列表对象
+        # 将文本解析为 Python 的字典/列表对象，顺便验证 AI 是否按要求输出了规范的 JSON
         data = json.loads(result_text)
         
-        # 新增的排序逻辑：按照 year 字段从小到大（最早到最新）排序
-        # 如果某条数据意外缺失 year，默认放到最后(9999)
+        # 将结构化的数据保存到本地文件中（自动按年份排序）
         data = sorted(data, key=lambda x: x.get('year', 9999))
         
-        # 将结构化的数据保存到本地文件中
         with open("today_news.json", "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
             
