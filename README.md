@@ -28,7 +28,7 @@
 
 🗂️ 核心数据结构
 输出的 today_news.json 严格遵循以下数据契约：
-
+   ```bash
 JSON
 [
   {
@@ -39,6 +39,7 @@ JSON
     "summary": "2022年06月05日，神舟十四号载人飞船成功发射，开启中国空间站建造阶段首次载人飞行任务..."
   }
 ]
+   ```
 🛠️ 本地运行指南
 如果您希望 Fork 本项目进行二次开发：
 
@@ -46,9 +47,10 @@ JSON
 
 安装依赖：
 
-pip install requests
+   ```bash pip install requests
+   ```
 
 3. **注入密钥**：在系统环境变量中配置您的 `DEEPSEEK_API_KEY`。
 4. **手动抓取**：
-   ```bash
- python fetch_history.py# yesterdays-headlines-data
+   ```bash python fetch_history.py# yesterdays-headlines-data
+   ```
