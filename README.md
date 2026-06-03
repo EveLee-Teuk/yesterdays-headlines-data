@@ -47,10 +47,12 @@ JSON
 
 安装依赖：
 
-   ```bash pip install requests
+   ```bash
+pip install requests
    ```
 
 3. **注入密钥**：在系统环境变量中配置您的 `DEEPSEEK_API_KEY`。
 4. **手动抓取**：
-   ```bash python fetch_history.py# yesterdays-headlines-data
+   ```bash
+   python fetch_history.py# yesterdays-headlines-data
    ```
