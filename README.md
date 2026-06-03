@@ -51,4 +51,4 @@ pip install requests
 3. **注入密钥**：在系统环境变量中配置您的 `DEEPSEEK_API_KEY`。
 4. **手动抓取**：
    ```bash
-python fetch_history.py# yesterdays-headlines-data
+ python fetch_history.py# yesterdays-headlines-data
