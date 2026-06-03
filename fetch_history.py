@@ -63,7 +63,7 @@ try:
         # 将文本解析为 Python 的字典/列表对象
         data = json.loads(result_text)
         
-        # 👇 新增的排序逻辑：按照 year 字段从小到大（最早到最新）排序
+        # 新增的排序逻辑：按照 year 字段从小到大（最早到最新）排序
         # 如果某条数据意外缺失 year，默认放到最后(9999)
         data = sorted(data, key=lambda x: x.get('year', 9999))
         
