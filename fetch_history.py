@@ -1,7 +1,9 @@
 import requests
 import json
 import datetime
+from datetime import timezone, timedelta  # 👈 新增导入时区工具
 import os
+from duckduckgo_search import DDGS
 
 # --- 1. 核心配置区 ---
 # 请将下方的字符串替换为你真实的 DeepSeek API Key
@@ -10,7 +12,8 @@ API_KEY = os.environ.get("DEEPSEEK_API_KEY")
 API_URL = "https://api.deepseek.com/chat/completions"
 
 # 自动获取今天的日期，例如 "06月01日"
-today_str = datetime.datetime.now().strftime("%m月%d日")
+tz_bj = timezone(timedelta(hours=8))
+today_str = datetime.datetime.now(tz_bj).strftime("%m月%d日")
 
 
 # --- 2. 核心指令 (Prompt) 设定 ---
