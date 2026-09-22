@@ -61,7 +61,7 @@ def validate_candidate(candidate, documents, issue_date):
     event = {key: candidate.get(key) for key in ('date', 'title', 'category', 'location', 'summary')}
     event.update(id='history-' + hashlib.sha256(identity.encode()).hexdigest()[:16],
                  sources=[{'name': document['name'], 'url': document['url'], 'date': event_date,
-                           'evidence': evidence}], reviewedAt=issue_date, verification='source-matched')
+                           'evidence': evidence}], reviewedAt=dt.datetime.now(BEIJING).date().isoformat(), verification='source-matched')
     validate_events([event])
     if len(event['title']) > 60 or len(event['summary']) > 800:
         raise ValueError('Excessive generated text')
@@ -119,7 +119,8 @@ def retrieve(issue_date, existing):
     from ddgs import DDGS
     month, day = (int(value) for value in issue_date[5:].split('-'))
     queries = [f'{month}月{day}日 历史上的今天 site:gov.cn',
-               f'{month}月{day}日 中国 历史 成就 site:news.cn',
+               f'{month}月{day}日 历史上的今天 site:news.cn',
+               f'{month}月{day}日 历史上的今天 site:people.com.cn',
                f'{month}月{day}日 科技 历史 site:cas.cn',
                f'{month}月{day}日 航天 历史 site:cnsa.gov.cn']
     urls = []; successes = 0
@@ -146,7 +147,7 @@ def retrieve(issue_date, existing):
             print(f'Source unavailable ({urlparse(url).hostname}): {type(error).__name__}')
             return None
     with ThreadPoolExecutor(max_workers=4) as pool:
-        documents = [doc for doc in pool.map(fetch, urls[:20]) if doc]
+        documents = [doc for doc in pool.map(fetch, urls[:32]) if doc]
     if not documents:
         raise RuntimeError('No readable dated source documents; keep previous published data')
     for index, document in enumerate(documents):
@@ -207,12 +208,13 @@ def collect(root, issue_date):
     candidates = result.get('events')
     if not isinstance(candidates, list):
         raise ValueError('Missing generated events array')
+    print(f'Generated {len(candidates)} candidates for {issue_date}')
     accepted = []
     for candidate in candidates[:5]:
         try:
             accepted.append(validate_candidate(candidate, documents, issue_date))
-        except (ValueError, TypeError):
-            print('Rejected candidate: missing or conflicting source/date evidence')
+        except (ValueError, TypeError) as error:
+            print(f'Rejected candidate: {error}')
     if accepted:
         review = deepseek_json(REVIEWER, {'issueDate': issue_date, 'existing': existing, 'candidates': accepted, 'sources': documents})
         approved = review.get('approved')
