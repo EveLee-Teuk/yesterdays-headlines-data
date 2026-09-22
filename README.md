@@ -1,26 +1,23 @@
-# 昨日头条 · 每日历史资料
+# 昨日头条 · 七日独立存档
 
-每天北京时间 00:15（GitHub 调度可能延迟）检索历史上的今天，抓取官方原文，再用 DeepSeek 整理和复核。沿用仓库 Secret `DEEPSEEK_API_KEY`，密钥不进入前端或提交记录。
+每天北京时间 00:15（GitHub 可能延迟）运行 archive_window.py。沿用 GitHub Secret DEEPSEEK_API_KEY，不向前端传递密钥。
 
-## 发布流程
+真实网页检索与正文抓取 → DeepSeek 摘要 → 原文证据/日期校验 → 第二次模型复核 → 保存日报。
+自动复核不能保证事实零错误，网页提供来源与证据供查阅。
 
-1. DDGS 检索政府、新华社、科学院等来源，抓取 HTTPS 正文。
-2. DeepSeek 从正文选择最多 5 条新事件。每条必须附可在原文找到的短句及明确年月日。
-3. 代码拒绝错月日、无来源、伪造引文、网页发布时间；第二次模型调用复核摘要与事件日期。
-4. 合并进 catalog.json，保留已有人工校对事件；输出 issue.json、today_news.json、archives/ 和 collection_status.json。
-5. 主分支 Action 自动提交；网页服务端自动读取 catalog.json，无需每天重新部署前端。
+## 文件职责
 
-自动校验可降低日期错误，不能保证模型永不犯错。网页区分人工核对与 AI 整理，并提供原文与证据短句。没有合格资料时允许空页，不移动其他事件的日期。检索/API 失败则任务失败并保留已发布文件，不伪装成今日更新成功。
+- archives/YYYY-MM-DD.json：独立日报，保留今天及前六天，共七个文件。已有历史日报保持不变，今天更新不会覆盖它们；超过窗口的文件从当前分支删除，仍可从 Git 历史恢复。
+- archive_index.json：七天日期索引，前端据此读取独立日报。
+- issue.json、today_news.json：仅当日报告与旧格式兼容输出，不是历史存档。
+- catalog.json：内部累积事件资料缓存，包含不同月日，前端不直接读取。它的 updatedAt 不是每条事件发生的日期。
+- window_status.json：本次采集失败日期。失败日保留旧文件；不存在旧文件时写 unavailable，稍后自动重试。成功检索但无合格事件记 empty，不冒充采集故障。
 
-## 本地验证
+每日任务补齐缺失或失败的历史日报，再更新今天，最终校验七个文件并发布。部分日期失败仍发布其他成功文件，并将 Action 标为失败供排查。每个文件只允许对应月日的事件，日期错配会拒绝发布。
 
-Python 3.12+：`pip install -r requirements.txt`，然后 `python -m unittest discover -s tests -v`。
-`python collect_history.py --retrieve-only` 仅测试真实检索，无需密钥。
-`python collect_history.py` 需要环境变量 DEEPSEEK_API_KEY。
-`python fetch_history.py --date 2026-09-22` 仅从已有库生成当日刊，不调用模型。
+## 验证
 
-Actions 页面可手动运行 Collect and publish daily history。非 main 分支只生成构建附件，不提交发布；PR 不接触密钥。
-
-## 相邻日期覆盖（2026-09-22）
-
-每日任务依次采集昨天、明天、今天，允许前后翻页阅读对应月日的历史。每个日期均执行真实检索、DeepSeek 整理、原文证据校验与复核，今天最后执行以保持首页更新时间语义。新增内容长期保留在事件库，不会随明天更新被删除。任一步骤失败，本次任务不提交，已发布资料保持不变。
+Python 3.12+：pip install -r requirements.txt；python -m unittest discover -s tests -v。
+python collect_history.py --retrieve-only 仅测试检索，不需要密钥。
+python archive_window.py --days 7 执行七日流程（需要密钥）。
+python archive_window.py --days 7 --finalize-only 仅校验、生成索引和执行滚动保留。
