@@ -20,3 +20,7 @@ Python 3.12+：`pip install -r requirements.txt`，然后 `python -m unittest di
 `python fetch_history.py --date 2026-09-22` 仅从已有库生成当日刊，不调用模型。
 
 Actions 页面可手动运行 Collect and publish daily history。非 main 分支只生成构建附件，不提交发布；PR 不接触密钥。
+
+## 相邻日期覆盖（2026-09-22）
+
+每日任务依次采集昨天、明天、今天，允许前后翻页阅读对应月日的历史。每个日期均执行真实检索、DeepSeek 整理、原文证据校验与复核，今天最后执行以保持首页更新时间语义。新增内容长期保留在事件库，不会随明天更新被删除。任一步骤失败，本次任务不提交，已发布资料保持不变。

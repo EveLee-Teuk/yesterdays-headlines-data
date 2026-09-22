@@ -125,7 +125,7 @@ def retrieve(issue_date, existing):
     urls = []; successes = 0
     for query in queries:
         try:
-            results = DDGS(timeout=12).text(query, region='cn-zh', max_results=6, backend='bing,duckduckgo')
+            results = DDGS(timeout=15).text(query, region='cn-zh', max_results=8, backend='auto')
             successes += 1
             for item in results:
                 url = item.get('href', '').replace('http://', 'https://', 1)
