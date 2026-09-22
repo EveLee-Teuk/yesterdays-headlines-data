@@ -14,7 +14,7 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 45
     permissions:
       contents: write
     steps:
@@ -29,7 +29,17 @@ jobs:
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           PYTHONUNBUFFERED: '1'
-        run: python collect_history.py
+        run: |
+          python - <<'PY'
+          import datetime as dt
+          from pathlib import Path
+          from collect_history import collect
+          from fetch_history import BEIJING
+          today = dt.datetime.now(BEIJING).date()
+          # Publish today's status last; neighbouring issues remain in archives.
+          for offset in (-1, 1, 0):
+              collect(Path.cwd(), (today + dt.timedelta(days=offset)).isoformat())
+          PY
       - run: python fetch_history.py
       - uses: actions/upload-artifact@v4
         with:
