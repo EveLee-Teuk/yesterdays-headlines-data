@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-09-21",
+  "timezone": "Asia/Shanghai",
+  "status": "ready",
+  "events": [
+    {
+      "date": "1992-09-21",
+      "title": "中国载人航天工程正式立项",
+      "category": "科技",
+      "location": "北京",
+      "summary": "1992年9月21日，中央正式批复载人航天工程可行性论证报告，中国载人航天工程正式立项，代号为“921工程”。这一决策为中国载人航天事业确立了发展蓝图，此后中国逐步突破载人天地往返、空间出舱、交会对接等关键技术。",
+      "id": "history-4a89df843a2008c9",
+      "sources": [
+        {
+          "name": "国家航天局",
+          "url": "https://www.cnsa.gov.cn/n6758968/n6758972/c6796221/content.html",
+          "date": "1992-09-21",
+          "evidence": "1992年9月21日，中央正式批复载人航天工程可行性论证报告。中国载人航天工程正式立项。代号为“921工程”。"
+        }
+      ],
+      "reviewedAt": "2026-09-21",
+      "verification": "source-matched"
+    }
+  ]
+}
