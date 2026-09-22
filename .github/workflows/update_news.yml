@@ -1,42 +1,49 @@
-name: Daily News Fetcher
-
+name: Collect and publish daily history
 on:
   schedule:
-    # 每天 UTC 时间 16:00 运行（对应北京时间每天凌晨 00:10）
-    - cron: '15 16 * * *'
-  workflow_dispatch: # 这个指令非常重要：允许我们手动点击按钮立刻运行测试！
-
+    - cron: '15 16 * * *' # Beijing 00:15; scheduling may be delayed
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['catalog.json', '*.py', 'requirements.txt', 'tests/**', '.github/workflows/update_news.yml']
+  pull_request:
+    paths: ['catalog.json', 'fetch_history.py', 'tests/**', '.github/workflows/update_news.yml']
+concurrency:
+  group: history-${{ github.ref }}
+  cancel-in-progress: false
 jobs:
-  update-data:
+  publish:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     permissions:
-      contents: write # 允许机器人把生成的数据文件提交回仓库
-
+      contents: write
     steps:
-    - name: 1. 拉取仓库代码
-      uses: actions/checkout@v4
-
-    - name: 2. 配置 Python 环境
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.10'
-
-    - name: 3. 安装依赖包 (requests)
-      run: pip install -r requirements.txt
-
-    - name: 4. 运行抓取脚本
-      env:
-        DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }} # 从保险箱偷偷拿出钥匙
-      run: python fetch_history.py
-
-   
-
-    - name: 5. 将新数据提交到仓库
-      run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add today_news.json
-          git commit -m "🚀 自动更新今日历史数据" || exit 0
-          git pull --rebase origin main  # 核心修复方案：在推送前强制同步远程最新状态
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s tests -v
+      - run: pip install -r requirements.txt
+      - name: Search originals and verify event dates
+        if: github.event_name != 'pull_request'
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          PYTHONUNBUFFERED: '1'
+        run: python collect_history.py
+      - run: python fetch_history.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: daily-history
+          path: |
+            catalog.json
+            issue.json
+            collection_status.json
+      - name: Commit validated issue
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        run: |
+          git config user.email "action@github.com"
+          git config user.name "GitHub Action"
+          git add catalog.json collection_status.json today_news.json issue.json archives/
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Publish source-reviewed daily history"
           git push
-
