@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-09-17",
+  "timezone": "Asia/Shanghai",
+  "status": "ready",
+  "events": [
+    {
+      "id": "synthetic-insulin",
+      "date": "1965-09-17",
+      "title": "首次人工合成结晶牛胰岛素",
+      "category": "科技",
+      "location": "上海、北京",
+      "summary": "中国科研人员首次获得人工合成的结晶牛胰岛素。参与这项工作的单位包括中国科学院上海生物化学研究所、上海有机化学研究所和北京大学。\n\n研究从肽链合成走向完整分子的重建。合成产物的生物活力与天然牛胰岛素相当，这是人工合成蛋白质研究中的重要进展。",
+      "sources": [
+        {
+          "name": "上海科技党建",
+          "url": "https://www.shkjdw.gov.cn/c/2009-06-17/487988.shtml",
+          "date": "1965-09-17"
+        }
+      ],
+      "reviewedAt": "2026-09-22"
+    },
+    {
+      "date": "1993-09-17",
+      "title": "全国首个肉用细毛羊新品种通过部级鉴定",
+      "category": "科技",
+      "location": "新疆阿勒泰",
+      "summary": "1993年9月17日，全国第一个肉用细毛羊新品种通过部级鉴定，1994年定名为“阿勒泰肉用细毛羊”。该品种的培育填补了我国肉用细毛羊培育的空白，标志着我国在绵羊育种领域取得重要突破。",
+      "id": "history-e1a48f33bce9c97e",
+      "sources": [
+        {
+          "name": "www.bts.gov.cn",
+          "url": "https://www.bts.gov.cn/c/2927/2927387.shtml",
+          "date": "1993-09-17",
+          "evidence": "1993年9月17日 ，全国第一个肉用细毛羊新品种通过部级鉴定。1994年定名为“阿勒泰肉用细毛羊”，填补了我国肉用细毛羊培育空白。"
+        }
+      ],
+      "reviewedAt": "2026-09-22",
+      "verification": "source-matched"
+    },
+    {
+      "date": "2005-09-17",
+      "title": "第二届中国威海国际人居节举办城市规划旅游发展国际论坛",
+      "category": "社会",
+      "location": "山东威海",
+      "summary": "2005年9月17日，第二届中国威海国际人居节举行城市规划•旅游发展国际论坛，参加论坛的人数约150人。论坛围绕城市规划与旅游发展展开交流，是人居节期间的重要活动之一。",
+      "id": "history-f1ccdd9700edd981",
+      "sources": [
+        {
+          "name": "www.weihai.gov.cn",
+          "url": "https://www.weihai.gov.cn/art/2013/9/17/art_61970_2096673.html",
+          "date": "2005-09-17",
+          "evidence": "2005年9月17日，第二届中国威海国际人居节举行城市规划•旅游发展国际论坛，参加论坛的人数约150人。"
+        }
+      ],
+      "reviewedAt": "2026-09-22",
+      "verification": "source-matched"
+    }
+  ]
+}

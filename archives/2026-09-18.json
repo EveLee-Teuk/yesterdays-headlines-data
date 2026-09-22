@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-09-18",
+  "timezone": "Asia/Shanghai",
+  "status": "ready",
+  "events": [
+    {
+      "date": "1995-09-18",
+      "title": "沈阳首次鸣警报纪念九一八",
+      "category": "社会",
+      "location": "沈阳",
+      "summary": "1995年9月18日晚22时20分，九一八事变爆发同一时间，沈阳拉响防空警报，街头9路18街行驶的车辆停驶鸣笛，行人驻足肃立，沈阳市电视台停播节目并插播“勿忘国耻，振兴中华”字幕。这一城市仪式由此延续。",
+      "id": "history-f9cec6db260f7947",
+      "sources": [
+        {
+          "name": "www.ln.gov.cn",
+          "url": "https://www.ln.gov.cn/web/ywdt/jrln/tpxw/2026091808483788794/index.shtml",
+          "date": "1995-09-18",
+          "evidence": "1995年9月18日晚22时20分，九一八事变爆发同一时间，凄厉的防空警报划破沈阳夜空，在沈阳街头9路18街行驶的车辆停驶鸣笛，街头行人驻足肃立，沈阳市电视台停播节目，插播“勿忘国耻，振兴中华”字幕。"
+        }
+      ],
+      "reviewedAt": "2026-09-22",
+      "verification": "source-matched"
+    },
+    {
+      "date": "1999-09-18",
+      "title": "表彰“两弹一星”科技专家",
+      "category": "科技",
+      "location": "北京",
+      "summary": "1999年9月18日，中共中央、国务院、中央军委在人民大会堂举行大会，表彰为研制“两弹一星”作出突出贡献的23位科技专家。王淦昌、邓稼先、赵九章、陈芳允、程开甲等荣获“两弹一星功勋奖章”。",
+      "id": "history-87ebc19dfd6e7698",
+      "sources": [
+        {
+          "name": "www.93.gov.cn",
+          "url": "https://www.93.gov.cn/lshm-lssdjt/246980.html",
+          "date": "1999-09-18",
+          "evidence": "1999年9月18日  中共中央、国务院、中央军委在人民大会堂隆重举行大会，表彰当年为研制“两弹一星”作出突出贡献的23位科技专家。"
+        }
+      ],
+      "reviewedAt": "2026-09-22",
+      "verification": "source-matched"
+    }
+  ]
+}
