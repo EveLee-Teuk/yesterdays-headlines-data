@@ -7,7 +7,7 @@ on:
     branches: [main]
     paths: ['catalog.json', '*.py', 'requirements.txt', 'tests/**', '.github/workflows/update_news.yml']
   pull_request:
-    paths: ['catalog.json', 'fetch_history.py', 'tests/**', '.github/workflows/update_news.yml']
+    paths: ['catalog.json', '*.py', 'requirements.txt', 'tests/**', '.github/workflows/update_news.yml']
 concurrency:
   group: history-${{ github.ref }}
   cancel-in-progress: false

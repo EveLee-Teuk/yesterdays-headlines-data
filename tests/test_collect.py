@@ -51,6 +51,8 @@ class CollectionTests(unittest.TestCase):
         event = m.validate_candidate(CANDIDATE, [DOC], '2026-09-22')
         editorial = {**event, 'id': 'editorial-id', 'verification': 'editorial', 'summary': '已人工核对的摘要'}
         self.assertEqual(m.merge_events([editorial], [event]), [editorial])
+        other = {**event, 'id': 'different-event', 'title': '首条铁路正式通车'}
+        self.assertEqual(len(m.merge_events([editorial], [other])), 2)
 
 
 if __name__ == '__main__':

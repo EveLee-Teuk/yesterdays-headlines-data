@@ -72,8 +72,7 @@ def merge_events(existing, incoming):
     result = list(existing)
     for event in incoming:
         duplicate = any(old['id'] == event['id'] or (old['date'] == event['date'] and
-            (set(source['url'] for source in old['sources']) & set(source['url'] for source in event['sources'])
-             or SequenceMatcher(None, compact(old['title']), compact(event['title'])).ratio() >= 0.55))
+            SequenceMatcher(None, compact(old['title']), compact(event['title'])).ratio() >= 0.55)
             for old in result)
         if not duplicate:
             result.append(event)
