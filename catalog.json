@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-09-24",
+  "updatedAt": "2026-09-25",
   "events": [
     {
       "id": "first-atomic-test",
@@ -273,6 +273,24 @@
       "reviewedAt": "2026-09-22"
     },
     {
+      "date": "2012-09-25",
+      "title": "辽宁舰正式交付海军",
+      "category": "科技",
+      "location": "中国",
+      "summary": "2012年9月25日，中国第一艘航空母舰辽宁舰正式交付海军。胡锦涛出席交接入列仪式并登舰视察。辽宁舰的入列标志着中国海军装备建设取得重要进展。",
+      "id": "history-ea71264bb73bce52",
+      "sources": [
+        {
+          "name": "sft.fujian.gov.cn",
+          "url": "https://sft.fujian.gov.cn/ztzl/2021nian/dsxxjyhd/111111/202110/t20211026_5749584.htm",
+          "date": "2012-09-25",
+          "evidence": "2012年 9月25日 中国第一艘航空母舰辽宁舰正式交付海军。胡锦涛出席交接入列仪式并登舰视察。"
+        }
+      ],
+      "reviewedAt": "2026-09-25",
+      "verification": "source-matched"
+    },
+    {
       "id": "change-3-landing",
       "date": "2013-12-14",
       "title": "嫦娥三号在月球软着陆",
@@ -307,6 +325,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "2019-09-25",
+      "title": "北京大兴国际机场投入运营",
+      "category": "社会",
+      "location": "北京",
+      "summary": "2019年9月25日，北京大兴国际机场正式投入运营。该机场是大型国际航空枢纽，其投运有助于完善京津冀区域交通网络，提升航空运输能力。",
+      "id": "history-2d6b12cf7823801c",
+      "sources": [
+        {
+          "name": "sft.fujian.gov.cn",
+          "url": "https://sft.fujian.gov.cn/ztzl/2021nian/dsxxjyhd/111111/202110/t20211026_5749584.htm",
+          "date": "2019-09-25",
+          "evidence": "2019年 9月25日 北京大兴国际机场正式投入运营。"
+        }
+      ],
+      "reviewedAt": "2026-09-25",
+      "verification": "source-matched"
+    },
+    {
       "id": "poverty-alleviation",
       "date": "2021-02-25",
       "title": "脱贫攻坚战全面胜利的宣告",
@@ -324,10 +360,10 @@
     }
   ],
   "lastRun": {
-    "date": "2026-09-24",
-    "completedAt": "2026-09-24T03:41:35+08:00",
-    "sourceCount": 4,
-    "addedCount": 0,
-    "status": "empty"
+    "date": "2026-09-25",
+    "completedAt": "2026-09-25T03:59:55+08:00",
+    "sourceCount": 5,
+    "addedCount": 2,
+    "status": "ready"
   }
 }
