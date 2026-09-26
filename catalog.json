@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-09-26",
+  "updatedAt": "2026-09-27",
   "events": [
     {
       "date": "1959-09-26",
@@ -100,6 +100,24 @@
         }
       ],
       "reviewedAt": "2026-09-26",
+      "verification": "source-matched"
+    },
+    {
+      "date": "1977-09-27",
+      "title": "全国自然科学学科规划会议在北京召开",
+      "category": "科技",
+      "location": "北京",
+      "summary": "1977年9月27日至10月31日，全国自然科学学科规划会议在北京召开。会议制定出数学、物理学、化学、天文学、地理学和生物学等全国6大基础学科及有关新兴学科的发展规划，并提出了《全国基础科学规划纲要》（草案）。",
+      "id": "history-03e0bab8850493e6",
+      "sources": [
+        {
+          "name": "cpc.people.com.cn",
+          "url": "https://cpc.people.com.cn/GB/64162/64165/70293/70320/index.html",
+          "date": "1977-09-27",
+          "evidence": "1977年9月27日至10月31日   全国自然科学学科规划会议在北京召开。会议制定出数学、物理学、化学、天文学、地理学和生物学等全国6大基础学科及有关新兴学科的发展规划，并提出了《全国基础科学规划纲要》（草案）。"
+        }
+      ],
+      "reviewedAt": "2026-09-27",
       "verification": "source-matched"
     },
     {
@@ -345,6 +363,24 @@
       "reviewedAt": "2026-09-22"
     },
     {
+      "date": "2008-09-27",
+      "title": "神舟七号实施宇航员空间出舱活动",
+      "category": "科技",
+      "location": "中国",
+      "summary": "2008年9月27日，神舟七号载人飞船实施宇航员空间出舱活动。这次出舱活动使我国成为世界上第三个独立掌握空间出舱技术的国家，标志着中国载人航天工程取得又一重大突破。",
+      "id": "history-9a788cbcea6dff08",
+      "sources": [
+        {
+          "name": "xfb.beijing.gov.cn",
+          "url": "https://xfb.beijing.gov.cn/ztzl/dsxxjy/dsrz/202109/t20210927_2502757.html",
+          "date": "2008-09-27",
+          "evidence": "2008年 9月27日 神舟七号载人飞船实施宇航员空间出舱活动。我国成为世界上第三个独立掌握空间出舱技术的国家。"
+        }
+      ],
+      "reviewedAt": "2026-09-27",
+      "verification": "source-matched"
+    },
+    {
       "date": "2012-09-25",
       "title": "辽宁舰正式交付海军",
       "category": "科技",
@@ -432,10 +468,10 @@
     }
   ],
   "lastRun": {
-    "date": "2026-09-26",
-    "completedAt": "2026-09-26T04:02:13+08:00",
+    "date": "2026-09-27",
+    "completedAt": "2026-09-27T03:13:59+08:00",
     "sourceCount": 6,
-    "addedCount": 4,
+    "addedCount": 2,
     "status": "ready"
   }
 }
