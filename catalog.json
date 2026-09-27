@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-09-27",
+  "updatedAt": "2026-09-28",
   "events": [
     {
       "date": "1959-09-26",
@@ -18,6 +18,24 @@
         }
       ],
       "reviewedAt": "2026-09-26",
+      "verification": "source-matched"
+    },
+    {
+      "date": "1960-09-28",
+      "title": "中国与古巴宣布建交",
+      "category": "社会",
+      "location": "北京",
+      "summary": "中国和古巴宣布建立外交关系，古巴成为与新中国建交的第一个拉丁美洲国家，开启了两国交往的新阶段。",
+      "id": "history-f764f082a82bfb33",
+      "sources": [
+        {
+          "name": "cpc.people.com.cn",
+          "url": "https://cpc.people.com.cn/GB/64162/64165/70293/70321/",
+          "date": "1960-09-28",
+          "evidence": "1960年9月28日  中国和古巴宣布建交。古巴是与新中国建交的第一个拉丁美洲国家。"
+        }
+      ],
+      "reviewedAt": "2026-09-28",
       "verification": "source-matched"
     },
     {
@@ -175,6 +193,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "1989-09-28",
+      "title": "杨浦区科技馆开馆",
+      "category": "科技",
+      "location": "上海",
+      "summary": "上海市杨浦区科技馆举行开馆典礼，为当地增添了一处面向公众开展科学技术普及与教育的场所，有助于丰富市民科技文化生活。",
+      "id": "history-ada924ea32ad1223",
+      "sources": [
+        {
+          "name": "szb.shyp.gov.cn",
+          "url": "https://szb.shyp.gov.cn/dqw/hszs/20230928/438081.html",
+          "date": "1989-09-28",
+          "evidence": "1989年9月28日 杨浦区科技馆开馆典礼举行。"
+        }
+      ],
+      "reviewedAt": "2026-09-28",
+      "verification": "source-matched"
+    },
+    {
       "date": "1990-09-16",
       "title": "国务院建立国家专项粮食储备制度",
       "category": "民生",
@@ -207,6 +243,24 @@
         }
       ],
       "reviewedAt": "2026-09-22"
+    },
+    {
+      "date": "1990-09-28",
+      "title": "上海市市标确定",
+      "category": "社会",
+      "location": "上海",
+      "summary": "上海市九届人大常委会第二十一次会议审议通过关于市标的决定，确定以市花白玉兰、沙船和螺旋桨三者组成的三角形图案为上海市市标，为这座城市的形象标识提供了法定依据。",
+      "id": "history-bd44dd9f3824a3f0",
+      "sources": [
+        {
+          "name": "szb.shyp.gov.cn",
+          "url": "https://szb.shyp.gov.cn/dqw/hszs/20230928/438081.html",
+          "date": "1990-09-28",
+          "evidence": "1990年9月28日 上海市市标确定。市九届人大常委会第二十一次会议审议通过关于以市花白玉兰、沙船和螺旋桨三者组成的三角形图案为上海市市标。"
+        }
+      ],
+      "reviewedAt": "2026-09-28",
+      "verification": "source-matched"
     },
     {
       "date": "1992-09-21",
@@ -311,6 +365,24 @@
         }
       ],
       "reviewedAt": "2026-09-22"
+    },
+    {
+      "date": "2002-09-28",
+      "title": "“龙芯1号”发布",
+      "category": "科技",
+      "location": "北京",
+      "summary": "中国科学院举行“龙芯1号”发布会。该处理器由胡伟武等人历经478个日夜研制，结束了中国人只能用国外处理器制造计算机的历史，被誉为民族科技史上的里程碑，并入选两院院士评选的2002年中国十大科技进展新闻。",
+      "id": "history-2d6b33f85bcc952b",
+      "sources": [
+        {
+          "name": "中国科学院",
+          "url": "https://www.cas.cn/zt/kjzt/kjzlzqzl/kjzlzq/202408/t20240823_5029568.shtml",
+          "date": "2002-09-28",
+          "evidence": "2002年9月28日，中国科学院举行了“龙芯1号”发布会。"
+        }
+      ],
+      "reviewedAt": "2026-09-28",
+      "verification": "source-matched"
     },
     {
       "id": "shenzhou-5",
@@ -468,10 +540,10 @@
     }
   ],
   "lastRun": {
-    "date": "2026-09-27",
-    "completedAt": "2026-09-27T03:13:59+08:00",
-    "sourceCount": 6,
-    "addedCount": 2,
+    "date": "2026-09-28",
+    "completedAt": "2026-09-28T03:47:17+08:00",
+    "sourceCount": 8,
+    "addedCount": 4,
     "status": "ready"
   }
 }
