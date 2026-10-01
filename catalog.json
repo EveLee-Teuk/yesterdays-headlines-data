@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-01",
+  "updatedAt": "2026-10-02",
   "events": [
     {
       "date": "1959-09-26",
@@ -648,10 +648,10 @@
     }
   ],
   "lastRun": {
-    "date": "2026-10-01",
-    "completedAt": "2026-10-01T04:50:00+08:00",
-    "sourceCount": 7,
-    "addedCount": 2,
-    "status": "ready"
+    "date": "2026-10-02",
+    "completedAt": "2026-10-02T05:30:47+08:00",
+    "sourceCount": 1,
+    "addedCount": 0,
+    "status": "empty"
   }
 }
