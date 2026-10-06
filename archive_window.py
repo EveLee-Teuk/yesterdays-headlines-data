@@ -47,38 +47,68 @@ def finalize_window(root, today, days=7):
         try: valid_date(path.stem)
         except ValueError: continue
         if path.stem not in dates: path.unlink()
-    atomic_json(root / 'archive_index.json', {'schemaVersion': 1, 'today': today,
+    index = {'schemaVersion': 1, 'today': today,
         'retentionDays': days, 'dates': dates, 'updatedAt': dt.datetime.now(BEIJING).date().isoformat(),
-        'lastRun': catalog.get('lastRun')})
+        'lastRun': catalog.get('lastRun')}
+    diagnostic_path = root / 'collection_diagnostics' / f'{today}.json'
+    if diagnostic_path.exists():
+        diagnostic = json.loads(diagnostic_path.read_text(encoding='utf-8-sig'))
+        if (diagnostic.get('date') == today
+                and diagnostic.get('outcome') in ('ready', 'empty', 'failed', 'validation_failed', 'review_rejected')
+                and isinstance(diagnostic.get('completedAt'), str)):
+            index['lastAttempt'] = {key: diagnostic[key] for key in ('date', 'outcome', 'completedAt')}
+    atomic_json(root / 'archive_index.json', index)
     atomic_json(root / 'issue.json', issues[-1])
     atomic_json(root / 'today_news.json', [{**event, 'year': int(event['date'][:4]),
         'subtitle': f"{event['date'][:4]}年 {event['location']}"} for event in issues[-1]['events']])
 
 
-def run(root, today, days=7):
+def run(root, today, days=7, backfill_budget=2):
     from collect_history import collect
+    if not 0 <= backfill_budget <= 6:
+        raise ValueError('Backfill budget must be between 0 and 6')
     failures = []
-    for day in window_dates(today, days):
+    dates = window_dates(today, days)
+    state_path = root / 'window_status.json'
+    previous = json.loads(state_path.read_text(encoding='utf-8-sig')) if state_path.exists() else {}
+    retries = {day: value for day, value in previous.get('historicalRetries', {}).items() if day in dates}
+    attempted = []
+    for day in reversed(dates):
         path = root / 'archives' / f'{day}.json'
-        if day != today and path.exists():
-            issue = validate_issue(json.loads(path.read_text(encoding='utf-8-sig')), day)
-            if issue['status'] != 'unavailable': continue
+        if day != today:
+            if path.exists():
+                issue = validate_issue(json.loads(path.read_text(encoding='utf-8-sig')), day)
+                if issue['status'] == 'ready': continue
+            retry = retries.get(day, {'count': 0})
+            if retry['count'] >= 2 or retry.get('lastAttemptDate') == today:
+                continue
+            if len(attempted) >= 1 + backfill_budget:
+                break  # Today is always attempted before the bounded historical work.
+            retries[day] = {'count': retry['count'] + 1, 'lastAttemptDate': today}
+        attempted.append(day)
         try:
             collect(root, day)
         except Exception as error:
             failures.append(day)
             print(f'Collection failed for {day}: {type(error).__name__}; retaining previous issue')
     finalize_window(root, today, days)
-    atomic_json(root / 'window_status.json', {'date': today, 'failedDates': failures})
+    today_diagnostic = root / 'collection_diagnostics' / f'{today}.json'
+    today_attempt = (json.loads(today_diagnostic.read_text(encoding='utf-8-sig'))
+                     if today_diagnostic.exists() else None)
+    atomic_json(root / 'window_status.json', {'date': today, 'failedDates': failures,
+        'attemptedDates': attempted, 'historicalRetries': retries,
+        'todayAttempt': today_attempt})
     return failures
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--days', type=int, default=7)
+    parser.add_argument('--backfill-budget', type=int, default=2,
+                        help='Maximum historical dates to attempt this run (0-6; default 2)')
     parser.add_argument('--finalize-only', action='store_true')
     args = parser.parse_args()
     root = Path(__file__).resolve().parent
     today = dt.datetime.now(BEIJING).date().isoformat()
     if args.finalize_only: finalize_window(root, today, args.days)
-    else: run(root, today, args.days)
+    else: run(root, today, args.days, args.backfill_budget)

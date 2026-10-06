@@ -3,6 +3,13 @@ on:
   schedule:
     - cron: '15 16 * * *' # Beijing 00:15; scheduling may be delayed
   workflow_dispatch:
+    inputs:
+      backfill_budget:
+        description: 'Historical dates to retry this run (0-6; today always runs)'
+        required: true
+        default: '2'
+        type: choice
+        options: ['0', '1', '2', '3', '4', '5', '6']
   push:
     branches: [main]
     paths: ['catalog.json', '*.py', 'requirements.txt', 'tests/**', '.github/workflows/update_news.yml']
@@ -29,8 +36,10 @@ jobs:
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           PYTHONUNBUFFERED: '1'
-        run: python archive_window.py --days 7
+          BACKFILL_BUDGET: ${{ inputs.backfill_budget || '2' }}
+        run: python archive_window.py --days 7 --backfill-budget "$BACKFILL_BUDGET"
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: daily-history
           path: |
@@ -40,6 +49,7 @@ jobs:
             archive_index.json
             archives/
             window_status.json
+            collection_diagnostics/
       - name: Commit validated issue
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         run: |
