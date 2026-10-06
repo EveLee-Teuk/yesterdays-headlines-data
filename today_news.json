@@ -18,5 +18,25 @@
     "verification": "source-matched",
     "year": 1953,
     "subtitle": "1953年 北京"
+  },
+  {
+    "date": "1972-10-06",
+    "title": "周培源发表理科教育革命看法文章",
+    "category": "科技",
+    "location": "北京",
+    "summary": "根据周恩来多次指示精神，周培源在《光明日报》发表《对综合大学理科教育革命的一些看法》一文，在一系列问题上反驳了教育、科技领域里的极左思潮。文章随后遭到张春桥、姚文元利用所控舆论工具的攻击，并被追查后台。",
+    "id": "history-b855d1dcf0b1f697",
+    "sources": [
+      {
+        "name": "cpc.people.com.cn",
+        "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70492/index.html",
+        "date": "1972-10-06",
+        "evidence": "1972年10月6日  根据周恩来多次指示精神，周培源在《光明日报》发表题为《对综合大学理科教育革命的一些看法》的文章，在一系列问题上反驳了教育、科技领域里的极左思潮。"
+      }
+    ],
+    "reviewedAt": "2026-10-06",
+    "verification": "source-matched",
+    "year": 1972,
+    "subtitle": "1972年 北京"
   }
 ]

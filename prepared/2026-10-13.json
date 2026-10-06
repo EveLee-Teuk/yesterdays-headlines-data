@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-10-13",
+  "timezone": "Asia/Shanghai",
+  "status": "ready",
+  "events": [
+    {
+      "date": "1949-10-13",
+      "title": "中国少年儿童队成立",
+      "category": "社会",
+      "location": "北京",
+      "summary": "1949年10月13日，中国少年儿童队（中国少年先锋队前身）成立。1953年6月，中国少年儿童队改名为中国少年先锋队。这一组织成为新中国少年儿童的重要群众组织。",
+      "id": "history-59af4eb9d9bef5b5",
+      "sources": [
+        {
+          "name": "cpc.people.com.cn",
+          "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70499/index.html",
+          "date": "1949-10-13",
+          "evidence": "1949年10月13日  中国少年儿童队（中国少年先锋队前身）成立。1953年6月，中国少年儿童队改名为中国少年先锋队。"
+        }
+      ],
+      "reviewedAt": "2026-10-06",
+      "verification": "source-matched"
+    },
+    {
+      "date": "1984-10-13",
+      "title": "国务院发出农民进入集镇落户问题通知",
+      "category": "民生",
+      "location": "北京",
+      "summary": "1984年10月13日，国务院发出《关于农民进入集镇落户问题的通知》，要求积极支持有经营能力和有技术专长的农民进入集镇经营工商业，并放宽其落户政策，统计为非农业人口。这一政策放宽了农民进集镇落户限制。",
+      "id": "history-0a3d09b15fda6320",
+      "sources": [
+        {
+          "name": "cpc.people.com.cn",
+          "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70499/index.html",
+          "date": "1984-10-13",
+          "evidence": "1984年10月13日　国务院发出《关于农民进入集镇落户问题的通知》，要求积极支持有经营能力和有技术专长的农民进入集镇经营工商业，并放宽其落户政策，统计为非农业人口。"
+        }
+      ],
+      "reviewedAt": "2026-10-06",
+      "verification": "source-matched"
+    },
+    {
+      "date": "2007-10-13",
+      "title": "大亚湾反应堆中微子实验破土动工",
+      "category": "科技",
+      "location": "深圳",
+      "summary": "2007年10月13日，大亚湾反应堆中微子实验在深圳中广核大亚湾核电基地破土动工。该实验依托大亚湾核电站反应堆开展中微子物理研究，是中国高能物理领域的重要基础科学工程。",
+      "id": "history-84a61237a39f02f3",
+      "sources": [
+        {
+          "name": "ihep.cas.cn",
+          "url": "https://ihep.cas.cn/gk/lsyg/",
+          "date": "2007-10-13",
+          "evidence": "2007年10月13日，大亚湾反应堆中微子实验在深圳中广核大亚湾核电基地破土动工。"
+        }
+      ],
+      "reviewedAt": "2026-10-06",
+      "verification": "source-matched"
+    }
+  ]
+}
