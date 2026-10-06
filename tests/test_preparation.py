@@ -107,6 +107,21 @@ class PreparationTests(unittest.TestCase):
             collect.assert_not_called()
             self.assertEqual(len(result['missingDates']), 7)
 
+    def test_final_coverage_includes_this_runs_historical_backfill(self):
+        from archive_window import run
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            self.setup_root(root)
+            def collect(root, day):
+                if day == '2026-09-22':
+                    atomic_json(root / 'catalog.json', {'schemaVersion': 2, 'events': [self.event()], 'updatedAt': day})
+                    atomic_json(root / 'archives' / f'{day}.json', build_issue([self.event()], day))
+            with patch('collect_history.collect', side_effect=collect):
+                run(root, '2026-09-23', backfill_budget=1)
+            report = json.loads((root / 'coverage_status.json').read_text('utf-8'))
+            self.assertEqual(report['calendarCoveredDays'], 1)
+            self.assertEqual(report['coveredMonthDays'], ['09-22'])
+
 
 if __name__ == '__main__':
     unittest.main()

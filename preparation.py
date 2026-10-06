@@ -58,8 +58,20 @@ def restore_day(root, day, today):
     return True
 
 
+def calendar_coverage(root, today):
+    from collect_history import verified_for_date
+    catalog = read_json(Path(root) / 'catalog.json', {}).get('events', [])
+    calendar_year = valid_date(today).year + 1
+    while not calendar.isleap(calendar_year):
+        calendar_year += 1
+    dates = [(dt.date(calendar_year, 1, 1) + dt.timedelta(days=n)).isoformat() for n in range(366)]
+    covered = [day[5:] for day in dates if verified_for_date(catalog, day, today)]
+    return {'calendarCoveredDays': len(covered), 'calendarTotalDays': 366,
+            'coveredMonthDays': covered, 'annualCoverageComplete': len(covered) == 366}
+
+
 def prepare_upcoming(root, today, budget=2, *, deadline=None):
-    from collect_history import collect, verified_for_date
+    from collect_history import collect
     root = Path(root)
     start = valid_date(today)
     if not 0 <= budget <= 7:
@@ -97,19 +109,12 @@ def prepare_upcoming(root, today, budget=2, *, deadline=None):
             continue
         if path.stem not in retained:
             path.unlink()
-    catalog = read_json(root / 'catalog.json', {}).get('events', [])
-    calendar_year = start.year + 1
-    while not calendar.isleap(calendar_year):
-        calendar_year += 1
-    calendar_dates = [(dt.date(calendar_year, 1, 1) + dt.timedelta(days=n)).isoformat() for n in range(366)]
-    covered = [day[5:] for day in calendar_dates if verified_for_date(catalog, day, today)]
     result = {'schemaVersion': 1, 'date': today,
               'updatedAt': dt.datetime.now(BEIJING).isoformat(timespec='seconds'),
               'upcomingDates': dates, 'readyDates': ready,
               'missingDates': [day for day in dates if day not in ready],
               'attemptedDates': attempted, 'failedDates': failed,
-              'calendarCoveredDays': len(covered), 'calendarTotalDays': 366,
-              'coveredMonthDays': covered, 'annualCoverageComplete': len(covered) == 366}
+              **calendar_coverage(root, today)}
     atomic_json(root / 'preparation_state.json', {'date': today, 'attempts': retries})
     atomic_json(root / 'coverage_status.json', result)
     return result

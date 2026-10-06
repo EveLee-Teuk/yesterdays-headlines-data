@@ -66,7 +66,7 @@ def finalize_window(root, today, days=7):
 
 def run(root, today, days=7, backfill_budget=2, prepare_budget=0):
     from collect_history import collect
-    from preparation import restore_day, checked_issue, prepare_upcoming
+    from preparation import restore_day, checked_issue, prepare_upcoming, calendar_coverage
     if not 0 <= backfill_budget <= 6:
         raise ValueError('Backfill budget must be between 0 and 6')
     if not 0 <= prepare_budget <= 7:
@@ -102,6 +102,9 @@ def run(root, today, days=7, backfill_budget=2, prepare_budget=0):
         if day == today:
             coverage = prepare_upcoming(root, today, prepare_budget, deadline=deadline)
     finalize_window(root, today, days)
+    if coverage is not None:
+        coverage.update(calendar_coverage(root, today))
+        atomic_json(root / 'coverage_status.json', coverage)
     today_diagnostic = root / 'collection_diagnostics' / f'{today}.json'
     today_attempt = (json.loads(today_diagnostic.read_text(encoding='utf-8-sig'))
                      if today_diagnostic.exists() else None)
