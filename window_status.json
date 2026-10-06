@@ -6,6 +6,7 @@
     "2026-09-30",
     "2026-10-01",
     "2026-10-02",
+    "2026-10-03",
     "2026-10-04",
     "2026-10-05",
     "2026-10-06"
@@ -22,8 +23,7 @@
   ],
   "preparedMissingDates": [],
   "attemptedDates": [
-    "2026-10-06",
-    "2026-10-03"
+    "2026-10-06"
   ],
   "historicalRetries": {
     "2026-10-05": {
@@ -42,29 +42,44 @@
   "todayAttempt": {
     "date": "2026-10-06",
     "outcome": "ready",
-    "generatedCount": 1,
+    "generatedCount": 2,
     "validationRejected": 0,
     "repairCount": 0,
     "repairGeneratedCount": 0,
-    "validatedCount": 1,
-    "reviewedCount": 1,
-    "approvedCount": 1,
+    "validatedCount": 2,
+    "reviewedCount": 2,
+    "approvedCount": 2,
     "candidateResults": [
       {
         "layer": 0,
         "stage": "generated",
         "index": 0,
-        "date": "1972-10-06",
-        "title": "周培源发表理科教育革命看法文章",
-        "sourceId": "s6",
+        "date": "1989-10-06",
+        "title": "江泽民视察北京正负电子对撞机",
+        "sourceId": "s1",
+        "result": "validated"
+      },
+      {
+        "layer": 0,
+        "stage": "generated",
+        "index": 1,
+        "date": "2020-10-06",
+        "title": "《自然·天文》发表富锂巨星研究成果",
+        "sourceId": "s2",
         "result": "validated"
       }
     ],
     "reviewResults": [
       {
         "layer": 0,
-        "date": "1972-10-06",
-        "title": "周培源发表理科教育革命看法文章",
+        "date": "1989-10-06",
+        "title": "江泽民视察北京正负电子对撞机",
+        "approved": true
+      },
+      {
+        "layer": 0,
+        "date": "2020-10-06",
+        "title": "《自然·天文》发表富锂巨星研究成果",
         "approved": true
       }
     ],
@@ -72,21 +87,21 @@
       {
         "index": 0,
         "sourceUsed": 6,
-        "generated": 1,
-        "validated": 1,
-        "approved": 1
+        "generated": 2,
+        "validated": 2,
+        "approved": 2
       }
     ],
     "modelCalls": 2,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-06T21:44:15+08:00",
-    "existingVerifiedCount": 1,
+    "attemptedAt": "2026-10-06T21:52:21+08:00",
+    "existingVerifiedCount": 2,
     "searchAttempted": 6,
-    "searchSucceeded": 5,
-    "searchResults": 25,
+    "searchSucceeded": 4,
+    "searchResults": 18,
     "sourceAttempted": 16,
-    "sourceReadable": 6,
+    "sourceReadable": 7,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -99,7 +114,7 @@
       },
       {
         "id": "s3",
-        "url": "https://www.news.cn/20241006/3d080d52eb424c1cb380f6174e013845/c.html"
+        "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70492/index.html"
       },
       {
         "id": "s4",
@@ -111,26 +126,23 @@
       },
       {
         "id": "s6",
-        "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70492/index.html"
+        "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70492/"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 5,
-        "searchResults": 25,
+        "searchSucceeded": 4,
+        "searchResults": 18,
         "sourceAttempted": 16,
-        "sourceReadable": 6,
+        "sourceReadable": 7,
         "sourceUsed": 6,
         "searchErrors": [
+          "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [
-          {
-            "host": "jx.news.cn",
-            "type": "ReadTimeout"
-          },
           {
             "host": "www.scio.gov.cn",
             "type": "SSLError"
@@ -138,10 +150,6 @@
           {
             "host": "jtys.sz.gov.cn",
             "type": "SSLError"
-          },
-          {
-            "host": "www.mwr.gov.cn",
-            "type": "ConnectionError"
           }
         ],
         "queries": [
@@ -155,7 +163,7 @@
       }
     ],
     "sourceUsed": 6,
-    "publishedVerifiedCount": 2,
-    "completedAt": "2026-10-06T21:44:43+08:00"
+    "publishedVerifiedCount": 4,
+    "completedAt": "2026-10-06T21:52:41+08:00"
   }
 }

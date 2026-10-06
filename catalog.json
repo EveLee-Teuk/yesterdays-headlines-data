@@ -415,6 +415,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "1989-10-06",
+      "title": "江泽民视察北京正负电子对撞机",
+      "category": "科技",
+      "location": "北京",
+      "summary": "1989年10月6日，江泽民同志视察北京正负电子对撞机。该装置位于北京，是我国高能物理研究的重要设施，此前于1988年建成并实现正负电子对撞。此次视察体现了国家对基础科学研究的重视。",
+      "id": "history-a4d04318ee3af7a5",
+      "sources": [
+        {
+          "name": "ihep.cas.cn",
+          "url": "https://ihep.cas.cn/gk/lsyg/",
+          "date": "1989-10-06",
+          "evidence": "1989年10月6日，江泽民同志视察北京正负电子对撞机。"
+        }
+      ],
+      "reviewedAt": "2026-10-06",
+      "verification": "source-matched"
+    },
+    {
       "date": "1990-09-16",
       "title": "国务院建立国家专项粮食储备制度",
       "category": "民生",
@@ -907,6 +925,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "2020-10-06",
+      "title": "《自然·天文》发表富锂巨星研究成果",
+      "category": "科技",
+      "location": "北京",
+      "summary": "2020年10月6日，《自然·天文》在线发表闫宏亮副研究员主导的国际科研团队关于富锂巨星真实身份的重要成果。团队借助LAMOST巡天数据和开普勒星震数据，发现绝大多数富锂巨星其实是红团簇星，而非传统认为的红巨星，挑战了传统恒星演化理论。",
+      "id": "history-223695a02eb41e83",
+      "sources": [
+        {
+          "name": "nao.cas.cn",
+          "url": "https://nao.cas.cn/ndw/dsj/202203/t20220330_6409779.html",
+          "date": "2020-10-06",
+          "evidence": "2020.10.6 《自然 · 天文》在线发表闫宏亮副研究员主导的国际科研团队关于富锂巨星真实身份的重要成果。"
+        }
+      ],
+      "reviewedAt": "2026-10-06",
+      "verification": "source-matched"
+    },
+    {
       "id": "poverty-alleviation",
       "date": "2021-02-25",
       "title": "脱贫攻坚战全面胜利的宣告",
@@ -1015,9 +1051,9 @@
   ],
   "lastRun": {
     "date": "2026-10-06",
-    "completedAt": "2026-10-06T21:44:43+08:00",
+    "completedAt": "2026-10-06T21:52:41+08:00",
     "sourceCount": 6,
-    "addedCount": 1,
+    "addedCount": 2,
     "status": "ready"
   }
 }
