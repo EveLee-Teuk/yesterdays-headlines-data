@@ -3,6 +3,24 @@
   "updatedAt": "2026-10-06",
   "events": [
     {
+      "date": "1953-10-06",
+      "title": "中科院近代物理所更名物理研究所",
+      "category": "科技",
+      "location": "北京",
+      "summary": "1953年10月6日，中国科学院院务会议决定，将近代物理所更名为“中国科学院物理研究所”。该所1950年5月成立时称近代物理所，吴有训兼任所长、钱三强任副所长，所址在北京东皇城根甲42号。此次更名是新中国早期科研机构调整的一环。",
+      "id": "history-6f841df826d6eff4",
+      "sources": [
+        {
+          "name": "ihep.cas.cn",
+          "url": "https://ihep.cas.cn/gk/lsyg/",
+          "date": "1953-10-06",
+          "evidence": "1953年10月6日，中国科学院院务会议决定将近代物理所更名为“中国科学院物理研究所”。"
+        }
+      ],
+      "reviewedAt": "2026-10-06",
+      "verification": "source-matched"
+    },
+    {
       "date": "1959-09-26",
       "title": "松基3号井喷出工业油流发现大庆油田",
       "category": "科技",
@@ -649,9 +667,9 @@
   ],
   "lastRun": {
     "date": "2026-10-06",
-    "completedAt": "2026-10-06T06:39:07+08:00",
-    "sourceCount": 3,
-    "addedCount": 0,
-    "status": "empty"
+    "completedAt": "2026-10-06T21:01:43+08:00",
+    "sourceCount": 4,
+    "addedCount": 1,
+    "status": "ready"
   }
 }
