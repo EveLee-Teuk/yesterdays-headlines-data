@@ -5,6 +5,24 @@
   "status": "ready",
   "events": [
     {
+      "date": "1950-10-06",
+      "title": "中国人民解放军发起昌都战役",
+      "category": "社会",
+      "location": "西藏昌都",
+      "summary": "1950年10月6日至24日，中国人民解放军进行昌都战役，解放藏东政治、文化中心昌都地区，打开了进军西藏的大门，为解放西藏奠定了基础。",
+      "id": "history-35eb4099aa0cfb3f",
+      "sources": [
+        {
+          "name": "cpc.people.com.cn",
+          "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70492/index.html",
+          "date": "1950-10-06",
+          "evidence": "1950年10月6日至24日　中国人民解放军进行昌都战役，解放藏东政治、文化中心昌都地区，打开了进军西藏的大门，为解放西藏奠定了基础。"
+        }
+      ],
+      "reviewedAt": "2026-10-06",
+      "verification": "source-matched"
+    },
+    {
       "date": "1953-10-06",
       "title": "中科院近代物理所更名物理研究所",
       "category": "科技",
@@ -35,6 +53,24 @@
           "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70492/index.html",
           "date": "1972-10-06",
           "evidence": "1972年10月6日  根据周恩来多次指示精神，周培源在《光明日报》发表题为《对综合大学理科教育革命的一些看法》的文章，在一系列问题上反驳了教育、科技领域里的极左思潮。"
+        }
+      ],
+      "reviewedAt": "2026-10-06",
+      "verification": "source-matched"
+    },
+    {
+      "date": "1976-10-06",
+      "title": "中共中央政治局粉碎“四人帮”",
+      "category": "社会",
+      "location": "北京",
+      "summary": "1976年10月6日，中共中央政治局执行党和人民的意志，采取断然措施，粉碎“四人帮”，对张春桥、王洪文、姚文元、江青实行隔离审查，延续10年之久的“文化大革命”至此结束。",
+      "id": "history-691558ab09de10a7",
+      "sources": [
+        {
+          "name": "cpc.people.com.cn",
+          "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70492/index.html",
+          "date": "1976-10-06",
+          "evidence": "1976年10月6日  中共中央政治局执行党和人民的意志，采取断然措施，粉碎“四人帮”。"
         }
       ],
       "reviewedAt": "2026-10-06",

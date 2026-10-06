@@ -1,5 +1,25 @@
 [
   {
+    "date": "1950-10-06",
+    "title": "中国人民解放军发起昌都战役",
+    "category": "社会",
+    "location": "西藏昌都",
+    "summary": "1950年10月6日至24日，中国人民解放军进行昌都战役，解放藏东政治、文化中心昌都地区，打开了进军西藏的大门，为解放西藏奠定了基础。",
+    "id": "history-35eb4099aa0cfb3f",
+    "sources": [
+      {
+        "name": "cpc.people.com.cn",
+        "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70492/index.html",
+        "date": "1950-10-06",
+        "evidence": "1950年10月6日至24日　中国人民解放军进行昌都战役，解放藏东政治、文化中心昌都地区，打开了进军西藏的大门，为解放西藏奠定了基础。"
+      }
+    ],
+    "reviewedAt": "2026-10-06",
+    "verification": "source-matched",
+    "year": 1950,
+    "subtitle": "1950年 西藏昌都"
+  },
+  {
     "date": "1953-10-06",
     "title": "中科院近代物理所更名物理研究所",
     "category": "科技",
@@ -38,6 +58,26 @@
     "verification": "source-matched",
     "year": 1972,
     "subtitle": "1972年 北京"
+  },
+  {
+    "date": "1976-10-06",
+    "title": "中共中央政治局粉碎“四人帮”",
+    "category": "社会",
+    "location": "北京",
+    "summary": "1976年10月6日，中共中央政治局执行党和人民的意志，采取断然措施，粉碎“四人帮”，对张春桥、王洪文、姚文元、江青实行隔离审查，延续10年之久的“文化大革命”至此结束。",
+    "id": "history-691558ab09de10a7",
+    "sources": [
+      {
+        "name": "cpc.people.com.cn",
+        "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70492/index.html",
+        "date": "1976-10-06",
+        "evidence": "1976年10月6日  中共中央政治局执行党和人民的意志，采取断然措施，粉碎“四人帮”。"
+      }
+    ],
+    "reviewedAt": "2026-10-06",
+    "verification": "source-matched",
+    "year": 1976,
+    "subtitle": "1976年 北京"
   },
   {
     "date": "2020-10-06",

@@ -54,32 +54,32 @@
         "layer": 0,
         "stage": "generated",
         "index": 0,
-        "date": "1989-10-06",
-        "title": "江泽民视察北京正负电子对撞机",
-        "sourceId": "s1",
+        "date": "1950-10-06",
+        "title": "中国人民解放军发起昌都战役",
+        "sourceId": "s3",
         "result": "validated"
       },
       {
         "layer": 0,
         "stage": "generated",
         "index": 1,
-        "date": "2020-10-06",
-        "title": "《自然·天文》发表富锂巨星研究成果",
-        "sourceId": "s2",
+        "date": "1976-10-06",
+        "title": "中共中央政治局粉碎“四人帮”",
+        "sourceId": "s3",
         "result": "validated"
       }
     ],
     "reviewResults": [
       {
         "layer": 0,
-        "date": "1989-10-06",
-        "title": "江泽民视察北京正负电子对撞机",
+        "date": "1950-10-06",
+        "title": "中国人民解放军发起昌都战役",
         "approved": true
       },
       {
         "layer": 0,
-        "date": "2020-10-06",
-        "title": "《自然·天文》发表富锂巨星研究成果",
+        "date": "1976-10-06",
+        "title": "中共中央政治局粉碎“四人帮”",
         "approved": true
       }
     ],
@@ -95,13 +95,13 @@
     "modelCalls": 2,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-06T21:52:21+08:00",
-    "existingVerifiedCount": 2,
+    "attemptedAt": "2026-10-06T21:55:41+08:00",
+    "existingVerifiedCount": 3,
     "searchAttempted": 6,
-    "searchSucceeded": 4,
-    "searchResults": 18,
+    "searchSucceeded": 5,
+    "searchResults": 25,
     "sourceAttempted": 16,
-    "sourceReadable": 7,
+    "sourceReadable": 6,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -133,22 +133,37 @@
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 4,
-        "searchResults": 18,
+        "searchSucceeded": 5,
+        "searchResults": 25,
         "sourceAttempted": 16,
-        "sourceReadable": 7,
+        "sourceReadable": 6,
         "sourceUsed": 6,
         "searchErrors": [
-          "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [
+          {
+            "host": "jx.news.cn",
+            "type": "ReadTimeout"
+          },
           {
             "host": "www.scio.gov.cn",
             "type": "SSLError"
           },
           {
             "host": "jtys.sz.gov.cn",
+            "type": "SSLError"
+          },
+          {
+            "host": "ent.people.com.cn",
+            "type": "SSLError"
+          },
+          {
+            "host": "ent.people.com.cn",
+            "type": "SSLError"
+          },
+          {
+            "host": "ent.people.com.cn",
             "type": "SSLError"
           }
         ],
@@ -163,7 +178,7 @@
       }
     ],
     "sourceUsed": 6,
-    "publishedVerifiedCount": 4,
-    "completedAt": "2026-10-06T21:52:41+08:00"
+    "publishedVerifiedCount": 5,
+    "completedAt": "2026-10-06T21:56:10+08:00"
   }
 }
