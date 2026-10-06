@@ -26,6 +26,31 @@ class CoverageTests(unittest.TestCase):
         return [[{**DOC, 'id': f's{index+1}', 'url': f'https://www.gov.cn/layer{index}'}]
                 for index in range(count)]
 
+    def test_leader_itinerary_from_real_1989_source_is_not_a_scientific_milestone(self):
+        evidence = '1989年10月6日，江泽民同志视察北京正负电子对撞机。'
+        document = {'id': 's1', 'url': 'https://ihep.cas.cn/gk/lsyg/',
+                    'name': '中国科学院高能物理研究所', 'text': evidence}
+        candidate = {**CANDIDATE, 'date': '1989-10-06', 'title': '江泽民视察北京正负电子对撞机',
+                     'category': '科技', 'evidence': evidence, 'summary': evidence}
+        with self.assertRaisesRegex(ValueError, 'itinerary'):
+            collector.validate_candidate(candidate, [document], '2026-10-06')
+        stored = {key: candidate[key] for key in ('date', 'title', 'category', 'location', 'summary')}
+        stored.update(id='history-itinerary', verification='source-matched', reviewedAt='2026-10-06',
+                      sources=[{'name': document['name'], 'url': document['url'],
+                                'date': candidate['date'], 'evidence': evidence}])
+        self.assertEqual(collector.verified_for_date([stored], '2026-10-06'), [])
+
+    def test_explicit_itinerary_titles_are_rejected_without_blocking_scientific_expeditions(self):
+        for title in ('领导视察科研机构', '领导会见科学家', '领导接见考察队', '领导听取科研工作汇报'):
+            with self.subTest(title=title), self.assertRaisesRegex(ValueError, 'itinerary'):
+                collector.validate_candidate({**CANDIDATE, 'title': title}, [DOC], '2026-09-22')
+        # Synthetic fixture: the word 考察 alone must not classify a scientific expedition as a visit.
+        evidence = '1990年9月22日，中国科学考察队完成海洋调查任务。'
+        event = collector.validate_candidate({**CANDIDATE, 'title': '科学考察队完成海洋调查',
+                                               'category': '科技', 'evidence': evidence},
+                                             [{**DOC, 'text': evidence}], '2026-09-22')
+        self.assertEqual(collector.verified_for_date([event], '2026-09-22'), [event])
+
     def test_empty_first_layer_continues_until_reviewer_approved(self):
         batches = self.layers()
         batches[0] = [{**DOC, 'id': f'first-{index}', 'url': f'https://www.gov.cn/first-{index}'}
