@@ -2,6 +2,25 @@
   "schemaVersion": 2,
   "date": "2026-10-05",
   "timezone": "Asia/Shanghai",
-  "status": "empty",
-  "events": []
+  "status": "ready",
+  "events": [
+    {
+      "date": "2015-10-05",
+      "title": "屠呦呦获诺贝尔生理学或医学奖",
+      "category": "科技",
+      "location": "瑞典斯德哥尔摩",
+      "summary": "2015年10月5日，瑞典卡罗琳医学院诺贝尔大会宣布，将2015年诺贝尔生理学或医学奖授予中国药学家屠呦呦，以表彰她在创新疟疾疗法方面的贡献。这是中国科学家因在本土进行科学研究而首次获得诺贝尔科学奖，也是中医药成果获得的国际最高奖项。",
+      "id": "history-5983fa9aee525257",
+      "sources": [
+        {
+          "name": "www.most.gov.cn",
+          "url": "https://www.most.gov.cn/ztzl/tyy/rwjs/201510/t20151006_121867.html",
+          "date": "2015-10-05",
+          "evidence": "2015年10月5日，瑞典卡罗琳医学院诺贝尔大会宣布，将2015年诺贝尔生理学或医学奖授予爱尔兰医学研究者威廉·坎贝尔、日本学者大村智以及中国药学家屠呦呦。"
+        }
+      ],
+      "reviewedAt": "2026-10-06",
+      "verification": "source-matched"
+    }
+  ]
 }

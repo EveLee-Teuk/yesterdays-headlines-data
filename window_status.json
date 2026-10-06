@@ -1,10 +1,29 @@
 {
   "date": "2026-10-06",
   "failedDates": [],
+  "coveragePolicyVersion": 2,
+  "restoredDates": [
+    "2026-09-30",
+    "2026-10-01",
+    "2026-10-02",
+    "2026-10-06"
+  ],
+  "todayMinimumMet": true,
+  "preparedReadyDates": [
+    "2026-10-07",
+    "2026-10-08"
+  ],
+  "preparedMissingDates": [
+    "2026-10-09",
+    "2026-10-10",
+    "2026-10-11",
+    "2026-10-12",
+    "2026-10-13"
+  ],
   "attemptedDates": [
     "2026-10-06",
-    "2026-10-03",
-    "2026-10-02"
+    "2026-10-05",
+    "2026-10-04"
   ],
   "historicalRetries": {
     "2026-10-05": {
@@ -12,14 +31,6 @@
       "lastAttemptDate": "2026-10-06"
     },
     "2026-10-04": {
-      "count": 1,
-      "lastAttemptDate": "2026-10-06"
-    },
-    "2026-10-03": {
-      "count": 1,
-      "lastAttemptDate": "2026-10-06"
-    },
-    "2026-10-02": {
       "count": 1,
       "lastAttemptDate": "2026-10-06"
     }
@@ -35,32 +46,66 @@
     "reviewedCount": 0,
     "approvedCount": 0,
     "candidateResults": [],
-    "attemptedAt": "2026-10-06T21:05:49+08:00",
-    "searchAttempted": 8,
-    "searchSucceeded": 4,
-    "searchResults": 24,
-    "sourceAttempted": 25,
-    "sourceReadable": 4,
-    "supplementalSearches": 3,
+    "reviewResults": [],
+    "modelLayers": [
+      {
+        "index": 0,
+        "sourceUsed": 2,
+        "generated": 0,
+        "validated": 0,
+        "approved": 0
+      }
+    ],
+    "modelCalls": 1,
+    "degraded": [],
+    "prepare": false,
+    "attemptedAt": "2026-10-06T21:42:07+08:00",
+    "existingVerifiedCount": 1,
+    "searchAttempted": 6,
+    "searchSucceeded": 1,
+    "searchResults": 2,
+    "sourceAttempted": 3,
+    "sourceReadable": 2,
+    "supplementalSearches": 0,
     "sources": [
       {
         "id": "s1",
-        "url": "https://www.news.cn/20260727/fd81b54638884fe9a350879625754c74/c.html"
-      },
-      {
-        "id": "s2",
         "url": "https://ihep.cas.cn/gk/lsyg/"
       },
       {
-        "id": "s3",
-        "url": "https://www.news.cn/tech/20260925/a139875005d340aaa0d550ffb954eb89/c.html"
-      },
-      {
-        "id": "s4",
-        "url": "https://data.people.com.cn/rmrb/20261006/1/4277ceeba09f4fc397ac652caf38f859_print.html"
+        "id": "s2",
+        "url": "https://nao.cas.cn/ndw/dsj/202203/t20220330_6409779.html"
       }
     ],
-    "sourceUsed": 4,
-    "completedAt": "2026-10-06T21:06:41+08:00"
+    "layers": [
+      {
+        "name": "themes",
+        "searchAttempted": 6,
+        "searchSucceeded": 1,
+        "searchResults": 2,
+        "sourceAttempted": 3,
+        "sourceReadable": 2,
+        "sourceUsed": 2,
+        "searchErrors": [
+          "DDGSException",
+          "DDGSException",
+          "DDGSException",
+          "DDGSException",
+          "DDGSException"
+        ],
+        "sourceErrors": [],
+        "queries": [
+          "\"10月6日\" 中国 科技 突破 成功 site:news.cn",
+          "\"10月6日\" 中国 公共工程 建成 通车 site:gov.cn",
+          "\"10月6日\" 中国 文化 体育 首次 site:people.com.cn",
+          "\"10月6日\" 中国 医疗 民生 开通 site:chinanews.com",
+          "\"10月6日\" 中国 教育 学校 成立 site:gmw.cn",
+          "\"10月6日\" 中国 历史上的今天 site:cctv.com"
+        ]
+      }
+    ],
+    "sourceUsed": 2,
+    "publishedVerifiedCount": 1,
+    "completedAt": "2026-10-06T21:42:16+08:00"
   }
 }

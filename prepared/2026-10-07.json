@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-10-07",
+  "timezone": "Asia/Shanghai",
+  "status": "ready",
+  "events": [
+    {
+      "date": "1984-10-07",
+      "title": "北京正负电子对撞机工程破土动工",
+      "category": "科技",
+      "location": "北京",
+      "summary": "1984年10月7日，北京正负电子对撞机工程破土动工，邓小平等党和国家领导人亲自为工程奠基。该工程是中国高能物理研究的重要装置，其建设标志着中国在世界高科技领域迈出关键一步。",
+      "id": "history-82e1b4b9ce06f162",
+      "sources": [
+        {
+          "name": "ihep.cas.cn",
+          "url": "https://ihep.cas.cn/gk/lsyg/",
+          "date": "1984-10-07",
+          "evidence": "1984年10月7日，北京正负电子对撞机工程破土动工，邓小平等党和国家领导人亲自为工程奠基。"
+        }
+      ],
+      "reviewedAt": "2026-10-06",
+      "verification": "source-matched"
+    }
+  ]
+}

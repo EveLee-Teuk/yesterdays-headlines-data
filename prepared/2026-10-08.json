@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-10-08",
+  "timezone": "Asia/Shanghai",
+  "status": "ready",
+  "events": [
+    {
+      "date": "1956-10-08",
+      "title": "国防部第五研究院成立",
+      "category": "科技",
+      "location": "北京",
+      "summary": "1956年10月8日，国防部第五研究院在北京举行成立大会，钱学森任院长。该机构的成立标志着中国航天事业就此起步，为后续导弹与航天技术研究奠定组织基础。",
+      "id": "history-233f4c6a608eb079",
+      "sources": [
+        {
+          "name": "国家航天局",
+          "url": "https://www.cnsa.gov.cn/n6758968/n6758972/c6796239/content.html",
+          "date": "1956-10-08",
+          "evidence": "1956年 10月8日， 国防部第五研究院 在北京举行成立大会，钱学森任院长。 中国航天事业就此起步。"
+        }
+      ],
+      "reviewedAt": "2026-10-06",
+      "verification": "source-matched"
+    }
+  ]
+}

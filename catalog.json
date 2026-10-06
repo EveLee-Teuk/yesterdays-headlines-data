@@ -21,6 +21,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "1956-10-08",
+      "title": "国防部第五研究院成立",
+      "category": "科技",
+      "location": "北京",
+      "summary": "1956年10月8日，国防部第五研究院在北京举行成立大会，钱学森任院长。该机构的成立标志着中国航天事业就此起步，为后续导弹与航天技术研究奠定组织基础。",
+      "id": "history-233f4c6a608eb079",
+      "sources": [
+        {
+          "name": "国家航天局",
+          "url": "https://www.cnsa.gov.cn/n6758968/n6758972/c6796239/content.html",
+          "date": "1956-10-08",
+          "evidence": "1956年 10月8日， 国防部第五研究院 在北京举行成立大会，钱学森任院长。 中国航天事业就此起步。"
+        }
+      ],
+      "reviewedAt": "2026-10-06",
+      "verification": "source-matched"
+    },
+    {
       "date": "1959-09-26",
       "title": "松基3号井喷出工业油流发现大庆油田",
       "category": "科技",
@@ -121,6 +139,42 @@
         }
       ],
       "reviewedAt": "2026-09-22"
+    },
+    {
+      "date": "1971-10-04",
+      "title": "青蒿乙醚中性提取物抗疟实验获成功",
+      "category": "科技",
+      "location": "北京",
+      "summary": "屠呦呦重新设计青蒿提取方案，经夜以继日实验，发现青蒿乙醚提取物去掉酸性部分后的中性部分抗疟效果最好。1971年10月4日，实验证实191号青蒿乙醚中性提取物对鼠疟原虫的抑制率达到100%，为青蒿素研发奠定关键基础。",
+      "id": "history-0ca0d4ab9be92c6a",
+      "sources": [
+        {
+          "name": "www.neac.gov.cn",
+          "url": "https://www.neac.gov.cn/seac/c103105/202103/1144636.shtml",
+          "date": "1971-10-04",
+          "evidence": "1971 年 10 月 4 日，实验证实， 191 号青蒿乙醚中性提取物对鼠疟原虫的抑制率达到 100% ！"
+        }
+      ],
+      "reviewedAt": "2026-10-06",
+      "verification": "source-matched"
+    },
+    {
+      "date": "1971-10-04",
+      "title": "191号青蒿提取物抗疟实验取得突破",
+      "category": "科技",
+      "location": "北京",
+      "summary": "1971年10月4日，科研人员紧张等待191号青蒿提取物样品抗疟实验的最终结果。检测结果揭晓后，该样品对疟原虫的抑制率达到100%，实验室为之沸腾。这一成果成为青蒿素研究的重要节点，后于2015年获得诺贝尔奖认可。",
+      "id": "history-20ba0b598805f132",
+      "sources": [
+        {
+          "name": "www.most.gov.cn",
+          "url": "https://www.most.gov.cn/ztzl/tyy/mtbd/201510/t20151006_121879.html",
+          "date": "1971-10-04",
+          "evidence": "1971年10月4日，一双双眼睛紧张地盯着191号青蒿提取物样品抗疟实验的最后成果。随着检测结果的揭晓，实验室沸腾了：该样品对疟原虫的抑制率达到了100%！"
+        }
+      ],
+      "reviewedAt": "2026-10-06",
+      "verification": "source-matched"
     },
     {
       "id": "un-resolution-2758",
@@ -226,6 +280,24 @@
         }
       ],
       "reviewedAt": "2026-09-26",
+      "verification": "source-matched"
+    },
+    {
+      "date": "1984-10-07",
+      "title": "北京正负电子对撞机工程破土动工",
+      "category": "科技",
+      "location": "北京",
+      "summary": "1984年10月7日，北京正负电子对撞机工程破土动工，邓小平等党和国家领导人亲自为工程奠基。该工程是中国高能物理研究的重要装置，其建设标志着中国在世界高科技领域迈出关键一步。",
+      "id": "history-82e1b4b9ce06f162",
+      "sources": [
+        {
+          "name": "ihep.cas.cn",
+          "url": "https://ihep.cas.cn/gk/lsyg/",
+          "date": "1984-10-07",
+          "evidence": "1984年10月7日，北京正负电子对撞机工程破土动工，邓小平等党和国家领导人亲自为工程奠基。"
+        }
+      ],
+      "reviewedAt": "2026-10-06",
       "verification": "source-matched"
     },
     {
@@ -613,6 +685,24 @@
       "reviewedAt": "2026-09-22"
     },
     {
+      "date": "2015-10-05",
+      "title": "屠呦呦获诺贝尔生理学或医学奖",
+      "category": "科技",
+      "location": "瑞典斯德哥尔摩",
+      "summary": "2015年10月5日，瑞典卡罗琳医学院诺贝尔大会宣布，将2015年诺贝尔生理学或医学奖授予中国药学家屠呦呦，以表彰她在创新疟疾疗法方面的贡献。这是中国科学家因在本土进行科学研究而首次获得诺贝尔科学奖，也是中医药成果获得的国际最高奖项。",
+      "id": "history-5983fa9aee525257",
+      "sources": [
+        {
+          "name": "www.most.gov.cn",
+          "url": "https://www.most.gov.cn/ztzl/tyy/rwjs/201510/t20151006_121867.html",
+          "date": "2015-10-05",
+          "evidence": "2015年10月5日，瑞典卡罗琳医学院诺贝尔大会宣布，将2015年诺贝尔生理学或医学奖授予爱尔兰医学研究者威廉·坎贝尔、日本学者大村智以及中国药学家屠呦呦。"
+        }
+      ],
+      "reviewedAt": "2026-10-06",
+      "verification": "source-matched"
+    },
+    {
       "date": "2019-09-16",
       "title": "北屯市双渠镇丰庆镇海川镇揭牌成立",
       "category": "社会",
@@ -703,8 +793,8 @@
   ],
   "lastRun": {
     "date": "2026-10-06",
-    "completedAt": "2026-10-06T21:06:41+08:00",
-    "sourceCount": 4,
+    "completedAt": "2026-10-06T21:42:16+08:00",
+    "sourceCount": 2,
     "addedCount": 0,
     "status": "ready"
   }
