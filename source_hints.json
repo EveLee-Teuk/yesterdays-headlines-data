@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "description": "官方原文检索线索。只有URL；不是事件库，必须重新抓取原文并通过日期、引用和独立复核才能发表。",
+  "byMonthDay": {
+    "10-03": [
+      "https://hudong.moe.gov.cn/srcsite/A02/zfs_gdxxzc/201907/t20190708_389336.html",
+      "https://paper.people.com.cn/rmrbhwb/html/2023-06/28/content_26001094.htm"
+    ],
+    "10-04": [
+      "https://www.neac.gov.cn/seac/c103105/202103/1144636.shtml",
+      "https://www.most.gov.cn/ztzl/tyy/mtbd/201510/t20151006_121879.html"
+    ],
+    "10-07": ["https://whhlyt.hunan.gov.cn/whhlyt/news/mtjj/201909/t20190910_5461613.html"],
+    "10-08": ["https://www.cnsa.gov.cn/n6758968/n6758972/c6796239/content.html"],
+    "10-09": ["https://www.cas.cn/yw/202210/t20221009_4850182.shtml", "https://microsate.cas.cn/lbxw/202210/t20221009_6520617.html"],
+    "10-10": ["https://www.mct.gov.cn/whzx/zsdw/ggbwy/202510/t20251010_962563.html"],
+    "10-11": ["https://tamgw.beijing.gov.cn/xinwendongtai/zwyw/202103/t20210318_2310651.html"],
+    "10-12": ["https://www.cmse.gov.cn/xwzx/202310/t20231012_54373.html", "https://www.cmse.gov.cn/xwzx/202209/t20220921_50802.html"],
+    "10-13": ["https://www.hunan.gov.cn/hnszf/hnyw/zwdt/201908/t20190827_10015556.html"],
+    "10-05": [
+      "https://www.most.gov.cn/ztzl/tyy/rwjs/201510/t20151006_121867.html",
+      "https://mzt.fujian.gov.cn/ztzl/dsxxjy/zggcdbnsj/202110/t20211008_5700798.htm"
+    ]
+  },
+  "evergreen": [
+    "https://ihep.cas.cn/gk/lsyg/",
+    "https://nao.cas.cn/ndw/dsj/202203/t20220330_6409779.html"
+  ]
+}

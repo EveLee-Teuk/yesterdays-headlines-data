@@ -24,7 +24,7 @@ class RecoveryTests(unittest.TestCase):
             replies = [{'events': [{**CANDIDATE, 'category': '体育'}]},
                        {'events': [CANDIDATE]}, {'approved': [0]}]
             with patch.dict(os.environ, {'DEEPSEEK_API_KEY': 'test-only'}, clear=True), \
-                 patch.object(collector, 'retrieve', return_value=[DOC]), \
+                 patch.object(collector, 'retrieve_layers', return_value=[[DOC]]), \
                  patch.object(collector, 'deepseek_json', side_effect=replies) as model:
                 collector.collect(root, '2026-09-22')
             issue = json.loads((root / 'archives/2026-09-22.json').read_text('utf-8'))
@@ -43,7 +43,7 @@ class RecoveryTests(unittest.TestCase):
                 previous = build_issue([], '2026-09-22')
                 atomic_json(root / 'archives/2026-09-22.json', previous)
                 with patch.dict(os.environ, {'DEEPSEEK_API_KEY': 'test-only'}, clear=True), \
-                     patch.object(collector, 'retrieve', return_value=[DOC]), \
+                     patch.object(collector, 'retrieve_layers', return_value=[[DOC]]), \
                      patch.object(collector, 'deepseek_json', side_effect=[
                          {'events': [{**CANDIDATE, 'category': '体育'}]}, {'events': repaired}]):
                     with self.assertRaises(RuntimeError):
@@ -51,27 +51,23 @@ class RecoveryTests(unittest.TestCase):
                 self.assertEqual((root / 'catalog.json').read_bytes(), original)
                 self.assertEqual(json.loads((root / 'archives/2026-09-22.json').read_text('utf-8')), previous)
                 diagnostic = json.loads((root / 'collection_diagnostics/2026-09-22.json').read_text('utf-8'))
-                self.assertEqual(diagnostic['outcome'], 'validation_failed')
+                self.assertEqual(diagnostic['outcome'], 'failed')
                 self.assertEqual(dt.datetime.fromisoformat(diagnostic['completedAt']).utcoffset(), dt.timedelta(hours=8))
                 self.assertEqual(diagnostic['candidateResults'][0]['title'], CANDIDATE['title'])
                 self.assertEqual(diagnostic['candidateResults'][0]['reason'], 'Invalid category')
                 self.assertNotIn('test-only', json.dumps(diagnostic))
 
-    def test_reviewer_rejection_is_failure_and_genuine_zero_remains_empty(self):
-        for replies, outcome in [([{'events': [CANDIDATE]}, {'approved': []}], 'review_rejected'),
-                                  ([{'events': []}], 'empty')]:
-            with self.subTest(outcome=outcome), tempfile.TemporaryDirectory() as directory:
+    def test_reviewer_rejection_and_zero_candidates_both_fail_without_empty_publication(self):
+        for replies in ([{'events': [CANDIDATE]}, {'approved': []}], [{'events': []}]):
+            with self.subTest(replies=replies), tempfile.TemporaryDirectory() as directory:
                 root = Path(directory)
                 self.setup_root(root)
                 with patch.dict(os.environ, {'DEEPSEEK_API_KEY': 'test-only'}, clear=True), \
-                     patch.object(collector, 'retrieve', return_value=[DOC]), \
+                     patch.object(collector, 'retrieve_layers', return_value=[[DOC]]), \
                      patch.object(collector, 'deepseek_json', side_effect=replies):
-                    if outcome == 'review_rejected':
-                        with self.assertRaises(RuntimeError): collector.collect(root, '2026-09-22')
-                    else:
-                        collector.collect(root, '2026-09-22')
-                        self.assertEqual(json.loads((root / 'archives/2026-09-22.json').read_text('utf-8'))['status'], 'empty')
-                self.assertEqual(json.loads((root / 'collection_diagnostics/2026-09-22.json').read_text('utf-8'))['outcome'], outcome)
+                    with self.assertRaises(RuntimeError): collector.collect(root, '2026-09-22')
+                self.assertFalse((root / 'archives/2026-09-22.json').exists())
+                self.assertEqual(json.loads((root / 'collection_diagnostics/2026-09-22.json').read_text('utf-8'))['outcome'], 'failed')
 
     def test_backfill_keeps_latest_success_status_and_existing_ready_archive(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -82,9 +78,16 @@ class RecoveryTests(unittest.TestCase):
             catalog.update(lastRun=latest, updatedAt='2026-09-23')
             atomic_json(root / 'catalog.json', catalog)
             with patch.dict(os.environ, {'DEEPSEEK_API_KEY': 'test-only'}, clear=True), \
-                 patch.object(collector, 'retrieve', return_value=[DOC]), \
+                 patch.object(collector, 'retrieve_layers', return_value=[[DOC]]), \
                  patch.object(collector, 'deepseek_json', side_effect=[{'events': [CANDIDATE]}, {'approved': [0]}]):
                 collector.collect(root, '2026-09-22')
+            # This scenario replays a September publication; keep its review date
+            # within that scenario rather than leaking the test runner's date.
+            for path in (root / 'catalog.json', root / 'archives/2026-09-22.json'):
+                value = json.loads(path.read_text('utf-8'))
+                for event in value['events']:
+                    event['reviewedAt'] = '2026-09-22'
+                atomic_json(path, value)
             original = (root / 'archives/2026-09-22.json').read_bytes()
             self.assertEqual(json.loads((root / 'catalog.json').read_text('utf-8'))['lastRun'], latest)
             with patch.object(collector, 'collect') as collect:
@@ -93,33 +96,34 @@ class RecoveryTests(unittest.TestCase):
             self.assertEqual((root / 'archives/2026-09-22.json').read_bytes(), original)
             self.assertEqual(json.loads((root / 'archive_index.json').read_text('utf-8'))['lastRun'], latest)
 
-    def test_low_recall_gets_bounded_supplement_and_keeps_source_allowlist(self):
+    def test_diagnostic_scan_covers_three_layers_and_keeps_source_allowlist(self):
         queries = []
         def search(query, **kwargs):
             queries.append(query)
-            if len(queries) <= 5:
+            if query in collector.search_layers('2026-09-22')[0][1]:
                 return [{'href': 'https://www.gov.cn/one'}]
             return [{'href': 'https://www.gov.cn/two'}, {'href': 'https://evil.test/injected'}]
         fake_ddgs = types.SimpleNamespace(DDGS=lambda **kwargs: types.SimpleNamespace(text=search))
         metrics = {}
         with patch.dict('sys.modules', {'ddgs': fake_ddgs}), \
-             patch.object(collector, 'read_document', side_effect=lambda url, day: {**DOC, 'url': url}) as read:
+             patch.object(collector, 'read_document', side_effect=lambda url, day, **kwargs: {**DOC, 'url': url}) as read:
             documents = collector.retrieve('2026-09-22', [], metrics)
-        self.assertEqual(len(queries), 8)
+        self.assertEqual(len(queries), 15)
         self.assertEqual({doc['url'] for doc in documents}, {'https://www.gov.cn/one', 'https://www.gov.cn/two'})
         self.assertEqual(read.call_count, 2)
-        self.assertEqual(metrics['searchSucceeded'], 8)
+        self.assertEqual(metrics['searchSucceeded'], 15)
         self.assertEqual(metrics['sourceReadable'], 2)
 
-    def test_healthy_recall_does_not_pay_for_supplement(self):
+    def test_diagnostic_scan_is_not_stopped_by_four_readable_pages(self):
         fake_ddgs = types.SimpleNamespace(DDGS=lambda **kwargs: types.SimpleNamespace(
             text=lambda *args, **kwargs: [{'href': f'https://www.gov.cn/{i}'} for i in range(4)]))
         metrics = {}
         with patch.dict('sys.modules', {'ddgs': fake_ddgs}), \
-             patch.object(collector, 'read_document', side_effect=lambda url, day: {**DOC, 'url': url}):
+             patch.object(collector, 'read_document', side_effect=lambda url, day, **kwargs: {**DOC, 'url': url}) as read:
             collector.retrieve('2026-09-22', [], metrics)
-        self.assertEqual(metrics['searchAttempted'], 5)
-        self.assertEqual(metrics['supplementalSearches'], 0)
+        self.assertEqual(metrics['searchAttempted'], 15)
+        self.assertEqual(metrics['supplementalSearches'], 9)
+        self.assertEqual(read.call_count, 4)
 
     def test_explicit_recovery_budget_is_bounded(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -146,7 +150,7 @@ class RecoveryTests(unittest.TestCase):
             self.assertEqual(model.call_count, 0)
             self.assertEqual((root / 'catalog.json').read_bytes(), original)
             diagnostic = json.loads((root / 'collection_diagnostics/2026-09-22.json').read_text('utf-8'))
-            self.assertEqual(diagnostic['searchAttempted'], 8)
+            self.assertEqual(diagnostic['searchAttempted'], 15)
             self.assertEqual(diagnostic['searchSucceeded'], 0)
             self.assertEqual(diagnostic['outcome'], 'failed')
 

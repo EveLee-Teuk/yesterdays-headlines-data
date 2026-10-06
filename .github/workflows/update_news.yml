@@ -1,7 +1,7 @@
 name: Collect and publish daily history
 on:
   schedule:
-    - cron: '15 16 * * *' # Beijing 00:15; scheduling may be delayed
+    - cron: '15 0,8,16 * * *' # Beijing 00:15, 08:15, 16:15; may be delayed
   workflow_dispatch:
     inputs:
       backfill_budget:
@@ -10,11 +10,17 @@ on:
         default: '2'
         type: choice
         options: ['0', '1', '2', '3', '4', '5', '6']
+      prepare_budget:
+        description: 'Missing dates in the upcoming week to prepare (0-7)'
+        required: true
+        default: '2'
+        type: choice
+        options: ['0', '1', '2', '3', '4', '5', '6', '7']
   push:
     branches: [main]
-    paths: ['catalog.json', '*.py', 'requirements.txt', 'tests/**', '.github/workflows/update_news.yml']
+    paths: ['catalog.json', 'source_hints.json', '*.py', 'requirements.txt', 'tests/**', '.github/workflows/update_news.yml']
   pull_request:
-    paths: ['catalog.json', '*.py', 'requirements.txt', 'tests/**', '.github/workflows/update_news.yml']
+    paths: ['catalog.json', 'source_hints.json', '*.py', 'requirements.txt', 'tests/**', '.github/workflows/update_news.yml']
 concurrency:
   group: history-${{ github.ref }}
   cancel-in-progress: false
@@ -37,7 +43,8 @@ jobs:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           PYTHONUNBUFFERED: '1'
           BACKFILL_BUDGET: ${{ inputs.backfill_budget || '2' }}
-        run: python archive_window.py --days 7 --backfill-budget "$BACKFILL_BUDGET"
+          PREPARE_BUDGET: ${{ inputs.prepare_budget || '2' }}
+        run: python archive_window.py --days 7 --backfill-budget "$BACKFILL_BUDGET" --prepare-budget "$PREPARE_BUDGET"
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -50,15 +57,18 @@ jobs:
             archives/
             window_status.json
             collection_diagnostics/
+            prepared/
+            preparation_state.json
+            coverage_status.json
       - name: Commit validated issue
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         run: |
           git config user.email "action@github.com"
           git config user.name "GitHub Action"
-          git add catalog.json collection_status.json today_news.json issue.json archives/ archive_index.json window_status.json
+          git add catalog.json collection_status.json today_news.json issue.json archives/ archive_index.json window_status.json prepared/ preparation_state.json coverage_status.json
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Publish source-reviewed daily history"
           git push
       - name: Report incomplete collection after preserving successful issues
         if: github.event_name != 'pull_request'
-        run: python -c "import json; assert not json.load(open('window_status.json'))['failedDates'], 'Some dates could not be collected; see window_status.json'"
+        run: python -c "import json; s=json.load(open('window_status.json')); assert s['todayMinimumMet'] and not s['failedDates'], 'Daily minimum or attempted backfill failed; see window_status.json'"
