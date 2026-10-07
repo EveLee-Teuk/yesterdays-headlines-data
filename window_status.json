@@ -18,11 +18,10 @@
     "2026-10-10",
     "2026-10-11",
     "2026-10-12",
-    "2026-10-13"
-  ],
-  "preparedMissingDates": [
+    "2026-10-13",
     "2026-10-14"
   ],
+  "preparedMissingDates": [],
   "attemptedDates": [
     "2026-10-07"
   ],
@@ -43,58 +42,87 @@
   "todayAttempt": {
     "date": "2026-10-07",
     "outcome": "ready",
-    "generatedCount": 0,
-    "validationRejected": 0,
-    "repairCount": 0,
+    "generatedCount": 1,
+    "validationRejected": 1,
+    "repairCount": 1,
     "repairGeneratedCount": 0,
     "validatedCount": 0,
     "reviewedCount": 0,
     "approvedCount": 0,
-    "candidateResults": [],
+    "candidateResults": [
+      {
+        "layer": 0,
+        "stage": "generated",
+        "index": 0,
+        "date": "2026-10-07",
+        "title": "我国科研人员宣布成功绘制水稻全生命周期时空细胞图谱",
+        "sourceId": "s2",
+        "result": "rejected",
+        "reason": "Not a historical event on the requested month/day"
+      }
+    ],
     "reviewResults": [],
     "modelLayers": [
       {
         "index": 0,
-        "sourceUsed": 1,
-        "generated": 0,
+        "sourceUsed": 3,
+        "generated": 1,
         "validated": 0,
         "approved": 0
       }
     ],
-    "modelCalls": 1,
+    "modelCalls": 2,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-07T13:51:09+08:00",
+    "attemptedAt": "2026-10-07T23:31:33+08:00",
     "existingVerifiedCount": 1,
     "searchAttempted": 6,
-    "searchSucceeded": 3,
-    "searchResults": 24,
-    "sourceAttempted": 3,
-    "sourceReadable": 1,
+    "searchSucceeded": 5,
+    "searchResults": 27,
+    "sourceAttempted": 16,
+    "sourceReadable": 3,
     "supplementalSearches": 0,
     "sources": [
       {
         "id": "s1",
         "url": "https://ihep.cas.cn/gk/lsyg/"
+      },
+      {
+        "id": "s2",
+        "url": "https://www.news.cn/tech/20261007/7a261a30a9874f99bdc66ddbf4b26a6a/c.html"
+      },
+      {
+        "id": "s3",
+        "url": "https://www.news.cn/fortune/20241007/6458e2cbc8f54c4bb1de973ca2ab0534/c.html"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 3,
-        "searchResults": 24,
-        "sourceAttempted": 3,
-        "sourceReadable": 1,
-        "sourceUsed": 1,
+        "searchSucceeded": 5,
+        "searchResults": 27,
+        "sourceAttempted": 16,
+        "sourceReadable": 3,
+        "sourceUsed": 3,
         "searchErrors": [
-          "DDGSException",
-          "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [
           {
             "host": "whhlyt.hunan.gov.cn",
+            "type": "SSLError"
+          },
+          {
+            "host": "ent.people.com.cn",
+            "type": "SSLError"
+          },
+          {
+            "host": "sh.people.com.cn",
+            "type": "SSLError"
+          },
+          {
+            "host": "military.people.com.cn",
             "type": "SSLError"
           }
         ],
@@ -108,8 +136,8 @@
         ]
       }
     ],
-    "sourceUsed": 1,
+    "sourceUsed": 3,
     "publishedVerifiedCount": 1,
-    "completedAt": "2026-10-07T13:51:16+08:00"
+    "completedAt": "2026-10-07T23:31:46+08:00"
   }
 }

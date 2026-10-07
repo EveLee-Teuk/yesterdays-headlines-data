@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "date": "2026-10-07",
-  "updatedAt": "2026-10-07T13:51:30+08:00",
+  "updatedAt": "2026-10-07T23:32:05+08:00",
   "upcomingDates": [
     "2026-10-08",
     "2026-10-09",
@@ -17,18 +17,15 @@
     "2026-10-10",
     "2026-10-11",
     "2026-10-12",
-    "2026-10-13"
-  ],
-  "missingDates": [
+    "2026-10-13",
     "2026-10-14"
   ],
+  "missingDates": [],
   "attemptedDates": [
     "2026-10-14"
   ],
-  "failedDates": [
-    "2026-10-14"
-  ],
-  "calendarCoveredDays": 24,
+  "failedDates": [],
+  "calendarCoveredDays": 25,
   "calendarTotalDays": 366,
   "coveredMonthDays": [
     "09-16",
@@ -54,7 +51,8 @@
     "10-10",
     "10-11",
     "10-12",
-    "10-13"
+    "10-13",
+    "10-14"
   ],
   "annualCoverageComplete": false
 }
