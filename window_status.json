@@ -1,19 +1,18 @@
 {
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "failedDates": [],
   "coveragePolicyVersion": 2,
   "restoredDates": [
-    "2026-09-30",
     "2026-10-01",
     "2026-10-02",
     "2026-10-03",
     "2026-10-04",
     "2026-10-05",
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-07"
   ],
   "todayMinimumMet": true,
   "preparedReadyDates": [
-    "2026-10-07",
     "2026-10-08",
     "2026-10-09",
     "2026-10-10",
@@ -21,9 +20,11 @@
     "2026-10-12",
     "2026-10-13"
   ],
-  "preparedMissingDates": [],
+  "preparedMissingDates": [
+    "2026-10-14"
+  ],
   "attemptedDates": [
-    "2026-10-06"
+    "2026-10-07"
   ],
   "historicalRetries": {
     "2026-10-05": {
@@ -40,68 +41,36 @@
     }
   },
   "todayAttempt": {
-    "date": "2026-10-06",
+    "date": "2026-10-07",
     "outcome": "ready",
-    "generatedCount": 2,
+    "generatedCount": 0,
     "validationRejected": 0,
     "repairCount": 0,
     "repairGeneratedCount": 0,
-    "validatedCount": 2,
-    "reviewedCount": 2,
-    "approvedCount": 2,
-    "candidateResults": [
-      {
-        "layer": 0,
-        "stage": "generated",
-        "index": 0,
-        "date": "1950-10-06",
-        "title": "中国人民解放军发起昌都战役",
-        "sourceId": "s3",
-        "result": "validated"
-      },
-      {
-        "layer": 0,
-        "stage": "generated",
-        "index": 1,
-        "date": "1976-10-06",
-        "title": "中共中央政治局粉碎“四人帮”",
-        "sourceId": "s3",
-        "result": "validated"
-      }
-    ],
-    "reviewResults": [
-      {
-        "layer": 0,
-        "date": "1950-10-06",
-        "title": "中国人民解放军发起昌都战役",
-        "approved": true
-      },
-      {
-        "layer": 0,
-        "date": "1976-10-06",
-        "title": "中共中央政治局粉碎“四人帮”",
-        "approved": true
-      }
-    ],
+    "validatedCount": 0,
+    "reviewedCount": 0,
+    "approvedCount": 0,
+    "candidateResults": [],
+    "reviewResults": [],
     "modelLayers": [
       {
         "index": 0,
-        "sourceUsed": 6,
-        "generated": 2,
-        "validated": 2,
-        "approved": 2
+        "sourceUsed": 3,
+        "generated": 0,
+        "validated": 0,
+        "approved": 0
       }
     ],
-    "modelCalls": 2,
+    "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-06T21:55:41+08:00",
-    "existingVerifiedCount": 3,
+    "attemptedAt": "2026-10-07T11:53:47+08:00",
+    "existingVerifiedCount": 1,
     "searchAttempted": 6,
-    "searchSucceeded": 5,
-    "searchResults": 25,
+    "searchSucceeded": 4,
+    "searchResults": 20,
     "sourceAttempted": 16,
-    "sourceReadable": 6,
+    "sourceReadable": 3,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -110,56 +79,49 @@
       },
       {
         "id": "s2",
-        "url": "https://nao.cas.cn/ndw/dsj/202203/t20220330_6409779.html"
+        "url": "https://www.news.cn/fortune/20241007/6458e2cbc8f54c4bb1de973ca2ab0534/c.html"
       },
       {
         "id": "s3",
-        "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70492/index.html"
-      },
-      {
-        "id": "s4",
         "url": "https://www.mot.gov.cn/"
-      },
-      {
-        "id": "s5",
-        "url": "https://www.mot.gov.cn/xinmeiti/index.html"
-      },
-      {
-        "id": "s6",
-        "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70492/"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 5,
-        "searchResults": 25,
+        "searchSucceeded": 4,
+        "searchResults": 20,
         "sourceAttempted": 16,
-        "sourceReadable": 6,
-        "sourceUsed": 6,
+        "sourceReadable": 3,
+        "sourceUsed": 3,
         "searchErrors": [
-          "DDGSException"
+          "TimeoutException",
+          "TimeoutException"
         ],
         "sourceErrors": [
           {
-            "host": "jx.news.cn",
-            "type": "ReadTimeout"
+            "host": "whhlyt.hunan.gov.cn",
+            "type": "SSLError"
           },
           {
             "host": "www.scio.gov.cn",
             "type": "SSLError"
           },
           {
+            "host": "fagai.puyang.gov.cn",
+            "type": "ConnectionError"
+          },
+          {
             "host": "jtys.sz.gov.cn",
             "type": "SSLError"
           },
           {
-            "host": "ent.people.com.cn",
-            "type": "SSLError"
+            "host": "www.linan.gov.cn",
+            "type": "ReadTimeout"
           },
           {
-            "host": "ent.people.com.cn",
+            "host": "sh.people.com.cn",
             "type": "SSLError"
           },
           {
@@ -168,17 +130,17 @@
           }
         ],
         "queries": [
-          "\"10月6日\" 中国 科技 突破 成功 site:news.cn",
-          "\"10月6日\" 中国 公共工程 建成 通车 site:gov.cn",
-          "\"10月6日\" 中国 文化 体育 首次 site:people.com.cn",
-          "\"10月6日\" 中国 医疗 民生 开通 site:chinanews.com",
-          "\"10月6日\" 中国 教育 学校 成立 site:gmw.cn",
-          "\"10月6日\" 中国 历史上的今天 site:cctv.com"
+          "\"10月7日\" 中国 科技 突破 成功 site:news.cn",
+          "\"10月7日\" 中国 公共工程 建成 通车 site:gov.cn",
+          "\"10月7日\" 中国 文化 体育 首次 site:people.com.cn",
+          "\"10月7日\" 中国 医疗 民生 开通 site:chinanews.com",
+          "\"10月7日\" 中国 教育 学校 成立 site:gmw.cn",
+          "\"10月7日\" 中国 历史上的今天 site:cctv.com"
         ]
       }
     ],
-    "sourceUsed": 6,
-    "publishedVerifiedCount": 5,
-    "completedAt": "2026-10-06T21:56:10+08:00"
+    "sourceUsed": 3,
+    "publishedVerifiedCount": 1,
+    "completedAt": "2026-10-07T11:54:41+08:00"
   }
 }
