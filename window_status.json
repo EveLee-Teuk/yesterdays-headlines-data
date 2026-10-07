@@ -1,29 +1,29 @@
 {
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "failedDates": [],
   "coveragePolicyVersion": 2,
   "restoredDates": [
-    "2026-10-01",
     "2026-10-02",
     "2026-10-03",
     "2026-10-04",
     "2026-10-05",
     "2026-10-06",
-    "2026-10-07"
+    "2026-10-07",
+    "2026-10-08"
   ],
   "todayMinimumMet": true,
   "preparedReadyDates": [
-    "2026-10-08",
     "2026-10-09",
     "2026-10-10",
     "2026-10-11",
     "2026-10-12",
     "2026-10-13",
-    "2026-10-14"
+    "2026-10-14",
+    "2026-10-15"
   ],
   "preparedMissingDates": [],
   "attemptedDates": [
-    "2026-10-07"
+    "2026-10-08"
   ],
   "historicalRetries": {
     "2026-10-05": {
@@ -40,104 +40,87 @@
     }
   },
   "todayAttempt": {
-    "date": "2026-10-07",
+    "date": "2026-10-08",
     "outcome": "ready",
-    "generatedCount": 1,
-    "validationRejected": 1,
-    "repairCount": 1,
+    "generatedCount": 0,
+    "validationRejected": 0,
+    "repairCount": 0,
     "repairGeneratedCount": 0,
     "validatedCount": 0,
     "reviewedCount": 0,
     "approvedCount": 0,
-    "candidateResults": [
-      {
-        "layer": 0,
-        "stage": "generated",
-        "index": 0,
-        "date": "2026-10-07",
-        "title": "我国科研人员宣布成功绘制水稻全生命周期时空细胞图谱",
-        "sourceId": "s2",
-        "result": "rejected",
-        "reason": "Not a historical event on the requested month/day"
-      }
-    ],
+    "candidateResults": [],
     "reviewResults": [],
     "modelLayers": [
       {
         "index": 0,
-        "sourceUsed": 3,
-        "generated": 1,
+        "sourceUsed": 1,
+        "generated": 0,
         "validated": 0,
         "approved": 0
       }
     ],
-    "modelCalls": 2,
+    "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-07T23:31:33+08:00",
+    "attemptedAt": "2026-10-08T05:16:00+08:00",
     "existingVerifiedCount": 1,
     "searchAttempted": 6,
-    "searchSucceeded": 5,
-    "searchResults": 27,
-    "sourceAttempted": 16,
-    "sourceReadable": 3,
+    "searchSucceeded": 3,
+    "searchResults": 11,
+    "sourceAttempted": 14,
+    "sourceReadable": 1,
     "supplementalSearches": 0,
     "sources": [
       {
         "id": "s1",
-        "url": "https://ihep.cas.cn/gk/lsyg/"
-      },
-      {
-        "id": "s2",
-        "url": "https://www.news.cn/tech/20261007/7a261a30a9874f99bdc66ddbf4b26a6a/c.html"
-      },
-      {
-        "id": "s3",
-        "url": "https://www.news.cn/fortune/20241007/6458e2cbc8f54c4bb1de973ca2ab0534/c.html"
+        "url": "https://www.gov.cn/zhengce/202410/content_6981026.htm"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 5,
-        "searchResults": 27,
-        "sourceAttempted": 16,
-        "sourceReadable": 3,
-        "sourceUsed": 3,
+        "searchSucceeded": 3,
+        "searchResults": 11,
+        "sourceAttempted": 14,
+        "sourceReadable": 1,
+        "sourceUsed": 1,
         "searchErrors": [
+          "DDGSException",
+          "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "whhlyt.hunan.gov.cn",
+            "host": "www.cnsa.gov.cn",
+            "type": "ConnectionError"
+          },
+          {
+            "host": "gd.people.com.cn",
             "type": "SSLError"
           },
           {
-            "host": "ent.people.com.cn",
+            "host": "dangshi.people.com.cn",
             "type": "SSLError"
           },
           {
-            "host": "sh.people.com.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "military.people.com.cn",
+            "host": "js.people.com.cn",
             "type": "SSLError"
           }
         ],
         "queries": [
-          "\"10月7日\" 中国 科技 突破 成功 site:news.cn",
-          "\"10月7日\" 中国 公共工程 建成 通车 site:gov.cn",
-          "\"10月7日\" 中国 文化 体育 首次 site:people.com.cn",
-          "\"10月7日\" 中国 医疗 民生 开通 site:chinanews.com",
-          "\"10月7日\" 中国 教育 学校 成立 site:gmw.cn",
-          "\"10月7日\" 中国 历史上的今天 site:cctv.com"
+          "\"10月8日\" 中国 科技 突破 成功 site:news.cn",
+          "\"10月8日\" 中国 公共工程 建成 通车 site:gov.cn",
+          "\"10月8日\" 中国 文化 体育 首次 site:people.com.cn",
+          "\"10月8日\" 中国 医疗 民生 开通 site:chinanews.com",
+          "\"10月8日\" 中国 教育 学校 成立 site:gmw.cn",
+          "\"10月8日\" 中国 历史上的今天 site:cctv.com"
         ]
       }
     ],
-    "sourceUsed": 3,
+    "sourceUsed": 1,
     "publishedVerifiedCount": 1,
-    "completedAt": "2026-10-07T23:31:46+08:00"
+    "completedAt": "2026-10-08T05:16:10+08:00"
   }
 }
