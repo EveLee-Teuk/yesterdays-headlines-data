@@ -55,7 +55,7 @@
     "modelLayers": [
       {
         "index": 0,
-        "sourceUsed": 3,
+        "sourceUsed": 1,
         "generated": 0,
         "validated": 0,
         "approved": 0
@@ -64,68 +64,37 @@
     "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-07T11:53:47+08:00",
+    "attemptedAt": "2026-10-07T13:51:09+08:00",
     "existingVerifiedCount": 1,
     "searchAttempted": 6,
-    "searchSucceeded": 4,
-    "searchResults": 20,
-    "sourceAttempted": 16,
-    "sourceReadable": 3,
+    "searchSucceeded": 3,
+    "searchResults": 24,
+    "sourceAttempted": 3,
+    "sourceReadable": 1,
     "supplementalSearches": 0,
     "sources": [
       {
         "id": "s1",
         "url": "https://ihep.cas.cn/gk/lsyg/"
-      },
-      {
-        "id": "s2",
-        "url": "https://www.news.cn/fortune/20241007/6458e2cbc8f54c4bb1de973ca2ab0534/c.html"
-      },
-      {
-        "id": "s3",
-        "url": "https://www.mot.gov.cn/"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 4,
-        "searchResults": 20,
-        "sourceAttempted": 16,
-        "sourceReadable": 3,
-        "sourceUsed": 3,
+        "searchSucceeded": 3,
+        "searchResults": 24,
+        "sourceAttempted": 3,
+        "sourceReadable": 1,
+        "sourceUsed": 1,
         "searchErrors": [
-          "TimeoutException",
-          "TimeoutException"
+          "DDGSException",
+          "DDGSException",
+          "DDGSException"
         ],
         "sourceErrors": [
           {
             "host": "whhlyt.hunan.gov.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "www.scio.gov.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "fagai.puyang.gov.cn",
-            "type": "ConnectionError"
-          },
-          {
-            "host": "jtys.sz.gov.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "www.linan.gov.cn",
-            "type": "ReadTimeout"
-          },
-          {
-            "host": "sh.people.com.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "ent.people.com.cn",
             "type": "SSLError"
           }
         ],
@@ -139,8 +108,8 @@
         ]
       }
     ],
-    "sourceUsed": 3,
+    "sourceUsed": 1,
     "publishedVerifiedCount": 1,
-    "completedAt": "2026-10-07T11:54:41+08:00"
+    "completedAt": "2026-10-07T13:51:16+08:00"
   }
 }
