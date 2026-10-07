@@ -123,20 +123,48 @@ class CoverageTests(unittest.TestCase):
             self.assertFalse((root / 'archives').exists())
 
     def test_prepare_does_not_advance_publication_and_uses_actual_reference_date(self):
-        with tempfile.TemporaryDirectory() as directory:
-            root = self.root(directory)
-            before = json.loads((root / 'catalog.json').read_text('utf-8'))
-            with patch.dict(os.environ, {'DEEPSEEK_API_KEY': 'test-only'}, clear=True), \
-                 patch.object(collector, 'retrieve_layers', return_value=iter(self.layers())), \
-                 patch.object(collector, 'deepseek_json', side_effect=[
-                     {'events': [CANDIDATE]}, {'approved': [0]}]):
-                collector.collect(root, '2027-09-22', prepare=True, reference_date='2026-10-06')
-            catalog = json.loads((root / 'catalog.json').read_text('utf-8'))
-            self.assertEqual(catalog['lastRun'], before['lastRun'])
-            self.assertEqual(catalog['updatedAt'], dt.datetime.now(collector.BEIJING).date().isoformat())
-            self.assertEqual(json.loads((root / 'prepared/2027-09-22.json').read_text('utf-8'))['status'], 'ready')
-            for name in ('archives', 'issue.json', 'today_news.json', 'collection_status.json'):
-                self.assertFalse((root / name).exists(), name)
+        real_datetime = dt.datetime
+        issue_date = '2029-09-22'
+        for reference_date in ('2026-10-06', '2026-10-07', '2027-01-01', '2028-02-29'):
+            with self.subTest(reference_date=reference_date), tempfile.TemporaryDirectory() as directory:
+                # Beijing midnight is still the previous UTC day: exercise the timezone boundary too.
+                instant = real_datetime.fromisoformat(reference_date + 'T00:05:00+08:00')
+
+                class FrozenDatetime(real_datetime):
+                    @classmethod
+                    def now(cls, tz=None):
+                        return instant.astimezone(tz) if tz else instant.replace(tzinfo=None)
+
+                # Replace only the collector's module reference; never mutate shared datetime.datetime.
+                clock_module = types.SimpleNamespace(**vars(dt))
+                clock_module.datetime = FrozenDatetime
+                root = self.root(directory)
+                before = json.loads((root / 'catalog.json').read_text('utf-8'))
+                with patch.object(collector, 'dt', clock_module), \
+                     patch.dict(os.environ, {'DEEPSEEK_API_KEY': 'test-only'}, clear=True), \
+                     patch.object(collector, 'retrieve_layers', return_value=iter(self.layers())), \
+                     patch.object(collector, 'deepseek_json', side_effect=[
+                         {'events': [CANDIDATE]}, {'approved': [0]}]) as model:
+                    self.assertIs(dt.datetime, real_datetime)
+                    collector.collect(root, issue_date, prepare=True, reference_date=reference_date)
+                self.assertIs(dt.datetime, real_datetime)
+                catalog = json.loads((root / 'catalog.json').read_text('utf-8'))
+                self.assertEqual(catalog['lastRun'], before['lastRun'])
+                self.assertEqual(catalog['updatedAt'], reference_date)
+                prepared = json.loads((root / f'prepared/{issue_date}.json').read_text('utf-8'))
+                self.assertEqual(prepared['status'], 'ready')
+                self.assertEqual(prepared['date'], issue_date)
+                self.assertEqual(prepared['events'][0]['reviewedAt'], reference_date)
+                for call in model.call_args_list:
+                    self.assertEqual(call.args[1]['referenceDate'], reference_date)
+                    self.assertEqual(call.args[1]['issueDate'], issue_date)
+                diagnostic = json.loads((root / f'collection_diagnostics/{issue_date}.json').read_text('utf-8'))
+                for key in ('attemptedAt', 'completedAt'):
+                    timestamp = real_datetime.fromisoformat(diagnostic[key])
+                    self.assertEqual(timestamp.date().isoformat(), reference_date)
+                    self.assertEqual(timestamp.utcoffset(), dt.timedelta(hours=8))
+                for name in ('archives', 'issue.json', 'today_news.json', 'collection_status.json'):
+                    self.assertFalse((root / name).exists(), name)
 
     def test_future_issue_never_accepts_planned_event(self):
         doc = {**DOC, 'text': '2027年9月22日，北京某博物馆新馆计划正式开馆。'}
