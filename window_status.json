@@ -54,54 +54,49 @@
     "modelLayers": [
       {
         "index": 0,
-        "sourceUsed": 3,
+        "sourceUsed": 0,
         "generated": 0,
         "validated": 0,
         "approved": 0
       }
     ],
-    "modelCalls": 1,
-    "degraded": [],
-    "prepare": false,
-    "attemptedAt": "2026-10-08T15:47:27+08:00",
-    "existingVerifiedCount": 1,
-    "searchAttempted": 6,
-    "searchSucceeded": 4,
-    "searchResults": 19,
-    "sourceAttempted": 16,
-    "sourceReadable": 3,
-    "supplementalSearches": 0,
-    "sources": [
+    "modelCalls": 0,
+    "degraded": [
       {
-        "id": "s1",
-        "url": "https://www.cnsa.gov.cn/n6758968/n6758972/c6796239/content.html"
-      },
-      {
-        "id": "s2",
-        "url": "https://cq.news.cn/20261008/c31f665067b3425b88360f004360929c/c.html"
-      },
-      {
-        "id": "s3",
-        "url": "https://www.chinanews.com/sh/2025/12-31/10543436.shtml"
+        "stage": "retrieval",
+        "type": "NoNewSources"
       }
     ],
+    "prepare": false,
+    "attemptedAt": "2026-10-08T15:48:55+08:00",
+    "existingVerifiedCount": 1,
+    "searchAttempted": 6,
+    "searchSucceeded": 1,
+    "searchResults": 2,
+    "sourceAttempted": 4,
+    "sourceReadable": 0,
+    "supplementalSearches": 0,
+    "sources": [],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 4,
-        "searchResults": 19,
-        "sourceAttempted": 16,
-        "sourceReadable": 3,
-        "sourceUsed": 3,
+        "searchSucceeded": 1,
+        "searchResults": 2,
+        "sourceAttempted": 4,
+        "sourceReadable": 0,
+        "sourceUsed": 0,
         "searchErrors": [
+          "DDGSException",
+          "DDGSException",
+          "DDGSException",
           "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "bj.news.cn",
-            "type": "ReadTimeout"
+            "host": "www.cnsa.gov.cn",
+            "type": "ConnectionError"
           }
         ],
         "queries": [
@@ -114,8 +109,8 @@
         ]
       }
     ],
-    "sourceUsed": 3,
+    "sourceUsed": 0,
     "publishedVerifiedCount": 1,
-    "completedAt": "2026-10-08T15:47:53+08:00"
+    "completedAt": "2026-10-08T15:49:02+08:00"
   }
 }
