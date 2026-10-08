@@ -54,40 +54,43 @@
     "modelLayers": [
       {
         "index": 0,
-        "sourceUsed": 0,
+        "sourceUsed": 2,
         "generated": 0,
         "validated": 0,
         "approved": 0
       }
     ],
-    "modelCalls": 0,
-    "degraded": [
-      {
-        "stage": "retrieval",
-        "type": "NoNewSources"
-      }
-    ],
+    "modelCalls": 1,
+    "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-08T15:48:55+08:00",
+    "attemptedAt": "2026-10-08T15:53:15+08:00",
     "existingVerifiedCount": 1,
     "searchAttempted": 6,
-    "searchSucceeded": 1,
-    "searchResults": 2,
-    "sourceAttempted": 4,
-    "sourceReadable": 0,
+    "searchSucceeded": 2,
+    "searchResults": 5,
+    "sourceAttempted": 7,
+    "sourceReadable": 2,
     "supplementalSearches": 0,
-    "sources": [],
+    "sources": [
+      {
+        "id": "s1",
+        "url": "https://cq.news.cn/20261008/c31f665067b3425b88360f004360929c/c.html"
+      },
+      {
+        "id": "s2",
+        "url": "https://www.gov.cn/zhengce/202410/content_6981026.htm"
+      }
+    ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 1,
-        "searchResults": 2,
-        "sourceAttempted": 4,
-        "sourceReadable": 0,
-        "sourceUsed": 0,
+        "searchSucceeded": 2,
+        "searchResults": 5,
+        "sourceAttempted": 7,
+        "sourceReadable": 2,
+        "sourceUsed": 2,
         "searchErrors": [
-          "DDGSException",
           "DDGSException",
           "DDGSException",
           "DDGSException",
@@ -109,8 +112,8 @@
         ]
       }
     ],
-    "sourceUsed": 0,
+    "sourceUsed": 2,
     "publishedVerifiedCount": 1,
-    "completedAt": "2026-10-08T15:49:02+08:00"
+    "completedAt": "2026-10-08T15:53:22+08:00"
   }
 }
