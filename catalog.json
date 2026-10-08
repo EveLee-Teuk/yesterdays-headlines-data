@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-08",
+  "updatedAt": "2026-10-09",
   "events": [
     {
       "date": "1925-10-10",
@@ -183,20 +183,22 @@
       "verification": "source-matched"
     },
     {
-      "id": "first-atomic-test",
       "date": "1964-10-16",
       "title": "中国第一颗原子弹爆炸成功",
       "category": "科技",
       "location": "新疆罗布泊",
-      "summary": "1964年10月16日，中国进行了第一次核试验，第一颗原子弹爆炸成功。\n\n国家原子能机构的历史资料记载，起爆时间定在当日15时。记录这一事件时，需要区分真实试验日期与后来的纪念报道日期。",
+      "summary": "1964年10月16日，中国自行制造的第一颗原子弹在新疆罗布泊成功爆炸。这一成就打破了超级大国的核垄断和核讹诈，增强了我国的国防战略防御能力，也孕育形成了“两弹一星”精神。",
+      "id": "history-a70f8aa8296b47a9",
       "sources": [
         {
-          "name": "国家原子能机构",
-          "url": "https://www.caea.gov.cn/n6760341/n6760359/c6826573/content.html",
-          "date": "1964-10-16"
+          "name": "新华网",
+          "url": "https://www.news.cn/politics/20241220/eea7893476cb4fcca3938d7d56078688/c.html",
+          "date": "1964-10-16",
+          "evidence": "1964年10月16日，中国自行制造的第一颗原子弹在新疆罗布泊成功爆炸。"
         }
       ],
-      "reviewedAt": "2026-09-22"
+      "reviewedAt": "2026-10-09",
+      "verification": "source-matched"
     },
     {
       "id": "synthetic-insulin",
@@ -1123,6 +1125,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "2023-10-16",
+      "title": "核理化院首次获得公斤级丰度99%钼-100同位素",
+      "category": "科技",
+      "location": "天津",
+      "summary": "2023年10月16日，中核集团核理化院通过自主研发首次获得公斤级丰度99%钼-100同位素。这是我国首次实现钼同位素关键材料自主化供应，标志着我国在高丰度稳定同位素研究领域达到世界领先水平。",
+      "id": "history-b657c649be435dc2",
+      "sources": [
+        {
+          "name": "新华网",
+          "url": "https://www.news.cn/energy/20241014/0639657baa8545aab737619c838660cf/c.html",
+          "date": "2023-10-16",
+          "evidence": "2023年10月16日，中核集团核理化院通过自主研发首次获得公斤级丰度99%钼-100同位素。"
+        }
+      ],
+      "reviewedAt": "2026-10-09",
+      "verification": "source-matched"
+    },
+    {
       "date": "2024-10-11",
       "title": "首颗可重复使用返回式技术试验卫星成功回收",
       "category": "科技",
@@ -1142,9 +1162,9 @@
     }
   ],
   "lastRun": {
-    "date": "2026-10-08",
-    "completedAt": "2026-10-08T23:33:23+08:00",
-    "sourceCount": 2,
+    "date": "2026-10-09",
+    "completedAt": "2026-10-09T05:16:44+08:00",
+    "sourceCount": 6,
     "addedCount": 0,
     "status": "ready"
   }
