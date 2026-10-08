@@ -66,18 +66,46 @@ class HistoryTests(unittest.TestCase):
                 h.publish(root, '2026-09-22')
             self.assertEqual((root / 'today_news.json').read_text(), '["last-good"]')
 
-    def test_reviewed_catalog_keeps_known_corrections(self):
+    def test_live_catalog_has_valid_dates_sources_and_unique_ids(self):
         h = self.publisher()
         catalog = json.loads((Path(__file__).parents[1] / 'catalog.json').read_text(encoding='utf-8-sig'))
+        self.assertEqual(catalog['schemaVersion'], 2)
+        h.valid_date(catalog['updatedAt'])
         h.validate_events(catalog['events'])
-        dates = {event['id']: event['date'] for event in catalog['events']}
+
+    def test_reviewed_samples_keep_known_corrections_after_id_changes(self):
+        h = self.publisher()
+        # Daily collection legitimately replaces legacy IDs when it verifies originals.
+        # Freeze regression inputs, rather than require those IDs in a changing catalog.
+        fixture = json.loads((Path(__file__).parent / 'fixtures' / 'reviewed_corrections.json').read_text(encoding='utf-8'))
         expected = {'first-atomic-test': '1964-10-16', 'synthetic-insulin': '1965-09-17',
                     'dongfanghong-1': '1970-04-24', 'un-resolution-2758': '1971-10-25',
                     'three-gorges-start': '1994-12-14', 'china-wto': '2001-12-11',
                     'shenzhou-5': '2003-10-15', 'beijing-tianjin-rail': '2008-08-01',
                     'change-3-landing': '2013-12-14', 'poverty-alleviation': '2021-02-25'}
-        for event_id, correct_date in expected.items():
-            self.assertEqual(dates[event_id], correct_date)
+        self.assertEqual({event['id'] for event in fixture['events']}, set(expected))
+        self.assertEqual(len(fixture['events']), len(expected))
+        for renamed in (False, True):
+            events = copy.deepcopy(fixture['events'])
+            for event in events:
+                original_id = event['id']
+                correct_date = expected[original_id]
+                if renamed:
+                    event['id'] = 'history-reverified-' + original_id
+                with self.subTest(event=original_id, renamed=renamed):
+                    self.assertEqual(event['date'], correct_date)
+                    selected = h.build_issue([event], '2026-' + correct_date[5:])['events']
+                    self.assertEqual(selected, [event])
+            self.assertEqual(h.build_issue(events, '2026-09-22')['events'], [])
+
+    def test_known_corrections_still_reject_conflicting_event_dates(self):
+        fixture = json.loads((Path(__file__).parent / 'fixtures' / 'reviewed_corrections.json').read_text(encoding='utf-8'))
+        for event in fixture['events']:
+            if event['id'] not in ('three-gorges-start', 'shenzhou-5'):
+                continue
+            wrong = {**event, 'date': event['date'][:4] + '-09-22'}
+            with self.subTest(event=event['id']), self.assertRaises(ValueError):
+                self.publisher().build_issue([wrong], '2026-09-22')
 
 
 if __name__ == '__main__':

@@ -54,6 +54,27 @@ class CollectionTests(unittest.TestCase):
         other = {**event, 'id': 'different-event', 'title': '首条铁路正式通车'}
         self.assertEqual(len(m.merge_events([editorial], [other])), 2)
 
+    def test_reverification_replaces_legacy_id_without_changing_anniversary(self):
+        m = self.module()
+        document = {'id': 's1', 'name': '中国载人航天工程办公室',
+                    'url': 'https://www.cmse.gov.cn/art/2009/9/25/art_1357_22316.html',
+                    'text': '北京时间2003年10月15日9时整，火箭一级发动机和4个助推发动机同时点火'}
+        candidate = {'date': '2003-10-15', 'title': '神舟五号载人飞船发射',
+                     'category': '科技', 'location': '酒泉', 'summary': '神舟五号载人飞船发射。',
+                     'sourceId': 's1', 'evidence': document['text']}
+        verified = m.validate_candidate(candidate, [document], '2026-10-15', reference_date='2026-10-08')
+        legacy = copy.deepcopy(verified)
+        legacy['id'] = 'shenzhou-5'
+        legacy.pop('verification')
+        legacy['sources'][0].pop('evidence')
+        self.assertNotEqual(verified['id'], legacy['id'])
+        merged = m.merge_events([legacy], [verified])
+        self.assertEqual(merged, [verified])
+        self.assertEqual(merged[0]['date'], '2003-10-15')
+        self.assertEqual(merged[0]['sources'][0]['date'], '2003-10-15')
+        self.assertEqual(merged[0]['sources'][0]['evidence'], document['text'])
+        self.assertEqual(merged[0]['verification'], 'source-matched')
+
 
 if __name__ == '__main__':
     unittest.main()
