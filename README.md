@@ -44,3 +44,5 @@ python archive_window.py --days 7 --finalize-only
 ```
 
 仅检索与单元测试不需要模型密钥。正式采集和提前备稿在 GitHub Actions 内使用已有密钥执行。
+
+发布任务开始时读取目标分支的最新资料，因此可以对新版任务使用 `Re-run all jobs`。GitHub 重跑旧任务时仍使用当时的工作流版本；本修复之前的旧任务请改用 `Run workflow` 在 main 上启动新任务。发布只做普通快进推送，不强制覆盖仓库；若运行期间有人提交了新版本，推送会安全拒绝，此时从最新分支重新运行即可。

@@ -32,6 +32,10 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Re-runs retain the trigger SHA, but daily publication must build on
+          # the latest branch data. PR checks still test their exact merge SHA.
+          ref: ${{ github.event_name == 'pull_request' && github.sha || github.ref }}
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -68,7 +72,7 @@ jobs:
           git add catalog.json collection_status.json today_news.json issue.json archives/ archive_index.json window_status.json prepared/ preparation_state.json coverage_status.json
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Publish source-reviewed daily history"
-          git push
+          git push origin HEAD:main
       - name: Report incomplete collection after preserving successful issues
         if: github.event_name != 'pull_request'
         run: python -c "import json; s=json.load(open('window_status.json')); assert s['todayMinimumMet'] and not s['failedDates'], 'Daily minimum or attempted backfill failed; see window_status.json'"
