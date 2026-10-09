@@ -1,18 +1,17 @@
 {
   "schemaVersion": 1,
-  "date": "2026-10-09",
-  "updatedAt": "2026-10-09T23:15:30+08:00",
+  "date": "2026-10-10",
+  "updatedAt": "2026-10-10T04:51:00+08:00",
   "upcomingDates": [
-    "2026-10-10",
     "2026-10-11",
     "2026-10-12",
     "2026-10-13",
     "2026-10-14",
     "2026-10-15",
-    "2026-10-16"
+    "2026-10-16",
+    "2026-10-17"
   ],
   "readyDates": [
-    "2026-10-10",
     "2026-10-11",
     "2026-10-12",
     "2026-10-13",
@@ -20,9 +19,15 @@
     "2026-10-15",
     "2026-10-16"
   ],
-  "missingDates": [],
-  "attemptedDates": [],
-  "failedDates": [],
+  "missingDates": [
+    "2026-10-17"
+  ],
+  "attemptedDates": [
+    "2026-10-17"
+  ],
+  "failedDates": [
+    "2026-10-17"
+  ],
   "calendarCoveredDays": 27,
   "calendarTotalDays": 366,
   "coveredMonthDays": [

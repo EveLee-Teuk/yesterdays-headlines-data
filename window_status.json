@@ -1,19 +1,18 @@
 {
-  "date": "2026-10-09",
+  "date": "2026-10-10",
   "failedDates": [],
   "coveragePolicyVersion": 2,
   "restoredDates": [
-    "2026-10-03",
     "2026-10-04",
     "2026-10-05",
     "2026-10-06",
     "2026-10-07",
     "2026-10-08",
-    "2026-10-09"
+    "2026-10-09",
+    "2026-10-10"
   ],
   "todayMinimumMet": true,
   "preparedReadyDates": [
-    "2026-10-10",
     "2026-10-11",
     "2026-10-12",
     "2026-10-13",
@@ -21,9 +20,11 @@
     "2026-10-15",
     "2026-10-16"
   ],
-  "preparedMissingDates": [],
+  "preparedMissingDates": [
+    "2026-10-17"
+  ],
   "attemptedDates": [
-    "2026-10-09"
+    "2026-10-10"
   ],
   "historicalRetries": {
     "2026-10-05": {
@@ -33,14 +34,10 @@
     "2026-10-04": {
       "count": 1,
       "lastAttemptDate": "2026-10-06"
-    },
-    "2026-10-03": {
-      "count": 1,
-      "lastAttemptDate": "2026-10-06"
     }
   },
   "todayAttempt": {
-    "date": "2026-10-09",
+    "date": "2026-10-10",
     "outcome": "ready",
     "generatedCount": 0,
     "validationRejected": 0,
@@ -54,7 +51,7 @@
     "modelLayers": [
       {
         "index": 0,
-        "sourceUsed": 6,
+        "sourceUsed": 4,
         "generated": 0,
         "validated": 0,
         "approved": 0
@@ -63,73 +60,61 @@
     "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-09T23:15:22+08:00",
-    "existingVerifiedCount": 1,
+    "attemptedAt": "2026-10-10T04:50:40+08:00",
+    "existingVerifiedCount": 2,
     "searchAttempted": 6,
-    "searchSucceeded": 2,
-    "searchResults": 7,
-    "sourceAttempted": 11,
-    "sourceReadable": 7,
+    "searchSucceeded": 1,
+    "searchResults": 5,
+    "sourceAttempted": 8,
+    "sourceReadable": 4,
     "supplementalSearches": 0,
     "sources": [
       {
         "id": "s1",
-        "url": "https://www.cas.cn/yw/202210/t20221009_4850182.shtml"
+        "url": "https://www.mct.gov.cn/whzx/zsdw/ggbwy/202510/t20251010_962563.html"
       },
       {
         "id": "s2",
-        "url": "https://microsate.cas.cn/lbxw/202210/t20221009_6520617.html"
+        "url": "https://www.news.cn/20260901/681b841550b04f9da1b65cd619d0cce7/c.html"
       },
       {
         "id": "s3",
-        "url": "https://ihep.cas.cn/gk/lsyg/"
+        "url": "https://www.news.cn/politics/leaders/20261002/5ed15c4ff6b84203b912461a917537ae/c.html"
       },
       {
         "id": "s4",
-        "url": "https://js.news.cn/20261009/0f6930abec6647d7a28f924b84d2ea3d/c.html"
-      },
-      {
-        "id": "s5",
-        "url": "https://www.news.cn/gangao/20261009/22f662960e054bd9bbb3b8b6a34e345f/c.html"
-      },
-      {
-        "id": "s6",
-        "url": "https://www.news.cn/politics/2022-10/09/c_1129057234.htm"
+        "url": "https://www.news.cn/energy/20241010/cce0f3f7ca574d75baf91d060ec7a930/c.html"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 2,
-        "searchResults": 7,
-        "sourceAttempted": 11,
-        "sourceReadable": 7,
-        "sourceUsed": 6,
+        "searchSucceeded": 1,
+        "searchResults": 5,
+        "sourceAttempted": 8,
+        "sourceReadable": 4,
+        "sourceUsed": 4,
         "searchErrors": [
+          "DDGSException",
           "DDGSException",
           "DDGSException",
           "DDGSException",
           "DDGSException"
         ],
-        "sourceErrors": [
-          {
-            "host": "hn.people.com.cn",
-            "type": "SSLError"
-          }
-        ],
+        "sourceErrors": [],
         "queries": [
-          "\"10月9日\" 中国 科技 突破 成功 site:news.cn",
-          "\"10月9日\" 中国 公共工程 建成 通车 site:gov.cn",
-          "\"10月9日\" 中国 文化 体育 首次 site:people.com.cn",
-          "\"10月9日\" 中国 医疗 民生 开通 site:chinanews.com",
-          "\"10月9日\" 中国 教育 学校 成立 site:gmw.cn",
-          "\"10月9日\" 中国 历史上的今天 site:cctv.com"
+          "\"10月10日\" 中国 科技 突破 成功 site:news.cn",
+          "\"10月10日\" 中国 公共工程 建成 通车 site:gov.cn",
+          "\"10月10日\" 中国 文化 体育 首次 site:people.com.cn",
+          "\"10月10日\" 中国 医疗 民生 开通 site:chinanews.com",
+          "\"10月10日\" 中国 教育 学校 成立 site:gmw.cn",
+          "\"10月10日\" 中国 历史上的今天 site:cctv.com"
         ]
       }
     ],
-    "sourceUsed": 6,
-    "publishedVerifiedCount": 1,
-    "completedAt": "2026-10-09T23:15:30+08:00"
+    "sourceUsed": 4,
+    "publishedVerifiedCount": 2,
+    "completedAt": "2026-10-10T04:50:48+08:00"
   }
 }
