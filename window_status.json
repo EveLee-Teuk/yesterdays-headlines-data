@@ -54,7 +54,7 @@
     "modelLayers": [
       {
         "index": 0,
-        "sourceUsed": 4,
+        "sourceUsed": 6,
         "generated": 0,
         "validated": 0,
         "approved": 0
@@ -63,13 +63,13 @@
     "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-09T14:02:24+08:00",
+    "attemptedAt": "2026-10-09T23:15:22+08:00",
     "existingVerifiedCount": 1,
     "searchAttempted": 6,
-    "searchSucceeded": 3,
-    "searchResults": 19,
-    "sourceAttempted": 7,
-    "sourceReadable": 4,
+    "searchSucceeded": 2,
+    "searchResults": 7,
+    "sourceAttempted": 11,
+    "sourceReadable": 7,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -86,30 +86,35 @@
       },
       {
         "id": "s4",
-        "url": "https://www.gov.cn/xinwen/2022-10/12/content_5717943.htm"
+        "url": "https://js.news.cn/20261009/0f6930abec6647d7a28f924b84d2ea3d/c.html"
+      },
+      {
+        "id": "s5",
+        "url": "https://www.news.cn/gangao/20261009/22f662960e054bd9bbb3b8b6a34e345f/c.html"
+      },
+      {
+        "id": "s6",
+        "url": "https://www.news.cn/politics/2022-10/09/c_1129057234.htm"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 3,
-        "searchResults": 19,
-        "sourceAttempted": 7,
-        "sourceReadable": 4,
-        "sourceUsed": 4,
+        "searchSucceeded": 2,
+        "searchResults": 7,
+        "sourceAttempted": 11,
+        "sourceReadable": 7,
+        "sourceUsed": 6,
         "searchErrors": [
+          "DDGSException",
           "DDGSException",
           "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "www.cppcc.gov.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "www.cppcc.gov.cn",
+            "host": "hn.people.com.cn",
             "type": "SSLError"
           }
         ],
@@ -123,8 +128,8 @@
         ]
       }
     ],
-    "sourceUsed": 4,
+    "sourceUsed": 6,
     "publishedVerifiedCount": 1,
-    "completedAt": "2026-10-09T14:02:41+08:00"
+    "completedAt": "2026-10-09T23:15:30+08:00"
   }
 }
