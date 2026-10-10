@@ -21,6 +21,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "1938-10-10",
+      "title": "南洋各属华侨筹赈祖国难民总会成立",
+      "category": "社会",
+      "location": "新加坡",
+      "summary": "1938年10月10日，南洋各属华侨筹赈祖国难民总会在新加坡成立，简称南侨总会，陈嘉庚被选为总会主席。该会发表宣言，号召华侨各尽所能、各竭所有，踊跃慷慨贡献于国家，成为抗战时期人数最多、成绩突出的救国侨团之一。",
+      "id": "history-39cc777e131f05d4",
+      "sources": [
+        {
+          "name": "politics.gmw.cn",
+          "url": "https://politics.gmw.cn/2025-10/10/content_38331285.htm",
+          "date": "1938-10-10",
+          "evidence": "1938年10月10日，南洋各属华侨筹赈祖国难民总会在新加坡成立，简称南侨总会，陈嘉庚被选为总会主席。"
+        }
+      ],
+      "reviewedAt": "2026-10-10",
+      "verification": "source-matched"
+    },
+    {
       "date": "1949-10-13",
       "title": "中国少年儿童队成立",
       "category": "社会",
@@ -859,6 +877,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "2010-10-10",
+      "title": "国务院作出加快培育发展战略性新兴产业的决定",
+      "category": "科技",
+      "location": "北京",
+      "summary": "2010年10月10日，国务院作出《关于加快培育和发展战略性新兴产业的决定》，部署加快培育和发展战略性新兴产业，推动产业结构升级与经济发展方式转变。",
+      "id": "history-375050645bcc5da0",
+      "sources": [
+        {
+          "name": "politics.gmw.cn",
+          "url": "https://politics.gmw.cn/2021-10/10/content_35219857.htm",
+          "date": "2010-10-10",
+          "evidence": "2010年 10月10日 国务院作出《关于加快培育和发展战略性新兴产业的决定》。"
+        }
+      ],
+      "reviewedAt": "2026-10-10",
+      "verification": "source-matched"
+    },
+    {
       "date": "2012-09-25",
       "title": "辽宁舰正式交付海军",
       "category": "科技",
@@ -1163,9 +1199,9 @@
   ],
   "lastRun": {
     "date": "2026-10-10",
-    "completedAt": "2026-10-10T04:50:48+08:00",
-    "sourceCount": 4,
-    "addedCount": 0,
+    "completedAt": "2026-10-10T13:45:11+08:00",
+    "sourceCount": 6,
+    "addedCount": 2,
     "status": "ready"
   }
 }

@@ -39,34 +39,66 @@
   "todayAttempt": {
     "date": "2026-10-10",
     "outcome": "ready",
-    "generatedCount": 0,
+    "generatedCount": 2,
     "validationRejected": 0,
     "repairCount": 0,
     "repairGeneratedCount": 0,
-    "validatedCount": 0,
-    "reviewedCount": 0,
-    "approvedCount": 0,
-    "candidateResults": [],
-    "reviewResults": [],
+    "validatedCount": 2,
+    "reviewedCount": 2,
+    "approvedCount": 2,
+    "candidateResults": [
+      {
+        "layer": 0,
+        "stage": "generated",
+        "index": 0,
+        "date": "1938-10-10",
+        "title": "南洋各属华侨筹赈祖国难民总会成立",
+        "sourceId": "s6",
+        "result": "validated"
+      },
+      {
+        "layer": 0,
+        "stage": "generated",
+        "index": 1,
+        "date": "2010-10-10",
+        "title": "国务院作出加快培育发展战略性新兴产业的决定",
+        "sourceId": "s5",
+        "result": "validated"
+      }
+    ],
+    "reviewResults": [
+      {
+        "layer": 0,
+        "date": "1938-10-10",
+        "title": "南洋各属华侨筹赈祖国难民总会成立",
+        "approved": true
+      },
+      {
+        "layer": 0,
+        "date": "2010-10-10",
+        "title": "国务院作出加快培育发展战略性新兴产业的决定",
+        "approved": true
+      }
+    ],
     "modelLayers": [
       {
         "index": 0,
-        "sourceUsed": 4,
-        "generated": 0,
-        "validated": 0,
-        "approved": 0
+        "sourceUsed": 6,
+        "generated": 2,
+        "validated": 2,
+        "approved": 2
       }
     ],
-    "modelCalls": 1,
+    "modelCalls": 2,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-10T04:50:40+08:00",
+    "attemptedAt": "2026-10-10T13:44:54+08:00",
     "existingVerifiedCount": 2,
     "searchAttempted": 6,
-    "searchSucceeded": 1,
-    "searchResults": 5,
-    "sourceAttempted": 8,
-    "sourceReadable": 4,
+    "searchSucceeded": 4,
+    "searchResults": 18,
+    "sourceAttempted": 16,
+    "sourceReadable": 8,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -84,25 +116,39 @@
       {
         "id": "s4",
         "url": "https://www.news.cn/energy/20241010/cce0f3f7ca574d75baf91d060ec7a930/c.html"
+      },
+      {
+        "id": "s5",
+        "url": "https://politics.gmw.cn/2021-10/10/content_35219857.htm"
+      },
+      {
+        "id": "s6",
+        "url": "https://politics.gmw.cn/2025-10/10/content_38331285.htm"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 1,
-        "searchResults": 5,
-        "sourceAttempted": 8,
-        "sourceReadable": 4,
-        "sourceUsed": 4,
+        "searchSucceeded": 4,
+        "searchResults": 18,
+        "sourceAttempted": 16,
+        "sourceReadable": 8,
+        "sourceUsed": 6,
         "searchErrors": [
-          "DDGSException",
-          "DDGSException",
-          "DDGSException",
           "DDGSException",
           "DDGSException"
         ],
-        "sourceErrors": [],
+        "sourceErrors": [
+          {
+            "host": "www.gov.cn",
+            "type": "HTTPError"
+          },
+          {
+            "host": "gs.people.com.cn",
+            "type": "SSLError"
+          }
+        ],
         "queries": [
           "\"10月10日\" 中国 科技 突破 成功 site:news.cn",
           "\"10月10日\" 中国 公共工程 建成 通车 site:gov.cn",
@@ -113,8 +159,8 @@
         ]
       }
     ],
-    "sourceUsed": 4,
-    "publishedVerifiedCount": 2,
-    "completedAt": "2026-10-10T04:50:48+08:00"
+    "sourceUsed": 6,
+    "publishedVerifiedCount": 4,
+    "completedAt": "2026-10-10T13:45:11+08:00"
   }
 }
