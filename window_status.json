@@ -39,66 +39,34 @@
   "todayAttempt": {
     "date": "2026-10-10",
     "outcome": "ready",
-    "generatedCount": 2,
+    "generatedCount": 0,
     "validationRejected": 0,
     "repairCount": 0,
     "repairGeneratedCount": 0,
-    "validatedCount": 2,
-    "reviewedCount": 2,
-    "approvedCount": 2,
-    "candidateResults": [
-      {
-        "layer": 0,
-        "stage": "generated",
-        "index": 0,
-        "date": "1938-10-10",
-        "title": "南洋各属华侨筹赈祖国难民总会成立",
-        "sourceId": "s6",
-        "result": "validated"
-      },
-      {
-        "layer": 0,
-        "stage": "generated",
-        "index": 1,
-        "date": "2010-10-10",
-        "title": "国务院作出加快培育发展战略性新兴产业的决定",
-        "sourceId": "s5",
-        "result": "validated"
-      }
-    ],
-    "reviewResults": [
-      {
-        "layer": 0,
-        "date": "1938-10-10",
-        "title": "南洋各属华侨筹赈祖国难民总会成立",
-        "approved": true
-      },
-      {
-        "layer": 0,
-        "date": "2010-10-10",
-        "title": "国务院作出加快培育发展战略性新兴产业的决定",
-        "approved": true
-      }
-    ],
+    "validatedCount": 0,
+    "reviewedCount": 0,
+    "approvedCount": 0,
+    "candidateResults": [],
+    "reviewResults": [],
     "modelLayers": [
       {
         "index": 0,
         "sourceUsed": 6,
-        "generated": 2,
-        "validated": 2,
-        "approved": 2
+        "generated": 0,
+        "validated": 0,
+        "approved": 0
       }
     ],
-    "modelCalls": 2,
+    "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-10T13:44:54+08:00",
-    "existingVerifiedCount": 2,
+    "attemptedAt": "2026-10-10T22:26:34+08:00",
+    "existingVerifiedCount": 4,
     "searchAttempted": 6,
-    "searchSucceeded": 4,
-    "searchResults": 18,
+    "searchSucceeded": 6,
+    "searchResults": 32,
     "sourceAttempted": 16,
-    "sourceReadable": 8,
+    "sourceReadable": 7,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -107,45 +75,54 @@
       },
       {
         "id": "s2",
-        "url": "https://www.news.cn/20260901/681b841550b04f9da1b65cd619d0cce7/c.html"
+        "url": "https://politics.gmw.cn/2025-10/10/content_38331285.htm"
       },
       {
         "id": "s3",
-        "url": "https://www.news.cn/politics/leaders/20261002/5ed15c4ff6b84203b912461a917537ae/c.html"
-      },
-      {
-        "id": "s4",
-        "url": "https://www.news.cn/energy/20241010/cce0f3f7ca574d75baf91d060ec7a930/c.html"
-      },
-      {
-        "id": "s5",
         "url": "https://politics.gmw.cn/2021-10/10/content_35219857.htm"
       },
       {
+        "id": "s4",
+        "url": "https://www.news.cn/20260901/681b841550b04f9da1b65cd619d0cce7/c.html"
+      },
+      {
+        "id": "s5",
+        "url": "https://www.news.cn/energy/20241010/cce0f3f7ca574d75baf91d060ec7a930/c.html"
+      },
+      {
         "id": "s6",
-        "url": "https://politics.gmw.cn/2025-10/10/content_38331285.htm"
+        "url": "https://www.news.cn/politics/leaders/20261002/5ed15c4ff6b84203b912461a917537ae/c.html"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 4,
-        "searchResults": 18,
+        "searchSucceeded": 6,
+        "searchResults": 32,
         "sourceAttempted": 16,
-        "sourceReadable": 8,
+        "sourceReadable": 7,
         "sourceUsed": 6,
-        "searchErrors": [
-          "DDGSException",
-          "DDGSException"
-        ],
+        "searchErrors": [],
         "sourceErrors": [
           {
-            "host": "www.gov.cn",
-            "type": "HTTPError"
+            "host": "www.gz.news.cn",
+            "type": "SSLError"
           },
           {
             "host": "gs.people.com.cn",
+            "type": "SSLError"
+          },
+          {
+            "host": "xj.people.com.cn",
+            "type": "SSLError"
+          },
+          {
+            "host": "bj.people.com.cn",
+            "type": "SSLError"
+          },
+          {
+            "host": "yn.people.com.cn",
             "type": "SSLError"
           }
         ],
@@ -161,6 +138,6 @@
     ],
     "sourceUsed": 6,
     "publishedVerifiedCount": 4,
-    "completedAt": "2026-10-10T13:45:11+08:00"
+    "completedAt": "2026-10-10T22:26:48+08:00"
   }
 }
