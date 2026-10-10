@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-10",
+  "updatedAt": "2026-10-11",
   "events": [
     {
       "date": "1925-10-10",
@@ -629,6 +629,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "1995-10-18",
+      "title": "莱阳农学院与山东六和集团签署联合办学协议",
+      "category": "社会",
+      "location": "山东莱阳",
+      "summary": "1995年10月18日，莱阳农学院与山东六和集团公司联合办学签字仪式举行，王敏院长和张唐之董事长兼总经理代表双方在协议书上签字，六和集团公司向学院赠送了10台微机。",
+      "id": "history-8048c5bb3549acc0",
+      "sources": [
+        {
+          "name": "news.qau.edu.cn",
+          "url": "https://news.qau.edu.cn/content/cssdjt/2efd98a1f6d84e0a8f27d3f471f92e72",
+          "date": "1995-10-18",
+          "evidence": "1995年10月18日，我院与山东六和集团公司联合办学签字仪式，在二楼会议室举行。王敏院长和张唐之董事长兼总经理代表双方在协议书上签字。六和集团公司向我院赠送了10台微机。"
+        }
+      ],
+      "reviewedAt": "2026-10-11",
+      "verification": "source-matched"
+    },
+    {
       "date": "1999-09-18",
       "title": "表彰“两弹一星”科技专家",
       "category": "科技",
@@ -696,6 +714,24 @@
         }
       ],
       "reviewedAt": "2026-09-28",
+      "verification": "source-matched"
+    },
+    {
+      "date": "2002-10-18",
+      "title": "中国地质大学庆祝建校50周年",
+      "category": "社会",
+      "location": "湖北武汉",
+      "summary": "2002年10月18日，来自海内外的1500多位来宾、校友和2万多名在校师生员工欢聚一堂，庆祝中国地质大学50华诞。",
+      "id": "history-730bd494d332ddf2",
+      "sources": [
+        {
+          "name": "xsg.cug.edu.cn",
+          "url": "https://xsg.cug.edu.cn/info/1017/1465.htm",
+          "date": "2002-10-18",
+          "evidence": "2002 年 10 月18 日 来自海内外的1500多位来宾、校友和2万多名在校师生员工欢聚一堂，庆祝中国地质大学50华诞。"
+        }
+      ],
+      "reviewedAt": "2026-10-11",
       "verification": "source-matched"
     },
     {
@@ -771,6 +807,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "2004-10-18",
+      "title": "湖北师范学院与黄石市、华新水泥签订矿山搬迁协议",
+      "category": "民生",
+      "location": "湖北黄石",
+      "summary": "2004年10月18日，湖北师范学院与黄石市政府、华新水泥股份有限公司签订协议，确定华新砂页岩矿山分厂（占地面积234.7亩）整体搬迁，由黄石市政府收回用地划拨学校使用。",
+      "id": "history-ecfc1f3db956de40",
+      "sources": [
+        {
+          "name": "www.hbnu.edu.cn",
+          "url": "https://www.hbnu.edu.cn/50znxq/2023/0929/c5858a152053/page.htm",
+          "date": "2004-10-18",
+          "evidence": "2004年10月18 日，在校重点实验室学术报告厅，学校与市政府、华新水泥股份有限公司 签订 协议 ，确定华新砂页岩矿山分厂（占地面积 234.7亩）整体搬迁，由黄石市政府收回用地划拨学校使用。"
+        }
+      ],
+      "reviewedAt": "2026-10-11",
+      "verification": "source-matched"
+    },
+    {
       "date": "2005-09-17",
       "title": "第二届中国威海国际人居节举办城市规划旅游发展国际论坛",
       "category": "社会",
@@ -804,6 +858,24 @@
         }
       ],
       "reviewedAt": "2026-10-06",
+      "verification": "source-matched"
+    },
+    {
+      "date": "2006-10-18",
+      "title": "青岛农业大学与药企共建生物制品研究所",
+      "category": "科技",
+      "location": "山东青岛",
+      "summary": "2006年10月18日，青岛农业大学与青岛宝依特生物制药有限公司共建生物制品研究所签字仪式举行，动物科技学院院长单虎与公司董事长蒋贻海博士在双方合作协议书上签字。",
+      "id": "history-c1deb3d8c239bf17",
+      "sources": [
+        {
+          "name": "news.qau.edu.cn",
+          "url": "https://news.qau.edu.cn/content/cssdjt/2efd98a1f6d84e0a8f27d3f471f92e72",
+          "date": "2006-10-18",
+          "evidence": "2006年10月18日，我校与青岛宝依特生物制药有限公司共建生物制品研究所签字仪式在宝依特生物制药有限公司举行。"
+        }
+      ],
+      "reviewedAt": "2026-10-11",
       "verification": "source-matched"
     },
     {
@@ -962,6 +1034,24 @@
         }
       ],
       "reviewedAt": "2026-10-08",
+      "verification": "source-matched"
+    },
+    {
+      "date": "2014-10-18",
+      "title": "青岛农业大学齐民书院揭牌成立",
+      "category": "社会",
+      "location": "山东青岛",
+      "summary": "2014年10月18日，山东省农业史学会2014年学术年会暨青岛农业大学齐民书院揭牌仪式在学术会馆报告厅举行。",
+      "id": "history-c4addcb166c45c5b",
+      "sources": [
+        {
+          "name": "news.qau.edu.cn",
+          "url": "https://news.qau.edu.cn/content/cssdjt/2efd98a1f6d84e0a8f27d3f471f92e72",
+          "date": "2014-10-18",
+          "evidence": "2014年10月18日，山东省农业史学会2014年学术年会暨青岛农业大学齐民书院揭牌仪式在学术会馆报告厅举行。"
+        }
+      ],
+      "reviewedAt": "2026-10-11",
       "verification": "source-matched"
     },
     {
@@ -1198,8 +1288,8 @@
     }
   ],
   "lastRun": {
-    "date": "2026-10-10",
-    "completedAt": "2026-10-10T22:26:48+08:00",
+    "date": "2026-10-11",
+    "completedAt": "2026-10-11T04:02:37+08:00",
     "sourceCount": 6,
     "addedCount": 0,
     "status": "ready"

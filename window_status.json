@@ -1,43 +1,39 @@
 {
-  "date": "2026-10-10",
+  "date": "2026-10-11",
   "failedDates": [],
   "coveragePolicyVersion": 2,
   "restoredDates": [
-    "2026-10-04",
     "2026-10-05",
     "2026-10-06",
     "2026-10-07",
     "2026-10-08",
     "2026-10-09",
-    "2026-10-10"
+    "2026-10-10",
+    "2026-10-11"
   ],
   "todayMinimumMet": true,
   "preparedReadyDates": [
-    "2026-10-11",
     "2026-10-12",
     "2026-10-13",
     "2026-10-14",
     "2026-10-15",
-    "2026-10-16"
+    "2026-10-16",
+    "2026-10-18"
   ],
   "preparedMissingDates": [
     "2026-10-17"
   ],
   "attemptedDates": [
-    "2026-10-10"
+    "2026-10-11"
   ],
   "historicalRetries": {
     "2026-10-05": {
       "count": 1,
       "lastAttemptDate": "2026-10-06"
-    },
-    "2026-10-04": {
-      "count": 1,
-      "lastAttemptDate": "2026-10-06"
     }
   },
   "todayAttempt": {
-    "date": "2026-10-10",
+    "date": "2026-10-11",
     "outcome": "ready",
     "generatedCount": 0,
     "validationRejected": 0,
@@ -60,84 +56,68 @@
     "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-10T22:26:34+08:00",
-    "existingVerifiedCount": 4,
+    "attemptedAt": "2026-10-11T04:02:27+08:00",
+    "existingVerifiedCount": 1,
     "searchAttempted": 6,
-    "searchSucceeded": 6,
-    "searchResults": 32,
-    "sourceAttempted": 16,
+    "searchSucceeded": 2,
+    "searchResults": 8,
+    "sourceAttempted": 11,
     "sourceReadable": 7,
     "supplementalSearches": 0,
     "sources": [
       {
         "id": "s1",
-        "url": "https://www.mct.gov.cn/whzx/zsdw/ggbwy/202510/t20251010_962563.html"
+        "url": "https://tamgw.beijing.gov.cn/xinwendongtai/zwyw/202103/t20210318_2310651.html"
       },
       {
         "id": "s2",
-        "url": "https://politics.gmw.cn/2025-10/10/content_38331285.htm"
+        "url": "https://www.news.cn/politics/20241026/aac14ae8344f41f48c73d9e81455b972/c.html"
       },
       {
         "id": "s3",
-        "url": "https://politics.gmw.cn/2021-10/10/content_35219857.htm"
+        "url": "https://tv.cctv.com/2020/10/11/VIDEktsvDjtuBdHxlN38W5Gp201011.shtml"
       },
       {
         "id": "s4",
-        "url": "https://www.news.cn/20260901/681b841550b04f9da1b65cd619d0cce7/c.html"
+        "url": "https://tv.cctv.com/2016/10/11/VIDExF4aI5ppZPTsNmpQxlKV161011.shtml"
       },
       {
         "id": "s5",
-        "url": "https://www.news.cn/energy/20241010/cce0f3f7ca574d75baf91d060ec7a930/c.html"
+        "url": "https://yangbo.cctv.com/2022/10/11/ARTIog7jUXWLwiKHteSwCyTE221011.shtml"
       },
       {
         "id": "s6",
-        "url": "https://www.news.cn/politics/leaders/20261002/5ed15c4ff6b84203b912461a917537ae/c.html"
+        "url": "https://ocean.cctv.com/2023/10/11/ARTIIG9I9ssPOSij6Ip063sD231011.shtml"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 6,
-        "searchResults": 32,
-        "sourceAttempted": 16,
+        "searchSucceeded": 2,
+        "searchResults": 8,
+        "sourceAttempted": 11,
         "sourceReadable": 7,
         "sourceUsed": 6,
-        "searchErrors": [],
-        "sourceErrors": [
-          {
-            "host": "www.gz.news.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "gs.people.com.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "xj.people.com.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "bj.people.com.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "yn.people.com.cn",
-            "type": "SSLError"
-          }
+        "searchErrors": [
+          "DDGSException",
+          "DDGSException",
+          "DDGSException",
+          "DDGSException"
         ],
+        "sourceErrors": [],
         "queries": [
-          "\"10月10日\" 中国 科技 突破 成功 site:news.cn",
-          "\"10月10日\" 中国 公共工程 建成 通车 site:gov.cn",
-          "\"10月10日\" 中国 文化 体育 首次 site:people.com.cn",
-          "\"10月10日\" 中国 医疗 民生 开通 site:chinanews.com",
-          "\"10月10日\" 中国 教育 学校 成立 site:gmw.cn",
-          "\"10月10日\" 中国 历史上的今天 site:cctv.com"
+          "\"10月11日\" 中国 科技 突破 成功 site:news.cn",
+          "\"10月11日\" 中国 公共工程 建成 通车 site:gov.cn",
+          "\"10月11日\" 中国 文化 体育 首次 site:people.com.cn",
+          "\"10月11日\" 中国 医疗 民生 开通 site:chinanews.com",
+          "\"10月11日\" 中国 教育 学校 成立 site:gmw.cn",
+          "\"10月11日\" 中国 历史上的今天 site:cctv.com"
         ]
       }
     ],
     "sourceUsed": 6,
-    "publishedVerifiedCount": 4,
-    "completedAt": "2026-10-10T22:26:48+08:00"
+    "publishedVerifiedCount": 1,
+    "completedAt": "2026-10-11T04:02:37+08:00"
   }
 }
