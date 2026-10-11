@@ -1,19 +1,18 @@
 {
-  "date": "2026-10-11",
+  "date": "2026-10-12",
   "failedDates": [],
   "coveragePolicyVersion": 2,
   "restoredDates": [
-    "2026-10-05",
     "2026-10-06",
     "2026-10-07",
     "2026-10-08",
     "2026-10-09",
     "2026-10-10",
-    "2026-10-11"
+    "2026-10-11",
+    "2026-10-12"
   ],
   "todayMinimumMet": true,
   "preparedReadyDates": [
-    "2026-10-12",
     "2026-10-13",
     "2026-10-14",
     "2026-10-15",
@@ -21,18 +20,15 @@
     "2026-10-17",
     "2026-10-18"
   ],
-  "preparedMissingDates": [],
-  "attemptedDates": [
-    "2026-10-11"
+  "preparedMissingDates": [
+    "2026-10-19"
   ],
-  "historicalRetries": {
-    "2026-10-05": {
-      "count": 1,
-      "lastAttemptDate": "2026-10-06"
-    }
-  },
+  "attemptedDates": [
+    "2026-10-12"
+  ],
+  "historicalRetries": {},
   "todayAttempt": {
-    "date": "2026-10-11",
+    "date": "2026-10-12",
     "outcome": "ready",
     "generatedCount": 0,
     "validationRejected": 0,
@@ -46,7 +42,7 @@
     "modelLayers": [
       {
         "index": 0,
-        "sourceUsed": 6,
+        "sourceUsed": 4,
         "generated": 0,
         "validated": 0,
         "approved": 0
@@ -55,65 +51,65 @@
     "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-11T22:53:31+08:00",
-    "existingVerifiedCount": 2,
+    "attemptedAt": "2026-10-12T04:12:50+08:00",
+    "existingVerifiedCount": 3,
     "searchAttempted": 6,
-    "searchSucceeded": 5,
-    "searchResults": 34,
-    "sourceAttempted": 10,
-    "sourceReadable": 6,
+    "searchSucceeded": 2,
+    "searchResults": 5,
+    "sourceAttempted": 9,
+    "sourceReadable": 4,
     "supplementalSearches": 0,
     "sources": [
       {
         "id": "s1",
-        "url": "https://tamgw.beijing.gov.cn/xinwendongtai/zwyw/202103/t20210318_2310651.html"
+        "url": "https://www.cmse.gov.cn/xwzx/202310/t20231012_54373.html"
       },
       {
         "id": "s2",
-        "url": "https://www.news.cn/tech/2023-10/11/c_1129909853.htm"
+        "url": "https://www.cmse.gov.cn/xwzx/202209/t20220921_50802.html"
       },
       {
         "id": "s3",
-        "url": "https://www.news.cn/politics/20241026/aac14ae8344f41f48c73d9e81455b972/c.html"
+        "url": "https://www.news.cn/politics/20250820/657f0fef98db4409b25ec6aae281be24/c.html"
       },
       {
         "id": "s4",
-        "url": "https://www.news.cn/tech/2023-10/11/c_1129911227.htm"
-      },
-      {
-        "id": "s5",
-        "url": "https://www.news.cn/politics/2022-10/11/c_1129060682.htm"
-      },
-      {
-        "id": "s6",
-        "url": "https://www.news.cn/20261011/e011172b1dda485c9e23804b86279604/c.html"
+        "url": "https://www.gov.cn/xinwen/2022-10/12/content_5717943.htm"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 5,
-        "searchResults": 34,
-        "sourceAttempted": 10,
-        "sourceReadable": 6,
-        "sourceUsed": 6,
+        "searchSucceeded": 2,
+        "searchResults": 5,
+        "sourceAttempted": 9,
+        "sourceReadable": 4,
+        "sourceUsed": 4,
         "searchErrors": [
+          "DDGSException",
+          "DDGSException",
+          "DDGSException",
           "DDGSException"
         ],
-        "sourceErrors": [],
+        "sourceErrors": [
+          {
+            "host": "hb.news.cn",
+            "type": "ReadTimeout"
+          }
+        ],
         "queries": [
-          "\"10月11日\" 中国 科技 突破 成功 site:news.cn",
-          "\"10月11日\" 中国 公共工程 建成 通车 site:gov.cn",
-          "\"10月11日\" 中国 文化 体育 首次 site:people.com.cn",
-          "\"10月11日\" 中国 医疗 民生 开通 site:chinanews.com",
-          "\"10月11日\" 中国 教育 学校 成立 site:gmw.cn",
-          "\"10月11日\" 中国 历史上的今天 site:cctv.com"
+          "\"10月12日\" 中国 科技 突破 成功 site:news.cn",
+          "\"10月12日\" 中国 公共工程 建成 通车 site:gov.cn",
+          "\"10月12日\" 中国 文化 体育 首次 site:people.com.cn",
+          "\"10月12日\" 中国 医疗 民生 开通 site:chinanews.com",
+          "\"10月12日\" 中国 教育 学校 成立 site:gmw.cn",
+          "\"10月12日\" 中国 历史上的今天 site:cctv.com"
         ]
       }
     ],
-    "sourceUsed": 6,
-    "publishedVerifiedCount": 2,
-    "completedAt": "2026-10-11T22:53:42+08:00"
+    "sourceUsed": 4,
+    "publishedVerifiedCount": 3,
+    "completedAt": "2026-10-12T04:13:16+08:00"
   }
 }
