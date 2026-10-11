@@ -18,11 +18,10 @@
     "2026-10-14",
     "2026-10-15",
     "2026-10-16",
+    "2026-10-17",
     "2026-10-18"
   ],
-  "preparedMissingDates": [
-    "2026-10-17"
-  ],
+  "preparedMissingDates": [],
   "attemptedDates": [
     "2026-10-11"
   ],
@@ -35,34 +34,71 @@
   "todayAttempt": {
     "date": "2026-10-11",
     "outcome": "ready",
-    "generatedCount": 0,
-    "validationRejected": 0,
-    "repairCount": 0,
-    "repairGeneratedCount": 0,
-    "validatedCount": 0,
-    "reviewedCount": 0,
-    "approvedCount": 0,
-    "candidateResults": [],
-    "reviewResults": [],
+    "generatedCount": 2,
+    "validationRejected": 2,
+    "repairCount": 1,
+    "repairGeneratedCount": 1,
+    "validatedCount": 1,
+    "reviewedCount": 1,
+    "approvedCount": 1,
+    "candidateResults": [
+      {
+        "layer": 0,
+        "stage": "generated",
+        "index": 0,
+        "date": "2023-10-11",
+        "title": "中国科学家宣布成功构建“九章三号”量子计算原型机",
+        "sourceId": "s3",
+        "result": "validated"
+      },
+      {
+        "layer": 0,
+        "stage": "generated",
+        "index": 1,
+        "date": "2023-10-11",
+        "title": "中国科研团队宣布“九章三号”量子计算原型机问世",
+        "sourceId": "s4",
+        "result": "rejected",
+        "reason": "Evidence does not contain the actual historical date"
+      },
+      {
+        "layer": 0,
+        "stage": "repair",
+        "index": 0,
+        "date": "2023-10-11",
+        "title": "中国科研团队宣布“九章三号”量子计算原型机问世",
+        "sourceId": "s4",
+        "result": "rejected",
+        "reason": "Evidence does not contain the actual historical date"
+      }
+    ],
+    "reviewResults": [
+      {
+        "layer": 0,
+        "date": "2023-10-11",
+        "title": "中国科学家宣布成功构建“九章三号”量子计算原型机",
+        "approved": true
+      }
+    ],
     "modelLayers": [
       {
         "index": 0,
         "sourceUsed": 6,
-        "generated": 0,
-        "validated": 0,
-        "approved": 0
+        "generated": 2,
+        "validated": 1,
+        "approved": 1
       }
     ],
-    "modelCalls": 1,
+    "modelCalls": 3,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-11T04:02:27+08:00",
+    "attemptedAt": "2026-10-11T13:39:55+08:00",
     "existingVerifiedCount": 1,
     "searchAttempted": 6,
-    "searchSucceeded": 2,
-    "searchResults": 8,
-    "sourceAttempted": 11,
-    "sourceReadable": 7,
+    "searchSucceeded": 4,
+    "searchResults": 25,
+    "sourceAttempted": 16,
+    "sourceReadable": 10,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -75,33 +111,31 @@
       },
       {
         "id": "s3",
-        "url": "https://tv.cctv.com/2020/10/11/VIDEktsvDjtuBdHxlN38W5Gp201011.shtml"
+        "url": "https://www.news.cn/tech/2023-10/11/c_1129909853.htm"
       },
       {
         "id": "s4",
-        "url": "https://tv.cctv.com/2016/10/11/VIDExF4aI5ppZPTsNmpQxlKV161011.shtml"
+        "url": "https://www.news.cn/tech/2023-10/11/c_1129911227.htm"
       },
       {
         "id": "s5",
-        "url": "https://yangbo.cctv.com/2022/10/11/ARTIog7jUXWLwiKHteSwCyTE221011.shtml"
+        "url": "https://www.news.cn/politics/2022-10/11/c_1129060682.htm"
       },
       {
         "id": "s6",
-        "url": "https://ocean.cctv.com/2023/10/11/ARTIIG9I9ssPOSij6Ip063sD231011.shtml"
+        "url": "https://www.news.cn/zt/gxbsswfbh/zgqxj/index.html"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 2,
-        "searchResults": 8,
-        "sourceAttempted": 11,
-        "sourceReadable": 7,
+        "searchSucceeded": 4,
+        "searchResults": 25,
+        "sourceAttempted": 16,
+        "sourceReadable": 10,
         "sourceUsed": 6,
         "searchErrors": [
-          "DDGSException",
-          "DDGSException",
           "DDGSException",
           "DDGSException"
         ],
@@ -117,7 +151,7 @@
       }
     ],
     "sourceUsed": 6,
-    "publishedVerifiedCount": 1,
-    "completedAt": "2026-10-11T04:02:37+08:00"
+    "publishedVerifiedCount": 2,
+    "completedAt": "2026-10-11T13:40:13+08:00"
   }
 }
