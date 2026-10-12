@@ -1,33 +1,33 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "failedDates": [],
   "coveragePolicyVersion": 2,
   "restoredDates": [
-    "2026-10-06",
     "2026-10-07",
     "2026-10-08",
     "2026-10-09",
     "2026-10-10",
     "2026-10-11",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13"
   ],
   "todayMinimumMet": true,
   "preparedReadyDates": [
-    "2026-10-13",
     "2026-10-14",
     "2026-10-15",
     "2026-10-16",
     "2026-10-17",
     "2026-10-18",
-    "2026-10-19"
+    "2026-10-19",
+    "2026-10-20"
   ],
   "preparedMissingDates": [],
   "attemptedDates": [
-    "2026-10-12"
+    "2026-10-13"
   ],
   "historicalRetries": {},
   "todayAttempt": {
-    "date": "2026-10-12",
+    "date": "2026-10-13",
     "outcome": "ready",
     "generatedCount": 0,
     "validationRejected": 0,
@@ -41,7 +41,7 @@
     "modelLayers": [
       {
         "index": 0,
-        "sourceUsed": 5,
+        "sourceUsed": 6,
         "generated": 0,
         "validated": 0,
         "approved": 0
@@ -50,76 +50,92 @@
     "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-12T13:49:37+08:00",
+    "attemptedAt": "2026-10-13T01:49:45+08:00",
     "existingVerifiedCount": 3,
     "searchAttempted": 6,
-    "searchSucceeded": 6,
-    "searchResults": 37,
+    "searchSucceeded": 3,
+    "searchResults": 15,
     "sourceAttempted": 16,
-    "sourceReadable": 5,
+    "sourceReadable": 6,
     "supplementalSearches": 0,
     "sources": [
       {
         "id": "s1",
-        "url": "https://www.cmse.gov.cn/xwzx/202310/t20231012_54373.html"
+        "url": "https://ihep.cas.cn/gk/lsyg/"
       },
       {
         "id": "s2",
-        "url": "https://www.cmse.gov.cn/xwzx/202209/t20220921_50802.html"
+        "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70499/index.html"
       },
       {
         "id": "s3",
-        "url": "https://www.news.cn/politics/20250820/657f0fef98db4409b25ec6aae281be24/c.html"
+        "url": "https://tv.cctv.com/2020/10/13/VIDEiJvBLSA2XIwLpdhPTEpP201013.shtml"
       },
       {
         "id": "s4",
-        "url": "https://paper.people.com.cn/rmrb/pc/content/202610/12/content_30185080.html"
+        "url": "https://news.cctv.com/2024/10/13/ARTI3HgVr9LAnVjkeZTQG2ug241013.shtml"
       },
       {
         "id": "s5",
-        "url": "https://paper.people.com.cn/rmrb/pc/content/202610/12/content_30185074.html"
+        "url": "https://tv.cctv.com/2019/10/13/ARTIoNBeqSivK7CUPfDRn3ec191013.shtml"
+      },
+      {
+        "id": "s6",
+        "url": "https://news.cctv.com/2025/10/13/ARTIerBAF7OE4o4Rq1VE46v8251013.shtml"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 6,
-        "searchResults": 37,
+        "searchSucceeded": 3,
+        "searchResults": 15,
         "sourceAttempted": 16,
-        "sourceReadable": 5,
-        "sourceUsed": 5,
-        "searchErrors": [],
+        "sourceReadable": 6,
+        "sourceUsed": 6,
+        "searchErrors": [
+          "DDGSException",
+          "DDGSException",
+          "DDGSException"
+        ],
         "sourceErrors": [
           {
-            "host": "hb.news.cn",
-            "type": "ReadTimeout"
-          },
-          {
-            "host": "www.bj.news.cn",
+            "host": "www.hunan.gov.cn",
             "type": "SSLError"
           },
           {
-            "host": "www.gov.cn",
-            "type": "HTTPError"
+            "host": "military.people.com.cn",
+            "type": "SSLError"
           },
           {
-            "host": "ent.people.com.cn",
+            "host": "xj.people.com.cn",
+            "type": "SSLError"
+          },
+          {
+            "host": "dangshi.people.com.cn",
+            "type": "SSLError"
+          },
+          {
+            "host": "jx.people.com.cn",
+            "type": "SSLError"
+          },
+          {
+            "host": "dangshi.people.com.cn",
             "type": "SSLError"
           }
         ],
         "queries": [
-          "\"10月12日\" 中国 科技 突破 成功 site:news.cn",
-          "\"10月12日\" 中国 公共工程 建成 通车 site:gov.cn",
-          "\"10月12日\" 中国 文化 体育 首次 site:people.com.cn",
-          "\"10月12日\" 中国 医疗 民生 开通 site:chinanews.com",
-          "\"10月12日\" 中国 教育 学校 成立 site:gmw.cn",
-          "\"10月12日\" 中国 历史上的今天 site:cctv.com"
+          "\"10月13日\" 中国 科技 突破 成功 site:news.cn",
+          "\"10月13日\" 中国 公共工程 建成 通车 site:gov.cn",
+          "\"10月13日\" 中国 文化 体育 首次 site:people.com.cn",
+          "\"10月13日\" 中国 医疗 民生 开通 site:chinanews.com",
+          "\"10月13日\" 中国 教育 学校 成立 site:gmw.cn",
+          "\"10月13日\" 中国 历史上的今天 site:cctv.com"
         ]
       }
     ],
-    "sourceUsed": 5,
+    "sourceUsed": 6,
     "publishedVerifiedCount": 3,
-    "completedAt": "2026-10-12T13:50:06+08:00"
+    "completedAt": "2026-10-13T01:50:00+08:00"
   }
 }
