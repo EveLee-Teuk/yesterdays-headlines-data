@@ -29,34 +29,45 @@
   "todayAttempt": {
     "date": "2026-10-13",
     "outcome": "ready",
-    "generatedCount": 0,
-    "validationRejected": 0,
-    "repairCount": 0,
+    "generatedCount": 1,
+    "validationRejected": 1,
+    "repairCount": 1,
     "repairGeneratedCount": 0,
     "validatedCount": 0,
     "reviewedCount": 0,
     "approvedCount": 0,
-    "candidateResults": [],
+    "candidateResults": [
+      {
+        "layer": 0,
+        "stage": "generated",
+        "index": 0,
+        "date": "2026-10-13",
+        "title": "琴澳医疗数据跨境互通开通",
+        "sourceId": "s5",
+        "result": "rejected",
+        "reason": "Not a historical event on the requested month/day"
+      }
+    ],
     "reviewResults": [],
     "modelLayers": [
       {
         "index": 0,
         "sourceUsed": 6,
-        "generated": 0,
+        "generated": 1,
         "validated": 0,
         "approved": 0
       }
     ],
-    "modelCalls": 1,
+    "modelCalls": 2,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-13T14:43:24+08:00",
+    "attemptedAt": "2026-10-13T23:54:50+08:00",
     "existingVerifiedCount": 3,
     "searchAttempted": 6,
-    "searchSucceeded": 6,
-    "searchResults": 32,
+    "searchSucceeded": 5,
+    "searchResults": 27,
     "sourceAttempted": 16,
-    "sourceReadable": 7,
+    "sourceReadable": 6,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -69,35 +80,41 @@
       },
       {
         "id": "s3",
-        "url": "https://www.news.cn/tech/20251230/5ecd641e7f91480f9df8599d64b089cd/c.html"
+        "url": "https://www.news.cn/20261013/4231fe8c76e74ea69387796c13d87f5c/c.html"
       },
       {
         "id": "s4",
-        "url": "https://www.news.cn/food/20251013/e02544dbd82b4c5ba6380c36c724f787/c.html"
+        "url": "https://www.news.cn/tech/20251230/5ecd641e7f91480f9df8599d64b089cd/c.html"
       },
       {
         "id": "s5",
-        "url": "https://www.gov.cn/xinwen/gwylflkjz211/index.htm"
+        "url": "https://www.chinanews.com/dwq/2026/10-13/10713980.shtml"
       },
       {
         "id": "s6",
-        "url": "https://www.gov.cn/yaowen/liebiao/202510/content_7044075.htm"
+        "url": "https://www.chinanews.com/gn/2026/03-09/10583706.shtml"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 6,
-        "searchResults": 32,
+        "searchSucceeded": 5,
+        "searchResults": 27,
         "sourceAttempted": 16,
-        "sourceReadable": 7,
+        "sourceReadable": 6,
         "sourceUsed": 6,
-        "searchErrors": [],
+        "searchErrors": [
+          "DDGSException"
+        ],
         "sourceErrors": [
           {
             "host": "www.hunan.gov.cn",
             "type": "SSLError"
+          },
+          {
+            "host": "tj.news.cn",
+            "type": "ReadTimeout"
           },
           {
             "host": "hb.news.cn",
@@ -116,6 +133,6 @@
     ],
     "sourceUsed": 6,
     "publishedVerifiedCount": 3,
-    "completedAt": "2026-10-13T14:43:56+08:00"
+    "completedAt": "2026-10-13T23:55:22+08:00"
   }
 }
