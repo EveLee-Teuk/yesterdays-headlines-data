@@ -50,13 +50,13 @@
     "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-13T01:49:45+08:00",
+    "attemptedAt": "2026-10-13T14:43:24+08:00",
     "existingVerifiedCount": 3,
     "searchAttempted": 6,
-    "searchSucceeded": 3,
-    "searchResults": 15,
+    "searchSucceeded": 6,
+    "searchResults": 32,
     "sourceAttempted": 16,
-    "sourceReadable": 6,
+    "sourceReadable": 7,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -69,59 +69,39 @@
       },
       {
         "id": "s3",
-        "url": "https://tv.cctv.com/2020/10/13/VIDEiJvBLSA2XIwLpdhPTEpP201013.shtml"
+        "url": "https://www.news.cn/tech/20251230/5ecd641e7f91480f9df8599d64b089cd/c.html"
       },
       {
         "id": "s4",
-        "url": "https://news.cctv.com/2024/10/13/ARTI3HgVr9LAnVjkeZTQG2ug241013.shtml"
+        "url": "https://www.news.cn/food/20251013/e02544dbd82b4c5ba6380c36c724f787/c.html"
       },
       {
         "id": "s5",
-        "url": "https://tv.cctv.com/2019/10/13/ARTIoNBeqSivK7CUPfDRn3ec191013.shtml"
+        "url": "https://www.gov.cn/xinwen/gwylflkjz211/index.htm"
       },
       {
         "id": "s6",
-        "url": "https://news.cctv.com/2025/10/13/ARTIerBAF7OE4o4Rq1VE46v8251013.shtml"
+        "url": "https://www.gov.cn/yaowen/liebiao/202510/content_7044075.htm"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 3,
-        "searchResults": 15,
+        "searchSucceeded": 6,
+        "searchResults": 32,
         "sourceAttempted": 16,
-        "sourceReadable": 6,
+        "sourceReadable": 7,
         "sourceUsed": 6,
-        "searchErrors": [
-          "DDGSException",
-          "DDGSException",
-          "DDGSException"
-        ],
+        "searchErrors": [],
         "sourceErrors": [
           {
             "host": "www.hunan.gov.cn",
             "type": "SSLError"
           },
           {
-            "host": "military.people.com.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "xj.people.com.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "dangshi.people.com.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "jx.people.com.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "dangshi.people.com.cn",
-            "type": "SSLError"
+            "host": "hb.news.cn",
+            "type": "ReadTimeout"
           }
         ],
         "queries": [
@@ -136,6 +116,6 @@
     ],
     "sourceUsed": 6,
     "publishedVerifiedCount": 3,
-    "completedAt": "2026-10-13T01:50:00+08:00"
+    "completedAt": "2026-10-13T14:43:56+08:00"
   }
 }
