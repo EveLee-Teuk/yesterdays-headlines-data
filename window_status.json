@@ -1,119 +1,106 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "failedDates": [],
   "coveragePolicyVersion": 2,
   "restoredDates": [
-    "2026-10-07",
     "2026-10-08",
     "2026-10-09",
     "2026-10-10",
     "2026-10-11",
     "2026-10-12",
-    "2026-10-13"
+    "2026-10-13",
+    "2026-10-14"
   ],
   "todayMinimumMet": true,
   "preparedReadyDates": [
-    "2026-10-14",
     "2026-10-15",
     "2026-10-16",
     "2026-10-17",
     "2026-10-18",
     "2026-10-19",
-    "2026-10-20"
+    "2026-10-20",
+    "2026-10-21"
   ],
   "preparedMissingDates": [],
   "attemptedDates": [
-    "2026-10-13"
+    "2026-10-14"
   ],
   "historicalRetries": {},
   "todayAttempt": {
-    "date": "2026-10-13",
+    "date": "2026-10-14",
     "outcome": "ready",
-    "generatedCount": 1,
-    "validationRejected": 1,
-    "repairCount": 1,
+    "generatedCount": 0,
+    "validationRejected": 0,
+    "repairCount": 0,
     "repairGeneratedCount": 0,
     "validatedCount": 0,
     "reviewedCount": 0,
     "approvedCount": 0,
-    "candidateResults": [
-      {
-        "layer": 0,
-        "stage": "generated",
-        "index": 0,
-        "date": "2026-10-13",
-        "title": "琴澳医疗数据跨境互通开通",
-        "sourceId": "s5",
-        "result": "rejected",
-        "reason": "Not a historical event on the requested month/day"
-      }
-    ],
+    "candidateResults": [],
     "reviewResults": [],
     "modelLayers": [
       {
         "index": 0,
         "sourceUsed": 6,
-        "generated": 1,
+        "generated": 0,
         "validated": 0,
         "approved": 0
       }
     ],
-    "modelCalls": 2,
+    "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-13T23:54:50+08:00",
-    "existingVerifiedCount": 3,
+    "attemptedAt": "2026-10-14T05:12:29+08:00",
+    "existingVerifiedCount": 2,
     "searchAttempted": 6,
-    "searchSucceeded": 5,
-    "searchResults": 27,
+    "searchSucceeded": 3,
+    "searchResults": 16,
     "sourceAttempted": 16,
-    "sourceReadable": 6,
+    "sourceReadable": 12,
     "supplementalSearches": 0,
     "sources": [
       {
         "id": "s1",
-        "url": "https://ihep.cas.cn/gk/lsyg/"
+        "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70500/index.html"
       },
       {
         "id": "s2",
-        "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70499/index.html"
+        "url": "https://www.news.cn/energy/20241014/0639657baa8545aab737619c838660cf/c.html"
       },
       {
         "id": "s3",
-        "url": "https://www.news.cn/20261013/4231fe8c76e74ea69387796c13d87f5c/c.html"
+        "url": "https://www.news.cn/tech/20250104/1ef9a54c11244d0e8633c941c8c5e8ba/c.html"
       },
       {
         "id": "s4",
-        "url": "https://www.news.cn/tech/20251230/5ecd641e7f91480f9df8599d64b089cd/c.html"
+        "url": "https://www.news.cn/politics/2022-10/14/c_1129064716.htm"
       },
       {
         "id": "s5",
-        "url": "https://www.chinanews.com/dwq/2026/10-13/10713980.shtml"
+        "url": "https://www.sac.gov.cn/jdbnhbz/bzgs/art/2021/art_b7fd757a99594bd99b10bed83b290b25.html"
       },
       {
         "id": "s6",
-        "url": "https://www.chinanews.com/gn/2026/03-09/10583706.shtml"
+        "url": "https://www.gov.cn/xinwen/2021-10/14/content_5642639.htm"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 5,
-        "searchResults": 27,
+        "searchSucceeded": 3,
+        "searchResults": 16,
         "sourceAttempted": 16,
-        "sourceReadable": 6,
+        "sourceReadable": 12,
         "sourceUsed": 6,
         "searchErrors": [
+          "DDGSException",
+          "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "www.hunan.gov.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "tj.news.cn",
+            "host": "hb.news.cn",
             "type": "ReadTimeout"
           },
           {
@@ -122,17 +109,17 @@
           }
         ],
         "queries": [
-          "\"10月13日\" 中国 科技 突破 成功 site:news.cn",
-          "\"10月13日\" 中国 公共工程 建成 通车 site:gov.cn",
-          "\"10月13日\" 中国 文化 体育 首次 site:people.com.cn",
-          "\"10月13日\" 中国 医疗 民生 开通 site:chinanews.com",
-          "\"10月13日\" 中国 教育 学校 成立 site:gmw.cn",
-          "\"10月13日\" 中国 历史上的今天 site:cctv.com"
+          "\"10月14日\" 中国 科技 突破 成功 site:news.cn",
+          "\"10月14日\" 中国 公共工程 建成 通车 site:gov.cn",
+          "\"10月14日\" 中国 文化 体育 首次 site:people.com.cn",
+          "\"10月14日\" 中国 医疗 民生 开通 site:chinanews.com",
+          "\"10月14日\" 中国 教育 学校 成立 site:gmw.cn",
+          "\"10月14日\" 中国 历史上的今天 site:cctv.com"
         ]
       }
     ],
     "sourceUsed": 6,
-    "publishedVerifiedCount": 3,
-    "completedAt": "2026-10-13T23:55:22+08:00"
+    "publishedVerifiedCount": 2,
+    "completedAt": "2026-10-14T05:12:56+08:00"
   }
 }
