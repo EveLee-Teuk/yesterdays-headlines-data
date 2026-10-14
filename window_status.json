@@ -1,138 +1,165 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "failedDates": [],
   "coveragePolicyVersion": 2,
   "restoredDates": [
-    "2026-10-08",
     "2026-10-09",
     "2026-10-10",
     "2026-10-11",
     "2026-10-12",
     "2026-10-13",
-    "2026-10-14"
+    "2026-10-14",
+    "2026-10-15"
   ],
   "todayMinimumMet": true,
   "preparedReadyDates": [
-    "2026-10-15",
     "2026-10-16",
     "2026-10-17",
     "2026-10-18",
     "2026-10-19",
     "2026-10-20",
-    "2026-10-21"
+    "2026-10-21",
+    "2026-10-22"
   ],
   "preparedMissingDates": [],
   "attemptedDates": [
-    "2026-10-14"
+    "2026-10-15"
   ],
   "historicalRetries": {},
   "todayAttempt": {
-    "date": "2026-10-14",
+    "date": "2026-10-15",
     "outcome": "ready",
-    "generatedCount": 1,
-    "validationRejected": 0,
-    "repairCount": 0,
-    "repairGeneratedCount": 0,
+    "generatedCount": 2,
+    "validationRejected": 2,
+    "repairCount": 1,
+    "repairGeneratedCount": 1,
     "validatedCount": 1,
     "reviewedCount": 1,
-    "approvedCount": 1,
+    "approvedCount": 0,
     "candidateResults": [
       {
         "layer": 0,
         "stage": "generated",
         "index": 0,
-        "date": "2021-10-14",
-        "title": "我国首颗太阳探测卫星“羲和号”成功发射",
+        "date": "2006-10-15",
+        "title": "第100届广交会开幕并宣布更名",
         "sourceId": "s2",
         "result": "validated"
+      },
+      {
+        "layer": 0,
+        "stage": "generated",
+        "index": 1,
+        "date": "2025-10-15",
+        "title": "深地川科1井钻探深度突破10000米",
+        "sourceId": "s5",
+        "result": "rejected",
+        "reason": "Evidence does not contain the actual historical date"
+      },
+      {
+        "layer": 0,
+        "stage": "repair",
+        "index": 0,
+        "date": "2025-10-15",
+        "title": "深地川科1井钻探深度突破10000米",
+        "sourceId": "s5",
+        "result": "rejected",
+        "reason": "Evidence does not contain the actual historical date"
       }
     ],
     "reviewResults": [
       {
         "layer": 0,
-        "date": "2021-10-14",
-        "title": "我国首颗太阳探测卫星“羲和号”成功发射",
-        "approved": true
+        "date": "2006-10-15",
+        "title": "第100届广交会开幕并宣布更名",
+        "approved": false
       }
     ],
     "modelLayers": [
       {
         "index": 0,
         "sourceUsed": 6,
-        "generated": 1,
+        "generated": 2,
         "validated": 1,
-        "approved": 1
+        "approved": 0
       }
     ],
-    "modelCalls": 2,
+    "modelCalls": 3,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-14T21:39:40+08:00",
-    "existingVerifiedCount": 2,
+    "attemptedAt": "2026-10-15T04:10:54+08:00",
+    "existingVerifiedCount": 3,
     "searchAttempted": 6,
-    "searchSucceeded": 3,
-    "searchResults": 16,
+    "searchSucceeded": 4,
+    "searchResults": 24,
     "sourceAttempted": 16,
-    "sourceReadable": 8,
+    "sourceReadable": 7,
     "supplementalSearches": 0,
     "sources": [
       {
         "id": "s1",
-        "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70500/index.html"
+        "url": "https://ihep.cas.cn/gk/lsyg/"
       },
       {
         "id": "s2",
-        "url": "https://www.news.cn/tech/20261014/c8ed9074383f4717822ce8aa3d37ae90/c.html"
+        "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70501/index.html"
       },
       {
         "id": "s3",
-        "url": "https://www.news.cn/20261014/a1776725ea2742c58bfa78f6b2420651/c.html"
+        "url": "https://www.cmse.gov.cn/art/2009/9/25/art_1357_22316.html"
       },
       {
         "id": "s4",
-        "url": "https://www.news.cn/energy/20241014/0639657baa8545aab737619c838660cf/c.html"
+        "url": "https://www.news.cn/politics/20241015/da926e464f104300aae649adeb106433/c.html"
       },
       {
         "id": "s5",
-        "url": "https://www.gov.cn/xinwen/2021-10/14/content_5642649.htm"
+        "url": "https://www.news.cn/politics/20251015/392ea93e5701482b87bdef15615441bb/c.html"
       },
       {
         "id": "s6",
-        "url": "https://www.gov.cn/xinwen/2021-10/14/content_5642639.htm"
+        "url": "https://www.news.cn/politics/20240910/4f26c968e02642fabb13920e0ae11323/c.html"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 3,
-        "searchResults": 16,
+        "searchSucceeded": 4,
+        "searchResults": 24,
         "sourceAttempted": 16,
-        "sourceReadable": 8,
+        "sourceReadable": 7,
         "sourceUsed": 6,
         "searchErrors": [
-          "DDGSException",
           "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "hb.news.cn",
+            "host": "ha.news.cn",
             "type": "ReadTimeout"
+          },
+          {
+            "host": "www.cq.news.cn",
+            "type": "SSLError"
+          },
+          {
+            "host": "culture.people.com.cn",
+            "type": "SSLError"
           }
         ],
         "queries": [
-          "\"10月14日\" 中国 科技 突破 成功 site:news.cn",
-          "\"10月14日\" 中国 公共工程 建成 通车 site:gov.cn",
-          "\"10月14日\" 中国 文化 体育 首次 site:people.com.cn",
-          "\"10月14日\" 中国 医疗 民生 开通 site:chinanews.com",
-          "\"10月14日\" 中国 教育 学校 成立 site:gmw.cn",
-          "\"10月14日\" 中国 历史上的今天 site:cctv.com"
+          "\"10月15日\" 中国 科技 突破 成功 site:news.cn",
+          "\"10月15日\" 中国 公共工程 建成 通车 site:gov.cn",
+          "\"10月15日\" 中国 文化 体育 首次 site:people.com.cn",
+          "\"10月15日\" 中国 医疗 民生 开通 site:chinanews.com",
+          "\"10月15日\" 中国 教育 学校 成立 site:gmw.cn",
+          "\"10月15日\" 中国 历史上的今天 site:cctv.com"
         ]
       }
     ],
     "sourceUsed": 6,
     "publishedVerifiedCount": 3,
-    "completedAt": "2026-10-14T21:40:07+08:00"
+    "completedAt": "2026-10-15T04:11:25+08:00"
   }
 }

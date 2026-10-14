@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-10-15",
+  "timezone": "Asia/Shanghai",
+  "status": "ready",
+  "events": [
+    {
+      "date": "1957-10-15",
+      "title": "武汉长江大桥正式通车",
+      "category": "民生",
+      "location": "武汉",
+      "summary": "1957年10月15日，武汉长江大桥正式通车。该桥1955年9月动工，全长1670余米，位于汉阳龟山和武昌蛇山之间，是新中国成立后在长江上修建的第一座大桥，也是我国第一座复线铁路、公路两用桥，成为连接南北的大动脉。",
+      "id": "history-f7af743e51e30e13",
+      "sources": [
+        {
+          "name": "cpc.people.com.cn",
+          "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70501/index.html",
+          "date": "1957-10-15",
+          "evidence": "1957年10月15日  武汉长江大桥正式通车。该桥1955年9月动工，全长1670余米。"
+        }
+      ],
+      "reviewedAt": "2026-10-08",
+      "verification": "source-matched"
+    },
+    {
+      "date": "2003-10-15",
+      "title": "神舟五号载人飞船发射，杨利伟进入太空",
+      "category": "科技",
+      "location": "中国",
+      "summary": "北京时间2003年10月15日9时整，神舟五号载人飞船发射，航天员杨利伟进入太空，飞船进入预定椭圆轨道。中国成为世界上第三个独立掌握载人航天技术的国家。返回舱于10月16日早晨6点23分安全着陆，杨利伟飞行21小时23分后顺利返回。",
+      "id": "history-899f10dae4e6585f",
+      "sources": [
+        {
+          "name": "中国载人航天工程办公室",
+          "url": "https://www.cmse.gov.cn/art/2009/9/25/art_1357_22316.html",
+          "date": "2003-10-15",
+          "evidence": "北京时间2003年10月15日9时整，火箭一级发动机和4个助推发动机同时点火"
+        }
+      ],
+      "reviewedAt": "2026-10-08",
+      "verification": "source-matched"
+    },
+    {
+      "date": "2014-10-15",
+      "title": "散裂中子源工程加速器首台设备进入隧道安装",
+      "category": "科技",
+      "location": "东莞",
+      "summary": "2014年10月15日，散裂中子源工程加速器首台设备——负氢离子源进入隧道安装，标志着该项目的建设即将进入设备安装阶段。",
+      "id": "history-e5a5c378627dd70d",
+      "sources": [
+        {
+          "name": "ihep.cas.cn",
+          "url": "https://ihep.cas.cn/gk/lsyg/",
+          "date": "2014-10-15",
+          "evidence": "2014年10月15日，散裂中子源工程加速器首台设备——负氢离子源进入隧道安装，标志着该项目的建设即将进入设备安装阶段。"
+        }
+      ],
+      "reviewedAt": "2026-10-08",
+      "verification": "source-matched"
+    }
+  ]
+}
