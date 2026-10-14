@@ -29,34 +29,51 @@
   "todayAttempt": {
     "date": "2026-10-14",
     "outcome": "ready",
-    "generatedCount": 0,
+    "generatedCount": 1,
     "validationRejected": 0,
     "repairCount": 0,
     "repairGeneratedCount": 0,
-    "validatedCount": 0,
-    "reviewedCount": 0,
-    "approvedCount": 0,
-    "candidateResults": [],
-    "reviewResults": [],
+    "validatedCount": 1,
+    "reviewedCount": 1,
+    "approvedCount": 1,
+    "candidateResults": [
+      {
+        "layer": 0,
+        "stage": "generated",
+        "index": 0,
+        "date": "2021-10-14",
+        "title": "我国首颗太阳探测卫星“羲和号”成功发射",
+        "sourceId": "s2",
+        "result": "validated"
+      }
+    ],
+    "reviewResults": [
+      {
+        "layer": 0,
+        "date": "2021-10-14",
+        "title": "我国首颗太阳探测卫星“羲和号”成功发射",
+        "approved": true
+      }
+    ],
     "modelLayers": [
       {
         "index": 0,
         "sourceUsed": 6,
-        "generated": 0,
-        "validated": 0,
-        "approved": 0
+        "generated": 1,
+        "validated": 1,
+        "approved": 1
       }
     ],
-    "modelCalls": 1,
+    "modelCalls": 2,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-14T12:47:17+08:00",
+    "attemptedAt": "2026-10-14T21:39:40+08:00",
     "existingVerifiedCount": 2,
     "searchAttempted": 6,
     "searchSucceeded": 3,
-    "searchResults": 15,
+    "searchResults": 16,
     "sourceAttempted": 16,
-    "sourceReadable": 12,
+    "sourceReadable": 8,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -65,19 +82,19 @@
       },
       {
         "id": "s2",
-        "url": "https://www.news.cn/20261014/a1776725ea2742c58bfa78f6b2420651/c.html"
+        "url": "https://www.news.cn/tech/20261014/c8ed9074383f4717822ce8aa3d37ae90/c.html"
       },
       {
         "id": "s3",
-        "url": "https://www.news.cn/energy/20241014/0639657baa8545aab737619c838660cf/c.html"
+        "url": "https://www.news.cn/20261014/a1776725ea2742c58bfa78f6b2420651/c.html"
       },
       {
         "id": "s4",
-        "url": "https://www.news.cn/tech/20250104/1ef9a54c11244d0e8633c941c8c5e8ba/c.html"
+        "url": "https://www.news.cn/energy/20241014/0639657baa8545aab737619c838660cf/c.html"
       },
       {
         "id": "s5",
-        "url": "https://www.news.cn/politics/2022-10/14/c_1129064716.htm"
+        "url": "https://www.gov.cn/xinwen/2021-10/14/content_5642649.htm"
       },
       {
         "id": "s6",
@@ -89,9 +106,9 @@
         "name": "themes",
         "searchAttempted": 6,
         "searchSucceeded": 3,
-        "searchResults": 15,
+        "searchResults": 16,
         "sourceAttempted": 16,
-        "sourceReadable": 12,
+        "sourceReadable": 8,
         "sourceUsed": 6,
         "searchErrors": [
           "DDGSException",
@@ -99,10 +116,6 @@
           "DDGSException"
         ],
         "sourceErrors": [
-          {
-            "host": "hb.news.cn",
-            "type": "ReadTimeout"
-          },
           {
             "host": "hb.news.cn",
             "type": "ReadTimeout"
@@ -119,7 +132,7 @@
       }
     ],
     "sourceUsed": 6,
-    "publishedVerifiedCount": 2,
-    "completedAt": "2026-10-14T12:47:43+08:00"
+    "publishedVerifiedCount": 3,
+    "completedAt": "2026-10-14T21:40:07+08:00"
   }
 }
