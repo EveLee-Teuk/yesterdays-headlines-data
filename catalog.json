@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-15",
+  "updatedAt": "2026-10-16",
   "events": [
     {
       "date": "1923-10-20",
@@ -1483,11 +1483,29 @@
       ],
       "reviewedAt": "2026-10-15",
       "verification": "source-matched"
+    },
+    {
+      "date": "2025-10-23",
+      "title": "第22届中国计算机大会在哈尔滨开幕",
+      "category": "科技",
+      "location": "黑龙江哈尔滨",
+      "summary": "第22届中国计算机大会（CNCC2025）在黑龙江省哈尔滨市开幕，来自全球计算机领域的顶尖学者、青年学子及国际组织代表深度探讨数字智能技术的前沿进展与未来趋势，进一步推动计算技术与经济社会的深度融合。",
+      "id": "history-36b4e91a92bc9051",
+      "sources": [
+        {
+          "name": "新华网",
+          "url": "https://www.news.cn/tech/20251023/4f018f37d03748eda4751dc06746ea01/c.html",
+          "date": "2025-10-23",
+          "evidence": "2025-10-23 23:13:57 来源：新华社 10月23日，第22届中国计算机大会（CNCC2025）在黑龙江省哈尔滨市开幕。"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verification": "source-matched"
     }
   ],
   "lastRun": {
-    "date": "2026-10-15",
-    "completedAt": "2026-10-15T21:22:51+08:00",
+    "date": "2026-10-16",
+    "completedAt": "2026-10-16T03:52:20+08:00",
     "sourceCount": 6,
     "addedCount": 0,
     "status": "ready"
