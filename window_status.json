@@ -29,39 +29,71 @@
   "todayAttempt": {
     "date": "2026-10-15",
     "outcome": "ready",
-    "generatedCount": 0,
-    "validationRejected": 0,
-    "repairCount": 0,
-    "repairGeneratedCount": 0,
-    "validatedCount": 0,
-    "reviewedCount": 0,
+    "generatedCount": 2,
+    "validationRejected": 2,
+    "repairCount": 1,
+    "repairGeneratedCount": 1,
+    "validatedCount": 1,
+    "reviewedCount": 1,
     "approvedCount": 0,
-    "candidateResults": [],
-    "reviewResults": [],
+    "candidateResults": [
+      {
+        "layer": 0,
+        "stage": "generated",
+        "index": 0,
+        "date": "2006-10-15",
+        "title": "第100届广交会开幕并宣布更名",
+        "sourceId": "s2",
+        "result": "validated"
+      },
+      {
+        "layer": 0,
+        "stage": "generated",
+        "index": 1,
+        "date": "2025-10-15",
+        "title": "深地川科1井钻探深度突破10000米",
+        "sourceId": "s6",
+        "result": "rejected",
+        "reason": "Evidence does not contain the actual historical date"
+      },
+      {
+        "layer": 0,
+        "stage": "repair",
+        "index": 0,
+        "date": "2025-10-15",
+        "title": "深地川科1井钻探深度突破10000米",
+        "sourceId": "s6",
+        "result": "rejected",
+        "reason": "Evidence does not contain the actual historical date"
+      }
+    ],
+    "reviewResults": [
+      {
+        "layer": 0,
+        "date": "2006-10-15",
+        "title": "第100届广交会开幕并宣布更名",
+        "approved": false
+      }
+    ],
     "modelLayers": [
       {
         "index": 0,
         "sourceUsed": 6,
-        "generated": 0,
-        "validated": 0,
+        "generated": 2,
+        "validated": 1,
         "approved": 0
       }
     ],
-    "modelCalls": 1,
-    "degraded": [
-      {
-        "stage": "layer-1",
-        "type": "CollectionBudgetExceeded"
-      }
-    ],
+    "modelCalls": 3,
+    "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-15T12:30:27+08:00",
+    "attemptedAt": "2026-10-15T21:22:30+08:00",
     "existingVerifiedCount": 3,
     "searchAttempted": 6,
-    "searchSucceeded": 6,
-    "searchResults": 32,
+    "searchSucceeded": 4,
+    "searchResults": 26,
     "sourceAttempted": 16,
-    "sourceReadable": 8,
+    "sourceReadable": 10,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -82,35 +114,38 @@
       },
       {
         "id": "s5",
-        "url": "https://www.news.cn/politics/20251015/392ea93e5701482b87bdef15615441bb/c.html"
+        "url": "https://www.news.cn/politics/2021-10/16/c_1127963041.htm"
       },
       {
         "id": "s6",
-        "url": "https://www.shanghai.gov.cn/nw17239/20261010/536dd93767324d56843e9d7cc790a709.html"
+        "url": "https://www.news.cn/politics/20251015/392ea93e5701482b87bdef15615441bb/c.html"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 6,
-        "searchResults": 32,
+        "searchSucceeded": 4,
+        "searchResults": 26,
         "sourceAttempted": 16,
-        "sourceReadable": 8,
+        "sourceReadable": 10,
         "sourceUsed": 6,
-        "searchErrors": [],
+        "searchErrors": [
+          "DDGSException",
+          "DDGSException"
+        ],
         "sourceErrors": [
           {
             "host": "www.cq.news.cn",
             "type": "SSLError"
           },
           {
-            "host": "ha.news.cn",
-            "type": "ReadTimeout"
+            "host": "kpp.ndrc.gov.cn",
+            "type": "ConnectionError"
           },
           {
-            "host": "jx.news.cn",
-            "type": "ReadTimeout"
+            "host": "gzw.sc.gov.cn",
+            "type": "ConnectionError"
           }
         ],
         "queries": [
@@ -125,6 +160,6 @@
     ],
     "sourceUsed": 6,
     "publishedVerifiedCount": 3,
-    "completedAt": "2026-10-15T12:45:55+08:00"
+    "completedAt": "2026-10-15T21:22:51+08:00"
   }
 }
