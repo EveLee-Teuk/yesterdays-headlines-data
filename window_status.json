@@ -50,13 +50,13 @@
     "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-16T03:51:52+08:00",
+    "attemptedAt": "2026-10-16T12:24:47+08:00",
     "existingVerifiedCount": 2,
     "searchAttempted": 6,
-    "searchSucceeded": 4,
-    "searchResults": 25,
+    "searchSucceeded": 2,
+    "searchResults": 15,
     "sourceAttempted": 16,
-    "sourceReadable": 10,
+    "sourceReadable": 6,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -73,42 +73,36 @@
       },
       {
         "id": "s4",
-        "url": "https://www.news.cn/politics/20260625/cc95814a87de409581ace06fc10d665a/c.html"
+        "url": "https://www.mem.gov.cn/xw/xwfbh/2025n10y16xwfbh/"
       },
       {
         "id": "s5",
-        "url": "https://education.news.cn/20260715/18cdb9202e7e4549af6b0647aeeb528d/c.html"
+        "url": "https://www.mofcom.gov.cn/xwfb/xwfbhsl/tp/art/2025/art_df47ba943ca44e98a79f7a1ea0e9f5d0.html"
       },
       {
         "id": "s6",
-        "url": "https://www.news.cn/politics/20260622/4b00e634ebae404db877e71b88e658a3/c.html"
+        "url": "https://paper.people.com.cn/rmrb/pc/layout/202610/16/node_14.html"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 4,
-        "searchResults": 25,
+        "searchSucceeded": 2,
+        "searchResults": 15,
         "sourceAttempted": 16,
-        "sourceReadable": 10,
+        "sourceReadable": 6,
         "sourceUsed": 6,
         "searchErrors": [
+          "DDGSException",
+          "DDGSException",
           "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "www.hainan.news.cn",
-            "type": "ConnectTimeout"
-          },
-          {
-            "host": "bj.news.cn",
-            "type": "ReadTimeout"
-          },
-          {
-            "host": "yjj.henan.gov.cn",
-            "type": "HTTPError"
+            "host": "gzw.sc.gov.cn",
+            "type": "ConnectionError"
           },
           {
             "host": "hn.people.com.cn",
@@ -127,6 +121,6 @@
     ],
     "sourceUsed": 6,
     "publishedVerifiedCount": 2,
-    "completedAt": "2026-10-16T03:52:20+08:00"
+    "completedAt": "2026-10-16T12:25:02+08:00"
   }
 }
