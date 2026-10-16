@@ -50,13 +50,13 @@
     "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-16T12:24:47+08:00",
+    "attemptedAt": "2026-10-16T21:12:39+08:00",
     "existingVerifiedCount": 2,
     "searchAttempted": 6,
-    "searchSucceeded": 2,
+    "searchSucceeded": 3,
     "searchResults": 15,
     "sourceAttempted": 16,
-    "sourceReadable": 6,
+    "sourceReadable": 13,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -73,40 +73,39 @@
       },
       {
         "id": "s4",
-        "url": "https://www.mem.gov.cn/xw/xwfbh/2025n10y16xwfbh/"
+        "url": "https://www.news.cn/politics/20260625/cc95814a87de409581ace06fc10d665a/c.html"
       },
       {
         "id": "s5",
-        "url": "https://www.mofcom.gov.cn/xwfb/xwfbhsl/tp/art/2025/art_df47ba943ca44e98a79f7a1ea0e9f5d0.html"
+        "url": "https://js.news.cn/20261016/a692b2492e284479b95daec8bfddd9d6/c.html"
       },
       {
         "id": "s6",
-        "url": "https://paper.people.com.cn/rmrb/pc/layout/202610/16/node_14.html"
+        "url": "https://education.news.cn/20260715/18cdb9202e7e4549af6b0647aeeb528d/c.html"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 2,
+        "searchSucceeded": 3,
         "searchResults": 15,
         "sourceAttempted": 16,
-        "sourceReadable": 6,
+        "sourceReadable": 13,
         "sourceUsed": 6,
         "searchErrors": [
-          "DDGSException",
           "DDGSException",
           "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "gzw.sc.gov.cn",
-            "type": "ConnectionError"
+            "host": "www.hainan.news.cn",
+            "type": "ConnectTimeout"
           },
           {
-            "host": "hn.people.com.cn",
-            "type": "SSLError"
+            "host": "bj.news.cn",
+            "type": "ReadTimeout"
           }
         ],
         "queries": [
@@ -121,6 +120,6 @@
     ],
     "sourceUsed": 6,
     "publishedVerifiedCount": 2,
-    "completedAt": "2026-10-16T12:25:02+08:00"
+    "completedAt": "2026-10-16T21:13:08+08:00"
   }
 }
