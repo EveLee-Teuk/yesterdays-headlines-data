@@ -1,33 +1,33 @@
 {
-  "date": "2026-10-16",
+  "date": "2026-10-17",
   "failedDates": [],
   "coveragePolicyVersion": 2,
   "restoredDates": [
-    "2026-10-10",
     "2026-10-11",
     "2026-10-12",
     "2026-10-13",
     "2026-10-14",
     "2026-10-15",
-    "2026-10-16"
+    "2026-10-16",
+    "2026-10-17"
   ],
   "todayMinimumMet": true,
   "preparedReadyDates": [
-    "2026-10-17",
     "2026-10-18",
     "2026-10-19",
     "2026-10-20",
     "2026-10-21",
     "2026-10-22",
-    "2026-10-23"
+    "2026-10-23",
+    "2026-10-24"
   ],
   "preparedMissingDates": [],
   "attemptedDates": [
-    "2026-10-16"
+    "2026-10-17"
   ],
   "historicalRetries": {},
   "todayAttempt": {
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "outcome": "ready",
     "generatedCount": 0,
     "validationRejected": 0,
@@ -50,76 +50,82 @@
     "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-16T21:12:39+08:00",
+    "attemptedAt": "2026-10-17T03:32:05+08:00",
     "existingVerifiedCount": 2,
     "searchAttempted": 6,
-    "searchSucceeded": 3,
-    "searchResults": 15,
+    "searchSucceeded": 5,
+    "searchResults": 27,
     "sourceAttempted": 16,
-    "sourceReadable": 13,
+    "sourceReadable": 6,
     "supplementalSearches": 0,
     "sources": [
       {
         "id": "s1",
-        "url": "https://ihep.cas.cn/gk/lsyg/"
+        "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70503/index.html"
       },
       {
         "id": "s2",
-        "url": "https://www.news.cn/politics/20241220/eea7893476cb4fcca3938d7d56078688/c.html"
+        "url": "https://www.news.cn/politics/20240910/4f26c968e02642fabb13920e0ae11323/c.html"
       },
       {
         "id": "s3",
-        "url": "https://www.news.cn/energy/20241014/0639657baa8545aab737619c838660cf/c.html"
+        "url": "https://www.news.cn/politics/20241018/f67019644e2a4a57acbe3120cd57817a/c.html"
       },
       {
         "id": "s4",
-        "url": "https://www.news.cn/politics/20260625/cc95814a87de409581ace06fc10d665a/c.html"
+        "url": "https://www.news.cn/politics/leaders/20241107/9e68194d9d2a4b43a6e8dc7f8e3886b1/c.html"
       },
       {
         "id": "s5",
-        "url": "https://js.news.cn/20261016/a692b2492e284479b95daec8bfddd9d6/c.html"
+        "url": "https://cpc.people.com.cn/20th/n1/2022/1017/c448334-32546342.html"
       },
       {
         "id": "s6",
-        "url": "https://education.news.cn/20260715/18cdb9202e7e4549af6b0647aeeb528d/c.html"
+        "url": "https://www.chinanews.com/scroll-news/2025/1017/news.shtml"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 3,
-        "searchResults": 15,
+        "searchSucceeded": 5,
+        "searchResults": 27,
         "sourceAttempted": 16,
-        "sourceReadable": 13,
+        "sourceReadable": 6,
         "sourceUsed": 6,
         "searchErrors": [
-          "DDGSException",
-          "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "www.hainan.news.cn",
-            "type": "ConnectTimeout"
+            "host": "sd.news.cn",
+            "type": "ReadTimeout"
           },
           {
-            "host": "bj.news.cn",
-            "type": "ReadTimeout"
+            "host": "zj.people.com.cn",
+            "type": "SSLError"
+          },
+          {
+            "host": "ent.people.com.cn",
+            "type": "SSLError"
+          },
+          {
+            "host": "dangshi.people.com.cn",
+            "type": "SSLError"
           }
         ],
         "queries": [
-          "\"10月16日\" 中国 科技 突破 成功 site:news.cn",
-          "\"10月16日\" 中国 公共工程 建成 通车 site:gov.cn",
-          "\"10月16日\" 中国 文化 体育 首次 site:people.com.cn",
-          "\"10月16日\" 中国 医疗 民生 开通 site:chinanews.com",
-          "\"10月16日\" 中国 教育 学校 成立 site:gmw.cn",
-          "\"10月16日\" 中国 历史上的今天 site:cctv.com"
+          "\"10月17日\" 中国 科技 突破 成功 site:news.cn",
+          "\"10月17日\" 中国 公共工程 建成 通车 site:gov.cn",
+          "\"10月17日\" 中国 文化 体育 首次 site:people.com.cn",
+          "\"10月17日\" 中国 医疗 民生 开通 site:chinanews.com",
+          "\"10月17日\" 中国 教育 学校 成立 site:gmw.cn",
+          "\"10月17日\" 中国 历史上的今天 site:cctv.com"
         ]
       }
     ],
     "sourceUsed": 6,
     "publishedVerifiedCount": 2,
-    "completedAt": "2026-10-16T21:13:08+08:00"
+    "completedAt": "2026-10-17T03:32:32+08:00"
   }
 }

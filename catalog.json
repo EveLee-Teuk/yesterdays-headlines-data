@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-17",
   "events": [
     {
       "date": "1923-10-20",
@@ -987,6 +987,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "2007-10-24",
+      "title": "嫦娥一号在西昌卫星发射中心发射升空",
+      "category": "科技",
+      "location": "四川西昌",
+      "summary": "2007年10月24日，嫦娥一号在西昌卫星发射中心腾空。11月5日，嫦娥一号到达月球附近实施近月点“刹车”，被月球引力精准捕获，绕月成功。这是中国探月零的突破，也是继人造地球卫星、载人航天飞行成功后我国航天发展史上的第三个里程碑。",
+      "id": "history-4f39b83b7582a511",
+      "sources": [
+        {
+          "name": "新华网",
+          "url": "https://www.news.cn/tech/20240924/25dcc4ee03ea4676b262907085cae794/c.html",
+          "date": "2007-10-24",
+          "evidence": "2007年10月24日，嫦娥一号在西昌卫星发射中心腾空。11月5日，嫦娥一号到达月球附近，实施近月点“刹车”。几分钟后，屏幕上显示嫦娥一号已经被月球引力精准捕获，绕月成功。"
+        }
+      ],
+      "reviewedAt": "2026-10-17",
+      "verification": "source-matched"
+    },
+    {
       "id": "beijing-tianjin-rail",
       "date": "2008-08-01",
       "title": "京津城际铁路开通",
@@ -1504,8 +1522,8 @@
     }
   ],
   "lastRun": {
-    "date": "2026-10-16",
-    "completedAt": "2026-10-16T21:13:08+08:00",
+    "date": "2026-10-17",
+    "completedAt": "2026-10-17T03:32:32+08:00",
     "sourceCount": 6,
     "addedCount": 0,
     "status": "ready"
