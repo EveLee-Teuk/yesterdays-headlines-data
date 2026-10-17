@@ -29,34 +29,51 @@
   "todayAttempt": {
     "date": "2026-10-17",
     "outcome": "ready",
-    "generatedCount": 0,
+    "generatedCount": 1,
     "validationRejected": 0,
     "repairCount": 0,
     "repairGeneratedCount": 0,
-    "validatedCount": 0,
-    "reviewedCount": 0,
-    "approvedCount": 0,
-    "candidateResults": [],
-    "reviewResults": [],
+    "validatedCount": 1,
+    "reviewedCount": 1,
+    "approvedCount": 1,
+    "candidateResults": [
+      {
+        "layer": 0,
+        "stage": "generated",
+        "index": 0,
+        "date": "2006-10-17",
+        "title": "两岸农业合作论坛在博鳌举行",
+        "sourceId": "s1",
+        "result": "validated"
+      }
+    ],
+    "reviewResults": [
+      {
+        "layer": 0,
+        "date": "2006-10-17",
+        "title": "两岸农业合作论坛在博鳌举行",
+        "approved": true
+      }
+    ],
     "modelLayers": [
       {
         "index": 0,
-        "sourceUsed": 6,
-        "generated": 0,
-        "validated": 0,
-        "approved": 0
+        "sourceUsed": 5,
+        "generated": 1,
+        "validated": 1,
+        "approved": 1
       }
     ],
-    "modelCalls": 1,
+    "modelCalls": 2,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-17T03:32:05+08:00",
+    "attemptedAt": "2026-10-17T12:18:11+08:00",
     "existingVerifiedCount": 2,
     "searchAttempted": 6,
-    "searchSucceeded": 5,
-    "searchResults": 27,
+    "searchSucceeded": 4,
+    "searchResults": 21,
     "sourceAttempted": 16,
-    "sourceReadable": 6,
+    "sourceReadable": 5,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -69,18 +86,14 @@
       },
       {
         "id": "s3",
-        "url": "https://www.news.cn/politics/20241018/f67019644e2a4a57acbe3120cd57817a/c.html"
+        "url": "https://www.gov.cn/yaowen/liebiao/202510/content_7044796.htm"
       },
       {
         "id": "s4",
-        "url": "https://www.news.cn/politics/leaders/20241107/9e68194d9d2a4b43a6e8dc7f8e3886b1/c.html"
+        "url": "https://www.chinanews.com/aseaninfo/2026/10-17/10716119.shtml"
       },
       {
         "id": "s5",
-        "url": "https://cpc.people.com.cn/20th/n1/2022/1017/c448334-32546342.html"
-      },
-      {
-        "id": "s6",
         "url": "https://www.chinanews.com/scroll-news/2025/1017/news.shtml"
       }
     ],
@@ -88,21 +101,22 @@
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 5,
-        "searchResults": 27,
+        "searchSucceeded": 4,
+        "searchResults": 21,
         "sourceAttempted": 16,
-        "sourceReadable": 6,
-        "sourceUsed": 6,
+        "sourceReadable": 5,
+        "sourceUsed": 5,
         "searchErrors": [
+          "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "sd.news.cn",
-            "type": "ReadTimeout"
+            "host": "he.people.com.cn",
+            "type": "SSLError"
           },
           {
-            "host": "zj.people.com.cn",
+            "host": "he.people.com.cn",
             "type": "SSLError"
           },
           {
@@ -110,7 +124,11 @@
             "type": "SSLError"
           },
           {
-            "host": "dangshi.people.com.cn",
+            "host": "ent.people.com.cn",
+            "type": "SSLError"
+          },
+          {
+            "host": "sn.people.com.cn",
             "type": "SSLError"
           }
         ],
@@ -124,8 +142,8 @@
         ]
       }
     ],
-    "sourceUsed": 6,
-    "publishedVerifiedCount": 2,
-    "completedAt": "2026-10-17T03:32:32+08:00"
+    "sourceUsed": 5,
+    "publishedVerifiedCount": 3,
+    "completedAt": "2026-10-17T12:18:23+08:00"
   }
 }
