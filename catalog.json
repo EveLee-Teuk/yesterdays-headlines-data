@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-17",
+  "updatedAt": "2026-10-18",
   "events": [
     {
       "date": "1923-10-20",
@@ -1343,6 +1343,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "2020-10-25",
+      "title": "巴基斯坦拉合尔橙线轻轨项目建成开通",
+      "category": "社会",
+      "location": "巴基斯坦拉合尔",
+      "summary": "由中国参与建设的巴基斯坦拉合尔橙线轻轨项目建成开通，项目开通以来经受住新冠疫情、市政电网频繁波动、长期大雾天气等多重考验，实现安全便捷、舒适环保的运营目标，成为中巴友谊的新名片。",
+      "id": "history-6f48471f9366861b",
+      "sources": [
+        {
+          "name": "新华网",
+          "url": "https://www.news.cn/politics/20240920/3768703b9dda4a309f05a3fbcf835af0/c.html",
+          "date": "2020-10-25",
+          "evidence": "巴基斯坦拉合尔橙线轻轨项目2020年10月25日建成开通，项目开通以来，经受住了新冠疫情影响、市政电网频繁波动、长期大雾天气等多重考验，实现了安全便捷、舒适环保的运营目标，成为中巴友谊的新名片。"
+        }
+      ],
+      "reviewedAt": "2026-10-18",
+      "verification": "source-matched"
+    },
+    {
       "id": "poverty-alleviation",
       "date": "2021-02-25",
       "title": "脱贫攻坚战全面胜利的宣告",
@@ -1521,6 +1539,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "2024-10-25",
+      "title": "中国科学家宣布在“本源悟空”上完成全球最大规模量子计算流体动力学仿真",
+      "category": "科技",
+      "location": "中国",
+      "summary": "中国科学家在自主超导量子计算机“本源悟空”上完成全球最大规模的量子计算流体动力学仿真，标志国产量子算力在解决实际问题方面取得重要进展，相关成果发表于国际期刊《应用力学与工程中的计算机方法》。",
+      "id": "history-0934fba6ee6a86f3",
+      "sources": [
+        {
+          "name": "新华网",
+          "url": "https://www.news.cn/liangzi/20250109/247db85f16434843a12c203a13a4d6e5/c.html",
+          "date": "2024-10-25",
+          "evidence": "2024年10月25日，中国科学家在“本源悟空”上，成功完成了全球最大规模的量子计算流体动力学仿真，标志着国产量子算力在解决实际问题方面取得重要进展。"
+        }
+      ],
+      "reviewedAt": "2026-10-18",
+      "verification": "source-matched"
+    },
+    {
       "date": "2025-10-23",
       "title": "第22届中国计算机大会在哈尔滨开幕",
       "category": "科技",
@@ -1540,9 +1576,9 @@
     }
   ],
   "lastRun": {
-    "date": "2026-10-17",
-    "completedAt": "2026-10-17T20:09:50+08:00",
-    "sourceCount": 5,
+    "date": "2026-10-18",
+    "completedAt": "2026-10-18T02:26:45+08:00",
+    "sourceCount": 6,
     "addedCount": 0,
     "status": "ready"
   }
