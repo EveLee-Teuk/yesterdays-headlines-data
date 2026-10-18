@@ -50,13 +50,13 @@
     "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-18T02:26:32+08:00",
+    "attemptedAt": "2026-10-18T12:24:25+08:00",
     "existingVerifiedCount": 5,
     "searchAttempted": 6,
     "searchSucceeded": 3,
-    "searchResults": 18,
+    "searchResults": 16,
     "sourceAttempted": 16,
-    "sourceReadable": 7,
+    "sourceReadable": 8,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -73,15 +73,15 @@
       },
       {
         "id": "s4",
-        "url": "https://www.gov.cn/zhuanti/2017-10/27/content_5234876.htm"
+        "url": "https://www.news.cn/tech/20251018/7d4d39457004410e8b3204b25068dcd5/c.html"
       },
       {
         "id": "s5",
-        "url": "https://www.gov.cn/xinwen/2021-10/18/content_5643328.htm"
+        "url": "https://www.news.cn/20251018/7200dfb14a0f46e0ab6c3876ffa4a8b7/c.html"
       },
       {
         "id": "s6",
-        "url": "https://paper.people.com.cn/rmrb/pc/layout/202510/18/node_01.html"
+        "url": "https://www.news.cn/politics/leaders/2023-05/28/c_1129652013.htm"
       }
     ],
     "layers": [
@@ -89,9 +89,9 @@
         "name": "themes",
         "searchAttempted": 6,
         "searchSucceeded": 3,
-        "searchResults": 18,
+        "searchResults": 16,
         "sourceAttempted": 16,
-        "sourceReadable": 7,
+        "sourceReadable": 8,
         "sourceUsed": 6,
         "searchErrors": [
           "DDGSException",
@@ -100,20 +100,20 @@
         ],
         "sourceErrors": [
           {
-            "host": "gzw.cnbz.gov.cn",
-            "type": "HTTPError"
+            "host": "sd.news.cn",
+            "type": "ReadTimeout"
+          },
+          {
+            "host": "hq.news.cn",
+            "type": "ReadTimeout"
           },
           {
             "host": "www.cnbz.gov.cn",
             "type": "HTTPError"
           },
           {
-            "host": "ent.people.com.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "zj.people.com.cn",
-            "type": "SSLError"
+            "host": "gzw.cnbz.gov.cn",
+            "type": "HTTPError"
           }
         ],
         "queries": [
@@ -128,6 +128,6 @@
     ],
     "sourceUsed": 6,
     "publishedVerifiedCount": 5,
-    "completedAt": "2026-10-18T02:26:45+08:00"
+    "completedAt": "2026-10-18T12:24:52+08:00"
   }
 }
