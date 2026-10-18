@@ -29,82 +29,94 @@
   "todayAttempt": {
     "date": "2026-10-18",
     "outcome": "ready",
-    "generatedCount": 0,
+    "generatedCount": 1,
     "validationRejected": 0,
     "repairCount": 0,
     "repairGeneratedCount": 0,
-    "validatedCount": 0,
-    "reviewedCount": 0,
-    "approvedCount": 0,
-    "candidateResults": [],
-    "reviewResults": [],
+    "validatedCount": 1,
+    "reviewedCount": 1,
+    "approvedCount": 1,
+    "candidateResults": [
+      {
+        "layer": 0,
+        "stage": "generated",
+        "index": 0,
+        "date": "2019-10-18",
+        "title": "第七届世界军人运动会在武汉开幕",
+        "sourceId": "s5",
+        "result": "validated"
+      }
+    ],
+    "reviewResults": [
+      {
+        "layer": 0,
+        "date": "2019-10-18",
+        "title": "第七届世界军人运动会在武汉开幕",
+        "approved": true
+      }
+    ],
     "modelLayers": [
       {
         "index": 0,
         "sourceUsed": 6,
-        "generated": 0,
-        "validated": 0,
-        "approved": 0
+        "generated": 1,
+        "validated": 1,
+        "approved": 1
       }
     ],
-    "modelCalls": 1,
+    "modelCalls": 2,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-18T12:24:25+08:00",
+    "attemptedAt": "2026-10-18T20:35:30+08:00",
     "existingVerifiedCount": 5,
     "searchAttempted": 6,
-    "searchSucceeded": 3,
-    "searchResults": 16,
+    "searchSucceeded": 4,
+    "searchResults": 23,
     "sourceAttempted": 16,
-    "sourceReadable": 8,
+    "sourceReadable": 6,
     "supplementalSearches": 0,
     "sources": [
       {
         "id": "s1",
-        "url": "https://news.qau.edu.cn/content/cssdjt/2efd98a1f6d84e0a8f27d3f471f92e72"
-      },
-      {
-        "id": "s2",
         "url": "https://xsg.cug.edu.cn/info/1017/1465.htm"
       },
       {
-        "id": "s3",
+        "id": "s2",
         "url": "https://www.hbnu.edu.cn/50znxq/2023/0929/c5858a152053/page.htm"
       },
       {
-        "id": "s4",
-        "url": "https://www.news.cn/tech/20251018/7d4d39457004410e8b3204b25068dcd5/c.html"
-      },
-      {
-        "id": "s5",
+        "id": "s3",
         "url": "https://www.news.cn/20251018/7200dfb14a0f46e0ab6c3876ffa4a8b7/c.html"
       },
       {
+        "id": "s4",
+        "url": "https://www.mot.gov.cn/"
+      },
+      {
+        "id": "s5",
+        "url": "https://politics.gmw.cn/2021-10/18/content_35236350.htm"
+      },
+      {
         "id": "s6",
-        "url": "https://www.news.cn/politics/leaders/2023-05/28/c_1129652013.htm"
+        "url": "https://news.gmw.cn/2021-10/18/content_35238791.htm"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 3,
-        "searchResults": 16,
+        "searchSucceeded": 4,
+        "searchResults": 23,
         "sourceAttempted": 16,
-        "sourceReadable": 8,
+        "sourceReadable": 6,
         "sourceUsed": 6,
         "searchErrors": [
-          "DDGSException",
           "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "sd.news.cn",
-            "type": "ReadTimeout"
-          },
-          {
-            "host": "hq.news.cn",
+            "host": "news.qau.edu.cn",
             "type": "ReadTimeout"
           },
           {
@@ -127,7 +139,7 @@
       }
     ],
     "sourceUsed": 6,
-    "publishedVerifiedCount": 5,
-    "completedAt": "2026-10-18T12:24:52+08:00"
+    "publishedVerifiedCount": 6,
+    "completedAt": "2026-10-18T20:35:57+08:00"
   }
 }

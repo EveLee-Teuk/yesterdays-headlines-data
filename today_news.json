@@ -98,5 +98,25 @@
     "verification": "source-matched",
     "year": 2014,
     "subtitle": "2014年 山东青岛"
+  },
+  {
+    "date": "2019-10-18",
+    "title": "第七届世界军人运动会在武汉开幕",
+    "category": "社会",
+    "location": "武汉",
+    "summary": "2019年10月18日，第七届世界军人运动会在武汉开幕，来自42个国家的防务部门和军队领导人应邀出席开幕式。这是中国首次承办世界军人运动会。",
+    "id": "history-3b83c0ecfb664770",
+    "sources": [
+      {
+        "name": "politics.gmw.cn",
+        "url": "https://politics.gmw.cn/2021-10/18/content_35236350.htm",
+        "date": "2019-10-18",
+        "evidence": "2019年 10月18日 第七届世界军人运动会在武汉开幕，习近平出席开幕式并宣布运动会开幕，来自42个国家的防务部门和军队领导人应邀出席开幕式。"
+      }
+    ],
+    "reviewedAt": "2026-10-18",
+    "verification": "source-matched",
+    "year": 2019,
+    "subtitle": "2019年 武汉"
   }
 ]
