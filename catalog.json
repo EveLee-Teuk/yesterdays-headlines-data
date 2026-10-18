@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-18",
+  "updatedAt": "2026-10-19",
   "events": [
     {
       "date": "1923-10-20",
@@ -1521,6 +1521,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "2023-10-26",
+      "title": "神舟十七号载人飞船发射升空",
+      "category": "科技",
+      "location": "酒泉",
+      "summary": "2023年10月26日11时14分，长征二号F遥十七运载火箭在酒泉卫星发射中心托举神舟十七号载人飞船点火升空，送汤洪波、唐胜杰、江新林3名航天员奔赴“天宫”。这是中国载人航天工程进入空间站应用与发展阶段的第2次载人飞行任务，也是工程立项实施以来的第30次发射任务。",
+      "id": "history-7c996d2fa40002ca",
+      "sources": [
+        {
+          "name": "央视网",
+          "url": "https://news.cctv.com/2023/10/27/ARTIRH1ruqChx0yClmkOPcPY231027.shtml",
+          "date": "2023-10-26",
+          "evidence": "2023年10月26日11时14分，长征二号F遥十七运载火箭托举着神舟十七号载人飞船，在酒泉卫星发射中心点火升空，送汤洪波、唐胜杰、江新林3名航天员奔赴“天宫”。"
+        }
+      ],
+      "reviewedAt": "2026-10-19",
+      "verification": "source-matched"
+    },
+    {
       "date": "2024-10-11",
       "title": "首颗可重复使用返回式技术试验卫星成功回收",
       "category": "科技",
@@ -1594,10 +1612,10 @@
     }
   ],
   "lastRun": {
-    "date": "2026-10-18",
-    "completedAt": "2026-10-18T20:35:57+08:00",
-    "sourceCount": 6,
-    "addedCount": 1,
+    "date": "2026-10-19",
+    "completedAt": "2026-10-19T02:36:46+08:00",
+    "sourceCount": 5,
+    "addedCount": 0,
     "status": "ready"
   }
 }

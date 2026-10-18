@@ -1,145 +1,123 @@
 {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "failedDates": [],
   "coveragePolicyVersion": 2,
   "restoredDates": [
-    "2026-10-12",
     "2026-10-13",
     "2026-10-14",
     "2026-10-15",
     "2026-10-16",
     "2026-10-17",
-    "2026-10-18"
+    "2026-10-18",
+    "2026-10-19"
   ],
   "todayMinimumMet": true,
   "preparedReadyDates": [
-    "2026-10-19",
     "2026-10-20",
     "2026-10-21",
     "2026-10-22",
     "2026-10-23",
     "2026-10-24",
-    "2026-10-25"
+    "2026-10-25",
+    "2026-10-26"
   ],
   "preparedMissingDates": [],
   "attemptedDates": [
-    "2026-10-18"
+    "2026-10-19"
   ],
   "historicalRetries": {},
   "todayAttempt": {
-    "date": "2026-10-18",
+    "date": "2026-10-19",
     "outcome": "ready",
-    "generatedCount": 1,
+    "generatedCount": 0,
     "validationRejected": 0,
     "repairCount": 0,
     "repairGeneratedCount": 0,
-    "validatedCount": 1,
-    "reviewedCount": 1,
-    "approvedCount": 1,
-    "candidateResults": [
-      {
-        "layer": 0,
-        "stage": "generated",
-        "index": 0,
-        "date": "2019-10-18",
-        "title": "第七届世界军人运动会在武汉开幕",
-        "sourceId": "s5",
-        "result": "validated"
-      }
-    ],
-    "reviewResults": [
-      {
-        "layer": 0,
-        "date": "2019-10-18",
-        "title": "第七届世界军人运动会在武汉开幕",
-        "approved": true
-      }
-    ],
+    "validatedCount": 0,
+    "reviewedCount": 0,
+    "approvedCount": 0,
+    "candidateResults": [],
+    "reviewResults": [],
     "modelLayers": [
       {
         "index": 0,
-        "sourceUsed": 6,
-        "generated": 1,
-        "validated": 1,
-        "approved": 1
+        "sourceUsed": 5,
+        "generated": 0,
+        "validated": 0,
+        "approved": 0
       }
     ],
-    "modelCalls": 2,
+    "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-18T20:35:30+08:00",
-    "existingVerifiedCount": 5,
+    "attemptedAt": "2026-10-19T02:36:21+08:00",
+    "existingVerifiedCount": 2,
     "searchAttempted": 6,
-    "searchSucceeded": 4,
-    "searchResults": 23,
+    "searchSucceeded": 5,
+    "searchResults": 31,
     "sourceAttempted": 16,
-    "sourceReadable": 6,
+    "sourceReadable": 5,
     "supplementalSearches": 0,
     "sources": [
       {
         "id": "s1",
-        "url": "https://xsg.cug.edu.cn/info/1017/1465.htm"
+        "url": "https://nao.cas.cn/ndw/dsj/202203/t20220330_6409779.html"
       },
       {
         "id": "s2",
-        "url": "https://www.hbnu.edu.cn/50znxq/2023/0929/c5858a152053/page.htm"
+        "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70505/index.html"
       },
       {
         "id": "s3",
-        "url": "https://www.news.cn/20251018/7200dfb14a0f46e0ab6c3876ffa4a8b7/c.html"
+        "url": "https://www.cnsa.gov.cn/n6758968/n6758972/c6798610/content.html"
       },
       {
         "id": "s4",
-        "url": "https://www.mot.gov.cn/"
+        "url": "https://xczx.news.cn/20240927/b95f62f974204b5a8cf2e0a1774f33ff/c.html"
       },
       {
         "id": "s5",
-        "url": "https://politics.gmw.cn/2021-10/18/content_35236350.htm"
-      },
-      {
-        "id": "s6",
-        "url": "https://news.gmw.cn/2021-10/18/content_35238791.htm"
+        "url": "https://www.mot.gov.cn/xinwen/jiaotongyaowen/202608/t20260826_4223249.html"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 4,
-        "searchResults": 23,
+        "searchSucceeded": 5,
+        "searchResults": 31,
         "sourceAttempted": 16,
-        "sourceReadable": 6,
-        "sourceUsed": 6,
+        "sourceReadable": 5,
+        "sourceUsed": 5,
         "searchErrors": [
-          "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "news.qau.edu.cn",
+            "host": "gx.news.cn",
             "type": "ReadTimeout"
           },
           {
-            "host": "www.cnbz.gov.cn",
+            "host": "sthj.lf.gov.cn",
             "type": "HTTPError"
           },
           {
-            "host": "gzw.cnbz.gov.cn",
-            "type": "HTTPError"
+            "host": "www.yingquan.gov.cn",
+            "type": "ConnectionError"
           }
         ],
         "queries": [
-          "\"10月18日\" 中国 科技 突破 成功 site:news.cn",
-          "\"10月18日\" 中国 公共工程 建成 通车 site:gov.cn",
-          "\"10月18日\" 中国 文化 体育 首次 site:people.com.cn",
-          "\"10月18日\" 中国 医疗 民生 开通 site:chinanews.com",
-          "\"10月18日\" 中国 教育 学校 成立 site:gmw.cn",
-          "\"10月18日\" 中国 历史上的今天 site:cctv.com"
+          "\"10月19日\" 中国 科技 突破 成功 site:news.cn",
+          "\"10月19日\" 中国 公共工程 建成 通车 site:gov.cn",
+          "\"10月19日\" 中国 文化 体育 首次 site:people.com.cn",
+          "\"10月19日\" 中国 医疗 民生 开通 site:chinanews.com",
+          "\"10月19日\" 中国 教育 学校 成立 site:gmw.cn",
+          "\"10月19日\" 中国 历史上的今天 site:cctv.com"
         ]
       }
     ],
-    "sourceUsed": 6,
-    "publishedVerifiedCount": 6,
-    "completedAt": "2026-10-18T20:35:57+08:00"
+    "sourceUsed": 5,
+    "publishedVerifiedCount": 2,
+    "completedAt": "2026-10-19T02:36:46+08:00"
   }
 }
