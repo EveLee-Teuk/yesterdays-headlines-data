@@ -41,7 +41,7 @@
     "modelLayers": [
       {
         "index": 0,
-        "sourceUsed": 5,
+        "sourceUsed": 4,
         "generated": 0,
         "validated": 0,
         "approved": 0
@@ -50,13 +50,13 @@
     "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-19T02:36:21+08:00",
+    "attemptedAt": "2026-10-19T12:33:12+08:00",
     "existingVerifiedCount": 2,
     "searchAttempted": 6,
     "searchSucceeded": 5,
-    "searchResults": 31,
+    "searchResults": 24,
     "sourceAttempted": 16,
-    "sourceReadable": 5,
+    "sourceReadable": 4,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -74,10 +74,6 @@
       {
         "id": "s4",
         "url": "https://xczx.news.cn/20240927/b95f62f974204b5a8cf2e0a1774f33ff/c.html"
-      },
-      {
-        "id": "s5",
-        "url": "https://www.mot.gov.cn/xinwen/jiaotongyaowen/202608/t20260826_4223249.html"
       }
     ],
     "layers": [
@@ -85,10 +81,10 @@
         "name": "themes",
         "searchAttempted": 6,
         "searchSucceeded": 5,
-        "searchResults": 31,
+        "searchResults": 24,
         "sourceAttempted": 16,
-        "sourceReadable": 5,
-        "sourceUsed": 5,
+        "sourceReadable": 4,
+        "sourceUsed": 4,
         "searchErrors": [
           "DDGSException"
         ],
@@ -98,11 +94,15 @@
             "type": "ReadTimeout"
           },
           {
-            "host": "sthj.lf.gov.cn",
-            "type": "HTTPError"
+            "host": "www.bj.news.cn",
+            "type": "SSLError"
           },
           {
-            "host": "www.yingquan.gov.cn",
+            "host": "kjt.hebei.gov.cn",
+            "type": "ConnectionError"
+          },
+          {
+            "host": "www.yidaiyilu.gov.cn",
             "type": "ConnectionError"
           }
         ],
@@ -116,8 +116,8 @@
         ]
       }
     ],
-    "sourceUsed": 5,
+    "sourceUsed": 4,
     "publishedVerifiedCount": 2,
-    "completedAt": "2026-10-19T02:36:46+08:00"
+    "completedAt": "2026-10-19T12:33:38+08:00"
   }
 }
