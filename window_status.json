@@ -1,33 +1,33 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "failedDates": [],
   "coveragePolicyVersion": 2,
   "restoredDates": [
-    "2026-10-13",
     "2026-10-14",
     "2026-10-15",
     "2026-10-16",
     "2026-10-17",
     "2026-10-18",
-    "2026-10-19"
+    "2026-10-19",
+    "2026-10-20"
   ],
   "todayMinimumMet": true,
   "preparedReadyDates": [
-    "2026-10-20",
     "2026-10-21",
     "2026-10-22",
     "2026-10-23",
     "2026-10-24",
     "2026-10-25",
-    "2026-10-26"
+    "2026-10-26",
+    "2026-10-27"
   ],
   "preparedMissingDates": [],
   "attemptedDates": [
-    "2026-10-19"
+    "2026-10-20"
   ],
   "historicalRetries": {},
   "todayAttempt": {
-    "date": "2026-10-19",
+    "date": "2026-10-20",
     "outcome": "ready",
     "generatedCount": 0,
     "validationRejected": 0,
@@ -41,7 +41,7 @@
     "modelLayers": [
       {
         "index": 0,
-        "sourceUsed": 5,
+        "sourceUsed": 6,
         "generated": 0,
         "validated": 0,
         "approved": 0
@@ -50,79 +50,80 @@
     "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-19T23:33:26+08:00",
+    "attemptedAt": "2026-10-20T05:01:21+08:00",
     "existingVerifiedCount": 2,
     "searchAttempted": 6,
-    "searchSucceeded": 4,
-    "searchResults": 28,
+    "searchSucceeded": 3,
+    "searchResults": 16,
     "sourceAttempted": 16,
-    "sourceReadable": 5,
+    "sourceReadable": 11,
     "supplementalSearches": 0,
     "sources": [
       {
         "id": "s1",
-        "url": "https://nao.cas.cn/ndw/dsj/202203/t20220330_6409779.html"
+        "url": "https://ihep.cas.cn/gk/lsyg/"
       },
       {
         "id": "s2",
-        "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70505/index.html"
+        "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70506/index.html"
       },
       {
         "id": "s3",
-        "url": "https://www.cnsa.gov.cn/n6758968/n6758972/c6798610/content.html"
+        "url": "https://www.news.cn/politics/20251020/fe78d31222884c70b381400867589166/c.html"
       },
       {
         "id": "s4",
-        "url": "https://xczx.news.cn/20240927/b95f62f974204b5a8cf2e0a1774f33ff/c.html"
+        "url": "https://cpc.people.com.cn/n1/2025/1024/c64094-40588485.html"
       },
       {
         "id": "s5",
-        "url": "https://paper.people.com.cn/rmrb/pc/content/202610/19/content_30186390.html"
+        "url": "https://paper.people.com.cn/mszk/pc/content/202510/27/content_30112038.html"
+      },
+      {
+        "id": "s6",
+        "url": "https://tv.cctv.com/2020/10/20/VIDEN838NwGeIijWlyhpvXBj201020.shtml"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 4,
-        "searchResults": 28,
+        "searchSucceeded": 3,
+        "searchResults": 16,
         "sourceAttempted": 16,
-        "sourceReadable": 5,
-        "sourceUsed": 5,
+        "sourceReadable": 11,
+        "sourceUsed": 6,
         "searchErrors": [
-          "DDGSException",
+          "TimeoutException",
+          "TimeoutException",
           "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "www.bj.news.cn",
+            "host": "politics.people.com.cn",
             "type": "SSLError"
           },
           {
-            "host": "gx.news.cn",
-            "type": "ReadTimeout"
-          },
-          {
-            "host": "bj.people.com.cn",
+            "host": "politics.people.com.cn",
             "type": "SSLError"
           },
           {
-            "host": "fj.people.com.cn",
+            "host": "ent.people.com.cn",
             "type": "SSLError"
           }
         ],
         "queries": [
-          "\"10月19日\" 中国 科技 突破 成功 site:news.cn",
-          "\"10月19日\" 中国 公共工程 建成 通车 site:gov.cn",
-          "\"10月19日\" 中国 文化 体育 首次 site:people.com.cn",
-          "\"10月19日\" 中国 医疗 民生 开通 site:chinanews.com",
-          "\"10月19日\" 中国 教育 学校 成立 site:gmw.cn",
-          "\"10月19日\" 中国 历史上的今天 site:cctv.com"
+          "\"10月20日\" 中国 科技 突破 成功 site:news.cn",
+          "\"10月20日\" 中国 公共工程 建成 通车 site:gov.cn",
+          "\"10月20日\" 中国 文化 体育 首次 site:people.com.cn",
+          "\"10月20日\" 中国 医疗 民生 开通 site:chinanews.com",
+          "\"10月20日\" 中国 教育 学校 成立 site:gmw.cn",
+          "\"10月20日\" 中国 历史上的今天 site:cctv.com"
         ]
       }
     ],
-    "sourceUsed": 5,
+    "sourceUsed": 6,
     "publishedVerifiedCount": 2,
-    "completedAt": "2026-10-19T23:33:54+08:00"
+    "completedAt": "2026-10-20T05:02:00+08:00"
   }
 }

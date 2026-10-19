@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-10-20",
+  "timezone": "Asia/Shanghai",
+  "status": "ready",
+  "events": [
+    {
+      "date": "1923-10-20",
+      "title": "《中国青年》周刊在上海创刊",
+      "category": "社会",
+      "location": "上海",
+      "summary": "1923年10月20日，中国社会主义青年团中央机关刊物《中国青年》（周刊）在上海创刊，恽代英、萧楚女、林育南、任弼时、邓中夏、张太雷、李求实等先后担任该刊编辑，1927年11月被迫停刊。",
+      "id": "history-9af8b2b512663777",
+      "sources": [
+        {
+          "name": "cpc.people.com.cn",
+          "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70506/index.html",
+          "date": "1923-10-20",
+          "evidence": "1923年10月20日  中国社会主义青年团中央机关刊物《中国青年》（周刊）在上海创刊，先后担任该刊编辑的有恽代英、萧楚女、林育南、任弼时、邓中夏、张太雷、李求实等。1927年11月被迫停刊。"
+        }
+      ],
+      "reviewedAt": "2026-10-13",
+      "verification": "source-matched"
+    },
+    {
+      "date": "2011-10-20",
+      "title": "中国散裂中子源在东莞举行工程奠基典礼",
+      "category": "科技",
+      "location": "广东东莞",
+      "summary": "2011年10月20日，中国散裂中子源在广东东莞举行工程奠基典礼，国务委员刘延东、广东省委书记汪洋、中科院院长白春礼等有关领导出席典礼并为工程奠基。该工程为国家重大科技基础设施。",
+      "id": "history-7aebcf11b74f4500",
+      "sources": [
+        {
+          "name": "ihep.cas.cn",
+          "url": "https://ihep.cas.cn/gk/lsyg/",
+          "date": "2011-10-20",
+          "evidence": "2011年10月20日，中国散裂中子源在广东东莞举行工程奠基典礼，国务委员刘延东、广东省委书记汪洋、中科院院长白春礼等有关领导出席典礼并为工程奠基。"
+        }
+      ],
+      "reviewedAt": "2026-10-13",
+      "verification": "source-matched"
+    }
+  ]
+}

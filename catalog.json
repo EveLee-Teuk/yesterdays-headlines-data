@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-19",
+  "updatedAt": "2026-10-20",
   "events": [
     {
       "date": "1923-10-20",
@@ -251,6 +251,24 @@
         }
       ],
       "reviewedAt": "2026-09-22"
+    },
+    {
+      "date": "1966-10-27",
+      "title": "中国成功进行第一颗装有核弹头的地地导弹飞行爆炸",
+      "category": "科技",
+      "location": "中国",
+      "summary": "1966年10月27日，中国成功进行第一颗装有核弹头的地地导弹飞行爆炸。这一试验将核弹头与地地导弹结合，标志着中国在导弹核武器技术领域取得重要突破，是当时国防科技发展进程中的一项标志性成果。",
+      "id": "history-fea0e8b0977e52e7",
+      "sources": [
+        {
+          "name": "politics.gmw.cn",
+          "url": "https://politics.gmw.cn/2021-10/27/content_35262565.htm",
+          "date": "1966-10-27",
+          "evidence": "1966年 10月27日 中国成功进行第一颗装有核弹头的地地导弹飞行爆炸。"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "verification": "source-matched"
     },
     {
       "id": "dongfanghong-1",
@@ -1612,9 +1630,9 @@
     }
   ],
   "lastRun": {
-    "date": "2026-10-19",
-    "completedAt": "2026-10-19T23:33:54+08:00",
-    "sourceCount": 5,
+    "date": "2026-10-20",
+    "completedAt": "2026-10-20T05:02:00+08:00",
+    "sourceCount": 6,
     "addedCount": 0,
     "status": "ready"
   }
