@@ -50,13 +50,13 @@
     "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-20T12:42:20+08:00",
+    "attemptedAt": "2026-10-20T21:32:10+08:00",
     "existingVerifiedCount": 2,
     "searchAttempted": 6,
-    "searchSucceeded": 5,
-    "searchResults": 30,
+    "searchSucceeded": 6,
+    "searchResults": 37,
     "sourceAttempted": 16,
-    "sourceReadable": 6,
+    "sourceReadable": 7,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -69,49 +69,35 @@
       },
       {
         "id": "s3",
-        "url": "https://www.news.cn/20251023/5036defefddc4cc68ac92331e24f7551/c.html"
+        "url": "https://www.news.cn/fortune/20261020/3b869f8c45054a998b299f65581e6fdd/c.html"
       },
       {
         "id": "s4",
-        "url": "https://www.news.cn/20251020/df41b54ae67342ad91c331eac22b0768/c.html"
+        "url": "https://www.news.cn/20251023/5036defefddc4cc68ac92331e24f7551/c.html"
       },
       {
         "id": "s5",
-        "url": "https://paper.people.com.cn/rmrb/pc/content/202610/20/content_30186640.html"
+        "url": "https://www.news.cn/20251020/df41b54ae67342ad91c331eac22b0768/c.html"
       },
       {
         "id": "s6",
-        "url": "https://cpc.people.com.cn/n1/2025/1024/c64094-40588485.html"
+        "url": "https://www.mot.gov.cn/"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 5,
-        "searchResults": 30,
+        "searchSucceeded": 6,
+        "searchResults": 37,
         "sourceAttempted": 16,
-        "sourceReadable": 6,
+        "sourceReadable": 7,
         "sourceUsed": 6,
-        "searchErrors": [
-          "DDGSException"
-        ],
+        "searchErrors": [],
         "sourceErrors": [
           {
-            "host": "politics.people.com.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "politics.people.com.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "kpzg.people.com.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "theory.people.com.cn",
-            "type": "SSLError"
+            "host": "kpp.ndrc.gov.cn",
+            "type": "ConnectionError"
           }
         ],
         "queries": [
@@ -126,6 +112,6 @@
     ],
     "sourceUsed": 6,
     "publishedVerifiedCount": 2,
-    "completedAt": "2026-10-20T12:42:30+08:00"
+    "completedAt": "2026-10-20T21:32:25+08:00"
   }
 }
