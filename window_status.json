@@ -1,117 +1,153 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "failedDates": [],
   "coveragePolicyVersion": 2,
   "restoredDates": [
-    "2026-10-14",
     "2026-10-15",
     "2026-10-16",
     "2026-10-17",
     "2026-10-18",
     "2026-10-19",
-    "2026-10-20"
+    "2026-10-20",
+    "2026-10-21"
   ],
   "todayMinimumMet": true,
   "preparedReadyDates": [
-    "2026-10-21",
     "2026-10-22",
     "2026-10-23",
     "2026-10-24",
     "2026-10-25",
     "2026-10-26",
-    "2026-10-27"
+    "2026-10-27",
+    "2026-10-28"
   ],
   "preparedMissingDates": [],
   "attemptedDates": [
-    "2026-10-20"
+    "2026-10-21"
   ],
   "historicalRetries": {},
   "todayAttempt": {
-    "date": "2026-10-20",
+    "date": "2026-10-21",
     "outcome": "ready",
-    "generatedCount": 0,
-    "validationRejected": 0,
-    "repairCount": 0,
+    "generatedCount": 2,
+    "validationRejected": 2,
+    "repairCount": 1,
     "repairGeneratedCount": 0,
     "validatedCount": 0,
     "reviewedCount": 0,
     "approvedCount": 0,
-    "candidateResults": [],
+    "candidateResults": [
+      {
+        "layer": 0,
+        "stage": "generated",
+        "index": 0,
+        "date": "2021-10-21",
+        "title": "国家“十三五”科技创新成就展正式开幕",
+        "sourceId": "s3",
+        "result": "rejected",
+        "reason": "Evidence does not contain the actual historical date"
+      },
+      {
+        "layer": 0,
+        "stage": "generated",
+        "index": 1,
+        "date": "2021-10-21",
+        "title": "国际滑联短道速滑世界杯北京站开赛",
+        "sourceId": "s6",
+        "result": "rejected",
+        "reason": "Evidence does not contain the actual historical date"
+      }
+    ],
     "reviewResults": [],
     "modelLayers": [
       {
         "index": 0,
         "sourceUsed": 6,
-        "generated": 0,
+        "generated": 2,
         "validated": 0,
         "approved": 0
       }
     ],
-    "modelCalls": 1,
+    "modelCalls": 2,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-20T21:32:10+08:00",
-    "existingVerifiedCount": 2,
+    "attemptedAt": "2026-10-21T03:58:52+08:00",
+    "existingVerifiedCount": 1,
     "searchAttempted": 6,
-    "searchSucceeded": 6,
-    "searchResults": 37,
+    "searchSucceeded": 4,
+    "searchResults": 17,
     "sourceAttempted": 16,
-    "sourceReadable": 7,
+    "sourceReadable": 6,
     "supplementalSearches": 0,
     "sources": [
       {
         "id": "s1",
-        "url": "https://ihep.cas.cn/gk/lsyg/"
+        "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70507/index.html"
       },
       {
         "id": "s2",
-        "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70506/index.html"
+        "url": "https://www.news.cn/2023-10/21/c_1129930099.htm"
       },
       {
         "id": "s3",
-        "url": "https://www.news.cn/fortune/20261020/3b869f8c45054a998b299f65581e6fdd/c.html"
+        "url": "https://www.news.cn/politics/2021-10/26/c_1127998654.htm"
       },
       {
         "id": "s4",
-        "url": "https://www.news.cn/20251023/5036defefddc4cc68ac92331e24f7551/c.html"
+        "url": "https://www.gov.cn/yaowen/liebiao/202510/content_7045304.htm"
       },
       {
         "id": "s5",
-        "url": "https://www.news.cn/20251020/df41b54ae67342ad91c331eac22b0768/c.html"
+        "url": "https://news.cctv.com/2016/10/21/ARTI5VaKZPICkmfYFhn7QnLi161021.shtml"
       },
       {
         "id": "s6",
-        "url": "https://www.mot.gov.cn/"
+        "url": "https://tv.cctv.com/2021/10/21/VIDEdxQCVg5rXEWR0p1UmVJt211021.shtml"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 6,
-        "searchResults": 37,
+        "searchSucceeded": 4,
+        "searchResults": 17,
         "sourceAttempted": 16,
-        "sourceReadable": 7,
+        "sourceReadable": 6,
         "sourceUsed": 6,
-        "searchErrors": [],
+        "searchErrors": [
+          "DDGSException",
+          "DDGSException"
+        ],
         "sourceErrors": [
           {
-            "host": "kpp.ndrc.gov.cn",
+            "host": "www.sasac.gov.cn",
+            "type": "ConnectionError"
+          },
+          {
+            "host": "www.mohurd.gov.cn",
+            "type": "ConnectionError"
+          },
+          {
+            "host": "www.cq.gov.cn",
+            "type": "ConnectionError"
+          },
+          {
+            "host": "www.hebei.gov.cn",
             "type": "ConnectionError"
           }
         ],
         "queries": [
-          "\"10月20日\" 中国 科技 突破 成功 site:news.cn",
-          "\"10月20日\" 中国 公共工程 建成 通车 site:gov.cn",
-          "\"10月20日\" 中国 文化 体育 首次 site:people.com.cn",
-          "\"10月20日\" 中国 医疗 民生 开通 site:chinanews.com",
-          "\"10月20日\" 中国 教育 学校 成立 site:gmw.cn",
-          "\"10月20日\" 中国 历史上的今天 site:cctv.com"
+          "\"10月21日\" 中国 科技 突破 成功 site:news.cn",
+          "\"10月21日\" 中国 公共工程 建成 通车 site:gov.cn",
+          "\"10月21日\" 中国 文化 体育 首次 site:people.com.cn",
+          "\"10月21日\" 中国 医疗 民生 开通 site:chinanews.com",
+          "\"10月21日\" 中国 教育 学校 成立 site:gmw.cn",
+          "\"10月21日\" 中国 历史上的今天 site:cctv.com"
         ]
       }
     ],
     "sourceUsed": 6,
-    "publishedVerifiedCount": 2,
-    "completedAt": "2026-10-20T21:32:25+08:00"
+    "publishedVerifiedCount": 1,
+    "completedAt": "2026-10-21T03:59:20+08:00"
   }
 }

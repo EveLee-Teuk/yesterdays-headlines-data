@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-10-21",
+  "timezone": "Asia/Shanghai",
+  "status": "ready",
+  "events": [
+    {
+      "date": "2001-10-21",
+      "title": "亚太经合组织第九次领导人非正式会议在上海举行",
+      "category": "社会",
+      "location": "上海",
+      "summary": "2001年10月21日，亚太经合组织（APEC）第九次领导人非正式会议在上海举行，这是中国第一次举行这样高级别的大型国际会议。江泽民主持会议并发表讲话，会议通过了《领导人宣言》及《上海共识》《数字APEC战略》等附件，并发表反恐声明。",
+      "id": "history-e07c8e26f55f47c0",
+      "sources": [
+        {
+          "name": "cpc.people.com.cn",
+          "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70507/index.html",
+          "date": "2001-10-21",
+          "evidence": "2001年10月21日  亚太经合组织（APEC）第九次领导人非正式会议在上海举行，这是中国第一次举行这样高级别的大型国际会议。"
+        }
+      ],
+      "reviewedAt": "2026-10-14",
+      "verification": "source-matched"
+    }
+  ]
+}
