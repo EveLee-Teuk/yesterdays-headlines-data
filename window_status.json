@@ -50,13 +50,13 @@
     "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-20T05:01:21+08:00",
+    "attemptedAt": "2026-10-20T12:42:20+08:00",
     "existingVerifiedCount": 2,
     "searchAttempted": 6,
-    "searchSucceeded": 3,
-    "searchResults": 16,
+    "searchSucceeded": 5,
+    "searchResults": 30,
     "sourceAttempted": 16,
-    "sourceReadable": 11,
+    "sourceReadable": 6,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -69,33 +69,31 @@
       },
       {
         "id": "s3",
-        "url": "https://www.news.cn/politics/20251020/fe78d31222884c70b381400867589166/c.html"
+        "url": "https://www.news.cn/20251023/5036defefddc4cc68ac92331e24f7551/c.html"
       },
       {
         "id": "s4",
-        "url": "https://cpc.people.com.cn/n1/2025/1024/c64094-40588485.html"
+        "url": "https://www.news.cn/20251020/df41b54ae67342ad91c331eac22b0768/c.html"
       },
       {
         "id": "s5",
-        "url": "https://paper.people.com.cn/mszk/pc/content/202510/27/content_30112038.html"
+        "url": "https://paper.people.com.cn/rmrb/pc/content/202610/20/content_30186640.html"
       },
       {
         "id": "s6",
-        "url": "https://tv.cctv.com/2020/10/20/VIDEN838NwGeIijWlyhpvXBj201020.shtml"
+        "url": "https://cpc.people.com.cn/n1/2025/1024/c64094-40588485.html"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 3,
-        "searchResults": 16,
+        "searchSucceeded": 5,
+        "searchResults": 30,
         "sourceAttempted": 16,
-        "sourceReadable": 11,
+        "sourceReadable": 6,
         "sourceUsed": 6,
         "searchErrors": [
-          "TimeoutException",
-          "TimeoutException",
           "DDGSException"
         ],
         "sourceErrors": [
@@ -108,7 +106,11 @@
             "type": "SSLError"
           },
           {
-            "host": "ent.people.com.cn",
+            "host": "kpzg.people.com.cn",
+            "type": "SSLError"
+          },
+          {
+            "host": "theory.people.com.cn",
             "type": "SSLError"
           }
         ],
@@ -124,6 +126,6 @@
     ],
     "sourceUsed": 6,
     "publishedVerifiedCount": 2,
-    "completedAt": "2026-10-20T05:02:00+08:00"
+    "completedAt": "2026-10-20T12:42:30+08:00"
   }
 }
