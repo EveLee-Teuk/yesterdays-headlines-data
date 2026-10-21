@@ -1,43 +1,43 @@
 {
   "schemaVersion": 2,
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "timezone": "Asia/Shanghai",
   "status": "ready",
   "events": [
     {
-      "date": "1949-10-21",
-      "title": "中央人民政府政务院成立",
+      "date": "2019-10-22",
+      "title": "国务院公布《优化营商环境条例》",
       "category": "社会",
       "location": "北京",
-      "summary": "1949年10月21日，周恩来主持召开政务院第一次会议，宣布中央人民政府政务院正式成立。政务院作为国家政务的最高执行机关，下设政治、法律、财政经济、文化教育和人民监察4个委员会，共30个工作部门，其中财政经济部门16个，体现经济建设在政府工作中的重要地位。",
-      "id": "history-3ad4642e99bc135c",
+      "summary": "2019年10月22日，国务院公布《优化营商环境条例》。该条例旨在优化营商环境，激发市场主体活力，推动高质量发展，为各类市场主体投资兴业提供制度保障。",
+      "id": "history-7dc002d1c89a4f78",
       "sources": [
         {
-          "name": "cpc.people.com.cn",
-          "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70507/index.html",
-          "date": "1949-10-21",
-          "evidence": "1949年10月21日，周恩来主持召开政院第一次会议，宣布中央人民政府政务院正式成立。"
+          "name": "politics.gmw.cn",
+          "url": "https://politics.gmw.cn/2021-10/22/content_35250680.htm",
+          "date": "2019-10-22",
+          "evidence": "2019年 10月22日 国务院公布《优化营商环境条例》。"
         }
       ],
-      "reviewedAt": "2026-10-21",
+      "reviewedAt": "2026-10-15",
       "verification": "source-matched"
     },
     {
-      "date": "2001-10-21",
-      "title": "亚太经合组织第九次领导人非正式会议在上海举行",
-      "category": "社会",
-      "location": "上海",
-      "summary": "2001年10月21日，亚太经合组织（APEC）第九次领导人非正式会议在上海举行，这是中国第一次举行这样高级别的大型国际会议。江泽民主持会议并发表讲话，会议通过了《领导人宣言》及《上海共识》《数字APEC战略》等附件，并发表反恐声明。",
-      "id": "history-e07c8e26f55f47c0",
+      "date": "2024-10-22",
+      "title": "神舟十九号载人飞船与火箭组合体开始转运",
+      "category": "科技",
+      "location": "酒泉",
+      "summary": "2024年10月22日下午，神舟十九号载人飞船与长征二号F遥十九运载火箭组合体开始转运。这标志着神舟十九号载人飞行任务进入发射准备阶段，后续将按计划开展发射工作。",
+      "id": "history-abb6d11225271c72",
       "sources": [
         {
-          "name": "cpc.people.com.cn",
-          "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70507/index.html",
-          "date": "2001-10-21",
-          "evidence": "2001年10月21日  亚太经合组织（APEC）第九次领导人非正式会议在上海举行，这是中国第一次举行这样高级别的大型国际会议。"
+          "name": "新华网",
+          "url": "https://www.news.cn/tech/20241031/d530d8e890b14365bc6b96b9ffc4bd5f/c.html",
+          "date": "2024-10-22",
+          "evidence": "2024年10月22日下午，神舟十九号载人飞船与长征二号F遥十九运载火箭组合体开始转运。"
         }
       ],
-      "reviewedAt": "2026-10-14",
+      "reviewedAt": "2026-10-15",
       "verification": "source-matched"
     }
   ]

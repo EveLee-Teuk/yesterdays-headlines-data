@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-10-29",
+  "timezone": "Asia/Shanghai",
+  "status": "ready",
+  "events": [
+    {
+      "date": "1896-10-29",
+      "title": "光绪皇帝批准设立铁路学堂",
+      "category": "社会",
+      "location": "山海关",
+      "summary": "1896年10月29日，直隶总督兼北洋大臣王文韶上奏朝廷，请设铁路学堂，获光绪皇帝批准。唐山交通大学的起源——山海关北洋铁路官学堂由此应运而生，成为中国土木工程、交通工程、矿冶工程高等教育的发祥地之一。",
+      "id": "history-4ca95ed0d36438db",
+      "sources": [
+        {
+          "name": "m.gmw.cn",
+          "url": "https://m.gmw.cn/toutiao/2023-10/11/content_1303537405.htm",
+          "date": "1896-10-29",
+          "evidence": "1896年10月29日 直隶总督兼北洋大臣 王文韶上奏朝廷 请设铁路学堂 获光绪皇帝批准 唐山交通大学的起源—— 山海关北洋铁路官学堂 应运而生"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "verification": "source-matched"
+    },
+    {
+      "date": "1996-10-29",
+      "title": "八届全国人大常委会通过《乡镇企业法》",
+      "category": "社会",
+      "location": "北京",
+      "summary": "1996年10月29日，八届全国人大常委会第二十二次会议通过《中华人民共和国乡镇企业法》，为乡镇企业的规范发展和权益保障提供法律依据。",
+      "id": "history-d2c51002ad7e080c",
+      "sources": [
+        {
+          "name": "politics.gmw.cn",
+          "url": "https://politics.gmw.cn/2021-10/29/content_35266422.htm",
+          "date": "1996-10-29",
+          "evidence": "1996年 10月29日 八届全国人大常委会第二十二次会议通过《中华人民共和国乡镇企业法》。"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "verification": "source-matched"
+    }
+  ]
+}

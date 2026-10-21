@@ -1,119 +1,87 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "failedDates": [],
   "coveragePolicyVersion": 2,
   "restoredDates": [
-    "2026-10-15",
     "2026-10-16",
     "2026-10-17",
     "2026-10-18",
     "2026-10-19",
     "2026-10-20",
-    "2026-10-21"
+    "2026-10-21",
+    "2026-10-22"
   ],
   "todayMinimumMet": true,
   "preparedReadyDates": [
-    "2026-10-22",
     "2026-10-23",
     "2026-10-24",
     "2026-10-25",
     "2026-10-26",
     "2026-10-27",
-    "2026-10-28"
+    "2026-10-28",
+    "2026-10-29"
   ],
   "preparedMissingDates": [],
   "attemptedDates": [
-    "2026-10-21"
+    "2026-10-22"
   ],
   "historicalRetries": {},
   "todayAttempt": {
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "outcome": "ready",
-    "generatedCount": 2,
+    "generatedCount": 0,
     "validationRejected": 0,
     "repairCount": 0,
     "repairGeneratedCount": 0,
-    "validatedCount": 2,
-    "reviewedCount": 2,
-    "approvedCount": 1,
-    "candidateResults": [
-      {
-        "layer": 0,
-        "stage": "generated",
-        "index": 0,
-        "date": "1949-10-21",
-        "title": "中央人民政府政务院成立",
-        "sourceId": "s1",
-        "result": "validated"
-      },
-      {
-        "layer": 0,
-        "stage": "generated",
-        "index": 1,
-        "date": "2013-10-21",
-        "title": "欧美同学会成立100周年庆祝大会召开",
-        "sourceId": "s4",
-        "result": "validated"
-      }
-    ],
-    "reviewResults": [
-      {
-        "layer": 0,
-        "date": "1949-10-21",
-        "title": "中央人民政府政务院成立",
-        "approved": true
-      },
-      {
-        "layer": 0,
-        "date": "2013-10-21",
-        "title": "欧美同学会成立100周年庆祝大会召开",
-        "approved": false
-      }
-    ],
+    "validatedCount": 0,
+    "reviewedCount": 0,
+    "approvedCount": 0,
+    "candidateResults": [],
+    "reviewResults": [],
     "modelLayers": [
       {
         "index": 0,
         "sourceUsed": 6,
-        "generated": 2,
-        "validated": 2,
-        "approved": 1
+        "generated": 0,
+        "validated": 0,
+        "approved": 0
       }
     ],
-    "modelCalls": 2,
+    "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-21T21:43:42+08:00",
-    "existingVerifiedCount": 1,
+    "attemptedAt": "2026-10-22T04:06:29+08:00",
+    "existingVerifiedCount": 2,
     "searchAttempted": 6,
     "searchSucceeded": 4,
-    "searchResults": 24,
+    "searchResults": 25,
     "sourceAttempted": 16,
-    "sourceReadable": 6,
+    "sourceReadable": 8,
     "supplementalSearches": 0,
     "sources": [
       {
         "id": "s1",
-        "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70507/index.html"
+        "url": "https://nao.cas.cn/ndw/dsj/202203/t20220330_6409779.html"
       },
       {
         "id": "s2",
-        "url": "https://jtgl.beijing.gov.cn/jgj/jgxx/gsgg/559365/744145705/index.html"
+        "url": "https://politics.gmw.cn/2021-10/22/content_35250680.htm"
       },
       {
         "id": "s3",
-        "url": "https://paper.people.com.cn/rmrb/html/2024-10/21/nbs.D110000renmrb_01.htm"
+        "url": "https://www.news.cn/tech/20241031/d530d8e890b14365bc6b96b9ffc4bd5f/c.html"
       },
       {
         "id": "s4",
-        "url": "https://politics.gmw.cn/2021-10/21/content_35247368.htm"
+        "url": "https://www.news.cn/politics/leaders/2022-04/30/c_1128611928.htm"
       },
       {
         "id": "s5",
-        "url": "https://epaper.gmw.cn/zhdsb/html/2015-10/21/nw.D110000zhdsb_20151021_1-15.htm"
+        "url": "https://www.news.cn/politics/cpc20/2022-10/22/c_1129075483.htm"
       },
       {
         "id": "s6",
-        "url": "https://epaper.gmw.cn/gmrb/html/2019-10/21/nw.D110000gmrb_20191021_2-06.htm"
+        "url": "https://www.gov.cn/xinwen/2022-10/22/content_5720933.htm"
       }
     ],
     "layers": [
@@ -121,9 +89,9 @@
         "name": "themes",
         "searchAttempted": 6,
         "searchSucceeded": 4,
-        "searchResults": 24,
+        "searchResults": 25,
         "sourceAttempted": 16,
-        "sourceReadable": 6,
+        "sourceReadable": 8,
         "sourceUsed": 6,
         "searchErrors": [
           "DDGSException",
@@ -131,38 +99,22 @@
         ],
         "sourceErrors": [
           {
-            "host": "jtt.ah.gov.cn",
-            "type": "HTTPError"
-          },
-          {
-            "host": "zfcxjw.cq.gov.cn",
-            "type": "ConnectionError"
-          },
-          {
-            "host": "www.cq.gov.cn",
-            "type": "ConnectionError"
-          },
-          {
-            "host": "www.mohurd.gov.cn",
-            "type": "ConnectionError"
-          },
-          {
-            "host": "kpp.ndrc.gov.cn",
-            "type": "ConnectionError"
+            "host": "www.npc.gov.cn",
+            "type": "ReadTimeout"
           }
         ],
         "queries": [
-          "\"10月21日\" 中国 科技 突破 成功 site:news.cn",
-          "\"10月21日\" 中国 公共工程 建成 通车 site:gov.cn",
-          "\"10月21日\" 中国 文化 体育 首次 site:people.com.cn",
-          "\"10月21日\" 中国 医疗 民生 开通 site:chinanews.com",
-          "\"10月21日\" 中国 教育 学校 成立 site:gmw.cn",
-          "\"10月21日\" 中国 历史上的今天 site:cctv.com"
+          "\"10月22日\" 中国 科技 突破 成功 site:news.cn",
+          "\"10月22日\" 中国 公共工程 建成 通车 site:gov.cn",
+          "\"10月22日\" 中国 文化 体育 首次 site:people.com.cn",
+          "\"10月22日\" 中国 医疗 民生 开通 site:chinanews.com",
+          "\"10月22日\" 中国 教育 学校 成立 site:gmw.cn",
+          "\"10月22日\" 中国 历史上的今天 site:cctv.com"
         ]
       }
     ],
     "sourceUsed": 6,
     "publishedVerifiedCount": 2,
-    "completedAt": "2026-10-21T21:44:10+08:00"
+    "completedAt": "2026-10-22T04:06:46+08:00"
   }
 }
