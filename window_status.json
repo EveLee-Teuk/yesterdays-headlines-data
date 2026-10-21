@@ -29,55 +29,34 @@
   "todayAttempt": {
     "date": "2026-10-21",
     "outcome": "ready",
-    "generatedCount": 2,
-    "validationRejected": 2,
-    "repairCount": 1,
+    "generatedCount": 0,
+    "validationRejected": 0,
+    "repairCount": 0,
     "repairGeneratedCount": 0,
     "validatedCount": 0,
     "reviewedCount": 0,
     "approvedCount": 0,
-    "candidateResults": [
-      {
-        "layer": 0,
-        "stage": "generated",
-        "index": 0,
-        "date": "2021-10-21",
-        "title": "国家“十三五”科技创新成就展正式开幕",
-        "sourceId": "s3",
-        "result": "rejected",
-        "reason": "Evidence does not contain the actual historical date"
-      },
-      {
-        "layer": 0,
-        "stage": "generated",
-        "index": 1,
-        "date": "2021-10-21",
-        "title": "国际滑联短道速滑世界杯北京站开赛",
-        "sourceId": "s6",
-        "result": "rejected",
-        "reason": "Evidence does not contain the actual historical date"
-      }
-    ],
+    "candidateResults": [],
     "reviewResults": [],
     "modelLayers": [
       {
         "index": 0,
-        "sourceUsed": 6,
-        "generated": 2,
+        "sourceUsed": 5,
+        "generated": 0,
         "validated": 0,
         "approved": 0
       }
     ],
-    "modelCalls": 2,
+    "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-21T03:58:52+08:00",
+    "attemptedAt": "2026-10-21T12:38:27+08:00",
     "existingVerifiedCount": 1,
     "searchAttempted": 6,
     "searchSucceeded": 4,
-    "searchResults": 17,
+    "searchResults": 21,
     "sourceAttempted": 16,
-    "sourceReadable": 6,
+    "sourceReadable": 5,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -86,23 +65,19 @@
       },
       {
         "id": "s2",
-        "url": "https://www.news.cn/2023-10/21/c_1129930099.htm"
-      },
-      {
-        "id": "s3",
         "url": "https://www.news.cn/politics/2021-10/26/c_1127998654.htm"
       },
       {
+        "id": "s3",
+        "url": "https://www.news.cn/2023-10/21/c_1129930099.htm"
+      },
+      {
         "id": "s4",
-        "url": "https://www.gov.cn/yaowen/liebiao/202510/content_7045304.htm"
+        "url": "https://www.news.cn/auto/20260727/d0731b53d90b48aba0cfa6c1a1456f12/c.html"
       },
       {
         "id": "s5",
-        "url": "https://news.cctv.com/2016/10/21/ARTI5VaKZPICkmfYFhn7QnLi161021.shtml"
-      },
-      {
-        "id": "s6",
-        "url": "https://tv.cctv.com/2021/10/21/VIDEdxQCVg5rXEWR0p1UmVJt211021.shtml"
+        "url": "https://www.gov.cn/yaowen/liebiao/202510/content_7045304.htm"
       }
     ],
     "layers": [
@@ -110,10 +85,10 @@
         "name": "themes",
         "searchAttempted": 6,
         "searchSucceeded": 4,
-        "searchResults": 17,
+        "searchResults": 21,
         "sourceAttempted": 16,
-        "sourceReadable": 6,
-        "sourceUsed": 6,
+        "sourceReadable": 5,
+        "sourceUsed": 5,
         "searchErrors": [
           "DDGSException",
           "DDGSException"
@@ -124,16 +99,12 @@
             "type": "ConnectionError"
           },
           {
-            "host": "www.mohurd.gov.cn",
-            "type": "ConnectionError"
+            "host": "ent.people.com.cn",
+            "type": "SSLError"
           },
           {
-            "host": "www.cq.gov.cn",
-            "type": "ConnectionError"
-          },
-          {
-            "host": "www.hebei.gov.cn",
-            "type": "ConnectionError"
+            "host": "ent.people.com.cn",
+            "type": "SSLError"
           }
         ],
         "queries": [
@@ -146,8 +117,8 @@
         ]
       }
     ],
-    "sourceUsed": 6,
+    "sourceUsed": 5,
     "publishedVerifiedCount": 1,
-    "completedAt": "2026-10-21T03:59:20+08:00"
+    "completedAt": "2026-10-21T12:38:44+08:00"
   }
 }
