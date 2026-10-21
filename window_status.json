@@ -29,34 +29,66 @@
   "todayAttempt": {
     "date": "2026-10-21",
     "outcome": "ready",
-    "generatedCount": 0,
+    "generatedCount": 2,
     "validationRejected": 0,
     "repairCount": 0,
     "repairGeneratedCount": 0,
-    "validatedCount": 0,
-    "reviewedCount": 0,
-    "approvedCount": 0,
-    "candidateResults": [],
-    "reviewResults": [],
+    "validatedCount": 2,
+    "reviewedCount": 2,
+    "approvedCount": 1,
+    "candidateResults": [
+      {
+        "layer": 0,
+        "stage": "generated",
+        "index": 0,
+        "date": "1949-10-21",
+        "title": "中央人民政府政务院成立",
+        "sourceId": "s1",
+        "result": "validated"
+      },
+      {
+        "layer": 0,
+        "stage": "generated",
+        "index": 1,
+        "date": "2013-10-21",
+        "title": "欧美同学会成立100周年庆祝大会召开",
+        "sourceId": "s4",
+        "result": "validated"
+      }
+    ],
+    "reviewResults": [
+      {
+        "layer": 0,
+        "date": "1949-10-21",
+        "title": "中央人民政府政务院成立",
+        "approved": true
+      },
+      {
+        "layer": 0,
+        "date": "2013-10-21",
+        "title": "欧美同学会成立100周年庆祝大会召开",
+        "approved": false
+      }
+    ],
     "modelLayers": [
       {
         "index": 0,
-        "sourceUsed": 5,
-        "generated": 0,
-        "validated": 0,
-        "approved": 0
+        "sourceUsed": 6,
+        "generated": 2,
+        "validated": 2,
+        "approved": 1
       }
     ],
-    "modelCalls": 1,
+    "modelCalls": 2,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-21T12:38:27+08:00",
+    "attemptedAt": "2026-10-21T21:43:42+08:00",
     "existingVerifiedCount": 1,
     "searchAttempted": 6,
     "searchSucceeded": 4,
-    "searchResults": 21,
+    "searchResults": 24,
     "sourceAttempted": 16,
-    "sourceReadable": 5,
+    "sourceReadable": 6,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -65,19 +97,23 @@
       },
       {
         "id": "s2",
-        "url": "https://www.news.cn/politics/2021-10/26/c_1127998654.htm"
+        "url": "https://jtgl.beijing.gov.cn/jgj/jgxx/gsgg/559365/744145705/index.html"
       },
       {
         "id": "s3",
-        "url": "https://www.news.cn/2023-10/21/c_1129930099.htm"
+        "url": "https://paper.people.com.cn/rmrb/html/2024-10/21/nbs.D110000renmrb_01.htm"
       },
       {
         "id": "s4",
-        "url": "https://www.news.cn/auto/20260727/d0731b53d90b48aba0cfa6c1a1456f12/c.html"
+        "url": "https://politics.gmw.cn/2021-10/21/content_35247368.htm"
       },
       {
         "id": "s5",
-        "url": "https://www.gov.cn/yaowen/liebiao/202510/content_7045304.htm"
+        "url": "https://epaper.gmw.cn/zhdsb/html/2015-10/21/nw.D110000zhdsb_20151021_1-15.htm"
+      },
+      {
+        "id": "s6",
+        "url": "https://epaper.gmw.cn/gmrb/html/2019-10/21/nw.D110000gmrb_20191021_2-06.htm"
       }
     ],
     "layers": [
@@ -85,26 +121,34 @@
         "name": "themes",
         "searchAttempted": 6,
         "searchSucceeded": 4,
-        "searchResults": 21,
+        "searchResults": 24,
         "sourceAttempted": 16,
-        "sourceReadable": 5,
-        "sourceUsed": 5,
+        "sourceReadable": 6,
+        "sourceUsed": 6,
         "searchErrors": [
           "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "www.sasac.gov.cn",
+            "host": "jtt.ah.gov.cn",
+            "type": "HTTPError"
+          },
+          {
+            "host": "zfcxjw.cq.gov.cn",
             "type": "ConnectionError"
           },
           {
-            "host": "ent.people.com.cn",
-            "type": "SSLError"
+            "host": "www.cq.gov.cn",
+            "type": "ConnectionError"
           },
           {
-            "host": "ent.people.com.cn",
-            "type": "SSLError"
+            "host": "www.mohurd.gov.cn",
+            "type": "ConnectionError"
+          },
+          {
+            "host": "kpp.ndrc.gov.cn",
+            "type": "ConnectionError"
           }
         ],
         "queries": [
@@ -117,8 +161,8 @@
         ]
       }
     ],
-    "sourceUsed": 5,
-    "publishedVerifiedCount": 1,
-    "completedAt": "2026-10-21T12:38:44+08:00"
+    "sourceUsed": 6,
+    "publishedVerifiedCount": 2,
+    "completedAt": "2026-10-21T21:44:10+08:00"
   }
 }
