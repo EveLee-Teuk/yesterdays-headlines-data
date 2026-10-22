@@ -29,34 +29,66 @@
   "todayAttempt": {
     "date": "2026-10-22",
     "outcome": "ready",
-    "generatedCount": 0,
+    "generatedCount": 2,
     "validationRejected": 0,
     "repairCount": 0,
     "repairGeneratedCount": 0,
-    "validatedCount": 0,
-    "reviewedCount": 0,
-    "approvedCount": 0,
-    "candidateResults": [],
-    "reviewResults": [],
+    "validatedCount": 2,
+    "reviewedCount": 2,
+    "approvedCount": 2,
+    "candidateResults": [
+      {
+        "layer": 0,
+        "stage": "generated",
+        "index": 0,
+        "date": "1949-10-22",
+        "title": "最高人民法院、最高人民检察署成立",
+        "sourceId": "s2",
+        "result": "validated"
+      },
+      {
+        "layer": 0,
+        "stage": "generated",
+        "index": 1,
+        "date": "1936-10-22",
+        "title": "红军三大主力会师宣告长征胜利结束",
+        "sourceId": "s5",
+        "result": "validated"
+      }
+    ],
+    "reviewResults": [
+      {
+        "layer": 0,
+        "date": "1936-10-22",
+        "title": "红军三大主力会师宣告长征胜利结束",
+        "approved": true
+      },
+      {
+        "layer": 0,
+        "date": "1949-10-22",
+        "title": "最高人民法院、最高人民检察署成立",
+        "approved": true
+      }
+    ],
     "modelLayers": [
       {
         "index": 0,
         "sourceUsed": 6,
-        "generated": 0,
-        "validated": 0,
-        "approved": 0
+        "generated": 2,
+        "validated": 2,
+        "approved": 2
       }
     ],
-    "modelCalls": 1,
+    "modelCalls": 2,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-22T12:36:01+08:00",
+    "attemptedAt": "2026-10-22T21:44:31+08:00",
     "existingVerifiedCount": 2,
     "searchAttempted": 6,
-    "searchSucceeded": 6,
-    "searchResults": 36,
-    "sourceAttempted": 16,
-    "sourceReadable": 7,
+    "searchSucceeded": 2,
+    "searchResults": 10,
+    "sourceAttempted": 14,
+    "sourceReadable": 11,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -73,31 +105,36 @@
       },
       {
         "id": "s4",
-        "url": "https://www.news.cn/politics/cpc20/2022-10/22/c_1129075483.htm"
+        "url": "https://www.gov.cn/xinwen/2022-10/22/content_5720933.htm"
       },
       {
         "id": "s5",
-        "url": "https://www.news.cn/politics/leaders/2022-04/30/c_1128611928.htm"
+        "url": "https://tv.cctv.com/2016/10/22/VIDEllLUoykv6VWIbzNlDGj0161022.shtml"
       },
       {
         "id": "s6",
-        "url": "https://www.mot.gov.cn/"
+        "url": "https://news.cctv.com/2026/10/22/ARTIE4mZR7utrGpsOMZlKZvz261022.shtml"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 6,
-        "searchResults": 36,
-        "sourceAttempted": 16,
-        "sourceReadable": 7,
+        "searchSucceeded": 2,
+        "searchResults": 10,
+        "sourceAttempted": 14,
+        "sourceReadable": 11,
         "sourceUsed": 6,
-        "searchErrors": [],
+        "searchErrors": [
+          "DDGSException",
+          "DDGSException",
+          "DDGSException",
+          "DDGSException"
+        ],
         "sourceErrors": [
           {
-            "host": "www.dangtu.gov.cn",
-            "type": "ConnectionError"
+            "host": "www.scio.gov.cn",
+            "type": "SSLError"
           }
         ],
         "queries": [
@@ -111,7 +148,7 @@
       }
     ],
     "sourceUsed": 6,
-    "publishedVerifiedCount": 2,
-    "completedAt": "2026-10-22T12:36:19+08:00"
+    "publishedVerifiedCount": 4,
+    "completedAt": "2026-10-22T21:44:47+08:00"
   }
 }

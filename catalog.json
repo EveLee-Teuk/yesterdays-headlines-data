@@ -57,6 +57,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "1936-10-22",
+      "title": "红军三大主力会师宣告长征胜利结束",
+      "category": "社会",
+      "location": "甘肃",
+      "summary": "1936年10月22日，中国工农红军三大主力历经千辛万苦胜利会师，宣告万里长征胜利结束。这一事件标志着红军战略转移任务的完成，成为中国革命史上的重要节点。",
+      "id": "history-f273c3ae4b16fdcf",
+      "sources": [
+        {
+          "name": "tv.cctv.com",
+          "url": "https://tv.cctv.com/2016/10/22/VIDEllLUoykv6VWIbzNlDGj0161022.shtml",
+          "date": "1936-10-22",
+          "evidence": "1936年10月22日，中国工农红军三大主力历经千辛万苦，终于胜利会师，宣告了万里长征胜利结束。"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
+      "verification": "source-matched"
+    },
+    {
       "date": "1938-10-10",
       "title": "南洋各属华侨筹赈祖国难民总会成立",
       "category": "社会",
@@ -108,6 +126,24 @@
         }
       ],
       "reviewedAt": "2026-10-21",
+      "verification": "source-matched"
+    },
+    {
+      "date": "1949-10-22",
+      "title": "最高人民法院、最高人民检察署成立",
+      "category": "社会",
+      "location": "北京",
+      "summary": "1949年10月22日，最高人民法院、最高人民检察署成立。1954年，最高人民检察署改名为最高人民检察院。这是新中国成立初期司法机构建设的重要一步，为后续审判与检察工作奠定组织基础。",
+      "id": "history-81448322e5de07fa",
+      "sources": [
+        {
+          "name": "politics.gmw.cn",
+          "url": "https://politics.gmw.cn/2021-10/22/content_35250680.htm",
+          "date": "1949-10-22",
+          "evidence": "1949年 10月22日 最高人民法院、最高人民检察署成立。1954年，最高人民检察署改名为最高人民检察院。"
+        }
+      ],
+      "reviewedAt": "2026-10-22",
       "verification": "source-matched"
     },
     {
@@ -1721,9 +1757,9 @@
   ],
   "lastRun": {
     "date": "2026-10-22",
-    "completedAt": "2026-10-22T12:36:19+08:00",
+    "completedAt": "2026-10-22T21:44:47+08:00",
     "sourceCount": 6,
-    "addedCount": 0,
+    "addedCount": 2,
     "status": "ready"
   }
 }
