@@ -50,13 +50,13 @@
     "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-22T04:06:29+08:00",
+    "attemptedAt": "2026-10-22T12:36:01+08:00",
     "existingVerifiedCount": 2,
     "searchAttempted": 6,
-    "searchSucceeded": 4,
-    "searchResults": 25,
+    "searchSucceeded": 6,
+    "searchResults": 36,
     "sourceAttempted": 16,
-    "sourceReadable": 8,
+    "sourceReadable": 7,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -73,34 +73,31 @@
       },
       {
         "id": "s4",
-        "url": "https://www.news.cn/politics/leaders/2022-04/30/c_1128611928.htm"
-      },
-      {
-        "id": "s5",
         "url": "https://www.news.cn/politics/cpc20/2022-10/22/c_1129075483.htm"
       },
       {
+        "id": "s5",
+        "url": "https://www.news.cn/politics/leaders/2022-04/30/c_1128611928.htm"
+      },
+      {
         "id": "s6",
-        "url": "https://www.gov.cn/xinwen/2022-10/22/content_5720933.htm"
+        "url": "https://www.mot.gov.cn/"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 4,
-        "searchResults": 25,
+        "searchSucceeded": 6,
+        "searchResults": 36,
         "sourceAttempted": 16,
-        "sourceReadable": 8,
+        "sourceReadable": 7,
         "sourceUsed": 6,
-        "searchErrors": [
-          "DDGSException",
-          "DDGSException"
-        ],
+        "searchErrors": [],
         "sourceErrors": [
           {
-            "host": "www.npc.gov.cn",
-            "type": "ReadTimeout"
+            "host": "www.dangtu.gov.cn",
+            "type": "ConnectionError"
           }
         ],
         "queries": [
@@ -115,6 +112,6 @@
     ],
     "sourceUsed": 6,
     "publishedVerifiedCount": 2,
-    "completedAt": "2026-10-22T04:06:46+08:00"
+    "completedAt": "2026-10-22T12:36:19+08:00"
   }
 }
