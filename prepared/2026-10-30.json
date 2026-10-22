@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-10-30",
+  "timezone": "Asia/Shanghai",
+  "status": "ready",
+  "events": [
+    {
+      "date": "2025-10-30",
+      "title": "中国科学技术信息研究所发布《中国科技论文统计报告》",
+      "category": "科技",
+      "location": "北京",
+      "summary": "2025年10月30日，中国科学技术信息研究所发布《中国科技论文统计报告》。报告显示，2024年在各学科最具影响力期刊上，中国发表论文15067篇，占世界总量的35.2%，排名世界第一。",
+      "id": "history-2766f0da958bc19b",
+      "sources": [
+        {
+          "name": "新华网",
+          "url": "https://www.news.cn/liangzi/20260120/e9d50054771947908141a1db0ae6c8af/c.html",
+          "date": "2025-10-30",
+          "evidence": "2025年10月30日，中国科学技术信息研究所发布的《中国科技论文统计报告》显示，2024年，在各学科最具影响力期刊上，中国发表论文15067篇，占世界总量的35.2%，排名世界第一。"
+        }
+      ],
+      "reviewedAt": "2026-10-23",
+      "verification": "source-matched"
+    }
+  ]
+}

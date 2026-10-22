@@ -1,154 +1,158 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-23",
   "failedDates": [],
   "coveragePolicyVersion": 2,
   "restoredDates": [
-    "2026-10-16",
     "2026-10-17",
     "2026-10-18",
     "2026-10-19",
     "2026-10-20",
     "2026-10-21",
-    "2026-10-22"
+    "2026-10-22",
+    "2026-10-23"
   ],
   "todayMinimumMet": true,
   "preparedReadyDates": [
-    "2026-10-23",
     "2026-10-24",
     "2026-10-25",
     "2026-10-26",
     "2026-10-27",
     "2026-10-28",
-    "2026-10-29"
+    "2026-10-29",
+    "2026-10-30"
   ],
   "preparedMissingDates": [],
   "attemptedDates": [
-    "2026-10-22"
+    "2026-10-23"
   ],
   "historicalRetries": {},
   "todayAttempt": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "outcome": "ready",
     "generatedCount": 2,
-    "validationRejected": 0,
-    "repairCount": 0,
-    "repairGeneratedCount": 0,
-    "validatedCount": 2,
-    "reviewedCount": 2,
-    "approvedCount": 2,
+    "validationRejected": 3,
+    "repairCount": 1,
+    "repairGeneratedCount": 1,
+    "validatedCount": 0,
+    "reviewedCount": 0,
+    "approvedCount": 0,
     "candidateResults": [
       {
         "layer": 0,
         "stage": "generated",
         "index": 0,
-        "date": "1949-10-22",
-        "title": "最高人民法院、最高人民检察署成立",
-        "sourceId": "s2",
-        "result": "validated"
+        "date": "2018-10-23",
+        "title": "港珠澳大桥正式开通",
+        "sourceId": "s6",
+        "result": "rejected",
+        "reason": "Evidence does not contain the actual historical date"
       },
       {
         "layer": 0,
         "stage": "generated",
         "index": 1,
-        "date": "1936-10-22",
-        "title": "红军三大主力会师宣告长征胜利结束",
-        "sourceId": "s5",
-        "result": "validated"
-      }
-    ],
-    "reviewResults": [
-      {
-        "layer": 0,
-        "date": "1936-10-22",
-        "title": "红军三大主力会师宣告长征胜利结束",
-        "approved": true
+        "date": "2025-10-23",
+        "title": "第22届中国计算机大会在哈尔滨开幕",
+        "sourceId": "s1",
+        "result": "rejected",
+        "reason": "Evidence does not contain the actual historical date"
       },
       {
         "layer": 0,
-        "date": "1949-10-22",
-        "title": "最高人民法院、最高人民检察署成立",
-        "approved": true
+        "stage": "repair",
+        "index": 0,
+        "date": "2018-10-23",
+        "title": "港珠澳大桥正式开通",
+        "sourceId": "s6",
+        "result": "rejected",
+        "reason": "Evidence does not contain the actual historical date"
       }
     ],
+    "reviewResults": [],
     "modelLayers": [
       {
         "index": 0,
         "sourceUsed": 6,
         "generated": 2,
-        "validated": 2,
-        "approved": 2
+        "validated": 0,
+        "approved": 0
       }
     ],
     "modelCalls": 2,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-22T21:44:31+08:00",
-    "existingVerifiedCount": 2,
+    "attemptedAt": "2026-10-23T04:02:23+08:00",
+    "existingVerifiedCount": 1,
     "searchAttempted": 6,
-    "searchSucceeded": 2,
-    "searchResults": 10,
-    "sourceAttempted": 14,
-    "sourceReadable": 11,
+    "searchSucceeded": 5,
+    "searchResults": 33,
+    "sourceAttempted": 16,
+    "sourceReadable": 8,
     "supplementalSearches": 0,
     "sources": [
       {
         "id": "s1",
-        "url": "https://nao.cas.cn/ndw/dsj/202203/t20220330_6409779.html"
+        "url": "https://www.news.cn/tech/20251023/4f018f37d03748eda4751dc06746ea01/c.html"
       },
       {
         "id": "s2",
-        "url": "https://politics.gmw.cn/2021-10/22/content_35250680.htm"
+        "url": "https://www.news.cn/politics/20260515/757f9d27fda940439107361875dc3015/c.html"
       },
       {
         "id": "s3",
-        "url": "https://www.news.cn/tech/20241031/d530d8e890b14365bc6b96b9ffc4bd5f/c.html"
+        "url": "https://www.news.cn/20260426/7d0d2aa400014a7685229564e7a99016/c.html"
       },
       {
         "id": "s4",
-        "url": "https://www.gov.cn/xinwen/2022-10/22/content_5720933.htm"
+        "url": "https://www.news.cn/20251023/5036defefddc4cc68ac92331e24f7551/c.html"
       },
       {
         "id": "s5",
-        "url": "https://tv.cctv.com/2016/10/22/VIDEllLUoykv6VWIbzNlDGj0161022.shtml"
+        "url": "https://www.news.cn/politics/cpc20/2022-10/23/c_1129076461.htm"
       },
       {
         "id": "s6",
-        "url": "https://news.cctv.com/2026/10/22/ARTIE4mZR7utrGpsOMZlKZvz261022.shtml"
+        "url": "https://www.gov.cn/xinwen/2018-10/23/content_5333803.htm"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 2,
-        "searchResults": 10,
-        "sourceAttempted": 14,
-        "sourceReadable": 11,
+        "searchSucceeded": 5,
+        "searchResults": 33,
+        "sourceAttempted": 16,
+        "sourceReadable": 8,
         "sourceUsed": 6,
         "searchErrors": [
-          "DDGSException",
-          "DDGSException",
-          "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "www.scio.gov.cn",
+            "host": "www.cppcc.gov.cn",
+            "type": "SSLError"
+          },
+          {
+            "host": "gzzzb.gov.cn",
+            "type": "ConnectTimeout"
+          },
+          {
+            "host": "zj.people.com.cn",
             "type": "SSLError"
           }
         ],
         "queries": [
-          "\"10月22日\" 中国 科技 突破 成功 site:news.cn",
-          "\"10月22日\" 中国 公共工程 建成 通车 site:gov.cn",
-          "\"10月22日\" 中国 文化 体育 首次 site:people.com.cn",
-          "\"10月22日\" 中国 医疗 民生 开通 site:chinanews.com",
-          "\"10月22日\" 中国 教育 学校 成立 site:gmw.cn",
-          "\"10月22日\" 中国 历史上的今天 site:cctv.com"
+          "\"10月23日\" 中国 科技 突破 成功 site:news.cn",
+          "\"10月23日\" 中国 公共工程 建成 通车 site:gov.cn",
+          "\"10月23日\" 中国 文化 体育 首次 site:people.com.cn",
+          "\"10月23日\" 中国 医疗 民生 开通 site:chinanews.com",
+          "\"10月23日\" 中国 教育 学校 成立 site:gmw.cn",
+          "\"10月23日\" 中国 历史上的今天 site:cctv.com"
         ]
       }
     ],
     "sourceUsed": 6,
-    "publishedVerifiedCount": 4,
-    "completedAt": "2026-10-22T21:44:47+08:00"
+    "publishedVerifiedCount": 1,
+    "completedAt": "2026-10-23T04:02:44+08:00"
   }
 }
