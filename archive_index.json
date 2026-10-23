@@ -1,27 +1,27 @@
 {
   "schemaVersion": 1,
-  "today": "2026-10-23",
+  "today": "2026-10-24",
   "retentionDays": 7,
   "dates": [
-    "2026-10-17",
     "2026-10-18",
     "2026-10-19",
     "2026-10-20",
     "2026-10-21",
     "2026-10-22",
-    "2026-10-23"
+    "2026-10-23",
+    "2026-10-24"
   ],
-  "updatedAt": "2026-10-23",
+  "updatedAt": "2026-10-24",
   "lastRun": {
-    "date": "2026-10-23",
-    "completedAt": "2026-10-23T21:21:31+08:00",
-    "sourceCount": 6,
-    "addedCount": 2,
+    "date": "2026-10-24",
+    "completedAt": "2026-10-24T03:57:00+08:00",
+    "sourceCount": 5,
+    "addedCount": 0,
     "status": "ready"
   },
   "lastAttempt": {
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "outcome": "ready",
-    "completedAt": "2026-10-23T21:21:31+08:00"
+    "completedAt": "2026-10-24T03:57:00+08:00"
   }
 }
