@@ -30,64 +30,65 @@
     "date": "2026-10-23",
     "outcome": "ready",
     "generatedCount": 2,
-    "validationRejected": 3,
-    "repairCount": 1,
-    "repairGeneratedCount": 1,
-    "validatedCount": 0,
-    "reviewedCount": 0,
-    "approvedCount": 0,
+    "validationRejected": 0,
+    "repairCount": 0,
+    "repairGeneratedCount": 0,
+    "validatedCount": 2,
+    "reviewedCount": 2,
+    "approvedCount": 2,
     "candidateResults": [
       {
         "layer": 0,
         "stage": "generated",
         "index": 0,
         "date": "2018-10-23",
-        "title": "港珠澳大桥正式开通",
+        "title": "港珠澳大桥开通仪式举行，大桥正式开通",
         "sourceId": "s5",
-        "result": "rejected",
-        "reason": "Evidence does not contain the actual historical date"
+        "result": "validated"
       },
       {
         "layer": 0,
         "stage": "generated",
         "index": 1,
-        "date": "2025-10-23",
-        "title": "第22届中国计算机大会在哈尔滨开幕",
-        "sourceId": "s1",
-        "result": "rejected",
-        "reason": "Evidence does not contain the actual historical date"
+        "date": "2022-10-23",
+        "title": "北京外国语大学联合多所高校倡议成立“中国区域国别学共同体”",
+        "sourceId": "s6",
+        "result": "validated"
+      }
+    ],
+    "reviewResults": [
+      {
+        "layer": 0,
+        "date": "2018-10-23",
+        "title": "港珠澳大桥开通仪式举行，大桥正式开通",
+        "approved": true
       },
       {
         "layer": 0,
-        "stage": "repair",
-        "index": 0,
-        "date": "2018-10-23",
-        "title": "港珠澳大桥正式开通",
-        "sourceId": "s5",
-        "result": "rejected",
-        "reason": "Evidence does not contain the actual historical date"
+        "date": "2022-10-23",
+        "title": "北京外国语大学联合多所高校倡议成立“中国区域国别学共同体”",
+        "approved": true
       }
     ],
-    "reviewResults": [],
     "modelLayers": [
       {
         "index": 0,
         "sourceUsed": 6,
         "generated": 2,
-        "validated": 0,
-        "approved": 0
+        "validated": 2,
+        "approved": 2
       }
     ],
     "modelCalls": 2,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-23T12:41:31+08:00",
+    "attemptedAt": "2026-10-23T21:21:15+08:00",
     "existingVerifiedCount": 1,
     "searchAttempted": 6,
-    "searchSucceeded": 5,
-    "searchResults": 29,
+    "searchSucceeded": 3,
+    "searchResults": 18,
     "sourceAttempted": 16,
-    "sourceReadable": 6,
+    "sourceReadable": 7,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -96,49 +97,55 @@
       },
       {
         "id": "s2",
-        "url": "https://www.news.cn/20260426/7d0d2aa400014a7685229564e7a99016/c.html"
+        "url": "https://www.news.cn/world/20261023/67aaaa05289240749ec450bedfb2600f/c.html"
       },
       {
         "id": "s3",
-        "url": "https://www.news.cn/20251023/5036defefddc4cc68ac92331e24f7551/c.html"
+        "url": "https://paper.people.com.cn/rmrb/pc/content/202610/23/content_30187310.html"
       },
       {
         "id": "s4",
-        "url": "https://www.news.cn/politics/cpc20/2022-10/23/c_1129076461.htm"
+        "url": "https://paper.people.com.cn/rmrb/pc/content/202610/23/content_30187362.html"
       },
       {
         "id": "s5",
-        "url": "https://www.gov.cn/xinwen/2018-10/23/content_5333803.htm"
+        "url": "https://politics.gmw.cn/2021-10/23/content_35253455.htm"
       },
       {
         "id": "s6",
-        "url": "https://www.mot.gov.cn/xinmeiti/"
+        "url": "https://www.gmw.cn/xueshu/2023-12/13/content_37025744.htm"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 5,
-        "searchResults": 29,
+        "searchSucceeded": 3,
+        "searchResults": 18,
         "sourceAttempted": 16,
-        "sourceReadable": 6,
+        "sourceReadable": 7,
         "sourceUsed": 6,
         "searchErrors": [
+          "DDGSException",
+          "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "blhxq.jiujiang.gov.cn",
-            "type": "ConnectionError"
+            "host": "zj.people.com.cn",
+            "type": "SSLError"
           },
           {
-            "host": "xxgk.mot.gov.cn",
-            "type": "HTTPError"
+            "host": "ent.people.com.cn",
+            "type": "SSLError"
           },
           {
-            "host": "www.yaan.gov.cn",
-            "type": "ConnectionError"
+            "host": "js.people.com.cn",
+            "type": "SSLError"
+          },
+          {
+            "host": "politics.people.com.cn",
+            "type": "SSLError"
           }
         ],
         "queries": [
@@ -152,7 +159,7 @@
       }
     ],
     "sourceUsed": 6,
-    "publishedVerifiedCount": 1,
-    "completedAt": "2026-10-23T12:41:52+08:00"
+    "publishedVerifiedCount": 3,
+    "completedAt": "2026-10-23T21:21:31+08:00"
   }
 }
