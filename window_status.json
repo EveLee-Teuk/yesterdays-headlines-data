@@ -43,7 +43,7 @@
         "index": 0,
         "date": "2018-10-23",
         "title": "港珠澳大桥正式开通",
-        "sourceId": "s6",
+        "sourceId": "s5",
         "result": "rejected",
         "reason": "Evidence does not contain the actual historical date"
       },
@@ -63,7 +63,7 @@
         "index": 0,
         "date": "2018-10-23",
         "title": "港珠澳大桥正式开通",
-        "sourceId": "s6",
+        "sourceId": "s5",
         "result": "rejected",
         "reason": "Evidence does not contain the actual historical date"
       }
@@ -81,13 +81,13 @@
     "modelCalls": 2,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-23T04:02:23+08:00",
+    "attemptedAt": "2026-10-23T12:41:31+08:00",
     "existingVerifiedCount": 1,
     "searchAttempted": 6,
     "searchSucceeded": 5,
-    "searchResults": 33,
+    "searchResults": 29,
     "sourceAttempted": 16,
-    "sourceReadable": 8,
+    "sourceReadable": 6,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -96,23 +96,23 @@
       },
       {
         "id": "s2",
-        "url": "https://www.news.cn/politics/20260515/757f9d27fda940439107361875dc3015/c.html"
-      },
-      {
-        "id": "s3",
         "url": "https://www.news.cn/20260426/7d0d2aa400014a7685229564e7a99016/c.html"
       },
       {
-        "id": "s4",
+        "id": "s3",
         "url": "https://www.news.cn/20251023/5036defefddc4cc68ac92331e24f7551/c.html"
       },
       {
-        "id": "s5",
+        "id": "s4",
         "url": "https://www.news.cn/politics/cpc20/2022-10/23/c_1129076461.htm"
       },
       {
-        "id": "s6",
+        "id": "s5",
         "url": "https://www.gov.cn/xinwen/2018-10/23/content_5333803.htm"
+      },
+      {
+        "id": "s6",
+        "url": "https://www.mot.gov.cn/xinmeiti/"
       }
     ],
     "layers": [
@@ -120,25 +120,25 @@
         "name": "themes",
         "searchAttempted": 6,
         "searchSucceeded": 5,
-        "searchResults": 33,
+        "searchResults": 29,
         "sourceAttempted": 16,
-        "sourceReadable": 8,
+        "sourceReadable": 6,
         "sourceUsed": 6,
         "searchErrors": [
           "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "www.cppcc.gov.cn",
-            "type": "SSLError"
+            "host": "blhxq.jiujiang.gov.cn",
+            "type": "ConnectionError"
           },
           {
-            "host": "gzzzb.gov.cn",
-            "type": "ConnectTimeout"
+            "host": "xxgk.mot.gov.cn",
+            "type": "HTTPError"
           },
           {
-            "host": "zj.people.com.cn",
-            "type": "SSLError"
+            "host": "www.yaan.gov.cn",
+            "type": "ConnectionError"
           }
         ],
         "queries": [
@@ -153,6 +153,6 @@
     ],
     "sourceUsed": 6,
     "publishedVerifiedCount": 1,
-    "completedAt": "2026-10-23T04:02:44+08:00"
+    "completedAt": "2026-10-23T12:41:52+08:00"
   }
 }
