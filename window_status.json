@@ -41,7 +41,7 @@
     "modelLayers": [
       {
         "index": 0,
-        "sourceUsed": 5,
+        "sourceUsed": 2,
         "generated": 0,
         "validated": 0,
         "approved": 0
@@ -50,13 +50,13 @@
     "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-24T03:56:36+08:00",
+    "attemptedAt": "2026-10-24T12:29:43+08:00",
     "existingVerifiedCount": 1,
     "searchAttempted": 6,
     "searchSucceeded": 6,
-    "searchResults": 36,
-    "sourceAttempted": 16,
-    "sourceReadable": 5,
+    "searchResults": 45,
+    "sourceAttempted": 8,
+    "sourceReadable": 2,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -66,18 +66,6 @@
       {
         "id": "s2",
         "url": "https://www.news.cn/tech/20240924/25dcc4ee03ea4676b262907085cae794/c.html"
-      },
-      {
-        "id": "s3",
-        "url": "https://www.news.cn/politics/xxjxs/20260905/3f5a8eb884ce433c96349b24f62efd41/c.html"
-      },
-      {
-        "id": "s4",
-        "url": "https://www.news.cn/politics/20241024/5a7948c5d89c4bd9a2673821e92180c6/c.html"
-      },
-      {
-        "id": "s5",
-        "url": "https://www.news.cn/politics/leaders/20260706/37ad1eada26041a991f7d077f2aac775/c.html"
       }
     ],
     "layers": [
@@ -85,20 +73,12 @@
         "name": "themes",
         "searchAttempted": 6,
         "searchSucceeded": 6,
-        "searchResults": 36,
-        "sourceAttempted": 16,
-        "sourceReadable": 5,
-        "sourceUsed": 5,
+        "searchResults": 45,
+        "sourceAttempted": 8,
+        "sourceReadable": 2,
+        "sourceUsed": 2,
         "searchErrors": [],
         "sourceErrors": [
-          {
-            "host": "gx.news.cn",
-            "type": "ReadTimeout"
-          },
-          {
-            "host": "chanye.news.cn",
-            "type": "SSLError"
-          },
           {
             "host": "www.gd.gov.cn",
             "type": "HTTPError"
@@ -118,8 +98,8 @@
         ]
       }
     ],
-    "sourceUsed": 5,
+    "sourceUsed": 2,
     "publishedVerifiedCount": 1,
-    "completedAt": "2026-10-24T03:57:00+08:00"
+    "completedAt": "2026-10-24T12:29:54+08:00"
   }
 }
