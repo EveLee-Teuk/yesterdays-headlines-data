@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-24",
+  "updatedAt": "2026-10-25",
   "events": [
     {
       "date": "1896-10-29",
@@ -147,6 +147,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "1949-11-01",
+      "title": "中国科学院成立",
+      "category": "科技",
+      "location": "北京",
+      "summary": "1949年11月1日，中国科学院成立，郭沫若任院长。它是在接收旧中国的“中央研究院”“国立北平研究院”及其所属研究所的基础上组建起来的，主要任务是有计划地利用近现代科学成就服务于工业、农业和国防建设，组织并指导全国的科学研究，以提高中国的科学研究水平。",
+      "id": "history-2d81aa067224a946",
+      "sources": [
+        {
+          "name": "cpc.people.com.cn",
+          "url": "https://cpc.people.com.cn/GB/64162/64165/72301/72302/index.html",
+          "date": "1949-11-01",
+          "evidence": "1949年11月1日　中国科学院成立，郭沫若任院长。它是在接收旧中国的“中央研究院”、“国立北平研究院”及其所属研究所的基础上组建起来的。"
+        }
+      ],
+      "reviewedAt": "2026-10-25",
+      "verification": "source-matched"
+    },
+    {
       "date": "1950-10-03",
       "title": "中国人民大学举行开学典礼",
       "category": "社会",
@@ -252,6 +270,24 @@
         }
       ],
       "reviewedAt": "2026-09-26",
+      "verification": "source-matched"
+    },
+    {
+      "date": "1959-11-01",
+      "title": "第一拖拉机制造厂在洛阳建成投产",
+      "category": "科技",
+      "location": "河南洛阳",
+      "summary": "1959年11月1日，经过四年建设，第一拖拉机制造厂在河南洛阳建成投产，结束了我国不能生产拖拉机的历史。",
+      "id": "history-4c3d267410493980",
+      "sources": [
+        {
+          "name": "cpc.people.com.cn",
+          "url": "https://cpc.people.com.cn/GB/64162/64165/72301/72302/index.html",
+          "date": "1959-11-01",
+          "evidence": "1959年11月1日   第一拖拉机制造厂经过四年建设，在河南洛阳建成投产，结束了我国不能生产拖拉机的历史。"
+        }
+      ],
+      "reviewedAt": "2026-10-25",
       "verification": "source-matched"
     },
     {
@@ -1864,8 +1900,8 @@
     }
   ],
   "lastRun": {
-    "date": "2026-10-24",
-    "completedAt": "2026-10-24T20:39:19+08:00",
+    "date": "2026-10-25",
+    "completedAt": "2026-10-25T02:46:03+08:00",
     "sourceCount": 6,
     "addedCount": 0,
     "status": "ready"
