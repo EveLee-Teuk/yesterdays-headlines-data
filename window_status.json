@@ -29,32 +29,74 @@
   "todayAttempt": {
     "date": "2026-10-25",
     "outcome": "ready",
-    "generatedCount": 0,
-    "validationRejected": 0,
-    "repairCount": 0,
-    "repairGeneratedCount": 0,
-    "validatedCount": 0,
-    "reviewedCount": 0,
-    "approvedCount": 0,
-    "candidateResults": [],
-    "reviewResults": [],
+    "generatedCount": 2,
+    "validationRejected": 1,
+    "repairCount": 1,
+    "repairGeneratedCount": 1,
+    "validatedCount": 2,
+    "reviewedCount": 2,
+    "approvedCount": 2,
+    "candidateResults": [
+      {
+        "layer": 0,
+        "stage": "generated",
+        "index": 0,
+        "date": "1949-10-25",
+        "title": "中国海关总署成立",
+        "sourceId": "s6",
+        "result": "validated"
+      },
+      {
+        "layer": 0,
+        "stage": "generated",
+        "index": 1,
+        "date": "1958-10-25",
+        "title": "宁夏回族自治区成立",
+        "sourceId": "s6",
+        "result": "rejected",
+        "reason": "Evidence does not contain the actual historical date"
+      },
+      {
+        "layer": 0,
+        "stage": "repair",
+        "index": 0,
+        "date": "1958-10-25",
+        "title": "宁夏回族自治区成立",
+        "sourceId": "s6",
+        "result": "validated"
+      }
+    ],
+    "reviewResults": [
+      {
+        "layer": 0,
+        "date": "1949-10-25",
+        "title": "中国海关总署成立",
+        "approved": true
+      },
+      {
+        "layer": 0,
+        "date": "1958-10-25",
+        "title": "宁夏回族自治区成立",
+        "approved": true
+      }
+    ],
     "modelLayers": [
       {
         "index": 0,
         "sourceUsed": 6,
-        "generated": 0,
-        "validated": 0,
-        "approved": 0
+        "generated": 2,
+        "validated": 2,
+        "approved": 2
       }
     ],
-    "modelCalls": 1,
+    "modelCalls": 3,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-25T02:45:53+08:00",
+    "attemptedAt": "2026-10-25T12:34:10+08:00",
     "existingVerifiedCount": 2,
     "searchAttempted": 6,
     "searchSucceeded": 4,
-    "searchResults": 28,
+    "searchResults": 24,
     "sourceAttempted": 16,
     "sourceReadable": 7,
     "supplementalSearches": 0,
@@ -73,15 +115,15 @@
       },
       {
         "id": "s4",
-        "url": "https://www.news.cn/20250215/7d14362c39254ab9bad277ccfb0f58be/c.html"
+        "url": "https://www.news.cn/politics/2022-10/25/c_1129079429.htm"
       },
       {
         "id": "s5",
-        "url": "https://www.news.cn/20260116/288ab4f8e4ce4281a5092e19f6c34fe0/c.html"
+        "url": "https://cpc.people.com.cn/BIG5/n1/2025/1025/c64387-40589161.html"
       },
       {
         "id": "s6",
-        "url": "https://www.news.cn/tech/20250217/65fa2237efb74198898f0598a4fac37a/c.html"
+        "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70516/index.html"
       }
     ],
     "layers": [
@@ -89,26 +131,30 @@
         "name": "themes",
         "searchAttempted": 6,
         "searchSucceeded": 4,
-        "searchResults": 28,
+        "searchResults": 24,
         "sourceAttempted": 16,
         "sourceReadable": 7,
         "sourceUsed": 6,
         "searchErrors": [
           "DDGSException",
-          "DDGSException"
+          "TimeoutException"
         ],
         "sourceErrors": [
           {
-            "host": "www.npc.gov.cn",
+            "host": "politics.people.com.cn",
             "type": "SSLError"
           },
           {
-            "host": "www.ncha.gov.cn",
-            "type": "ConnectionError"
+            "host": "opinion.people.com.cn",
+            "type": "SSLError"
           },
           {
-            "host": "www.gov.cn",
-            "type": "HTTPError"
+            "host": "dangshi.people.com.cn",
+            "type": "SSLError"
+          },
+          {
+            "host": "ent.people.com.cn",
+            "type": "SSLError"
           }
         ],
         "queries": [
@@ -122,7 +168,7 @@
       }
     ],
     "sourceUsed": 6,
-    "publishedVerifiedCount": 2,
-    "completedAt": "2026-10-25T02:46:03+08:00"
+    "publishedVerifiedCount": 4,
+    "completedAt": "2026-10-25T12:34:55+08:00"
   }
 }

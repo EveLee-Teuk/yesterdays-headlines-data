@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "date": "2026-10-25",
-  "updatedAt": "2026-10-25T02:46:19+08:00",
+  "updatedAt": "2026-10-25T12:34:55+08:00",
   "upcomingDates": [
     "2026-10-26",
     "2026-10-27",
@@ -21,9 +21,7 @@
     "2026-11-01"
   ],
   "missingDates": [],
-  "attemptedDates": [
-    "2026-11-01"
-  ],
+  "attemptedDates": [],
   "failedDates": [],
   "calendarCoveredDays": 43,
   "calendarTotalDays": 366,

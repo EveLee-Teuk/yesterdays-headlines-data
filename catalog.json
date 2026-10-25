@@ -147,6 +147,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "1949-10-25",
+      "title": "中国海关总署成立",
+      "category": "社会",
+      "location": "北京",
+      "summary": "1949年10月25日，中国海关总署成立。此后中央人民政府政务院发布关于关税政策和海关工作的决定，并公布暂行海关法和新海关税则，国家管制对外贸易、实行进出口许可证制度，中国海关由此完全掌握在中国人民自己手中。",
+      "id": "history-51396b12c37d6ab4",
+      "sources": [
+        {
+          "name": "cpc.people.com.cn",
+          "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70516/index.html",
+          "date": "1949-10-25",
+          "evidence": "1949年10月25日，中国海关总署成立。1950年3月，中央人民政府政务院发布《关于关税政策和海关工作的决定》，随后公布《中华人民共和国暂行海关法》和新的海关税则，并由国家管制对外贸易，实行进出口许可证制度。"
+        }
+      ],
+      "reviewedAt": "2026-10-25",
+      "verification": "source-matched"
+    },
+    {
       "date": "1949-11-01",
       "title": "中国科学院成立",
       "category": "科技",
@@ -252,6 +270,24 @@
         }
       ],
       "reviewedAt": "2026-10-08",
+      "verification": "source-matched"
+    },
+    {
+      "date": "1958-10-25",
+      "title": "宁夏回族自治区成立",
+      "category": "社会",
+      "location": "宁夏银川",
+      "summary": "1958年10月24日至30日，宁夏回族自治区第一届人民代表大会第一次会议在银川召开。10月25日，会议选举产生自治区人民委员会组成人员，刘格平任主席，正式宣告宁夏回族自治区成立。",
+      "id": "history-b3c49e41635977b7",
+      "sources": [
+        {
+          "name": "cpc.people.com.cn",
+          "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70516/index.html",
+          "date": "1958-10-25",
+          "evidence": "1958年10月25日  宁夏回族自治区成立。1956年2月，中共中央正式倡议在甘肃省东北部回族较为集中的地区建立一个省一级的回族自治区。"
+        }
+      ],
+      "reviewedAt": "2026-10-25",
       "verification": "source-matched"
     },
     {
@@ -1901,9 +1937,9 @@
   ],
   "lastRun": {
     "date": "2026-10-25",
-    "completedAt": "2026-10-25T02:46:03+08:00",
+    "completedAt": "2026-10-25T12:34:55+08:00",
     "sourceCount": 6,
-    "addedCount": 0,
+    "addedCount": 2,
     "status": "ready"
   }
 }
