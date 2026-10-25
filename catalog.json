@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-25",
+  "updatedAt": "2026-10-26",
   "events": [
     {
       "date": "1896-10-29",
@@ -1649,6 +1649,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "2020-11-02",
+      "title": "袁隆平团队杂交水稻双季亩产经测产突破1500公斤",
+      "category": "科技",
+      "location": "湖南衡阳",
+      "summary": "2020年11月2日，在湖南省衡阳市衡南县清竹村，经测产专家组评定，袁隆平团队研发的杂交水稻双季亩产突破1500公斤大关。袁隆平表示，这意味着每亩可以多养活5个人，也意味着离他的“禾下乘凉梦”更近了一步。",
+      "id": "history-f15658173f4fb606",
+      "sources": [
+        {
+          "name": "光明网",
+          "url": "https://news.gmw.cn/2020-12/23/content_34485755.htm",
+          "date": "2020-11-02",
+          "evidence": "2020年11月2日，湖南省衡阳市衡南县清竹村。经测产专家组评定，袁隆平团队研发的杂交水稻双季亩产突破1500公斤大关。"
+        }
+      ],
+      "reviewedAt": "2026-10-26",
+      "verification": "source-matched"
+    },
+    {
       "id": "poverty-alleviation",
       "date": "2021-02-25",
       "title": "脱贫攻坚战全面胜利的宣告",
@@ -1936,9 +1954,9 @@
     }
   ],
   "lastRun": {
-    "date": "2026-10-25",
-    "completedAt": "2026-10-25T21:09:56+08:00",
-    "sourceCount": 6,
+    "date": "2026-10-26",
+    "completedAt": "2026-10-26T02:59:47+08:00",
+    "sourceCount": 4,
     "addedCount": 0,
     "status": "ready"
   }

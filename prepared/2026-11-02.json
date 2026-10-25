@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-02",
+  "timezone": "Asia/Shanghai",
+  "status": "ready",
+  "events": [
+    {
+      "date": "2020-11-02",
+      "title": "袁隆平团队杂交水稻双季亩产经测产突破1500公斤",
+      "category": "科技",
+      "location": "湖南衡阳",
+      "summary": "2020年11月2日，在湖南省衡阳市衡南县清竹村，经测产专家组评定，袁隆平团队研发的杂交水稻双季亩产突破1500公斤大关。袁隆平表示，这意味着每亩可以多养活5个人，也意味着离他的“禾下乘凉梦”更近了一步。",
+      "id": "history-f15658173f4fb606",
+      "sources": [
+        {
+          "name": "光明网",
+          "url": "https://news.gmw.cn/2020-12/23/content_34485755.htm",
+          "date": "2020-11-02",
+          "evidence": "2020年11月2日，湖南省衡阳市衡南县清竹村。经测产专家组评定，袁隆平团队研发的杂交水稻双季亩产突破1500公斤大关。"
+        }
+      ],
+      "reviewedAt": "2026-10-26",
+      "verification": "source-matched"
+    }
+  ]
+}
