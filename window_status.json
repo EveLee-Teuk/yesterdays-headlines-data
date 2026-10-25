@@ -29,131 +29,78 @@
   "todayAttempt": {
     "date": "2026-10-25",
     "outcome": "ready",
-    "generatedCount": 2,
-    "validationRejected": 1,
-    "repairCount": 1,
-    "repairGeneratedCount": 1,
-    "validatedCount": 2,
-    "reviewedCount": 2,
-    "approvedCount": 2,
-    "candidateResults": [
-      {
-        "layer": 0,
-        "stage": "generated",
-        "index": 0,
-        "date": "1949-10-25",
-        "title": "中国海关总署成立",
-        "sourceId": "s6",
-        "result": "validated"
-      },
-      {
-        "layer": 0,
-        "stage": "generated",
-        "index": 1,
-        "date": "1958-10-25",
-        "title": "宁夏回族自治区成立",
-        "sourceId": "s6",
-        "result": "rejected",
-        "reason": "Evidence does not contain the actual historical date"
-      },
-      {
-        "layer": 0,
-        "stage": "repair",
-        "index": 0,
-        "date": "1958-10-25",
-        "title": "宁夏回族自治区成立",
-        "sourceId": "s6",
-        "result": "validated"
-      }
-    ],
-    "reviewResults": [
-      {
-        "layer": 0,
-        "date": "1949-10-25",
-        "title": "中国海关总署成立",
-        "approved": true
-      },
-      {
-        "layer": 0,
-        "date": "1958-10-25",
-        "title": "宁夏回族自治区成立",
-        "approved": true
-      }
-    ],
+    "generatedCount": 0,
+    "validationRejected": 0,
+    "repairCount": 0,
+    "repairGeneratedCount": 0,
+    "validatedCount": 0,
+    "reviewedCount": 0,
+    "approvedCount": 0,
+    "candidateResults": [],
+    "reviewResults": [],
     "modelLayers": [
       {
         "index": 0,
         "sourceUsed": 6,
-        "generated": 2,
-        "validated": 2,
-        "approved": 2
+        "generated": 0,
+        "validated": 0,
+        "approved": 0
       }
     ],
-    "modelCalls": 3,
+    "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-25T12:34:10+08:00",
-    "existingVerifiedCount": 2,
+    "attemptedAt": "2026-10-25T21:09:41+08:00",
+    "existingVerifiedCount": 4,
     "searchAttempted": 6,
-    "searchSucceeded": 4,
-    "searchResults": 24,
+    "searchSucceeded": 3,
+    "searchResults": 17,
     "sourceAttempted": 16,
     "sourceReadable": 7,
     "supplementalSearches": 0,
     "sources": [
       {
         "id": "s1",
-        "url": "https://www.news.cn/politics/20240920/3768703b9dda4a309f05a3fbcf835af0/c.html"
+        "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70516/index.html"
       },
       {
         "id": "s2",
-        "url": "https://www.news.cn/liangzi/20250109/247db85f16434843a12c203a13a4d6e5/c.html"
+        "url": "https://www.news.cn/politics/20240920/3768703b9dda4a309f05a3fbcf835af0/c.html"
       },
       {
         "id": "s3",
-        "url": "https://www.news.cn/tw/20251024/decdbec963ee47fdb02efc889a39e5f6/c.html"
+        "url": "https://www.news.cn/liangzi/20250109/247db85f16434843a12c203a13a4d6e5/c.html"
       },
       {
         "id": "s4",
-        "url": "https://www.news.cn/politics/2022-10/25/c_1129079429.htm"
+        "url": "https://www.gov.cn/xinwen/2022-10/25/content_5721685.htm"
       },
       {
         "id": "s5",
-        "url": "https://cpc.people.com.cn/BIG5/n1/2025/1025/c64387-40589161.html"
+        "url": "https://epaper.gmw.cn/gmrb/html/2024-10/25/nw.D110000gmrb_20241025_4-09.htm"
       },
       {
         "id": "s6",
-        "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70516/index.html"
+        "url": "https://topics.gmw.cn/2026-10/19/content_39053083.htm"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 4,
-        "searchResults": 24,
+        "searchSucceeded": 3,
+        "searchResults": 17,
         "sourceAttempted": 16,
         "sourceReadable": 7,
         "sourceUsed": 6,
         "searchErrors": [
           "DDGSException",
-          "TimeoutException"
+          "DDGSException",
+          "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "politics.people.com.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "opinion.people.com.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "dangshi.people.com.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "ent.people.com.cn",
+            "host": "www.npc.gov.cn",
             "type": "SSLError"
           }
         ],
@@ -169,6 +116,6 @@
     ],
     "sourceUsed": 6,
     "publishedVerifiedCount": 4,
-    "completedAt": "2026-10-25T12:34:55+08:00"
+    "completedAt": "2026-10-25T21:09:56+08:00"
   }
 }
