@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-26",
+  "updatedAt": "2026-10-27",
   "events": [
     {
       "date": "1896-10-29",
@@ -342,6 +342,24 @@
         }
       ],
       "reviewedAt": "2026-09-28",
+      "verification": "source-matched"
+    },
+    {
+      "date": "1960-11-03",
+      "title": "中共中央发出《关于农村人民公社当前政策问题的紧急指示信》",
+      "category": "民生",
+      "location": "北京",
+      "summary": "1960年11月3日，中共中央发出《关于农村人民公社当前政策问题的紧急指示信》，规定12条政策，包括彻底清理“一平二调”、坚决退赔，允许社员经营少量自留地和小规模家庭副业，坚持按劳分配原则，恢复农村集市等，成为扭转当时农村严重形势的起点。",
+      "id": "history-0033b95aa741251c",
+      "sources": [
+        {
+          "name": "cpc.people.com.cn",
+          "url": "https://cpc.people.com.cn/GB/64162/64165/72301/72304/index.html",
+          "date": "1960-11-03",
+          "evidence": "1960年11月3日　中共中央发出《关于农村人民公社当前政策问题的紧急指示信》（简称《十二条》），要求全党用最大努力来坚决纠正“共产风”。"
+        }
+      ],
+      "reviewedAt": "2026-10-27",
       "verification": "source-matched"
     },
     {
@@ -1773,6 +1791,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "2022-11-03",
+      "title": "梦天实验舱完成转位，中国空间站“T”字基本构型在轨组装完成",
+      "category": "科技",
+      "location": "北京",
+      "summary": "北京时间2022年11月3日9时32分，空间站梦天实验舱顺利完成转位。这标志着中国空间站“T”字基本构型在轨组装完成，向着建成空间站的目标迈出了关键一步。",
+      "id": "history-0ff70657d93a8873",
+      "sources": [
+        {
+          "name": "中国政府网",
+          "url": "https://www.gov.cn/yaowen/liebiao/202508/content_7035334.htm",
+          "date": "2022-11-03",
+          "evidence": "北京时间2022年11月3日9时32分，空间站梦天实验舱顺利完成转位。这标志着中国空间站“T”字基本构型在轨组装完成，向着建成空间站的目标迈出了关键一步。"
+        }
+      ],
+      "reviewedAt": "2026-10-27",
+      "verification": "source-matched"
+    },
+    {
       "date": "2023-10-02",
       "title": "雅万高铁正式启用",
       "category": "科技",
@@ -1954,8 +1990,8 @@
     }
   ],
   "lastRun": {
-    "date": "2026-10-26",
-    "completedAt": "2026-10-26T23:08:45+08:00",
+    "date": "2026-10-27",
+    "completedAt": "2026-10-27T05:00:03+08:00",
     "sourceCount": 6,
     "addedCount": 0,
     "status": "ready"

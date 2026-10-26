@@ -1,33 +1,33 @@
 {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "failedDates": [],
   "coveragePolicyVersion": 2,
   "restoredDates": [
-    "2026-10-20",
     "2026-10-21",
     "2026-10-22",
     "2026-10-23",
     "2026-10-24",
     "2026-10-25",
-    "2026-10-26"
+    "2026-10-26",
+    "2026-10-27"
   ],
   "todayMinimumMet": true,
   "preparedReadyDates": [
-    "2026-10-27",
     "2026-10-28",
     "2026-10-29",
     "2026-10-30",
     "2026-10-31",
     "2026-11-01",
-    "2026-11-02"
+    "2026-11-02",
+    "2026-11-03"
   ],
   "preparedMissingDates": [],
   "attemptedDates": [
-    "2026-10-26"
+    "2026-10-27"
   ],
   "historicalRetries": {},
   "todayAttempt": {
-    "date": "2026-10-26",
+    "date": "2026-10-27",
     "outcome": "ready",
     "generatedCount": 0,
     "validationRejected": 0,
@@ -50,38 +50,38 @@
     "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-26T23:08:31+08:00",
+    "attemptedAt": "2026-10-27T04:59:44+08:00",
     "existingVerifiedCount": 1,
     "searchAttempted": 6,
     "searchSucceeded": 5,
-    "searchResults": 26,
+    "searchResults": 34,
     "sourceAttempted": 16,
-    "sourceReadable": 6,
+    "sourceReadable": 11,
     "supplementalSearches": 0,
     "sources": [
       {
         "id": "s1",
-        "url": "https://news.cctv.com/2023/10/27/ARTIRH1ruqChx0yClmkOPcPY231027.shtml"
+        "url": "https://politics.gmw.cn/2021-10/27/content_35262565.htm"
       },
       {
         "id": "s2",
-        "url": "https://www.news.cn/health/20261026/f5ab9f3c01d249efa996ea48e759eeb2/c.html"
+        "url": "https://www.news.cn/politics/20241016/18eb4945ca814cb4ba61230ca6ccee91/c.html"
       },
       {
         "id": "s3",
-        "url": "https://cq.news.cn/20261026/65040f7f1e284dd4b553c1a6b42d4453/c.html"
+        "url": "https://www.news.cn/politics/2021-08/25/c_1127794863.htm"
       },
       {
         "id": "s4",
-        "url": "https://www.news.cn/politics/2023-10/26/c_1129939717.htm"
+        "url": "https://lw.news.cn/2022-07/25/c_1310645400.htm"
       },
       {
         "id": "s5",
-        "url": "https://www.news.cn/politics/leaders/20240623/b49e380215384ab192dda9a48ce18acf/c.html"
+        "url": "https://www.news.cn/politics/2021-10/27/c_1128002052.htm"
       },
       {
         "id": "s6",
-        "url": "https://www.mot.gov.cn/index.html"
+        "url": "https://www.news.cn/politics/2023-10/27/c_1129943498.htm"
       }
     ],
     "layers": [
@@ -89,47 +89,31 @@
         "name": "themes",
         "searchAttempted": 6,
         "searchSucceeded": 5,
-        "searchResults": 26,
+        "searchResults": 34,
         "sourceAttempted": 16,
-        "sourceReadable": 6,
+        "sourceReadable": 11,
         "sourceUsed": 6,
         "searchErrors": [
           "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "www.gs.news.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "www.gov.cn",
-            "type": "HTTPError"
-          },
-          {
-            "host": "ent.people.com.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "cq.people.com.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "yn.people.com.cn",
-            "type": "SSLError"
+            "host": "www.yibin.gov.cn",
+            "type": "ConnectionError"
           }
         ],
         "queries": [
-          "\"10月26日\" 中国 科技 突破 成功 site:news.cn",
-          "\"10月26日\" 中国 公共工程 建成 通车 site:gov.cn",
-          "\"10月26日\" 中国 文化 体育 首次 site:people.com.cn",
-          "\"10月26日\" 中国 医疗 民生 开通 site:chinanews.com",
-          "\"10月26日\" 中国 教育 学校 成立 site:gmw.cn",
-          "\"10月26日\" 中国 历史上的今天 site:cctv.com"
+          "\"10月27日\" 中国 科技 突破 成功 site:news.cn",
+          "\"10月27日\" 中国 公共工程 建成 通车 site:gov.cn",
+          "\"10月27日\" 中国 文化 体育 首次 site:people.com.cn",
+          "\"10月27日\" 中国 医疗 民生 开通 site:chinanews.com",
+          "\"10月27日\" 中国 教育 学校 成立 site:gmw.cn",
+          "\"10月27日\" 中国 历史上的今天 site:cctv.com"
         ]
       }
     ],
     "sourceUsed": 6,
     "publishedVerifiedCount": 1,
-    "completedAt": "2026-10-26T23:08:45+08:00"
+    "completedAt": "2026-10-27T05:00:03+08:00"
   }
 }
