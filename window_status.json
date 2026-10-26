@@ -50,7 +50,7 @@
     "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-26T12:39:03+08:00",
+    "attemptedAt": "2026-10-26T23:08:31+08:00",
     "existingVerifiedCount": 1,
     "searchAttempted": 6,
     "searchSucceeded": 5,
@@ -65,23 +65,23 @@
       },
       {
         "id": "s2",
-        "url": "https://www.news.cn/politics/2023-10/26/c_1129939717.htm"
+        "url": "https://www.news.cn/health/20261026/f5ab9f3c01d249efa996ea48e759eeb2/c.html"
       },
       {
         "id": "s3",
-        "url": "https://www.news.cn/politics/leaders/20240623/b49e380215384ab192dda9a48ce18acf/c.html"
+        "url": "https://cq.news.cn/20261026/65040f7f1e284dd4b553c1a6b42d4453/c.html"
       },
       {
         "id": "s4",
-        "url": "https://www.news.cn/politics/leaders/2022-04/30/c_1128611928.htm"
+        "url": "https://www.news.cn/politics/2023-10/26/c_1129939717.htm"
       },
       {
         "id": "s5",
-        "url": "https://www.news.cn/politics/2021-10/26/c_1127998654.htm"
+        "url": "https://www.news.cn/politics/leaders/20240623/b49e380215384ab192dda9a48ce18acf/c.html"
       },
       {
         "id": "s6",
-        "url": "https://www.gov.cn/lianbo/bumen/202510/content_7045596.htm"
+        "url": "https://www.mot.gov.cn/index.html"
       }
     ],
     "layers": [
@@ -110,6 +110,10 @@
             "type": "SSLError"
           },
           {
+            "host": "cq.people.com.cn",
+            "type": "SSLError"
+          },
+          {
             "host": "yn.people.com.cn",
             "type": "SSLError"
           }
@@ -126,6 +130,6 @@
     ],
     "sourceUsed": 6,
     "publishedVerifiedCount": 1,
-    "completedAt": "2026-10-26T12:39:15+08:00"
+    "completedAt": "2026-10-26T23:08:45+08:00"
   }
 }
