@@ -41,7 +41,7 @@
     "modelLayers": [
       {
         "index": 0,
-        "sourceUsed": 4,
+        "sourceUsed": 6,
         "generated": 0,
         "validated": 0,
         "approved": 0
@@ -50,13 +50,13 @@
     "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-26T02:59:20+08:00",
+    "attemptedAt": "2026-10-26T12:39:03+08:00",
     "existingVerifiedCount": 1,
     "searchAttempted": 6,
-    "searchSucceeded": 4,
-    "searchResults": 18,
+    "searchSucceeded": 5,
+    "searchResults": 26,
     "sourceAttempted": 16,
-    "sourceReadable": 4,
+    "sourceReadable": 6,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -69,41 +69,48 @@
       },
       {
         "id": "s3",
-        "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70531/index.html"
+        "url": "https://www.news.cn/politics/leaders/20240623/b49e380215384ab192dda9a48ce18acf/c.html"
       },
       {
         "id": "s4",
-        "url": "https://epaper.gmw.cn/gmrb/html/2018-06/19/nw.D110000gmrb_20180619_1-01.htm"
+        "url": "https://www.news.cn/politics/leaders/2022-04/30/c_1128611928.htm"
+      },
+      {
+        "id": "s5",
+        "url": "https://www.news.cn/politics/2021-10/26/c_1127998654.htm"
+      },
+      {
+        "id": "s6",
+        "url": "https://www.gov.cn/lianbo/bumen/202510/content_7045596.htm"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 4,
-        "searchResults": 18,
+        "searchSucceeded": 5,
+        "searchResults": 26,
         "sourceAttempted": 16,
-        "sourceReadable": 4,
-        "sourceUsed": 4,
+        "sourceReadable": 6,
+        "sourceUsed": 6,
         "searchErrors": [
-          "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "gs.news.cn",
-            "type": "ReadTimeout"
-          },
-          {
-            "host": "dangshi.people.com.cn",
+            "host": "www.gs.news.cn",
             "type": "SSLError"
           },
           {
-            "host": "politics.people.com.cn",
+            "host": "www.gov.cn",
+            "type": "HTTPError"
+          },
+          {
+            "host": "ent.people.com.cn",
             "type": "SSLError"
           },
           {
-            "host": "politics.people.com.cn",
+            "host": "yn.people.com.cn",
             "type": "SSLError"
           }
         ],
@@ -117,8 +124,8 @@
         ]
       }
     ],
-    "sourceUsed": 4,
+    "sourceUsed": 6,
     "publishedVerifiedCount": 1,
-    "completedAt": "2026-10-26T02:59:47+08:00"
+    "completedAt": "2026-10-26T12:39:15+08:00"
   }
 }
