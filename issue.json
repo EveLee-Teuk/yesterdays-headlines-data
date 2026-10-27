@@ -1,25 +1,43 @@
 {
   "schemaVersion": 2,
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "timezone": "Asia/Shanghai",
   "status": "ready",
   "events": [
     {
-      "date": "1966-10-27",
-      "title": "中国成功进行第一颗装有核弹头的地地导弹飞行爆炸",
-      "category": "科技",
-      "location": "中国",
-      "summary": "1966年10月27日，中国成功进行第一颗装有核弹头的地地导弹飞行爆炸。这一试验将核弹头与地地导弹结合，标志着中国在导弹核武器技术领域取得重要突破，是当时国防科技发展进程中的一项标志性成果。",
-      "id": "history-fea0e8b0977e52e7",
+      "date": "1997-10-28",
+      "title": "黄河小浪底水利枢纽工程成功实现截流",
+      "category": "民生",
+      "location": "黄河小浪底",
+      "summary": "1997年10月28日，黄河小浪底水利枢纽工程成功实现截流。该工程位于黄河干流，是治理开发黄河的关键性控制工程，截流成功标志着工程建设取得重要阶段性进展。",
+      "id": "history-aa75f111bdd2fc9b",
       "sources": [
         {
           "name": "politics.gmw.cn",
-          "url": "https://politics.gmw.cn/2021-10/27/content_35262565.htm",
-          "date": "1966-10-27",
-          "evidence": "1966年 10月27日 中国成功进行第一颗装有核弹头的地地导弹飞行爆炸。"
+          "url": "https://politics.gmw.cn/2021-10/28/content_35266421.htm",
+          "date": "1997-10-28",
+          "evidence": "1997年 10月28日 黄河小浪底水利枢纽工程成功实现截流。"
         }
       ],
-      "reviewedAt": "2026-10-20",
+      "reviewedAt": "2026-10-21",
+      "verification": "source-matched"
+    },
+    {
+      "date": "2010-10-28",
+      "title": "十一届全国人大常委会第十七次会议通过《中华人民共和国社会保险法》",
+      "category": "民生",
+      "location": "北京",
+      "summary": "2010年10月28日，十一届全国人大常委会第十七次会议通过《中华人民共和国社会保险法》。该法为社会保险制度提供法律保障，涉及养老、医疗、失业、工伤、生育等社会保险领域。",
+      "id": "history-1e2772bcdfd054db",
+      "sources": [
+        {
+          "name": "politics.gmw.cn",
+          "url": "https://politics.gmw.cn/2021-10/28/content_35266421.htm",
+          "date": "2010-10-28",
+          "evidence": "2010年 10月28日　十一届全国人大常委会第十七次会议通过《中华人民共和国社会保险法》。"
+        }
+      ],
+      "reviewedAt": "2026-10-21",
       "verification": "source-matched"
     }
   ]

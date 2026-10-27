@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-04",
+  "timezone": "Asia/Shanghai",
+  "status": "ready",
+  "events": [
+    {
+      "date": "1998-11-04",
+      "title": "全国人大常委会通过村民委员会组织法",
+      "category": "社会",
+      "location": "北京",
+      "summary": "1998年11月4日，九届全国人大常委会第五次会议通过《中华人民共和国村民委员会组织法》，为村民自治提供法律保障。此前1987年11月24日六届全国人大常委会曾通过该法试行版本。",
+      "id": "history-ab1829c8aec5506b",
+      "sources": [
+        {
+          "name": "paper.people.com.cn",
+          "url": "https://paper.people.com.cn/rmrbwap/html/2021-07/28/nw.D110000renmrb_20210728_3-01.htm",
+          "date": "1998-11-04",
+          "evidence": "1998年11月4日，九届全国人大常委会第五次会议通过《中华人民共和国村民委员会组织法》。"
+        }
+      ],
+      "reviewedAt": "2026-10-28",
+      "verification": "source-matched"
+    },
+    {
+      "date": "2019-11-04",
+      "title": "国家天文台宣布FAST发现脉冲星超240颗",
+      "category": "科技",
+      "location": "北京",
+      "summary": "2019年11月4日，国家天文台在北京召开新闻发布会，介绍中国天眼FAST的运行情况及最新科学成果。FAST自当年1月验收以来运行稳定可靠，近一年观测服务超过5200个机时，发现脉冲星数量超过240颗，基于FAST数据发表的高水平论文达40余篇。",
+      "id": "history-373c3d56096e0bae",
+      "sources": [
+        {
+          "name": "nao.cas.cn",
+          "url": "https://nao.cas.cn/ndw/dsj/202203/t20220330_6409779.html",
+          "date": "2019-11-04",
+          "evidence": "2019.11.4 国家天文台在北京召开新闻发布会，介绍中国天眼 FAST 的运行情况及最新科学成果。"
+        }
+      ],
+      "reviewedAt": "2026-10-28",
+      "verification": "source-matched"
+    }
+  ]
+}

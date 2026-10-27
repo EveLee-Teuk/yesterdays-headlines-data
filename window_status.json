@@ -1,33 +1,33 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "failedDates": [],
   "coveragePolicyVersion": 2,
   "restoredDates": [
-    "2026-10-21",
     "2026-10-22",
     "2026-10-23",
     "2026-10-24",
     "2026-10-25",
     "2026-10-26",
-    "2026-10-27"
+    "2026-10-27",
+    "2026-10-28"
   ],
   "todayMinimumMet": true,
   "preparedReadyDates": [
-    "2026-10-28",
     "2026-10-29",
     "2026-10-30",
     "2026-10-31",
     "2026-11-01",
     "2026-11-02",
-    "2026-11-03"
+    "2026-11-03",
+    "2026-11-04"
   ],
   "preparedMissingDates": [],
   "attemptedDates": [
-    "2026-10-27"
+    "2026-10-28"
   ],
   "historicalRetries": {},
   "todayAttempt": {
-    "date": "2026-10-27",
+    "date": "2026-10-28",
     "outcome": "ready",
     "generatedCount": 0,
     "validationRejected": 0,
@@ -50,70 +50,75 @@
     "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-27T22:23:54+08:00",
-    "existingVerifiedCount": 1,
+    "attemptedAt": "2026-10-28T04:39:42+08:00",
+    "existingVerifiedCount": 2,
     "searchAttempted": 6,
-    "searchSucceeded": 5,
-    "searchResults": 32,
+    "searchSucceeded": 4,
+    "searchResults": 17,
     "sourceAttempted": 16,
-    "sourceReadable": 10,
+    "sourceReadable": 7,
     "supplementalSearches": 0,
     "sources": [
       {
         "id": "s1",
-        "url": "https://politics.gmw.cn/2021-10/27/content_35262565.htm"
+        "url": "https://politics.gmw.cn/2021-10/28/content_35266421.htm"
       },
       {
         "id": "s2",
-        "url": "https://www.news.cn/politics/20241016/18eb4945ca814cb4ba61230ca6ccee91/c.html"
+        "url": "https://www.news.cn/liangzi/20260616/109d8081cb8f4ea88265d52bb8e04054/c.html"
       },
       {
         "id": "s3",
-        "url": "https://lw.news.cn/2022-07/25/c_1310645400.htm"
+        "url": "https://www.news.cn/politics/leaders/20241028/f7a8f2f3f0a6457da156582fbdf3a395/c.html"
       },
       {
         "id": "s4",
-        "url": "https://www.news.cn/politics/2023-10/27/c_1129943498.htm"
+        "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70534/index.html"
       },
       {
         "id": "s5",
-        "url": "https://www.news.cn/politics/2021-08/25/c_1127794863.htm"
+        "url": "https://paper.people.com.cn/rmrb/pc/content/202507/29/content_30091286.html"
       },
       {
         "id": "s6",
-        "url": "https://www.news.cn/politics/2021-10/27/c_1128002052.htm"
+        "url": "https://tv.cctv.com/2016/10/28/VIDEgbrU6QoDhW5It0Ij1Cys161028.shtml"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 5,
-        "searchResults": 32,
+        "searchSucceeded": 4,
+        "searchResults": 17,
         "sourceAttempted": 16,
-        "sourceReadable": 10,
+        "sourceReadable": 7,
         "sourceUsed": 6,
         "searchErrors": [
+          "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "www.nhc.gov.cn",
-            "type": "HTTPError"
+            "host": "gd.people.com.cn",
+            "type": "SSLError"
+          },
+          {
+            "host": "ent.people.com.cn",
+            "type": "SSLError"
           }
         ],
         "queries": [
-          "\"10月27日\" 中国 科技 突破 成功 site:news.cn",
-          "\"10月27日\" 中国 公共工程 建成 通车 site:gov.cn",
-          "\"10月27日\" 中国 文化 体育 首次 site:people.com.cn",
-          "\"10月27日\" 中国 医疗 民生 开通 site:chinanews.com",
-          "\"10月27日\" 中国 教育 学校 成立 site:gmw.cn",
-          "\"10月27日\" 中国 历史上的今天 site:cctv.com"
+          "\"10月28日\" 中国 科技 突破 成功 site:news.cn",
+          "\"10月28日\" 中国 公共工程 建成 通车 site:gov.cn",
+          "\"10月28日\" 中国 文化 体育 首次 site:people.com.cn",
+          "\"10月28日\" 中国 医疗 民生 开通 site:chinanews.com",
+          "\"10月28日\" 中国 教育 学校 成立 site:gmw.cn",
+          "\"10月28日\" 中国 历史上的今天 site:cctv.com"
         ]
       }
     ],
     "sourceUsed": 6,
-    "publishedVerifiedCount": 1,
-    "completedAt": "2026-10-27T22:24:13+08:00"
+    "publishedVerifiedCount": 2,
+    "completedAt": "2026-10-28T04:39:56+08:00"
   }
 }
