@@ -50,13 +50,13 @@
     "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-27T04:59:44+08:00",
+    "attemptedAt": "2026-10-27T12:56:51+08:00",
     "existingVerifiedCount": 1,
     "searchAttempted": 6,
     "searchSucceeded": 5,
-    "searchResults": 34,
+    "searchResults": 25,
     "sourceAttempted": 16,
-    "sourceReadable": 11,
+    "sourceReadable": 10,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -69,19 +69,19 @@
       },
       {
         "id": "s3",
-        "url": "https://www.news.cn/politics/2021-08/25/c_1127794863.htm"
-      },
-      {
-        "id": "s4",
         "url": "https://lw.news.cn/2022-07/25/c_1310645400.htm"
       },
       {
+        "id": "s4",
+        "url": "https://www.news.cn/politics/2023-10/27/c_1129943498.htm"
+      },
+      {
         "id": "s5",
-        "url": "https://www.news.cn/politics/2021-10/27/c_1128002052.htm"
+        "url": "https://www.news.cn/politics/2021-08/25/c_1127794863.htm"
       },
       {
         "id": "s6",
-        "url": "https://www.news.cn/politics/2023-10/27/c_1129943498.htm"
+        "url": "https://www.news.cn/politics/2021-10/27/c_1128002052.htm"
       }
     ],
     "layers": [
@@ -89,16 +89,20 @@
         "name": "themes",
         "searchAttempted": 6,
         "searchSucceeded": 5,
-        "searchResults": 34,
+        "searchResults": 25,
         "sourceAttempted": 16,
-        "sourceReadable": 11,
+        "sourceReadable": 10,
         "sourceUsed": 6,
         "searchErrors": [
           "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "www.yibin.gov.cn",
+            "host": "www.nhc.gov.cn",
+            "type": "HTTPError"
+          },
+          {
+            "host": "www.jnrd.gov.cn",
             "type": "ConnectionError"
           }
         ],
@@ -114,6 +118,6 @@
     ],
     "sourceUsed": 6,
     "publishedVerifiedCount": 1,
-    "completedAt": "2026-10-27T05:00:03+08:00"
+    "completedAt": "2026-10-27T12:57:14+08:00"
   }
 }
