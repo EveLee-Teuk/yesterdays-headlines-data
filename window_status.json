@@ -50,11 +50,11 @@
     "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-27T12:56:51+08:00",
+    "attemptedAt": "2026-10-27T22:23:54+08:00",
     "existingVerifiedCount": 1,
     "searchAttempted": 6,
     "searchSucceeded": 5,
-    "searchResults": 25,
+    "searchResults": 32,
     "sourceAttempted": 16,
     "sourceReadable": 10,
     "supplementalSearches": 0,
@@ -89,7 +89,7 @@
         "name": "themes",
         "searchAttempted": 6,
         "searchSucceeded": 5,
-        "searchResults": 25,
+        "searchResults": 32,
         "sourceAttempted": 16,
         "sourceReadable": 10,
         "sourceUsed": 6,
@@ -100,10 +100,6 @@
           {
             "host": "www.nhc.gov.cn",
             "type": "HTTPError"
-          },
-          {
-            "host": "www.jnrd.gov.cn",
-            "type": "ConnectionError"
           }
         ],
         "queries": [
@@ -118,6 +114,6 @@
     ],
     "sourceUsed": 6,
     "publishedVerifiedCount": 1,
-    "completedAt": "2026-10-27T12:57:14+08:00"
+    "completedAt": "2026-10-27T22:24:13+08:00"
   }
 }
