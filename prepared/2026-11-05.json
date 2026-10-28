@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-05",
+  "timezone": "Asia/Shanghai",
+  "status": "ready",
+  "events": [
+    {
+      "date": "2020-11-05",
+      "title": "《自然》在线发表FAST磁星观测研究成果",
+      "category": "科技",
+      "location": "北京",
+      "summary": "2020年11月5日，《自然》杂志在线发表国家天文台王培等联合发现的成果。研究团队利用FAST对银河系磁星软伽马重复暴源SGR 1935+2154进行多波段联合观测，在其高能暴发同时，借助FAST超高灵敏度对射电波段流量给出迄今最严格限制，说明磁星暴发产生快速射电暴须依赖极其特殊的物理条件。",
+      "id": "history-fde0cd21fbe02c80",
+      "sources": [
+        {
+          "name": "nao.cas.cn",
+          "url": "https://nao.cas.cn/ndw/dsj/202203/t20220330_6409779.html",
+          "date": "2020-11-05",
+          "evidence": "2020.11.5 《自然》杂志在线发表国家天文台王培等联合发现的成果，研究团队利用 FAST 对银河系磁星软伽马重复暴源 SGR 1935+2154 进行多波段联合观测。"
+        }
+      ],
+      "reviewedAt": "2026-10-29",
+      "verification": "source-matched"
+    }
+  ]
+}

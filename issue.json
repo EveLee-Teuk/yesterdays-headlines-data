@@ -1,43 +1,61 @@
 {
   "schemaVersion": 2,
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "timezone": "Asia/Shanghai",
   "status": "ready",
   "events": [
     {
-      "date": "1997-10-28",
-      "title": "黄河小浪底水利枢纽工程成功实现截流",
-      "category": "民生",
-      "location": "黄河小浪底",
-      "summary": "1997年10月28日，黄河小浪底水利枢纽工程成功实现截流。该工程位于黄河干流，是治理开发黄河的关键性控制工程，截流成功标志着工程建设取得重要阶段性进展。",
-      "id": "history-aa75f111bdd2fc9b",
+      "date": "1896-10-29",
+      "title": "光绪皇帝批准设立铁路学堂",
+      "category": "社会",
+      "location": "山海关",
+      "summary": "1896年10月29日，直隶总督兼北洋大臣王文韶上奏朝廷，请设铁路学堂，获光绪皇帝批准。唐山交通大学的起源——山海关北洋铁路官学堂由此应运而生，成为中国土木工程、交通工程、矿冶工程高等教育的发祥地之一。",
+      "id": "history-4ca95ed0d36438db",
       "sources": [
         {
-          "name": "politics.gmw.cn",
-          "url": "https://politics.gmw.cn/2021-10/28/content_35266421.htm",
-          "date": "1997-10-28",
-          "evidence": "1997年 10月28日 黄河小浪底水利枢纽工程成功实现截流。"
+          "name": "m.gmw.cn",
+          "url": "https://m.gmw.cn/toutiao/2023-10/11/content_1303537405.htm",
+          "date": "1896-10-29",
+          "evidence": "1896年10月29日 直隶总督兼北洋大臣 王文韶上奏朝廷 请设铁路学堂 获光绪皇帝批准 唐山交通大学的起源—— 山海关北洋铁路官学堂 应运而生"
         }
       ],
-      "reviewedAt": "2026-10-21",
+      "reviewedAt": "2026-10-22",
       "verification": "source-matched"
     },
     {
-      "date": "2010-10-28",
-      "title": "十一届全国人大常委会第十七次会议通过《中华人民共和国社会保险法》",
-      "category": "民生",
+      "date": "1996-10-29",
+      "title": "八届全国人大常委会通过《乡镇企业法》",
+      "category": "社会",
       "location": "北京",
-      "summary": "2010年10月28日，十一届全国人大常委会第十七次会议通过《中华人民共和国社会保险法》。该法为社会保险制度提供法律保障，涉及养老、医疗、失业、工伤、生育等社会保险领域。",
-      "id": "history-1e2772bcdfd054db",
+      "summary": "1996年10月29日，八届全国人大常委会第二十二次会议通过《中华人民共和国乡镇企业法》，为乡镇企业的规范发展和权益保障提供法律依据。",
+      "id": "history-d2c51002ad7e080c",
       "sources": [
         {
           "name": "politics.gmw.cn",
-          "url": "https://politics.gmw.cn/2021-10/28/content_35266421.htm",
-          "date": "2010-10-28",
-          "evidence": "2010年 10月28日　十一届全国人大常委会第十七次会议通过《中华人民共和国社会保险法》。"
+          "url": "https://politics.gmw.cn/2021-10/29/content_35266422.htm",
+          "date": "1996-10-29",
+          "evidence": "1996年 10月29日 八届全国人大常委会第二十二次会议通过《中华人民共和国乡镇企业法》。"
         }
       ],
-      "reviewedAt": "2026-10-21",
+      "reviewedAt": "2026-10-22",
+      "verification": "source-matched"
+    },
+    {
+      "date": "2019-10-29",
+      "title": "《自然》在线发表FAST快速射电暴偏振特征研究成果",
+      "category": "科技",
+      "location": "贵州",
+      "summary": "2019年10月29日，《自然》杂志在线发表李柯伽研究团队利用FAST探测快速射电暴重复爆FRB180301的成果，在国际上首次发现该重复爆的辐射具有非常丰富的偏振特征，为研究快速射电暴辐射起源提供新信息。",
+      "id": "history-00991763991fdadb",
+      "sources": [
+        {
+          "name": "nao.cas.cn",
+          "url": "https://nao.cas.cn/ndw/dsj/202203/t20220330_6409779.html",
+          "date": "2019-10-29",
+          "evidence": "2019.10.29 《自然》杂志在线发表李柯伽研究团队最新成果，利用 FAST 探测到一例全世界仅有 21 例的快速射电暴重复爆 FRB180301 ，在国际上首次发现该重复爆的辐射具有非常丰富的偏振特征。"
+        }
+      ],
+      "reviewedAt": "2026-10-29",
       "verification": "source-matched"
     }
   ]
