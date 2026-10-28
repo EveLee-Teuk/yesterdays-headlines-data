@@ -41,7 +41,7 @@
     "modelLayers": [
       {
         "index": 0,
-        "sourceUsed": 6,
+        "sourceUsed": 4,
         "generated": 0,
         "validated": 0,
         "approved": 0
@@ -50,13 +50,13 @@
     "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-28T04:39:42+08:00",
+    "attemptedAt": "2026-10-28T13:32:24+08:00",
     "existingVerifiedCount": 2,
     "searchAttempted": 6,
     "searchSucceeded": 4,
-    "searchResults": 17,
+    "searchResults": 22,
     "sourceAttempted": 16,
-    "sourceReadable": 7,
+    "sourceReadable": 4,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -65,23 +65,15 @@
       },
       {
         "id": "s2",
-        "url": "https://www.news.cn/liangzi/20260616/109d8081cb8f4ea88265d52bb8e04054/c.html"
+        "url": "https://www.wuhan.gov.cn/?itemid=31713"
       },
       {
         "id": "s3",
-        "url": "https://www.news.cn/politics/leaders/20241028/f7a8f2f3f0a6457da156582fbdf3a395/c.html"
-      },
-      {
-        "id": "s4",
         "url": "https://cpc.people.com.cn/GB/64162/64165/70486/70534/index.html"
       },
       {
-        "id": "s5",
-        "url": "https://paper.people.com.cn/rmrb/pc/content/202507/29/content_30091286.html"
-      },
-      {
-        "id": "s6",
-        "url": "https://tv.cctv.com/2016/10/28/VIDEgbrU6QoDhW5It0Ij1Cys161028.shtml"
+        "id": "s4",
+        "url": "https://paper.people.com.cn/rmrb/pc/layout/202510/28/node_01.html"
       }
     ],
     "layers": [
@@ -89,17 +81,25 @@
         "name": "themes",
         "searchAttempted": 6,
         "searchSucceeded": 4,
-        "searchResults": 17,
+        "searchResults": 22,
         "sourceAttempted": 16,
-        "sourceReadable": 7,
-        "sourceUsed": 6,
+        "sourceReadable": 4,
+        "sourceUsed": 4,
         "searchErrors": [
           "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "gd.people.com.cn",
+            "host": "jtysw.cq.gov.cn",
+            "type": "ConnectionError"
+          },
+          {
+            "host": "sthj.lf.gov.cn",
+            "type": "HTTPError"
+          },
+          {
+            "host": "politics.people.com.cn",
             "type": "SSLError"
           },
           {
@@ -117,8 +117,8 @@
         ]
       }
     ],
-    "sourceUsed": 6,
+    "sourceUsed": 4,
     "publishedVerifiedCount": 2,
-    "completedAt": "2026-10-28T04:39:56+08:00"
+    "completedAt": "2026-10-28T13:32:52+08:00"
   }
 }
