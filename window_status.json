@@ -1,87 +1,125 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "failedDates": [],
   "coveragePolicyVersion": 2,
   "restoredDates": [
-    "2026-10-23",
     "2026-10-24",
     "2026-10-25",
     "2026-10-26",
     "2026-10-27",
     "2026-10-28",
-    "2026-10-29"
+    "2026-10-29",
+    "2026-10-30"
   ],
   "todayMinimumMet": true,
   "preparedReadyDates": [
-    "2026-10-30",
     "2026-10-31",
     "2026-11-01",
     "2026-11-02",
     "2026-11-03",
     "2026-11-04",
-    "2026-11-05"
+    "2026-11-05",
+    "2026-11-06"
   ],
   "preparedMissingDates": [],
   "attemptedDates": [
-    "2026-10-29"
+    "2026-10-30"
   ],
   "historicalRetries": {},
   "todayAttempt": {
-    "date": "2026-10-29",
+    "date": "2026-10-30",
     "outcome": "ready",
-    "generatedCount": 0,
-    "validationRejected": 0,
-    "repairCount": 0,
-    "repairGeneratedCount": 0,
-    "validatedCount": 0,
-    "reviewedCount": 0,
-    "approvedCount": 0,
-    "candidateResults": [],
-    "reviewResults": [],
+    "generatedCount": 2,
+    "validationRejected": 1,
+    "repairCount": 1,
+    "repairGeneratedCount": 1,
+    "validatedCount": 2,
+    "reviewedCount": 2,
+    "approvedCount": 2,
+    "candidateResults": [
+      {
+        "layer": 0,
+        "stage": "generated",
+        "index": 0,
+        "date": "2024-10-30",
+        "title": "南中高速通车",
+        "sourceId": "s2",
+        "result": "rejected",
+        "reason": "Evidence does not contain the actual historical date"
+      },
+      {
+        "layer": 0,
+        "stage": "generated",
+        "index": 1,
+        "date": "1989-10-30",
+        "title": "共青团中央和中国青少年发展基金会宣布实施希望工程",
+        "sourceId": "s5",
+        "result": "validated"
+      },
+      {
+        "layer": 0,
+        "stage": "repair",
+        "index": 0,
+        "date": "2024-10-30",
+        "title": "南中高速通车",
+        "sourceId": "s2",
+        "result": "validated"
+      }
+    ],
+    "reviewResults": [
+      {
+        "layer": 0,
+        "date": "1989-10-30",
+        "title": "共青团中央和中国青少年发展基金会宣布实施希望工程",
+        "approved": true
+      },
+      {
+        "layer": 0,
+        "date": "2024-10-30",
+        "title": "南中高速通车",
+        "approved": true
+      }
+    ],
     "modelLayers": [
       {
         "index": 0,
-        "sourceUsed": 6,
-        "generated": 0,
-        "validated": 0,
-        "approved": 0
+        "sourceUsed": 5,
+        "generated": 2,
+        "validated": 2,
+        "approved": 2
       }
     ],
-    "modelCalls": 1,
+    "modelCalls": 3,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-29T23:11:35+08:00",
-    "existingVerifiedCount": 3,
+    "attemptedAt": "2026-10-30T05:03:36+08:00",
+    "existingVerifiedCount": 1,
     "searchAttempted": 6,
     "searchSucceeded": 4,
     "searchResults": 20,
     "sourceAttempted": 16,
-    "sourceReadable": 11,
+    "sourceReadable": 5,
     "supplementalSearches": 0,
     "sources": [
       {
         "id": "s1",
-        "url": "https://nao.cas.cn/ndw/dsj/202203/t20220330_6409779.html"
+        "url": "https://www.news.cn/liangzi/20260120/e9d50054771947908141a1db0ae6c8af/c.html"
       },
       {
         "id": "s2",
-        "url": "https://m.gmw.cn/toutiao/2023-10/11/content_1303537405.htm"
+        "url": "https://www.gz.gov.cn/zwfw/zxfw/jtfw/content/post_9948133.html"
       },
       {
         "id": "s3",
-        "url": "https://politics.gmw.cn/2021-10/29/content_35266422.htm"
+        "url": "https://www.ndrc.gov.cn/xwdt/wszb/10yxwfbh1/"
       },
       {
         "id": "s4",
-        "url": "https://www.mee.gov.cn/ywdt/xwfb/202510/t20251029_1130964.shtml"
+        "url": "https://paper.people.com.cn/rmrb/pc/layout/202510/30/node_01.html"
       },
       {
         "id": "s5",
-        "url": "https://paper.people.com.cn/rmrb/pc/layout/202510/29/node_01.html"
-      },
-      {
-        "id": "s6",
-        "url": "https://paper.people.com.cn/rmrb/pc/content/202610/29/content_30188307.html"
+        "url": "https://politics.gmw.cn/2021-10/30/content_35273852.htm"
       }
     ],
     "layers": [
@@ -91,30 +129,34 @@
         "searchSucceeded": 4,
         "searchResults": 20,
         "sourceAttempted": 16,
-        "sourceReadable": 11,
-        "sourceUsed": 6,
+        "sourceReadable": 5,
+        "sourceUsed": 5,
         "searchErrors": [
           "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "finance.people.com.cn",
-            "type": "SSLError"
+            "host": "jtt.gxzf.gov.cn",
+            "type": "ReadTimeout"
+          },
+          {
+            "host": "www.guilin.gov.cn",
+            "type": "ConnectTimeout"
           }
         ],
         "queries": [
-          "\"10月29日\" 中国 科技 突破 成功 site:news.cn",
-          "\"10月29日\" 中国 公共工程 建成 通车 site:gov.cn",
-          "\"10月29日\" 中国 文化 体育 首次 site:people.com.cn",
-          "\"10月29日\" 中国 医疗 民生 开通 site:chinanews.com",
-          "\"10月29日\" 中国 教育 学校 成立 site:gmw.cn",
-          "\"10月29日\" 中国 历史上的今天 site:cctv.com"
+          "\"10月30日\" 中国 科技 突破 成功 site:news.cn",
+          "\"10月30日\" 中国 公共工程 建成 通车 site:gov.cn",
+          "\"10月30日\" 中国 文化 体育 首次 site:people.com.cn",
+          "\"10月30日\" 中国 医疗 民生 开通 site:chinanews.com",
+          "\"10月30日\" 中国 教育 学校 成立 site:gmw.cn",
+          "\"10月30日\" 中国 历史上的今天 site:cctv.com"
         ]
       }
     ],
-    "sourceUsed": 6,
+    "sourceUsed": 5,
     "publishedVerifiedCount": 3,
-    "completedAt": "2026-10-29T23:11:47+08:00"
+    "completedAt": "2026-10-30T05:04:00+08:00"
   }
 }

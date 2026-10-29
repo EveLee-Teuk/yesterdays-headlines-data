@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-10-30",
+  "timezone": "Asia/Shanghai",
+  "status": "ready",
+  "events": [
+    {
+      "date": "1989-10-30",
+      "title": "共青团中央和中国青少年发展基金会宣布实施希望工程",
+      "category": "社会",
+      "location": "北京",
+      "summary": "1989年10月30日，共青团中央和中国青少年发展基金会宣布，通过社会集资建立救助贫困地区失学少年基金，资助品学兼优而又因家庭困难失学的孩子，实施希望工程。",
+      "id": "history-ff66b171debee19a",
+      "sources": [
+        {
+          "name": "politics.gmw.cn",
+          "url": "https://politics.gmw.cn/2021-10/30/content_35273852.htm",
+          "date": "1989-10-30",
+          "evidence": "1989年 10月30日 共青团中央和中国青少年发展基金会宣布，通过社会集资，建立救助贫困地区失学少年基金，资助品学兼优而又因家庭困难失学的孩子，实施希望工程。"
+        }
+      ],
+      "reviewedAt": "2026-10-30",
+      "verification": "source-matched"
+    },
+    {
+      "date": "2024-10-30",
+      "title": "南中高速通车",
+      "category": "民生",
+      "location": "广东广州、中山",
+      "summary": "南沙至中山高速公路于2024年10月30日15时通车，全长约32.4公里，由主线及南沙联络线组成，全线为桥梁工程，采用双向六车道标准，设计速度100公里/小时。通车后南沙至中山城区行车时间缩短至15分钟以内，至深圳缩短至20分钟以内，珠三角东岸通往粤西新增快速通道。",
+      "id": "history-ad15b7113acc29bc",
+      "sources": [
+        {
+          "name": "www.gz.gov.cn",
+          "url": "https://www.gz.gov.cn/zwfw/zxfw/jtfw/content/post_9948133.html",
+          "date": "2024-10-30",
+          "evidence": "南中高速10月30日15∶00通车 听全文 2024-10-30 来源：广州日报"
+        }
+      ],
+      "reviewedAt": "2026-10-30",
+      "verification": "source-matched"
+    },
+    {
+      "date": "2025-10-30",
+      "title": "中国科学技术信息研究所发布《中国科技论文统计报告》",
+      "category": "科技",
+      "location": "北京",
+      "summary": "2025年10月30日，中国科学技术信息研究所发布《中国科技论文统计报告》。报告显示，2024年在各学科最具影响力期刊上，中国发表论文15067篇，占世界总量的35.2%，排名世界第一。",
+      "id": "history-2766f0da958bc19b",
+      "sources": [
+        {
+          "name": "新华网",
+          "url": "https://www.news.cn/liangzi/20260120/e9d50054771947908141a1db0ae6c8af/c.html",
+          "date": "2025-10-30",
+          "evidence": "2025年10月30日，中国科学技术信息研究所发布的《中国科技论文统计报告》显示，2024年，在各学科最具影响力期刊上，中国发表论文15067篇，占世界总量的35.2%，排名世界第一。"
+        }
+      ],
+      "reviewedAt": "2026-10-23",
+      "verification": "source-matched"
+    }
+  ]
+}
