@@ -50,13 +50,13 @@
     "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-29T13:40:28+08:00",
+    "attemptedAt": "2026-10-29T23:11:35+08:00",
     "existingVerifiedCount": 3,
     "searchAttempted": 6,
     "searchSucceeded": 4,
-    "searchResults": 19,
+    "searchResults": 20,
     "sourceAttempted": 16,
-    "sourceReadable": 8,
+    "sourceReadable": 11,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -73,15 +73,15 @@
       },
       {
         "id": "s4",
-        "url": "https://www.nia.gov.cn/n794014/n1050181/n1050479/c1361877/content.html"
-      },
-      {
-        "id": "s5",
         "url": "https://www.mee.gov.cn/ywdt/xwfb/202510/t20251029_1130964.shtml"
       },
       {
-        "id": "s6",
+        "id": "s5",
         "url": "https://paper.people.com.cn/rmrb/pc/layout/202510/29/node_01.html"
+      },
+      {
+        "id": "s6",
+        "url": "https://paper.people.com.cn/rmrb/pc/content/202610/29/content_30188307.html"
       }
     ],
     "layers": [
@@ -89,9 +89,9 @@
         "name": "themes",
         "searchAttempted": 6,
         "searchSucceeded": 4,
-        "searchResults": 19,
+        "searchResults": 20,
         "sourceAttempted": 16,
-        "sourceReadable": 8,
+        "sourceReadable": 11,
         "sourceUsed": 6,
         "searchErrors": [
           "DDGSException",
@@ -99,15 +99,7 @@
         ],
         "sourceErrors": [
           {
-            "host": "jl.people.com.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "ent.people.com.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "ent.people.com.cn",
+            "host": "finance.people.com.cn",
             "type": "SSLError"
           }
         ],
@@ -123,6 +115,6 @@
     ],
     "sourceUsed": 6,
     "publishedVerifiedCount": 3,
-    "completedAt": "2026-10-29T13:40:40+08:00"
+    "completedAt": "2026-10-29T23:11:47+08:00"
   }
 }
