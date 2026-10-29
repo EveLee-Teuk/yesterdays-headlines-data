@@ -29,51 +29,34 @@
   "todayAttempt": {
     "date": "2026-10-29",
     "outcome": "ready",
-    "generatedCount": 1,
+    "generatedCount": 0,
     "validationRejected": 0,
     "repairCount": 0,
     "repairGeneratedCount": 0,
-    "validatedCount": 1,
-    "reviewedCount": 1,
-    "approvedCount": 1,
-    "candidateResults": [
-      {
-        "layer": 0,
-        "stage": "generated",
-        "index": 0,
-        "date": "2019-10-29",
-        "title": "《自然》在线发表FAST快速射电暴偏振特征研究成果",
-        "sourceId": "s1",
-        "result": "validated"
-      }
-    ],
-    "reviewResults": [
-      {
-        "layer": 0,
-        "date": "2019-10-29",
-        "title": "《自然》在线发表FAST快速射电暴偏振特征研究成果",
-        "approved": true
-      }
-    ],
+    "validatedCount": 0,
+    "reviewedCount": 0,
+    "approvedCount": 0,
+    "candidateResults": [],
+    "reviewResults": [],
     "modelLayers": [
       {
         "index": 0,
-        "sourceUsed": 5,
-        "generated": 1,
-        "validated": 1,
-        "approved": 1
+        "sourceUsed": 6,
+        "generated": 0,
+        "validated": 0,
+        "approved": 0
       }
     ],
-    "modelCalls": 2,
+    "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-29T05:00:05+08:00",
-    "existingVerifiedCount": 2,
+    "attemptedAt": "2026-10-29T13:40:28+08:00",
+    "existingVerifiedCount": 3,
     "searchAttempted": 6,
     "searchSucceeded": 4,
-    "searchResults": 20,
-    "sourceAttempted": 7,
-    "sourceReadable": 5,
+    "searchResults": 19,
+    "sourceAttempted": 16,
+    "sourceReadable": 8,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -95,6 +78,10 @@
       {
         "id": "s5",
         "url": "https://www.mee.gov.cn/ywdt/xwfb/202510/t20251029_1130964.shtml"
+      },
+      {
+        "id": "s6",
+        "url": "https://paper.people.com.cn/rmrb/pc/layout/202510/29/node_01.html"
       }
     ],
     "layers": [
@@ -102,15 +89,28 @@
         "name": "themes",
         "searchAttempted": 6,
         "searchSucceeded": 4,
-        "searchResults": 20,
-        "sourceAttempted": 7,
-        "sourceReadable": 5,
-        "sourceUsed": 5,
+        "searchResults": 19,
+        "sourceAttempted": 16,
+        "sourceReadable": 8,
+        "sourceUsed": 6,
         "searchErrors": [
           "DDGSException",
           "DDGSException"
         ],
-        "sourceErrors": [],
+        "sourceErrors": [
+          {
+            "host": "jl.people.com.cn",
+            "type": "SSLError"
+          },
+          {
+            "host": "ent.people.com.cn",
+            "type": "SSLError"
+          },
+          {
+            "host": "ent.people.com.cn",
+            "type": "SSLError"
+          }
+        ],
         "queries": [
           "\"10月29日\" 中国 科技 突破 成功 site:news.cn",
           "\"10月29日\" 中国 公共工程 建成 通车 site:gov.cn",
@@ -121,8 +121,8 @@
         ]
       }
     ],
-    "sourceUsed": 5,
+    "sourceUsed": 6,
     "publishedVerifiedCount": 3,
-    "completedAt": "2026-10-29T05:00:17+08:00"
+    "completedAt": "2026-10-29T13:40:40+08:00"
   }
 }
