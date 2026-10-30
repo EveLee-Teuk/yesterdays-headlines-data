@@ -29,55 +29,34 @@
   "todayAttempt": {
     "date": "2026-10-30",
     "outcome": "ready",
-    "generatedCount": 1,
-    "validationRejected": 2,
-    "repairCount": 1,
-    "repairGeneratedCount": 1,
+    "generatedCount": 0,
+    "validationRejected": 0,
+    "repairCount": 0,
+    "repairGeneratedCount": 0,
     "validatedCount": 0,
     "reviewedCount": 0,
     "approvedCount": 0,
-    "candidateResults": [
-      {
-        "layer": 0,
-        "stage": "generated",
-        "index": 0,
-        "date": "2024-10-30",
-        "title": "神舟十九号载人飞船发射成功",
-        "sourceId": "s6",
-        "result": "rejected",
-        "reason": "Evidence does not contain the actual historical date"
-      },
-      {
-        "layer": 0,
-        "stage": "repair",
-        "index": 0,
-        "date": "2024-10-30",
-        "title": "神舟十九号载人飞船发射成功",
-        "sourceId": "s6",
-        "result": "rejected",
-        "reason": "Evidence does not contain the actual historical date"
-      }
-    ],
+    "candidateResults": [],
     "reviewResults": [],
     "modelLayers": [
       {
         "index": 0,
         "sourceUsed": 6,
-        "generated": 1,
+        "generated": 0,
         "validated": 0,
         "approved": 0
       }
     ],
-    "modelCalls": 2,
+    "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-30T13:39:52+08:00",
+    "attemptedAt": "2026-10-30T23:00:30+08:00",
     "existingVerifiedCount": 3,
     "searchAttempted": 6,
-    "searchSucceeded": 6,
-    "searchResults": 39,
+    "searchSucceeded": 4,
+    "searchResults": 21,
     "sourceAttempted": 16,
-    "sourceReadable": 8,
+    "sourceReadable": 9,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -94,41 +73,31 @@
       },
       {
         "id": "s4",
-        "url": "https://www.news.cn/tech/20241031/d530d8e890b14365bc6b96b9ffc4bd5f/c.html"
+        "url": "https://cpc.people.com.cn/n1/2026/1030/c64387-40824310.html"
       },
       {
         "id": "s5",
-        "url": "https://www.news.cn/tech/20241223/6044ff7e93064b80995b82e66db3e3b4/c.html"
+        "url": "https://paper.people.com.cn/rmrb/pc/layout/202510/30/node_01.html"
       },
       {
         "id": "s6",
-        "url": "https://www.news.cn/tech/20241030/4561c0a6a9304f03b4c13c3c2435c1d3/c.html"
+        "url": "https://www.chinanews.com/gn/2026/10-30/10723464.shtml"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 6,
-        "searchResults": 39,
+        "searchSucceeded": 4,
+        "searchResults": 21,
         "sourceAttempted": 16,
-        "sourceReadable": 8,
+        "sourceReadable": 9,
         "sourceUsed": 6,
-        "searchErrors": [],
-        "sourceErrors": [
-          {
-            "host": "gs.news.cn",
-            "type": "ReadTimeout"
-          },
-          {
-            "host": "hq.news.cn",
-            "type": "ReadTimeout"
-          },
-          {
-            "host": "jtt.gxzf.gov.cn",
-            "type": "ReadTimeout"
-          }
+        "searchErrors": [
+          "DDGSException",
+          "DDGSException"
         ],
+        "sourceErrors": [],
         "queries": [
           "\"10月30日\" 中国 科技 突破 成功 site:news.cn",
           "\"10月30日\" 中国 公共工程 建成 通车 site:gov.cn",
@@ -141,6 +110,6 @@
     ],
     "sourceUsed": 6,
     "publishedVerifiedCount": 3,
-    "completedAt": "2026-10-30T13:40:23+08:00"
+    "completedAt": "2026-10-30T23:00:47+08:00"
   }
 }
