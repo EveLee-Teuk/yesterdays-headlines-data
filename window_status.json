@@ -29,81 +29,60 @@
   "todayAttempt": {
     "date": "2026-10-30",
     "outcome": "ready",
-    "generatedCount": 2,
-    "validationRejected": 1,
+    "generatedCount": 1,
+    "validationRejected": 2,
     "repairCount": 1,
     "repairGeneratedCount": 1,
-    "validatedCount": 2,
-    "reviewedCount": 2,
-    "approvedCount": 2,
+    "validatedCount": 0,
+    "reviewedCount": 0,
+    "approvedCount": 0,
     "candidateResults": [
       {
         "layer": 0,
         "stage": "generated",
         "index": 0,
         "date": "2024-10-30",
-        "title": "南中高速通车",
-        "sourceId": "s2",
+        "title": "神舟十九号载人飞船发射成功",
+        "sourceId": "s6",
         "result": "rejected",
         "reason": "Evidence does not contain the actual historical date"
-      },
-      {
-        "layer": 0,
-        "stage": "generated",
-        "index": 1,
-        "date": "1989-10-30",
-        "title": "共青团中央和中国青少年发展基金会宣布实施希望工程",
-        "sourceId": "s5",
-        "result": "validated"
       },
       {
         "layer": 0,
         "stage": "repair",
         "index": 0,
         "date": "2024-10-30",
-        "title": "南中高速通车",
-        "sourceId": "s2",
-        "result": "validated"
+        "title": "神舟十九号载人飞船发射成功",
+        "sourceId": "s6",
+        "result": "rejected",
+        "reason": "Evidence does not contain the actual historical date"
       }
     ],
-    "reviewResults": [
-      {
-        "layer": 0,
-        "date": "1989-10-30",
-        "title": "共青团中央和中国青少年发展基金会宣布实施希望工程",
-        "approved": true
-      },
-      {
-        "layer": 0,
-        "date": "2024-10-30",
-        "title": "南中高速通车",
-        "approved": true
-      }
-    ],
+    "reviewResults": [],
     "modelLayers": [
       {
         "index": 0,
-        "sourceUsed": 5,
-        "generated": 2,
-        "validated": 2,
-        "approved": 2
+        "sourceUsed": 6,
+        "generated": 1,
+        "validated": 0,
+        "approved": 0
       }
     ],
-    "modelCalls": 3,
+    "modelCalls": 2,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-30T05:03:36+08:00",
-    "existingVerifiedCount": 1,
+    "attemptedAt": "2026-10-30T13:39:52+08:00",
+    "existingVerifiedCount": 3,
     "searchAttempted": 6,
-    "searchSucceeded": 4,
-    "searchResults": 20,
+    "searchSucceeded": 6,
+    "searchResults": 39,
     "sourceAttempted": 16,
-    "sourceReadable": 5,
+    "sourceReadable": 8,
     "supplementalSearches": 0,
     "sources": [
       {
         "id": "s1",
-        "url": "https://www.news.cn/liangzi/20260120/e9d50054771947908141a1db0ae6c8af/c.html"
+        "url": "https://politics.gmw.cn/2021-10/30/content_35273852.htm"
       },
       {
         "id": "s2",
@@ -111,38 +90,43 @@
       },
       {
         "id": "s3",
-        "url": "https://www.ndrc.gov.cn/xwdt/wszb/10yxwfbh1/"
+        "url": "https://www.news.cn/liangzi/20260120/e9d50054771947908141a1db0ae6c8af/c.html"
       },
       {
         "id": "s4",
-        "url": "https://paper.people.com.cn/rmrb/pc/layout/202510/30/node_01.html"
+        "url": "https://www.news.cn/tech/20241031/d530d8e890b14365bc6b96b9ffc4bd5f/c.html"
       },
       {
         "id": "s5",
-        "url": "https://politics.gmw.cn/2021-10/30/content_35273852.htm"
+        "url": "https://www.news.cn/tech/20241223/6044ff7e93064b80995b82e66db3e3b4/c.html"
+      },
+      {
+        "id": "s6",
+        "url": "https://www.news.cn/tech/20241030/4561c0a6a9304f03b4c13c3c2435c1d3/c.html"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 4,
-        "searchResults": 20,
+        "searchSucceeded": 6,
+        "searchResults": 39,
         "sourceAttempted": 16,
-        "sourceReadable": 5,
-        "sourceUsed": 5,
-        "searchErrors": [
-          "DDGSException",
-          "DDGSException"
-        ],
+        "sourceReadable": 8,
+        "sourceUsed": 6,
+        "searchErrors": [],
         "sourceErrors": [
           {
-            "host": "jtt.gxzf.gov.cn",
+            "host": "gs.news.cn",
             "type": "ReadTimeout"
           },
           {
-            "host": "www.guilin.gov.cn",
-            "type": "ConnectTimeout"
+            "host": "hq.news.cn",
+            "type": "ReadTimeout"
+          },
+          {
+            "host": "jtt.gxzf.gov.cn",
+            "type": "ReadTimeout"
           }
         ],
         "queries": [
@@ -155,8 +139,8 @@
         ]
       }
     ],
-    "sourceUsed": 5,
+    "sourceUsed": 6,
     "publishedVerifiedCount": 3,
-    "completedAt": "2026-10-30T05:04:00+08:00"
+    "completedAt": "2026-10-30T13:40:23+08:00"
   }
 }
