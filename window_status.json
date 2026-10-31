@@ -1,128 +1,134 @@
 {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "failedDates": [],
   "coveragePolicyVersion": 2,
   "restoredDates": [
-    "2026-10-25",
     "2026-10-26",
     "2026-10-27",
     "2026-10-28",
     "2026-10-29",
     "2026-10-30",
-    "2026-10-31"
+    "2026-10-31",
+    "2026-11-01"
   ],
   "todayMinimumMet": true,
   "preparedReadyDates": [
-    "2026-11-01",
     "2026-11-02",
     "2026-11-03",
     "2026-11-04",
     "2026-11-05",
     "2026-11-06",
-    "2026-11-07"
+    "2026-11-07",
+    "2026-11-08"
   ],
   "preparedMissingDates": [],
   "attemptedDates": [
-    "2026-10-31"
+    "2026-11-01"
   ],
   "historicalRetries": {},
   "todayAttempt": {
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "outcome": "ready",
-    "generatedCount": 0,
-    "validationRejected": 0,
-    "repairCount": 0,
-    "repairGeneratedCount": 0,
+    "generatedCount": 1,
+    "validationRejected": 2,
+    "repairCount": 1,
+    "repairGeneratedCount": 1,
     "validatedCount": 0,
     "reviewedCount": 0,
     "approvedCount": 0,
-    "candidateResults": [],
+    "candidateResults": [
+      {
+        "layer": 0,
+        "stage": "generated",
+        "index": 0,
+        "date": "2023-11-01",
+        "title": "长征六号改运载火箭成功发射天绘五号卫星",
+        "sourceId": "s2",
+        "result": "rejected",
+        "reason": "Evidence does not contain the actual historical date"
+      },
+      {
+        "layer": 0,
+        "stage": "repair",
+        "index": 0,
+        "date": "2023-11-01",
+        "title": "长征六号改运载火箭成功发射天绘五号卫星",
+        "sourceId": "s2",
+        "result": "rejected",
+        "reason": "Evidence does not contain the actual historical date"
+      }
+    ],
     "reviewResults": [],
     "modelLayers": [
       {
         "index": 0,
-        "sourceUsed": 6,
-        "generated": 0,
+        "sourceUsed": 2,
+        "generated": 1,
         "validated": 0,
         "approved": 0
       }
     ],
-    "modelCalls": 1,
+    "modelCalls": 2,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-10-31T22:29:45+08:00",
-    "existingVerifiedCount": 4,
+    "attemptedAt": "2026-11-01T03:55:57+08:00",
+    "existingVerifiedCount": 2,
     "searchAttempted": 6,
-    "searchSucceeded": 4,
-    "searchResults": 24,
+    "searchSucceeded": 3,
+    "searchResults": 20,
     "sourceAttempted": 16,
-    "sourceReadable": 9,
+    "sourceReadable": 2,
     "supplementalSearches": 0,
     "sources": [
       {
         "id": "s1",
-        "url": "https://edu.gmw.cn/2024-10/24/content_37633721.htm"
+        "url": "https://cpc.people.com.cn/GB/64162/64165/72301/72302/index.html"
       },
       {
         "id": "s2",
-        "url": "https://politics.gmw.cn/2021-10/31/content_35273854.htm"
-      },
-      {
-        "id": "s3",
-        "url": "https://www.news.cn/politics/20240910/4f26c968e02642fabb13920e0ae11323/c.html"
-      },
-      {
-        "id": "s4",
-        "url": "https://www.cmse.gov.cn/fxrw/SZ21/mtjj/202511/t20251113_57081.html"
-      },
-      {
-        "id": "s5",
-        "url": "https://lw.news.cn/2023-02/07/c_1310695616.htm"
-      },
-      {
-        "id": "s6",
-        "url": "https://www.news.cn/tech/20251101/68e24fedc3884090a69de92288cf5929/c.html"
+        "url": "https://www.news.cn/politics/2023-11/01/c_1129953309.htm"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 4,
-        "searchResults": 24,
+        "searchSucceeded": 3,
+        "searchResults": 20,
         "sourceAttempted": 16,
-        "sourceReadable": 9,
-        "sourceUsed": 6,
+        "sourceReadable": 2,
+        "sourceUsed": 2,
         "searchErrors": [
+          "DDGSException",
           "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "ah.news.cn",
+            "host": "bj.news.cn",
             "type": "ReadTimeout"
           },
           {
-            "host": "fj.people.com.cn",
+            "host": "www.js.news.cn",
             "type": "SSLError"
           },
           {
-            "host": "ent.people.com.cn",
+            "host": "dangshi.people.com.cn",
             "type": "SSLError"
           }
         ],
         "queries": [
-          "\"10月31日\" 中国 科技 突破 成功 site:news.cn",
-          "\"10月31日\" 中国 公共工程 建成 通车 site:gov.cn",
-          "\"10月31日\" 中国 文化 体育 首次 site:people.com.cn",
-          "\"10月31日\" 中国 医疗 民生 开通 site:chinanews.com",
-          "\"10月31日\" 中国 教育 学校 成立 site:gmw.cn",
-          "\"10月31日\" 中国 历史上的今天 site:cctv.com"
+          "\"11月1日\" 中国 科技 突破 成功 site:news.cn",
+          "\"11月1日\" 中国 公共工程 建成 通车 site:gov.cn",
+          "\"11月1日\" 中国 文化 体育 首次 site:people.com.cn",
+          "\"11月1日\" 中国 医疗 民生 开通 site:chinanews.com",
+          "\"11月1日\" 中国 教育 学校 成立 site:gmw.cn",
+          "\"11月1日\" 中国 历史上的今天 site:cctv.com"
         ]
       }
     ],
-    "sourceUsed": 6,
-    "publishedVerifiedCount": 4,
-    "completedAt": "2026-10-31T22:30:15+08:00"
+    "sourceUsed": 2,
+    "publishedVerifiedCount": 2,
+    "completedAt": "2026-11-01T03:56:24+08:00"
   }
 }
