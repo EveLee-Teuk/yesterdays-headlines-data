@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-02",
+  "updatedAt": "2026-11-03",
   "events": [
     {
       "date": "1896-10-29",
@@ -1058,6 +1058,24 @@
         }
       ],
       "reviewedAt": "2026-10-14",
+      "verification": "source-matched"
+    },
+    {
+      "date": "2001-11-10",
+      "title": "中国复关和入世之路在多哈宣告结束",
+      "category": "社会",
+      "location": "卡塔尔多哈",
+      "summary": "2001年11月10日，在卡塔尔多哈，中国长达15年的复关和入世之路宣告结束。此后30天整，中国正式成为世界贸易组织成员。这一节点标志着中国对外开放进程进入新阶段。",
+      "id": "history-1022c8f51a5f60e0",
+      "sources": [
+        {
+          "name": "tv.cctv.com",
+          "url": "https://tv.cctv.com/2011/11/10/VIDEnpZx9Rv5fxVWGXQHRiHQ111110.shtml",
+          "date": "2001-11-10",
+          "evidence": "2001年11月10日，在卡塔尔多哈，宣告中国长达15年的复关和入世之路终告结束"
+        }
+      ],
+      "reviewedAt": "2026-11-03",
       "verification": "source-matched"
     },
     {
@@ -2296,8 +2314,8 @@
     }
   ],
   "lastRun": {
-    "date": "2026-11-02",
-    "completedAt": "2026-11-02T13:55:28+08:00",
+    "date": "2026-11-03",
+    "completedAt": "2026-11-03T02:15:38+08:00",
     "sourceCount": 6,
     "addedCount": 0,
     "status": "ready"

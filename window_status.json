@@ -1,33 +1,33 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "failedDates": [],
   "coveragePolicyVersion": 2,
   "restoredDates": [
-    "2026-10-27",
     "2026-10-28",
     "2026-10-29",
     "2026-10-30",
     "2026-10-31",
     "2026-11-01",
-    "2026-11-02"
+    "2026-11-02",
+    "2026-11-03"
   ],
   "todayMinimumMet": true,
   "preparedReadyDates": [
-    "2026-11-03",
     "2026-11-04",
     "2026-11-05",
     "2026-11-06",
     "2026-11-07",
     "2026-11-08",
-    "2026-11-09"
+    "2026-11-09",
+    "2026-11-10"
   ],
   "preparedMissingDates": [],
   "attemptedDates": [
-    "2026-11-02"
+    "2026-11-03"
   ],
   "historicalRetries": {},
   "todayAttempt": {
-    "date": "2026-11-02",
+    "date": "2026-11-03",
     "outcome": "ready",
     "generatedCount": 1,
     "validationRejected": 1,
@@ -41,9 +41,9 @@
         "layer": 0,
         "stage": "generated",
         "index": 0,
-        "date": "2025-11-02",
-        "title": "2025北京马拉松在天安门广场鸣枪开跑",
-        "sourceId": "s6",
+        "date": "2025-11-03",
+        "title": "国家移民管理局宣布推出支持扩大开放服务高质量发展10项创新举措",
+        "sourceId": "s4",
         "result": "rejected",
         "reason": "Evidence does not contain the actual historical date"
       }
@@ -61,74 +61,79 @@
     "modelCalls": 2,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-11-02T13:55:07+08:00",
-    "existingVerifiedCount": 1,
+    "attemptedAt": "2026-11-03T02:15:14+08:00",
+    "existingVerifiedCount": 2,
     "searchAttempted": 6,
-    "searchSucceeded": 5,
-    "searchResults": 32,
+    "searchSucceeded": 4,
+    "searchResults": 19,
     "sourceAttempted": 16,
-    "sourceReadable": 7,
+    "sourceReadable": 6,
     "supplementalSearches": 0,
     "sources": [
       {
         "id": "s1",
-        "url": "https://news.gmw.cn/2020-12/23/content_34485755.htm"
+        "url": "https://ihep.cas.cn/gk/lsyg/"
       },
       {
         "id": "s2",
-        "url": "https://www.news.cn/world/20251102/de4df6d828854fb0a0bcd573c8548f46/c.html"
+        "url": "https://cpc.people.com.cn/GB/64162/64165/72301/72304/index.html"
       },
       {
         "id": "s3",
-        "url": "https://fms.news.cn/swf/2018qmtt/5_27_2018_qm/index.html"
+        "url": "https://www.gov.cn/yaowen/liebiao/202508/content_7035334.htm"
       },
       {
         "id": "s4",
-        "url": "https://www.news.cn/20260503/0fe2f0ab087a4f6983627f040cc0b9bc/c.html"
+        "url": "https://www.gov.cn/lianbo/bumen/202511/content_7046906.htm"
       },
       {
         "id": "s5",
-        "url": "https://www.news.cn/tech/20251207/a5f9cae75a044acd832ecf721ec49253/c.html"
+        "url": "https://politics.gmw.cn/2025-11/03/content_38385752.htm"
       },
       {
         "id": "s6",
-        "url": "https://www.beijing.gov.cn/ywdt/gzdt/202511/t20251102_4250367.html"
+        "url": "https://politics.gmw.cn/2021-11/03/content_35282288.htm"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 5,
-        "searchResults": 32,
+        "searchSucceeded": 4,
+        "searchResults": 19,
         "sourceAttempted": 16,
-        "sourceReadable": 7,
+        "sourceReadable": 6,
         "sourceUsed": 6,
         "searchErrors": [
+          "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "www.mohurd.gov.cn",
+            "host": "www.zhongjiang.gov.cn",
             "type": "ConnectionError"
           },
           {
-            "host": "ent.people.com.cn",
-            "type": "SSLError"
+            "host": "fgw.shandong.gov.cn",
+            "type": "ConnectionError"
+          },
+          {
+            "host": "www.yidaiyilu.gov.cn",
+            "type": "ConnectionError"
           }
         ],
         "queries": [
-          "\"11月2日\" 中国 科技 突破 成功 site:news.cn",
-          "\"11月2日\" 中国 公共工程 建成 通车 site:gov.cn",
-          "\"11月2日\" 中国 文化 体育 首次 site:people.com.cn",
-          "\"11月2日\" 中国 医疗 民生 开通 site:chinanews.com",
-          "\"11月2日\" 中国 教育 学校 成立 site:gmw.cn",
-          "\"11月2日\" 中国 历史上的今天 site:cctv.com"
+          "\"11月3日\" 中国 科技 突破 成功 site:news.cn",
+          "\"11月3日\" 中国 公共工程 建成 通车 site:gov.cn",
+          "\"11月3日\" 中国 文化 体育 首次 site:people.com.cn",
+          "\"11月3日\" 中国 医疗 民生 开通 site:chinanews.com",
+          "\"11月3日\" 中国 教育 学校 成立 site:gmw.cn",
+          "\"11月3日\" 中国 历史上的今天 site:cctv.com"
         ]
       }
     ],
     "sourceUsed": 6,
-    "publishedVerifiedCount": 1,
-    "completedAt": "2026-11-02T13:55:28+08:00"
+    "publishedVerifiedCount": 2,
+    "completedAt": "2026-11-03T02:15:38+08:00"
   }
 }
