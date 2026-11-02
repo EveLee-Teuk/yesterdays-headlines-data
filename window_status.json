@@ -29,34 +29,45 @@
   "todayAttempt": {
     "date": "2026-11-02",
     "outcome": "ready",
-    "generatedCount": 0,
-    "validationRejected": 0,
-    "repairCount": 0,
+    "generatedCount": 1,
+    "validationRejected": 1,
+    "repairCount": 1,
     "repairGeneratedCount": 0,
     "validatedCount": 0,
     "reviewedCount": 0,
     "approvedCount": 0,
-    "candidateResults": [],
+    "candidateResults": [
+      {
+        "layer": 0,
+        "stage": "generated",
+        "index": 0,
+        "date": "2025-11-02",
+        "title": "2025北京马拉松在天安门广场鸣枪开跑",
+        "sourceId": "s6",
+        "result": "rejected",
+        "reason": "Evidence does not contain the actual historical date"
+      }
+    ],
     "reviewResults": [],
     "modelLayers": [
       {
         "index": 0,
         "sourceUsed": 6,
-        "generated": 0,
+        "generated": 1,
         "validated": 0,
         "approved": 0
       }
     ],
-    "modelCalls": 1,
+    "modelCalls": 2,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-11-02T04:27:30+08:00",
+    "attemptedAt": "2026-11-02T13:55:07+08:00",
     "existingVerifiedCount": 1,
     "searchAttempted": 6,
-    "searchSucceeded": 3,
-    "searchResults": 18,
+    "searchSucceeded": 5,
+    "searchResults": 32,
     "sourceAttempted": 16,
-    "sourceReadable": 8,
+    "sourceReadable": 7,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -81,21 +92,19 @@
       },
       {
         "id": "s6",
-        "url": "https://www.news.cn/2023-12/18/c_1130033190.htm"
+        "url": "https://www.beijing.gov.cn/ywdt/gzdt/202511/t20251102_4250367.html"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 3,
-        "searchResults": 18,
+        "searchSucceeded": 5,
+        "searchResults": 32,
         "sourceAttempted": 16,
-        "sourceReadable": 8,
+        "sourceReadable": 7,
         "sourceUsed": 6,
         "searchErrors": [
-          "DDGSException",
-          "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [
@@ -120,6 +129,6 @@
     ],
     "sourceUsed": 6,
     "publishedVerifiedCount": 1,
-    "completedAt": "2026-11-02T04:27:57+08:00"
+    "completedAt": "2026-11-02T13:55:28+08:00"
   }
 }
