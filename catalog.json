@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-03",
+  "updatedAt": "2026-11-04",
   "events": [
     {
       "date": "1896-10-29",
@@ -180,6 +180,24 @@
         }
       ],
       "reviewedAt": "2026-10-25",
+      "verification": "source-matched"
+    },
+    {
+      "date": "1949-11-11",
+      "title": "中国人民解放军空军司令部成立",
+      "category": "社会",
+      "location": "北京",
+      "summary": "1949年11月11日，中国人民解放军空军司令部成立，刘亚楼任司令员，萧华任政治委员。此后海军、炮兵、装甲兵等军兵种部队及领导机构先后成立，到20世纪50年代末，人民解放军完成由单一军种向诸军兵种合成军队的转变。",
+      "id": "history-32d39564b073db1d",
+      "sources": [
+        {
+          "name": "cpc.people.com.cn",
+          "url": "https://cpc.people.com.cn/GB/64162/64165/72301/72312/",
+          "date": "1949-11-11",
+          "evidence": "1949年11月11日  中国人民解放军空军司令部成立，刘亚楼任司令员，萧华任政治委员。"
+        }
+      ],
+      "reviewedAt": "2026-11-04",
       "verification": "source-matched"
     },
     {
@@ -2277,6 +2295,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "2024-11-04",
+      "title": "神舟十八号载人飞船返回舱成功着陆",
+      "category": "科技",
+      "location": "东风着陆场",
+      "summary": "2024年11月4日凌晨，神舟十八号载人飞船返回舱在东风着陆场成功着陆，航天员叶光富、李聪、李广苏全部安全顺利出舱，健康状态良好。该乘组在轨驻留192天，刷新了中国航天员单次出舱活动时间纪录，并完成空间站空间碎片防护装置安装等任务。",
+      "id": "history-3ae6be189d4ba33d",
+      "sources": [
+        {
+          "name": "新华网",
+          "url": "https://www.news.cn/tech/20241105/e764ac3a68634b9b8040b02d8cdd07e5/c.html",
+          "date": "2024-11-04",
+          "evidence": "2024年11月4日，神舟十八号载人飞船返回舱在东风着陆场着陆。新华社记者 连振 摄"
+        }
+      ],
+      "reviewedAt": "2026-11-04",
+      "verification": "source-matched"
+    },
+    {
       "date": "2025-10-23",
       "title": "第22届中国计算机大会在哈尔滨开幕",
       "category": "科技",
@@ -2332,8 +2368,8 @@
     }
   ],
   "lastRun": {
-    "date": "2026-11-03",
-    "completedAt": "2026-11-03T14:40:59+08:00",
+    "date": "2026-11-04",
+    "completedAt": "2026-11-04T00:10:26+08:00",
     "sourceCount": 6,
     "addedCount": 1,
     "status": "ready"

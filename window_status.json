@@ -1,38 +1,38 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "failedDates": [],
   "coveragePolicyVersion": 2,
   "restoredDates": [
-    "2026-10-28",
     "2026-10-29",
     "2026-10-30",
     "2026-10-31",
     "2026-11-01",
     "2026-11-02",
-    "2026-11-03"
+    "2026-11-03",
+    "2026-11-04"
   ],
   "todayMinimumMet": true,
   "preparedReadyDates": [
-    "2026-11-04",
     "2026-11-05",
     "2026-11-06",
     "2026-11-07",
     "2026-11-08",
     "2026-11-09",
-    "2026-11-10"
+    "2026-11-10",
+    "2026-11-11"
   ],
   "preparedMissingDates": [],
   "attemptedDates": [
-    "2026-11-03"
+    "2026-11-04"
   ],
   "historicalRetries": {},
   "todayAttempt": {
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "outcome": "ready",
     "generatedCount": 1,
-    "validationRejected": 0,
-    "repairCount": 0,
-    "repairGeneratedCount": 0,
+    "validationRejected": 1,
+    "repairCount": 1,
+    "repairGeneratedCount": 1,
     "validatedCount": 1,
     "reviewedCount": 1,
     "approvedCount": 1,
@@ -41,17 +41,27 @@
         "layer": 0,
         "stage": "generated",
         "index": 0,
-        "date": "2011-11-03",
-        "title": "神舟八号与天宫一号首次实现空间自动交会对接",
-        "sourceId": "s4",
+        "date": "2024-11-04",
+        "title": "神舟十八号载人飞船返回舱成功着陆",
+        "sourceId": "s5",
+        "result": "rejected",
+        "reason": "Evidence does not contain the actual historical date"
+      },
+      {
+        "layer": 0,
+        "stage": "repair",
+        "index": 0,
+        "date": "2024-11-04",
+        "title": "神舟十八号载人飞船返回舱成功着陆",
+        "sourceId": "s5",
         "result": "validated"
       }
     ],
     "reviewResults": [
       {
         "layer": 0,
-        "date": "2011-11-03",
-        "title": "神舟八号与天宫一号首次实现空间自动交会对接",
+        "date": "2024-11-04",
+        "title": "神舟十八号载人飞船返回舱成功着陆",
         "approved": true
       }
     ],
@@ -64,16 +74,16 @@
         "approved": 1
       }
     ],
-    "modelCalls": 2,
+    "modelCalls": 3,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-11-03T14:40:30+08:00",
+    "attemptedAt": "2026-11-04T00:09:56+08:00",
     "existingVerifiedCount": 2,
     "searchAttempted": 6,
     "searchSucceeded": 5,
-    "searchResults": 25,
+    "searchResults": 32,
     "sourceAttempted": 16,
-    "sourceReadable": 7,
+    "sourceReadable": 8,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -82,23 +92,23 @@
       },
       {
         "id": "s2",
-        "url": "https://cpc.people.com.cn/GB/64162/64165/72301/72304/index.html"
+        "url": "https://nao.cas.cn/ndw/dsj/202203/t20220330_6409779.html"
       },
       {
         "id": "s3",
-        "url": "https://www.gov.cn/yaowen/liebiao/202508/content_7035334.htm"
+        "url": "https://paper.people.com.cn/rmrbwap/html/2021-07/28/nw.D110000renmrb_20210728_3-01.htm"
       },
       {
         "id": "s4",
-        "url": "https://www.news.cn/politics/20250915/dfef2934a4e7495daf481aeb06ca96ad/c.html"
+        "url": "https://www.news.cn/tech/20260112/6cd8dc5033244364b809ad4b1857ece4/c.html"
       },
       {
         "id": "s5",
-        "url": "https://www.news.cn/politics/leaders/2023-11/30/c_1130000205.htm"
+        "url": "https://www.news.cn/tech/20241105/e764ac3a68634b9b8040b02d8cdd07e5/c.html"
       },
       {
         "id": "s6",
-        "url": "https://www.gov.cn/lianbo/bumen/202511/content_7046906.htm"
+        "url": "https://www.news.cn/20260426/7d0d2aa400014a7685229564e7a99016/c.html"
       }
     ],
     "layers": [
@@ -106,47 +116,47 @@
         "name": "themes",
         "searchAttempted": 6,
         "searchSucceeded": 5,
-        "searchResults": 25,
+        "searchResults": 32,
         "sourceAttempted": 16,
-        "sourceReadable": 7,
+        "sourceReadable": 8,
         "sourceUsed": 6,
         "searchErrors": [
           "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "ah.news.cn",
+            "host": "jx.news.cn",
             "type": "ReadTimeout"
+          },
+          {
+            "host": "www.zhongjiang.gov.cn",
+            "type": "ConnectionError"
+          },
+          {
+            "host": "www.jhs.gov.cn",
+            "type": "ConnectionError"
+          },
+          {
+            "host": "fgw.shandong.gov.cn",
+            "type": "ConnectionError"
           },
           {
             "host": "ent.people.com.cn",
             "type": "SSLError"
-          },
-          {
-            "host": "finance.people.com.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "finance.people.com.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "dangshi.people.com.cn",
-            "type": "SSLError"
           }
         ],
         "queries": [
-          "\"11月3日\" 中国 科技 突破 成功 site:news.cn",
-          "\"11月3日\" 中国 公共工程 建成 通车 site:gov.cn",
-          "\"11月3日\" 中国 文化 体育 首次 site:people.com.cn",
-          "\"11月3日\" 中国 医疗 民生 开通 site:chinanews.com",
-          "\"11月3日\" 中国 教育 学校 成立 site:gmw.cn",
-          "\"11月3日\" 中国 历史上的今天 site:cctv.com"
+          "\"11月4日\" 中国 科技 突破 成功 site:news.cn",
+          "\"11月4日\" 中国 公共工程 建成 通车 site:gov.cn",
+          "\"11月4日\" 中国 文化 体育 首次 site:people.com.cn",
+          "\"11月4日\" 中国 医疗 民生 开通 site:chinanews.com",
+          "\"11月4日\" 中国 教育 学校 成立 site:gmw.cn",
+          "\"11月4日\" 中国 历史上的今天 site:cctv.com"
         ]
       }
     ],
     "sourceUsed": 6,
     "publishedVerifiedCount": 3,
-    "completedAt": "2026-11-03T14:40:59+08:00"
+    "completedAt": "2026-11-04T00:10:26+08:00"
   }
 }
