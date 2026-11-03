@@ -1525,6 +1525,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "2011-11-03",
+      "title": "神舟八号与天宫一号首次实现空间自动交会对接",
+      "category": "科技",
+      "location": "太空",
+      "summary": "2011年11月3日凌晨1时29分，神舟八号在发射升空后用时不到44小时，与天宫一号成功“牵手”，我国首次实现空间自动交会对接，技术上取得了从无到有的重大突破。",
+      "id": "history-6f4874dad498dc79",
+      "sources": [
+        {
+          "name": "新华网",
+          "url": "https://www.news.cn/politics/20250915/dfef2934a4e7495daf481aeb06ca96ad/c.html",
+          "date": "2011-11-03",
+          "evidence": "2011年11月3日凌晨1时29分，神舟八号在发射升空后用时不到44小时，与天宫一号成功“牵手”，我国首次实现空间自动交会对接，技术上取得了从无到有的重大突破。"
+        }
+      ],
+      "reviewedAt": "2026-11-03",
+      "verification": "source-matched"
+    },
+    {
       "date": "2012-09-25",
       "title": "辽宁舰正式交付海军",
       "category": "科技",
@@ -2315,9 +2333,9 @@
   ],
   "lastRun": {
     "date": "2026-11-03",
-    "completedAt": "2026-11-03T02:15:38+08:00",
+    "completedAt": "2026-11-03T14:40:59+08:00",
     "sourceCount": 6,
-    "addedCount": 0,
+    "addedCount": 1,
     "status": "ready"
   }
 }

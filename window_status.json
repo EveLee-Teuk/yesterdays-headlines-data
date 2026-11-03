@@ -30,44 +30,50 @@
     "date": "2026-11-03",
     "outcome": "ready",
     "generatedCount": 1,
-    "validationRejected": 1,
-    "repairCount": 1,
+    "validationRejected": 0,
+    "repairCount": 0,
     "repairGeneratedCount": 0,
-    "validatedCount": 0,
-    "reviewedCount": 0,
-    "approvedCount": 0,
+    "validatedCount": 1,
+    "reviewedCount": 1,
+    "approvedCount": 1,
     "candidateResults": [
       {
         "layer": 0,
         "stage": "generated",
         "index": 0,
-        "date": "2025-11-03",
-        "title": "国家移民管理局宣布推出支持扩大开放服务高质量发展10项创新举措",
+        "date": "2011-11-03",
+        "title": "神舟八号与天宫一号首次实现空间自动交会对接",
         "sourceId": "s4",
-        "result": "rejected",
-        "reason": "Evidence does not contain the actual historical date"
+        "result": "validated"
       }
     ],
-    "reviewResults": [],
+    "reviewResults": [
+      {
+        "layer": 0,
+        "date": "2011-11-03",
+        "title": "神舟八号与天宫一号首次实现空间自动交会对接",
+        "approved": true
+      }
+    ],
     "modelLayers": [
       {
         "index": 0,
         "sourceUsed": 6,
         "generated": 1,
-        "validated": 0,
-        "approved": 0
+        "validated": 1,
+        "approved": 1
       }
     ],
     "modelCalls": 2,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-11-03T02:15:14+08:00",
+    "attemptedAt": "2026-11-03T14:40:30+08:00",
     "existingVerifiedCount": 2,
     "searchAttempted": 6,
-    "searchSucceeded": 4,
-    "searchResults": 19,
+    "searchSucceeded": 5,
+    "searchResults": 25,
     "sourceAttempted": 16,
-    "sourceReadable": 6,
+    "sourceReadable": 7,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -84,42 +90,49 @@
       },
       {
         "id": "s4",
-        "url": "https://www.gov.cn/lianbo/bumen/202511/content_7046906.htm"
+        "url": "https://www.news.cn/politics/20250915/dfef2934a4e7495daf481aeb06ca96ad/c.html"
       },
       {
         "id": "s5",
-        "url": "https://politics.gmw.cn/2025-11/03/content_38385752.htm"
+        "url": "https://www.news.cn/politics/leaders/2023-11/30/c_1130000205.htm"
       },
       {
         "id": "s6",
-        "url": "https://politics.gmw.cn/2021-11/03/content_35282288.htm"
+        "url": "https://www.gov.cn/lianbo/bumen/202511/content_7046906.htm"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 4,
-        "searchResults": 19,
+        "searchSucceeded": 5,
+        "searchResults": 25,
         "sourceAttempted": 16,
-        "sourceReadable": 6,
+        "sourceReadable": 7,
         "sourceUsed": 6,
         "searchErrors": [
-          "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "www.zhongjiang.gov.cn",
-            "type": "ConnectionError"
+            "host": "ah.news.cn",
+            "type": "ReadTimeout"
           },
           {
-            "host": "fgw.shandong.gov.cn",
-            "type": "ConnectionError"
+            "host": "ent.people.com.cn",
+            "type": "SSLError"
           },
           {
-            "host": "www.yidaiyilu.gov.cn",
-            "type": "ConnectionError"
+            "host": "finance.people.com.cn",
+            "type": "SSLError"
+          },
+          {
+            "host": "finance.people.com.cn",
+            "type": "SSLError"
+          },
+          {
+            "host": "dangshi.people.com.cn",
+            "type": "SSLError"
           }
         ],
         "queries": [
@@ -133,7 +146,7 @@
       }
     ],
     "sourceUsed": 6,
-    "publishedVerifiedCount": 2,
-    "completedAt": "2026-11-03T02:15:38+08:00"
+    "publishedVerifiedCount": 3,
+    "completedAt": "2026-11-03T14:40:59+08:00"
   }
 }
