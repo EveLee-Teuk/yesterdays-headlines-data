@@ -50,11 +50,11 @@
     "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-11-04T05:43:16+08:00",
+    "attemptedAt": "2026-11-04T14:08:01+08:00",
     "existingVerifiedCount": 3,
     "searchAttempted": 6,
-    "searchSucceeded": 3,
-    "searchResults": 18,
+    "searchSucceeded": 4,
+    "searchResults": 22,
     "sourceAttempted": 16,
     "sourceReadable": 8,
     "supplementalSearches": 0,
@@ -88,13 +88,12 @@
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 3,
-        "searchResults": 18,
+        "searchSucceeded": 4,
+        "searchResults": 22,
         "sourceAttempted": 16,
         "sourceReadable": 8,
         "sourceUsed": 6,
         "searchErrors": [
-          "DDGSException",
           "DDGSException",
           "DDGSException"
         ],
@@ -104,24 +103,16 @@
             "type": "ReadTimeout"
           },
           {
-            "host": "ent.people.com.cn",
-            "type": "SSLError"
+            "host": "www.zhongjiang.gov.cn",
+            "type": "ConnectionError"
           },
           {
-            "host": "ent.people.com.cn",
-            "type": "SSLError"
+            "host": "www.jhs.gov.cn",
+            "type": "ConnectionError"
           },
           {
-            "host": "sh.people.com.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "ent.people.com.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "opinion.people.com.cn",
-            "type": "SSLError"
+            "host": "fgw.shandong.gov.cn",
+            "type": "ConnectionError"
           }
         ],
         "queries": [
@@ -136,6 +127,6 @@
     ],
     "sourceUsed": 6,
     "publishedVerifiedCount": 3,
-    "completedAt": "2026-11-04T05:43:42+08:00"
+    "completedAt": "2026-11-04T14:08:27+08:00"
   }
 }
