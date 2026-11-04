@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-04",
+  "updatedAt": "2026-11-05",
   "events": [
     {
       "date": "1896-10-29",
@@ -1525,6 +1525,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "2010-11-12",
+      "title": "第十六届亚运会在广州开幕",
+      "category": "社会",
+      "location": "广州",
+      "summary": "2010年11月12日至27日，第十六届亚运会在广州举行，主题为“激情盛会 和谐亚洲”。来自45个国家和地区的1.4万多名官员和运动员参加本届亚运会，中国体育代表团位居金牌榜和奖牌榜首位。",
+      "id": "history-bdc25ff087318315",
+      "sources": [
+        {
+          "name": "cpc.people.com.cn",
+          "url": "https://cpc.people.com.cn/GB/64162/64165/72301/72313/",
+          "date": "2010-11-12",
+          "evidence": "2010年11月12日至27日  第十六届亚运会在广州举行，主题是“激情盛会  和谐亚洲”。来自45个国家和地区的1.4万多名官员和运动员参加本届亚运会。中国体育代表团位居金牌榜和奖牌榜首位。"
+        }
+      ],
+      "reviewedAt": "2026-11-05",
+      "verification": "source-matched"
+    },
+    {
       "date": "2011-10-20",
       "title": "中国散裂中子源在东莞举行工程奠基典礼",
       "category": "科技",
@@ -2365,13 +2383,31 @@
       ],
       "reviewedAt": "2026-10-24",
       "verification": "source-matched"
+    },
+    {
+      "date": "2025-11-05",
+      "title": "福建舰入列授旗仪式举行",
+      "category": "科技",
+      "location": "海南三亚",
+      "summary": "2025年11月5日，我国第一艘电磁弹射型航空母舰福建舰入列授旗仪式在海南三亚某军港举行。福建舰入列标志着中国海军航母建设取得新进展。",
+      "id": "history-1396186034e8aafb",
+      "sources": [
+        {
+          "name": "新华网",
+          "url": "https://www.news.cn/tech/20260226/97d96bbc25f2479aa7bdfa5f0b16474f/c.html",
+          "date": "2025-11-05",
+          "evidence": "2025年11月5日，我国第一艘电磁弹射型航空母舰福建舰入列授旗仪式在海南三亚某军港举行。"
+        }
+      ],
+      "reviewedAt": "2026-11-05",
+      "verification": "source-matched"
     }
   ],
   "lastRun": {
-    "date": "2026-11-04",
-    "completedAt": "2026-11-04T14:08:27+08:00",
-    "sourceCount": 6,
-    "addedCount": 0,
+    "date": "2026-11-05",
+    "completedAt": "2026-11-05T00:14:18+08:00",
+    "sourceCount": 5,
+    "addedCount": 1,
     "status": "ready"
   }
 }

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-12",
+  "timezone": "Asia/Shanghai",
+  "status": "ready",
+  "events": [
+    {
+      "date": "2010-11-12",
+      "title": "第十六届亚运会在广州开幕",
+      "category": "社会",
+      "location": "广州",
+      "summary": "2010年11月12日至27日，第十六届亚运会在广州举行，主题为“激情盛会 和谐亚洲”。来自45个国家和地区的1.4万多名官员和运动员参加本届亚运会，中国体育代表团位居金牌榜和奖牌榜首位。",
+      "id": "history-bdc25ff087318315",
+      "sources": [
+        {
+          "name": "cpc.people.com.cn",
+          "url": "https://cpc.people.com.cn/GB/64162/64165/72301/72313/",
+          "date": "2010-11-12",
+          "evidence": "2010年11月12日至27日  第十六届亚运会在广州举行，主题是“激情盛会  和谐亚洲”。来自45个国家和地区的1.4万多名官员和运动员参加本届亚运会。中国体育代表团位居金牌榜和奖牌榜首位。"
+        }
+      ],
+      "reviewedAt": "2026-11-05",
+      "verification": "source-matched"
+    }
+  ]
+}
