@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-06",
+  "timezone": "Asia/Shanghai",
+  "status": "ready",
+  "events": [
+    {
+      "date": "1997-11-06",
+      "title": "三峡工程成功截断长江",
+      "category": "科技",
+      "location": "湖北宜昌",
+      "summary": "1997年11月6日上午10时，中国水利、坝工专家指挥装备精良的施工队伍，成功截断长江三峡，为在这里兴建世界最大的水利枢纽工程作好了最后攻坚的准备。",
+      "id": "history-d49432246ad8a1c8",
+      "sources": [
+        {
+          "name": "www.ncsti.gov.cn",
+          "url": "https://www.ncsti.gov.cn/kcfw/jnr/202110/t20211014_49200.html",
+          "date": "1997-11-06",
+          "evidence": "中国一流的水利、坝工专家指挥装备精良的施工队伍，于1997年11月6日上午１０时，成功截断长江三峡，为在这里兴建世界最大的水利枢纽工程作好了最后攻坚的准备。"
+        }
+      ],
+      "reviewedAt": "2026-10-30",
+      "verification": "source-matched"
+    }
+  ]
+}
