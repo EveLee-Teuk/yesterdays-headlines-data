@@ -399,6 +399,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "1960-11-05",
+      "title": "“东风一号”导弹试验成功",
+      "category": "科技",
+      "location": "酒泉",
+      "summary": "1960年11月5日9时02分，代号“1059”的国产地地导弹在酒泉发射场点火升空，约8分钟后成功命中目标。该导弹后被命名为“东风一号”，成为我国第一枚国产地地导弹，结束了中国没有导弹的历史。",
+      "id": "history-e5d5d1fbd4880d2c",
+      "sources": [
+        {
+          "name": "m.news.cctv.com",
+          "url": "https://m.news.cctv.com/2020/11/06/ARTIqEhqWwfa5mjnCRbDopVC201106.shtml",
+          "date": "1960-11-05",
+          "evidence": "1960年11月5日，在酒泉发射场，“1059”导弹昂首矗立在发射阵地，蓄势待发！ 9时02分，一声轰鸣刺破了戈壁的宁静， “东风一号”导弹试验成功！"
+        }
+      ],
+      "reviewedAt": "2026-11-05",
+      "verification": "source-matched"
+    },
+    {
       "date": "1964-10-02",
       "title": "大型音乐舞蹈史诗《东方红》首演",
       "category": "社会",
@@ -2405,9 +2423,9 @@
   ],
   "lastRun": {
     "date": "2026-11-05",
-    "completedAt": "2026-11-05T05:52:35+08:00",
-    "sourceCount": 5,
-    "addedCount": 0,
+    "completedAt": "2026-11-05T14:37:01+08:00",
+    "sourceCount": 6,
+    "addedCount": 1,
     "status": "ready"
   }
 }

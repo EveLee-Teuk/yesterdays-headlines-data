@@ -29,34 +29,51 @@
   "todayAttempt": {
     "date": "2026-11-05",
     "outcome": "ready",
-    "generatedCount": 0,
+    "generatedCount": 1,
     "validationRejected": 0,
     "repairCount": 0,
     "repairGeneratedCount": 0,
-    "validatedCount": 0,
-    "reviewedCount": 0,
-    "approvedCount": 0,
-    "candidateResults": [],
-    "reviewResults": [],
+    "validatedCount": 1,
+    "reviewedCount": 1,
+    "approvedCount": 1,
+    "candidateResults": [
+      {
+        "layer": 0,
+        "stage": "generated",
+        "index": 0,
+        "date": "1960-11-05",
+        "title": "“东风一号”导弹试验成功",
+        "sourceId": "s6",
+        "result": "validated"
+      }
+    ],
+    "reviewResults": [
+      {
+        "layer": 0,
+        "date": "1960-11-05",
+        "title": "“东风一号”导弹试验成功",
+        "approved": true
+      }
+    ],
     "modelLayers": [
       {
         "index": 0,
-        "sourceUsed": 5,
-        "generated": 0,
-        "validated": 0,
-        "approved": 0
+        "sourceUsed": 6,
+        "generated": 1,
+        "validated": 1,
+        "approved": 1
       }
     ],
-    "modelCalls": 1,
+    "modelCalls": 2,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-11-05T05:52:10+08:00",
+    "attemptedAt": "2026-11-05T14:36:34+08:00",
     "existingVerifiedCount": 2,
     "searchAttempted": 6,
-    "searchSucceeded": 4,
-    "searchResults": 20,
-    "sourceAttempted": 16,
-    "sourceReadable": 5,
+    "searchSucceeded": 2,
+    "searchResults": 12,
+    "sourceAttempted": 15,
+    "sourceReadable": 10,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -69,27 +86,33 @@
       },
       {
         "id": "s3",
-        "url": "https://www.news.cn/20251105/6534d4db19ab414582b3afb3a49a4f3e/c.html"
+        "url": "https://www.news.cn/politics/20261105/c06cf6a3cb93439abc42e26149164f18/c.html"
       },
       {
         "id": "s4",
-        "url": "https://www.news.cn/politics/leaders/20241107/9e68194d9d2a4b43a6e8dc7f8e3886b1/c.html"
+        "url": "https://www.news.cn/20251105/6534d4db19ab414582b3afb3a49a4f3e/c.html"
       },
       {
         "id": "s5",
-        "url": "https://live01.people.com.cn/zhibo/Myapp/Html/Member/html/202511/15_105463_69099f9ddc175_quan.html"
+        "url": "https://www.news.cn/politics/leaders/20241107/9e68194d9d2a4b43a6e8dc7f8e3886b1/c.html"
+      },
+      {
+        "id": "s6",
+        "url": "https://m.news.cctv.com/2020/11/06/ARTIqEhqWwfa5mjnCRbDopVC201106.shtml"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 4,
-        "searchResults": 20,
-        "sourceAttempted": 16,
-        "sourceReadable": 5,
-        "sourceUsed": 5,
+        "searchSucceeded": 2,
+        "searchResults": 12,
+        "sourceAttempted": 15,
+        "sourceReadable": 10,
+        "sourceUsed": 6,
         "searchErrors": [
+          "DDGSException",
+          "DDGSException",
           "DDGSException",
           "DDGSException"
         ],
@@ -97,30 +120,6 @@
           {
             "host": "sh.news.cn",
             "type": "ReadTimeout"
-          },
-          {
-            "host": "www.zhongjiang.gov.cn",
-            "type": "ConnectionError"
-          },
-          {
-            "host": "fgw.shandong.gov.cn",
-            "type": "ConnectionError"
-          },
-          {
-            "host": "www.jingzhou.gov.cn",
-            "type": "ConnectionError"
-          },
-          {
-            "host": "www.xianning.gov.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "www.heyuan.gov.cn",
-            "type": "HTTPError"
-          },
-          {
-            "host": "sh.people.com.cn",
-            "type": "SSLError"
           }
         ],
         "queries": [
@@ -133,8 +132,8 @@
         ]
       }
     ],
-    "sourceUsed": 5,
-    "publishedVerifiedCount": 2,
-    "completedAt": "2026-11-05T05:52:35+08:00"
+    "sourceUsed": 6,
+    "publishedVerifiedCount": 3,
+    "completedAt": "2026-11-05T14:37:01+08:00"
   }
 }
