@@ -29,10 +29,10 @@
   "todayAttempt": {
     "date": "2026-11-06",
     "outcome": "ready",
-    "generatedCount": 2,
-    "validationRejected": 3,
+    "generatedCount": 1,
+    "validationRejected": 1,
     "repairCount": 1,
-    "repairGeneratedCount": 1,
+    "repairGeneratedCount": 0,
     "validatedCount": 0,
     "reviewedCount": 0,
     "approvedCount": 0,
@@ -46,34 +46,14 @@
         "sourceId": "s2",
         "result": "rejected",
         "reason": "Not a historical event on the requested month/day"
-      },
-      {
-        "layer": 0,
-        "stage": "generated",
-        "index": 1,
-        "date": "2023-11-06",
-        "title": "北京启动供暖点火试运行",
-        "sourceId": "s3",
-        "result": "rejected",
-        "reason": "Evidence does not contain the actual historical date"
-      },
-      {
-        "layer": 0,
-        "stage": "repair",
-        "index": 0,
-        "date": "2023-11-06",
-        "title": "北京启动供暖点火试运行",
-        "sourceId": "s3",
-        "result": "rejected",
-        "reason": "Evidence does not contain the actual historical date"
       }
     ],
     "reviewResults": [],
     "modelLayers": [
       {
         "index": 0,
-        "sourceUsed": 6,
-        "generated": 2,
+        "sourceUsed": 4,
+        "generated": 1,
         "validated": 0,
         "approved": 0
       }
@@ -81,13 +61,13 @@
     "modelCalls": 2,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-11-06T14:32:23+08:00",
+    "attemptedAt": "2026-11-06T23:53:27+08:00",
     "existingVerifiedCount": 1,
     "searchAttempted": 6,
-    "searchSucceeded": 4,
-    "searchResults": 18,
+    "searchSucceeded": 5,
+    "searchResults": 31,
     "sourceAttempted": 16,
-    "sourceReadable": 9,
+    "sourceReadable": 4,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -100,32 +80,23 @@
       },
       {
         "id": "s3",
-        "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202311/t20231106_3295090.html"
-      },
-      {
-        "id": "s4",
         "url": "https://www.mot.gov.cn/"
       },
       {
-        "id": "s5",
+        "id": "s4",
         "url": "https://cpc.people.com.cn/GB/64162/64165/72301/72307/index.html"
-      },
-      {
-        "id": "s6",
-        "url": "https://politics.gmw.cn/2021-11/06/content_35291470.htm"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 4,
-        "searchResults": 18,
+        "searchSucceeded": 5,
+        "searchResults": 31,
         "sourceAttempted": 16,
-        "sourceReadable": 9,
-        "sourceUsed": 6,
+        "sourceReadable": 4,
+        "sourceUsed": 4,
         "searchErrors": [
-          "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [
@@ -134,7 +105,7 @@
             "type": "SSLError"
           },
           {
-            "host": "plan.hainan.gov.cn",
+            "host": "www.sasac.gov.cn",
             "type": "ConnectionError"
           },
           {
@@ -142,11 +113,11 @@
             "type": "ConnectionError"
           },
           {
-            "host": "www.mwr.gov.cn",
-            "type": "ConnectionError"
+            "host": "ent.people.com.cn",
+            "type": "SSLError"
           },
           {
-            "host": "hnsggzyjy.henan.gov.cn",
+            "host": "yn.people.com.cn",
             "type": "SSLError"
           }
         ],
@@ -160,8 +131,8 @@
         ]
       }
     ],
-    "sourceUsed": 6,
+    "sourceUsed": 4,
     "publishedVerifiedCount": 1,
-    "completedAt": "2026-11-06T14:32:48+08:00"
+    "completedAt": "2026-11-06T23:53:48+08:00"
   }
 }
