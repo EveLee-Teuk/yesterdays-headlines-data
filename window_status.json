@@ -1,138 +1,125 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "failedDates": [],
   "coveragePolicyVersion": 2,
   "restoredDates": [
-    "2026-10-31",
     "2026-11-01",
     "2026-11-02",
     "2026-11-03",
     "2026-11-04",
     "2026-11-05",
-    "2026-11-06"
+    "2026-11-06",
+    "2026-11-07"
   ],
   "todayMinimumMet": true,
   "preparedReadyDates": [
-    "2026-11-07",
     "2026-11-08",
     "2026-11-09",
     "2026-11-10",
     "2026-11-11",
     "2026-11-12",
-    "2026-11-13"
+    "2026-11-13",
+    "2026-11-14"
   ],
   "preparedMissingDates": [],
   "attemptedDates": [
-    "2026-11-06"
+    "2026-11-07"
   ],
   "historicalRetries": {},
   "todayAttempt": {
-    "date": "2026-11-06",
+    "date": "2026-11-07",
     "outcome": "ready",
-    "generatedCount": 1,
-    "validationRejected": 1,
-    "repairCount": 1,
+    "generatedCount": 0,
+    "validationRejected": 0,
+    "repairCount": 0,
     "repairGeneratedCount": 0,
     "validatedCount": 0,
     "reviewedCount": 0,
     "approvedCount": 0,
-    "candidateResults": [
-      {
-        "layer": 0,
-        "stage": "generated",
-        "index": 0,
-        "date": "2026-11-06",
-        "title": "中国空间站制备出已知最冷物质",
-        "sourceId": "s2",
-        "result": "rejected",
-        "reason": "Not a historical event on the requested month/day"
-      }
-    ],
+    "candidateResults": [],
     "reviewResults": [],
     "modelLayers": [
       {
         "index": 0,
-        "sourceUsed": 4,
-        "generated": 1,
+        "sourceUsed": 6,
+        "generated": 0,
         "validated": 0,
         "approved": 0
       }
     ],
-    "modelCalls": 2,
+    "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-11-06T23:53:27+08:00",
-    "existingVerifiedCount": 1,
+    "attemptedAt": "2026-11-07T05:28:03+08:00",
+    "existingVerifiedCount": 5,
     "searchAttempted": 6,
-    "searchSucceeded": 5,
-    "searchResults": 31,
+    "searchSucceeded": 3,
+    "searchResults": 12,
     "sourceAttempted": 16,
-    "sourceReadable": 4,
+    "sourceReadable": 10,
     "supplementalSearches": 0,
     "sources": [
       {
         "id": "s1",
-        "url": "https://www.ncsti.gov.cn/kcfw/jnr/202110/t20211014_49200.html"
+        "url": "https://www.htu.edu.cn/21000/list.htm"
       },
       {
         "id": "s2",
-        "url": "https://www.news.cn/tech/20261106/0eb5d3908e9345759d3bd12198e56f9e/c.html"
+        "url": "https://xsg.cug.edu.cn/info/1017/1480.htm"
       },
       {
         "id": "s3",
-        "url": "https://www.mot.gov.cn/"
+        "url": "https://www.hbnu.edu.cn/2023/1030/c5817a152577/page.htm"
       },
       {
         "id": "s4",
-        "url": "https://cpc.people.com.cn/GB/64162/64165/72301/72307/index.html"
+        "url": "https://hnxb.scau.edu.cn/phone/content.aspx?id=3001"
+      },
+      {
+        "id": "s5",
+        "url": "https://cpc.people.com.cn/GB/64162/64165/72301/72308/index.html"
+      },
+      {
+        "id": "s6",
+        "url": "https://epaper.gmw.cn/gmrb/html/content/202606/15/content_16715.html"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 5,
-        "searchResults": 31,
+        "searchSucceeded": 3,
+        "searchResults": 12,
         "sourceAttempted": 16,
-        "sourceReadable": 4,
-        "sourceUsed": 4,
+        "sourceReadable": 10,
+        "sourceUsed": 6,
         "searchErrors": [
+          "DDGSException",
+          "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "www.cq.news.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "www.sasac.gov.cn",
+            "host": "www.yantian.gov.cn",
             "type": "ConnectionError"
           },
           {
-            "host": "www.zhenjiang.gov.cn",
-            "type": "ConnectionError"
-          },
-          {
-            "host": "ent.people.com.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "yn.people.com.cn",
-            "type": "SSLError"
+            "host": "www.ccps.gov.cn",
+            "type": "HTTPError"
           }
         ],
         "queries": [
-          "\"11月6日\" 中国 科技 突破 成功 site:news.cn",
-          "\"11月6日\" 中国 公共工程 建成 通车 site:gov.cn",
-          "\"11月6日\" 中国 文化 体育 首次 site:people.com.cn",
-          "\"11月6日\" 中国 医疗 民生 开通 site:chinanews.com",
-          "\"11月6日\" 中国 教育 学校 成立 site:gmw.cn",
-          "\"11月6日\" 中国 历史上的今天 site:cctv.com"
+          "\"11月7日\" 中国 科技 突破 成功 site:news.cn",
+          "\"11月7日\" 中国 公共工程 建成 通车 site:gov.cn",
+          "\"11月7日\" 中国 文化 体育 首次 site:people.com.cn",
+          "\"11月7日\" 中国 医疗 民生 开通 site:chinanews.com",
+          "\"11月7日\" 中国 教育 学校 成立 site:gmw.cn",
+          "\"11月7日\" 中国 历史上的今天 site:cctv.com"
         ]
       }
     ],
-    "sourceUsed": 4,
-    "publishedVerifiedCount": 1,
-    "completedAt": "2026-11-06T23:53:48+08:00"
+    "sourceUsed": 6,
+    "publishedVerifiedCount": 5,
+    "completedAt": "2026-11-07T05:28:16+08:00"
   }
 }
