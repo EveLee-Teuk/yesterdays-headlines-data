@@ -80,6 +80,26 @@
     "subtitle": "2009年 广东广州"
   },
   {
+    "date": "2010-11-07",
+    "title": "EAST实现100秒1500万度偏滤器长脉冲等离子体放电",
+    "category": "科技",
+    "location": "安徽合肥",
+    "summary": "2010年11月7日，全超导托卡马克核聚变实验装置EAST实现100秒1500万度偏滤器长脉冲等离子体放电，实验数据图记录了这一结果。这是该装置在长脉冲高温等离子体运行方面取得的进展，为核聚变能源研究积累实验数据。",
+    "id": "history-fd1e8b002f3f7a3b",
+    "sources": [
+      {
+        "name": "新华网",
+        "url": "https://www.news.cn/tech/20260928/1474728d2bfe41fb80ff2acc2a9e18e9/c.html",
+        "date": "2010-11-07",
+        "evidence": "这是2010年11月7日EAST实现100秒1500万度偏滤器长脉冲等离子体放电实验数据图。"
+      }
+    ],
+    "reviewedAt": "2026-11-07",
+    "verification": "source-matched",
+    "year": 2010,
+    "subtitle": "2010年 安徽合肥"
+  },
+  {
     "date": "2012-11-07",
     "title": "湖北高校第五届美术与设计大展开幕",
     "category": "社会",

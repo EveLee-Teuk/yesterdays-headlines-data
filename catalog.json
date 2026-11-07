@@ -1561,6 +1561,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "2010-11-07",
+      "title": "EAST实现100秒1500万度偏滤器长脉冲等离子体放电",
+      "category": "科技",
+      "location": "安徽合肥",
+      "summary": "2010年11月7日，全超导托卡马克核聚变实验装置EAST实现100秒1500万度偏滤器长脉冲等离子体放电，实验数据图记录了这一结果。这是该装置在长脉冲高温等离子体运行方面取得的进展，为核聚变能源研究积累实验数据。",
+      "id": "history-fd1e8b002f3f7a3b",
+      "sources": [
+        {
+          "name": "新华网",
+          "url": "https://www.news.cn/tech/20260928/1474728d2bfe41fb80ff2acc2a9e18e9/c.html",
+          "date": "2010-11-07",
+          "evidence": "这是2010年11月7日EAST实现100秒1500万度偏滤器长脉冲等离子体放电实验数据图。"
+        }
+      ],
+      "reviewedAt": "2026-11-07",
+      "verification": "source-matched"
+    },
+    {
       "date": "2010-11-12",
       "title": "第十六届亚运会在广州开幕",
       "category": "社会",
@@ -2477,9 +2495,9 @@
   ],
   "lastRun": {
     "date": "2026-11-07",
-    "completedAt": "2026-11-07T05:28:16+08:00",
+    "completedAt": "2026-11-07T13:52:04+08:00",
     "sourceCount": 6,
-    "addedCount": 0,
+    "addedCount": 1,
     "status": "ready"
   }
 }

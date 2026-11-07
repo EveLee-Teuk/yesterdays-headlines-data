@@ -29,32 +29,49 @@
   "todayAttempt": {
     "date": "2026-11-07",
     "outcome": "ready",
-    "generatedCount": 0,
+    "generatedCount": 1,
     "validationRejected": 0,
     "repairCount": 0,
     "repairGeneratedCount": 0,
-    "validatedCount": 0,
-    "reviewedCount": 0,
-    "approvedCount": 0,
-    "candidateResults": [],
-    "reviewResults": [],
+    "validatedCount": 1,
+    "reviewedCount": 1,
+    "approvedCount": 1,
+    "candidateResults": [
+      {
+        "layer": 0,
+        "stage": "generated",
+        "index": 0,
+        "date": "2010-11-07",
+        "title": "EAST实现100秒1500万度偏滤器长脉冲等离子体放电",
+        "sourceId": "s6",
+        "result": "validated"
+      }
+    ],
+    "reviewResults": [
+      {
+        "layer": 0,
+        "date": "2010-11-07",
+        "title": "EAST实现100秒1500万度偏滤器长脉冲等离子体放电",
+        "approved": true
+      }
+    ],
     "modelLayers": [
       {
         "index": 0,
         "sourceUsed": 6,
-        "generated": 0,
-        "validated": 0,
-        "approved": 0
+        "generated": 1,
+        "validated": 1,
+        "approved": 1
       }
     ],
-    "modelCalls": 1,
+    "modelCalls": 2,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-11-07T05:28:03+08:00",
+    "attemptedAt": "2026-11-07T13:51:49+08:00",
     "existingVerifiedCount": 5,
     "searchAttempted": 6,
     "searchSucceeded": 3,
-    "searchResults": 12,
+    "searchResults": 13,
     "sourceAttempted": 16,
     "sourceReadable": 10,
     "supplementalSearches": 0,
@@ -77,11 +94,11 @@
       },
       {
         "id": "s5",
-        "url": "https://cpc.people.com.cn/GB/64162/64165/72301/72308/index.html"
+        "url": "https://www.news.cn/tech/20261107/93790298c17848878d1ac5a87dbc16e2/c.html"
       },
       {
         "id": "s6",
-        "url": "https://epaper.gmw.cn/gmrb/html/content/202606/15/content_16715.html"
+        "url": "https://www.news.cn/tech/20260928/1474728d2bfe41fb80ff2acc2a9e18e9/c.html"
       }
     ],
     "layers": [
@@ -89,7 +106,7 @@
         "name": "themes",
         "searchAttempted": 6,
         "searchSucceeded": 3,
-        "searchResults": 12,
+        "searchResults": 13,
         "sourceAttempted": 16,
         "sourceReadable": 10,
         "sourceUsed": 6,
@@ -119,7 +136,7 @@
       }
     ],
     "sourceUsed": 6,
-    "publishedVerifiedCount": 5,
-    "completedAt": "2026-11-07T05:28:16+08:00"
+    "publishedVerifiedCount": 6,
+    "completedAt": "2026-11-07T13:52:04+08:00"
   }
 }
