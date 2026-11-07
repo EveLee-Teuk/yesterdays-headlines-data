@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-08",
+  "timezone": "Asia/Shanghai",
+  "status": "ready",
+  "events": [
+    {
+      "date": "2003-11-08",
+      "title": "北京同步辐射装置改进项目通过验收",
+      "category": "科技",
+      "location": "北京",
+      "summary": "2003年11月8日，北京正负电子对撞机改进与未来发展专项中的北京同步辐射装置改进项目通过验收。该装置是依托北京正负电子对撞机建设的同步辐射实验平台，此次改进项目验收标志着相关装置建设取得阶段性成果。",
+      "id": "history-4ad320fb89ebcbd0",
+      "sources": [
+        {
+          "name": "ihep.cas.cn",
+          "url": "https://ihep.cas.cn/gk/lsyg/",
+          "date": "2003-11-08",
+          "evidence": "2003年11月8日，北京正负电子对撞机改进与未来发展专项北京同步辐射装置改进项目通过验收。"
+        }
+      ],
+      "reviewedAt": "2026-11-01",
+      "verification": "source-matched"
+    }
+  ]
+}

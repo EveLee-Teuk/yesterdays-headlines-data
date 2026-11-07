@@ -1,33 +1,33 @@
 {
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "failedDates": [],
   "coveragePolicyVersion": 2,
   "restoredDates": [
-    "2026-11-01",
     "2026-11-02",
     "2026-11-03",
     "2026-11-04",
     "2026-11-05",
     "2026-11-06",
-    "2026-11-07"
+    "2026-11-07",
+    "2026-11-08"
   ],
   "todayMinimumMet": true,
   "preparedReadyDates": [
-    "2026-11-08",
     "2026-11-09",
     "2026-11-10",
     "2026-11-11",
     "2026-11-12",
     "2026-11-13",
-    "2026-11-14"
+    "2026-11-14",
+    "2026-11-15"
   ],
   "preparedMissingDates": [],
   "attemptedDates": [
-    "2026-11-07"
+    "2026-11-08"
   ],
   "historicalRetries": {},
   "todayAttempt": {
-    "date": "2026-11-07",
+    "date": "2026-11-08",
     "outcome": "ready",
     "generatedCount": 0,
     "validationRejected": 0,
@@ -41,7 +41,7 @@
     "modelLayers": [
       {
         "index": 0,
-        "sourceUsed": 6,
+        "sourceUsed": 5,
         "generated": 0,
         "validated": 0,
         "approved": 0
@@ -50,79 +50,80 @@
     "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-11-07T22:51:54+08:00",
-    "existingVerifiedCount": 6,
+    "attemptedAt": "2026-11-08T04:11:51+08:00",
+    "existingVerifiedCount": 1,
     "searchAttempted": 6,
-    "searchSucceeded": 4,
-    "searchResults": 25,
+    "searchSucceeded": 3,
+    "searchResults": 19,
     "sourceAttempted": 16,
-    "sourceReadable": 8,
+    "sourceReadable": 5,
     "supplementalSearches": 0,
     "sources": [
       {
         "id": "s1",
-        "url": "https://www.htu.edu.cn/21000/list.htm"
+        "url": "https://ihep.cas.cn/gk/lsyg/"
       },
       {
         "id": "s2",
-        "url": "https://xsg.cug.edu.cn/info/1017/1480.htm"
+        "url": "https://www.news.cn/science/dst.htm"
       },
       {
         "id": "s3",
-        "url": "https://www.hbnu.edu.cn/2023/1030/c5817a152577/page.htm"
+        "url": "https://www.news.cn/finance/20251110/b62f2f27ab854b8c96ca1d6e2b5007bd/c.html"
       },
       {
         "id": "s4",
-        "url": "https://hnxb.scau.edu.cn/phone/content.aspx?id=3001"
+        "url": "https://www.news.cn/politics/20240227/06d405588d7a4d00922abe75798e372c/c.html"
       },
       {
         "id": "s5",
-        "url": "https://www.news.cn/tech/20260928/1474728d2bfe41fb80ff2acc2a9e18e9/c.html"
-      },
-      {
-        "id": "s6",
-        "url": "https://www.news.cn/tech/20261107/bb7040522e7449809c263bef55434a4d/c.html"
+        "url": "https://www.gov.cn/yaowen/liebiao/202511/content_7047496.htm"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 4,
-        "searchResults": 25,
+        "searchSucceeded": 3,
+        "searchResults": 19,
         "sourceAttempted": 16,
-        "sourceReadable": 8,
-        "sourceUsed": 6,
+        "sourceReadable": 5,
+        "sourceUsed": 5,
         "searchErrors": [
+          "DDGSException",
           "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "www.hainan.news.cn",
-            "type": "ConnectTimeout"
+            "host": "gz.news.cn",
+            "type": "ReadTimeout"
           },
           {
-            "host": "www.yantian.gov.cn",
+            "host": "www.ccps.gov.cn",
+            "type": "HTTPError"
+          },
+          {
+            "host": "www.sasac.gov.cn",
             "type": "ConnectionError"
           },
           {
-            "host": "gzw.sc.gov.cn",
-            "type": "ConnectionError"
+            "host": "jtysj.xinyang.gov.cn",
+            "type": "HTTPError"
           }
         ],
         "queries": [
-          "\"11月7日\" 中国 科技 突破 成功 site:news.cn",
-          "\"11月7日\" 中国 公共工程 建成 通车 site:gov.cn",
-          "\"11月7日\" 中国 文化 体育 首次 site:people.com.cn",
-          "\"11月7日\" 中国 医疗 民生 开通 site:chinanews.com",
-          "\"11月7日\" 中国 教育 学校 成立 site:gmw.cn",
-          "\"11月7日\" 中国 历史上的今天 site:cctv.com"
+          "\"11月8日\" 中国 科技 突破 成功 site:news.cn",
+          "\"11月8日\" 中国 公共工程 建成 通车 site:gov.cn",
+          "\"11月8日\" 中国 文化 体育 首次 site:people.com.cn",
+          "\"11月8日\" 中国 医疗 民生 开通 site:chinanews.com",
+          "\"11月8日\" 中国 教育 学校 成立 site:gmw.cn",
+          "\"11月8日\" 中国 历史上的今天 site:cctv.com"
         ]
       }
     ],
-    "sourceUsed": 6,
-    "publishedVerifiedCount": 6,
-    "completedAt": "2026-11-07T22:52:13+08:00"
+    "sourceUsed": 5,
+    "publishedVerifiedCount": 1,
+    "completedAt": "2026-11-08T04:12:18+08:00"
   }
 }
