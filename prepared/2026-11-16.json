@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-16",
+  "timezone": "Asia/Shanghai",
+  "status": "ready",
+  "events": [
+    {
+      "date": "1995-11-16",
+      "title": "京九铁路全线铺通",
+      "category": "民生",
+      "location": "中国",
+      "summary": "1995年11月16日，京九铁路全线铺通。这条纵贯南北的铁路大干线随后于1996年9月1日全线开通运营，对沿线地区经济社会发展具有重要意义。",
+      "id": "history-d29b0e7f3d73b54d",
+      "sources": [
+        {
+          "name": "politics.gmw.cn",
+          "url": "https://politics.gmw.cn/2021-11/16/content_35307782.htm",
+          "date": "1995-11-16",
+          "evidence": "1995年 11月16日 京九铁路全线铺通。1996年9月1日全线开通运营。"
+        }
+      ],
+      "reviewedAt": "2026-11-09",
+      "verification": "source-matched"
+    },
+    {
+      "date": "2014-11-16",
+      "title": "第六届全国大学生广告艺术大赛举行颁奖典礼",
+      "category": "社会",
+      "location": "北京",
+      "summary": "2014年11月16日，第六届全国大学生广告艺术大赛在北京政协大礼堂举行颁奖典礼。湖北师范学院美术学院学生孔祥彪、王晓波的平面类作品《我的味觉，我定义》获全国三等奖，另有文学院、美术学院学生作品获全国优秀奖。",
+      "id": "history-25e5edcc005fcf03",
+      "sources": [
+        {
+          "name": "www.hbnu.edu.cn",
+          "url": "https://www.hbnu.edu.cn/2023/1030/c5817a152568/page.htm",
+          "date": "2014-11-16",
+          "evidence": "2014 年 11 月 16 日，第六届全国大学生广告艺术大赛在北京政协大礼堂举行颁奖典礼。学校美术学院学生孔祥彪、王晓波的平面类作品《我的味觉，我定义》获全国三等奖"
+        }
+      ],
+      "reviewedAt": "2026-11-09",
+      "verification": "source-matched"
+    },
+    {
+      "date": "2022-11-16",
+      "title": "首届工业题材主题油画展开幕",
+      "category": "社会",
+      "location": "湖北黄石",
+      "summary": "2022年11月16日，由湖北师范大学主办，校宣传部、教务处、团委、学工处、研究生院、美术学院承办的首届工业题材主题油画展在美术学院博物馆展厅正式开幕。",
+      "id": "history-4a7929e6ee07113f",
+      "sources": [
+        {
+          "name": "www.hbnu.edu.cn",
+          "url": "https://www.hbnu.edu.cn/2023/1030/c5817a152568/page.htm",
+          "date": "2022-11-16",
+          "evidence": "2022 年 11 月 16 日，由学校主办，校宣传部、教务处、团委、学工处、研究生院、美术学院承办的首届工业题材主题油画展在美术学院博物馆展厅正式开幕。"
+        }
+      ],
+      "reviewedAt": "2026-11-09",
+      "verification": "source-matched"
+    }
+  ]
+}

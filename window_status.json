@@ -1,62 +1,99 @@
 {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "failedDates": [],
   "coveragePolicyVersion": 2,
   "restoredDates": [
-    "2026-11-02",
     "2026-11-03",
     "2026-11-04",
     "2026-11-05",
     "2026-11-06",
     "2026-11-07",
-    "2026-11-08"
+    "2026-11-08",
+    "2026-11-09"
   ],
   "todayMinimumMet": true,
   "preparedReadyDates": [
-    "2026-11-09",
     "2026-11-10",
     "2026-11-11",
     "2026-11-12",
     "2026-11-13",
     "2026-11-14",
-    "2026-11-15"
+    "2026-11-15",
+    "2026-11-16"
   ],
   "preparedMissingDates": [],
   "attemptedDates": [
-    "2026-11-08"
+    "2026-11-09"
   ],
   "historicalRetries": {},
   "todayAttempt": {
-    "date": "2026-11-08",
+    "date": "2026-11-09",
     "outcome": "ready",
-    "generatedCount": 0,
-    "validationRejected": 0,
-    "repairCount": 0,
-    "repairGeneratedCount": 0,
-    "validatedCount": 0,
-    "reviewedCount": 0,
-    "approvedCount": 0,
-    "candidateResults": [],
-    "reviewResults": [],
+    "generatedCount": 2,
+    "validationRejected": 2,
+    "repairCount": 1,
+    "repairGeneratedCount": 1,
+    "validatedCount": 1,
+    "reviewedCount": 1,
+    "approvedCount": 1,
+    "candidateResults": [
+      {
+        "layer": 0,
+        "stage": "generated",
+        "index": 0,
+        "date": "2015-11-09",
+        "title": "大亚湾中微子实验团队获2016年基础物理学突破奖",
+        "sourceId": "s1",
+        "result": "validated"
+      },
+      {
+        "layer": 0,
+        "stage": "generated",
+        "index": 1,
+        "date": "2025-11-09",
+        "title": "第十五届全运会开幕式在广州举行",
+        "sourceId": "s6",
+        "result": "rejected",
+        "reason": "Evidence does not contain the actual historical date"
+      },
+      {
+        "layer": 0,
+        "stage": "repair",
+        "index": 0,
+        "date": "2025-11-09",
+        "title": "第十五届全运会开幕式在广州举行",
+        "sourceId": "s6",
+        "result": "rejected",
+        "reason": "Evidence is not present in the retrieved original"
+      }
+    ],
+    "reviewResults": [
+      {
+        "layer": 0,
+        "date": "2015-11-09",
+        "title": "大亚湾中微子实验团队获2016年基础物理学突破奖",
+        "approved": true
+      }
+    ],
     "modelLayers": [
       {
         "index": 0,
-        "sourceUsed": 5,
-        "generated": 0,
-        "validated": 0,
-        "approved": 0
+        "sourceUsed": 6,
+        "generated": 2,
+        "validated": 1,
+        "approved": 1
       }
     ],
-    "modelCalls": 1,
+    "modelCalls": 3,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-11-08T23:06:47+08:00",
-    "existingVerifiedCount": 1,
+    "attemptedAt": "2026-11-09T04:25:43+08:00",
+    "existingVerifiedCount": 2,
     "searchAttempted": 6,
-    "searchSucceeded": 3,
-    "searchResults": 21,
+    "searchSucceeded": 4,
+    "searchResults": 28,
     "sourceAttempted": 16,
-    "sourceReadable": 5,
+    "sourceReadable": 6,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -65,65 +102,60 @@
       },
       {
         "id": "s2",
-        "url": "https://www.gov.cn/yaowen/liebiao/202511/content_7047496.htm"
+        "url": "https://www.news.cn/tech/20240113/f3d819e3e31a4012ae067f331561eec9/c.html"
       },
       {
         "id": "s3",
-        "url": "https://www.tongren.gov.cn/2026/1108/355937.shtml"
+        "url": "https://www.news.cn/science/dst.htm"
       },
       {
         "id": "s4",
-        "url": "https://www.mot.gov.cn/"
+        "url": "https://www.news.cn/politics/leaders/2023-05/30/c_1129655051.htm"
       },
       {
         "id": "s5",
-        "url": "https://cpc.people.com.cn/n/2012/1118/c64094-19612151.html"
+        "url": "https://www.news.cn/2023-12/18/c_1130033190.htm"
+      },
+      {
+        "id": "s6",
+        "url": "https://www.gov.cn/yaowen/liebiao/202511/content_7047559.htm"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 3,
-        "searchResults": 21,
+        "searchSucceeded": 4,
+        "searchResults": 28,
         "sourceAttempted": 16,
-        "sourceReadable": 5,
-        "sourceUsed": 5,
+        "sourceReadable": 6,
+        "sourceUsed": 6,
         "searchErrors": [
-          "DDGSException",
           "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "www.ccps.gov.cn",
+            "host": "jtysj.xinyang.gov.cn",
             "type": "HTTPError"
           },
           {
-            "host": "media.people.com.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "ent.people.com.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "fj.people.com.cn",
-            "type": "SSLError"
+            "host": "www.yingquan.gov.cn",
+            "type": "ConnectionError"
           }
         ],
         "queries": [
-          "\"11月8日\" 中国 科技 突破 成功 site:news.cn",
-          "\"11月8日\" 中国 公共工程 建成 通车 site:gov.cn",
-          "\"11月8日\" 中国 文化 体育 首次 site:people.com.cn",
-          "\"11月8日\" 中国 医疗 民生 开通 site:chinanews.com",
-          "\"11月8日\" 中国 教育 学校 成立 site:gmw.cn",
-          "\"11月8日\" 中国 历史上的今天 site:cctv.com"
+          "\"11月9日\" 中国 科技 突破 成功 site:news.cn",
+          "\"11月9日\" 中国 公共工程 建成 通车 site:gov.cn",
+          "\"11月9日\" 中国 文化 体育 首次 site:people.com.cn",
+          "\"11月9日\" 中国 医疗 民生 开通 site:chinanews.com",
+          "\"11月9日\" 中国 教育 学校 成立 site:gmw.cn",
+          "\"11月9日\" 中国 历史上的今天 site:cctv.com"
         ]
       }
     ],
-    "sourceUsed": 5,
-    "publishedVerifiedCount": 1,
-    "completedAt": "2026-11-08T23:07:02+08:00"
+    "sourceUsed": 6,
+    "publishedVerifiedCount": 3,
+    "completedAt": "2026-11-09T04:26:07+08:00"
   }
 }
