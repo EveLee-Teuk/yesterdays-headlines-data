@@ -41,7 +41,7 @@
     "modelLayers": [
       {
         "index": 0,
-        "sourceUsed": 4,
+        "sourceUsed": 5,
         "generated": 0,
         "validated": 0,
         "approved": 0
@@ -50,13 +50,13 @@
     "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-11-08T13:54:53+08:00",
+    "attemptedAt": "2026-11-08T23:06:47+08:00",
     "existingVerifiedCount": 1,
     "searchAttempted": 6,
     "searchSucceeded": 3,
     "searchResults": 21,
     "sourceAttempted": 16,
-    "sourceReadable": 4,
+    "sourceReadable": 5,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -65,14 +65,18 @@
       },
       {
         "id": "s2",
-        "url": "https://www.news.cn/science/dst.htm"
+        "url": "https://www.gov.cn/yaowen/liebiao/202511/content_7047496.htm"
       },
       {
         "id": "s3",
-        "url": "https://www.news.cn/politics/20261108/ca5f8dca73b04699b6d0f6aa476192a7/c.html"
+        "url": "https://www.tongren.gov.cn/2026/1108/355937.shtml"
       },
       {
         "id": "s4",
+        "url": "https://www.mot.gov.cn/"
+      },
+      {
+        "id": "s5",
         "url": "https://cpc.people.com.cn/n/2012/1118/c64094-19612151.html"
       }
     ],
@@ -83,8 +87,8 @@
         "searchSucceeded": 3,
         "searchResults": 21,
         "sourceAttempted": 16,
-        "sourceReadable": 4,
-        "sourceUsed": 4,
+        "sourceReadable": 5,
+        "sourceUsed": 5,
         "searchErrors": [
           "DDGSException",
           "DDGSException",
@@ -92,8 +96,8 @@
         ],
         "sourceErrors": [
           {
-            "host": "gz.news.cn",
-            "type": "ReadTimeout"
+            "host": "www.ccps.gov.cn",
+            "type": "HTTPError"
           },
           {
             "host": "media.people.com.cn",
@@ -118,8 +122,8 @@
         ]
       }
     ],
-    "sourceUsed": 4,
+    "sourceUsed": 5,
     "publishedVerifiedCount": 1,
-    "completedAt": "2026-11-08T13:55:18+08:00"
+    "completedAt": "2026-11-08T23:07:02+08:00"
   }
 }
