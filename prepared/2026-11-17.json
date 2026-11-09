@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-17",
+  "timezone": "Asia/Shanghai",
+  "status": "ready",
+  "events": [
+    {
+      "date": "1960-11-17",
+      "title": "国务院通过《文物保护管理暂行条例》并批准首批全国重点文物保护单位",
+      "category": "社会",
+      "location": "北京",
+      "summary": "1960年11月17日，国务院第一百零五次全体会议通过《文物保护管理暂行条例》，同时批准《第一批全国重点文物保护单位名单》，为文物保护提供法规依据和重点保护对象。",
+      "id": "history-d6dc669cc2f39433",
+      "sources": [
+        {
+          "name": "politics.gmw.cn",
+          "url": "https://politics.gmw.cn/2021-11/17/content_35315092.htm",
+          "date": "1960-11-17",
+          "evidence": "1960年 11月17日 国务院第一百零五次全体会议通过《文物保护管理暂行条例》，批准《第一批全国重点文物保护单位名单》。"
+        }
+      ],
+      "reviewedAt": "2026-11-10",
+      "verification": "source-matched"
+    },
+    {
+      "date": "2014-11-17",
+      "title": "沪港通正式启动",
+      "category": "民生",
+      "location": "上海、香港",
+      "summary": "2014年11月17日，上海与香港股票市场交易互联互通机制“沪港通”正式启动，此后又相继启动“深港通”“债券通”“沪伦通”，内地与香港资本市场互联互通逐步扩展。",
+      "id": "history-8dfef23b8a953ff4",
+      "sources": [
+        {
+          "name": "politics.gmw.cn",
+          "url": "https://politics.gmw.cn/2021-11/17/content_35315092.htm",
+          "date": "2014-11-17",
+          "evidence": "2014年 11月17日 上海与香港股票市场交易互联互通机制“沪港通”正式启动。2016年12月、2017年7月、2019年6月又相继启动“深港通”“债券通”“沪伦通”。"
+        }
+      ],
+      "reviewedAt": "2026-11-10",
+      "verification": "source-matched"
+    }
+  ]
+}

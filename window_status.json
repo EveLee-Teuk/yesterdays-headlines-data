@@ -1,75 +1,119 @@
 {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "failedDates": [],
   "coveragePolicyVersion": 2,
   "restoredDates": [
-    "2026-11-03",
     "2026-11-04",
     "2026-11-05",
     "2026-11-06",
     "2026-11-07",
     "2026-11-08",
-    "2026-11-09"
+    "2026-11-09",
+    "2026-11-10"
   ],
   "todayMinimumMet": true,
   "preparedReadyDates": [
-    "2026-11-10",
     "2026-11-11",
     "2026-11-12",
     "2026-11-13",
     "2026-11-14",
     "2026-11-15",
-    "2026-11-16"
+    "2026-11-16",
+    "2026-11-17"
   ],
   "preparedMissingDates": [],
   "attemptedDates": [
-    "2026-11-09"
+    "2026-11-10"
   ],
   "historicalRetries": {},
   "todayAttempt": {
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "outcome": "ready",
-    "generatedCount": 0,
+    "generatedCount": 2,
     "validationRejected": 0,
     "repairCount": 0,
     "repairGeneratedCount": 0,
-    "validatedCount": 0,
-    "reviewedCount": 0,
-    "approvedCount": 0,
-    "candidateResults": [],
-    "reviewResults": [],
+    "validatedCount": 2,
+    "reviewedCount": 2,
+    "approvedCount": 1,
+    "candidateResults": [
+      {
+        "layer": 0,
+        "stage": "generated",
+        "index": 0,
+        "date": "2020-11-10",
+        "title": "“奋斗者”号完成万米级海试首次探底挑战者深渊",
+        "sourceId": "s3",
+        "result": "validated"
+      },
+      {
+        "layer": 0,
+        "stage": "generated",
+        "index": 1,
+        "date": "2020-11-10",
+        "title": "“奋斗者”号在马里亚纳海沟成功坐底10909米",
+        "sourceId": "s5",
+        "result": "validated"
+      }
+    ],
+    "reviewResults": [
+      {
+        "layer": 0,
+        "date": "2020-11-10",
+        "title": "“奋斗者”号完成万米级海试首次探底挑战者深渊",
+        "approved": true
+      },
+      {
+        "layer": 0,
+        "date": "2020-11-10",
+        "title": "“奋斗者”号在马里亚纳海沟成功坐底10909米",
+        "approved": false
+      }
+    ],
     "modelLayers": [
       {
         "index": 0,
-        "sourceUsed": 3,
-        "generated": 0,
-        "validated": 0,
-        "approved": 0
+        "sourceUsed": 6,
+        "generated": 2,
+        "validated": 2,
+        "approved": 1
       }
     ],
-    "modelCalls": 1,
+    "modelCalls": 2,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-11-09T14:14:38+08:00",
-    "existingVerifiedCount": 3,
+    "attemptedAt": "2026-11-10T02:42:39+08:00",
+    "existingVerifiedCount": 1,
     "searchAttempted": 6,
     "searchSucceeded": 2,
-    "searchResults": 10,
-    "sourceAttempted": 13,
-    "sourceReadable": 3,
+    "searchResults": 14,
+    "sourceAttempted": 16,
+    "sourceReadable": 11,
     "supplementalSearches": 0,
     "sources": [
       {
         "id": "s1",
-        "url": "https://ihep.cas.cn/gk/lsyg/"
+        "url": "https://nao.cas.cn/ndw/dsj/202203/t20220330_6409779.html"
       },
       {
         "id": "s2",
-        "url": "https://www.news.cn/tech/20240113/f3d819e3e31a4012ae067f331561eec9/c.html"
+        "url": "https://tv.cctv.com/2011/11/10/VIDEnpZx9Rv5fxVWGXQHRiHQ111110.shtml"
       },
       {
         "id": "s3",
-        "url": "https://paper.people.com.cn/rmrb/pc/content/202511/09/content_30113773.html"
+        "url": "https://www.news.cn/tech/20241125/324df039e91840cfa77e27a411eb3b86/c.html"
+      },
+      {
+        "id": "s4",
+        "url": "https://js.news.cn/20261028/abe04ba673514990adb88e2157489528/c.html"
+      },
+      {
+        "id": "s5",
+        "url": "https://www.news.cn/politics/2021-11/25/c_1211460966.htm"
+      },
+      {
+        "id": "s6",
+        "url": "https://www.news.cn/science/dst.htm"
       }
     ],
     "layers": [
@@ -77,10 +121,10 @@
         "name": "themes",
         "searchAttempted": 6,
         "searchSucceeded": 2,
-        "searchResults": 10,
-        "sourceAttempted": 13,
-        "sourceReadable": 3,
-        "sourceUsed": 3,
+        "searchResults": 14,
+        "sourceAttempted": 16,
+        "sourceReadable": 11,
+        "sourceUsed": 6,
         "searchErrors": [
           "DDGSException",
           "DDGSException",
@@ -89,26 +133,22 @@
         ],
         "sourceErrors": [
           {
-            "host": "ent.people.com.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "ent.people.com.cn",
-            "type": "SSLError"
+            "host": "gd.news.cn",
+            "type": "ReadTimeout"
           }
         ],
         "queries": [
-          "\"11月9日\" 中国 科技 突破 成功 site:news.cn",
-          "\"11月9日\" 中国 公共工程 建成 通车 site:gov.cn",
-          "\"11月9日\" 中国 文化 体育 首次 site:people.com.cn",
-          "\"11月9日\" 中国 医疗 民生 开通 site:chinanews.com",
-          "\"11月9日\" 中国 教育 学校 成立 site:gmw.cn",
-          "\"11月9日\" 中国 历史上的今天 site:cctv.com"
+          "\"11月10日\" 中国 科技 突破 成功 site:news.cn",
+          "\"11月10日\" 中国 公共工程 建成 通车 site:gov.cn",
+          "\"11月10日\" 中国 文化 体育 首次 site:people.com.cn",
+          "\"11月10日\" 中国 医疗 民生 开通 site:chinanews.com",
+          "\"11月10日\" 中国 教育 学校 成立 site:gmw.cn",
+          "\"11月10日\" 中国 历史上的今天 site:cctv.com"
         ]
       }
     ],
-    "sourceUsed": 3,
-    "publishedVerifiedCount": 3,
-    "completedAt": "2026-11-09T14:14:47+08:00"
+    "sourceUsed": 6,
+    "publishedVerifiedCount": 2,
+    "completedAt": "2026-11-10T02:43:07+08:00"
   }
 }
