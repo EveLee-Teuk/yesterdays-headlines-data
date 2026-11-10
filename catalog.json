@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-10",
+  "updatedAt": "2026-11-11",
   "events": [
     {
       "date": "1896-10-29",
@@ -503,6 +503,24 @@
         }
       ],
       "reviewedAt": "2026-09-22"
+    },
+    {
+      "date": "1965-11-11",
+      "title": "中宣部转发文件宣布恢复美术院校模特写生课",
+      "category": "社会",
+      "location": "北京",
+      "summary": "1964年8月，文化部下发通知废除美术部门使用模特儿，人体模特被驱赶出学校。1965年11月11日，在毛泽东批示下，中宣部转发文化部《关于美术院校和美术创作部门使用模特儿的请示》，宣布恢复模特写生课，使美术教学得以正常开展。",
+      "id": "history-71f3bd120d9e9513",
+      "sources": [
+        {
+          "name": "光明网",
+          "url": "https://news.gmw.cn/2022-01/17/content_35451352.htm",
+          "date": "1965-11-11",
+          "evidence": "1965年11月11日，在毛泽东的批示下，中宣部转发文化部《关于美术院校和美术创作部门使用模特儿的请示》，宣布恢复模特写生课。"
+        }
+      ],
+      "reviewedAt": "2026-11-11",
+      "verification": "source-matched"
     },
     {
       "date": "1966-10-27",
@@ -1437,6 +1455,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "2006-11-18",
+      "title": "BEPCII储存环完成调试并成功积累束流",
+      "category": "科技",
+      "location": "北京",
+      "summary": "2006年11月18日，北京正负电子对撞机重大改造工程（BEPCII）储存环完成调试，成功积累了束流。这一进展为同年12月25日BEPCII正式开始为用户提供同步辐射光、实现年底供束目标奠定了基础。",
+      "id": "history-65045af214b96245",
+      "sources": [
+        {
+          "name": "ihep.cas.cn",
+          "url": "https://ihep.cas.cn/gk/lsyg/",
+          "date": "2006-11-18",
+          "evidence": "2006年11月18日，BEPCII 储存环完成调试，成功积累了束流。"
+        }
+      ],
+      "reviewedAt": "2026-11-11",
+      "verification": "source-matched"
+    },
+    {
       "date": "2007-10-13",
       "title": "大亚湾反应堆中微子实验破土动工",
       "category": "科技",
@@ -1898,6 +1934,24 @@
         }
       ],
       "reviewedAt": "2026-10-12",
+      "verification": "source-matched"
+    },
+    {
+      "date": "2016-11-18",
+      "title": "神舟十一号飞船返回舱成功着陆",
+      "category": "科技",
+      "location": "内蒙古中部预定区域",
+      "summary": "2016年11月18日13时59分，神舟十一号飞船返回舱在内蒙古中部预定区域成功着陆，执行飞行任务的航天员景海鹏、陈冬身体状态良好，天宫二号与神舟十一号载人飞行任务取得圆满成功。",
+      "id": "history-099cd4f2607f6d70",
+      "sources": [
+        {
+          "name": "fms.news.cn",
+          "url": "https://fms.news.cn/swf/2017qmtt/8_17_2017_kj/index.html",
+          "date": "2016-11-18",
+          "evidence": "2016年11月18日13时59分，神舟十一号飞船返回舱在内蒙古中部预定区域成功着陆，执行飞行任务的航天员景海鹏、陈冬身体状态良好，天宫二号与神舟十一号载人飞行任务取得圆满成功。"
+        }
+      ],
+      "reviewedAt": "2026-11-11",
       "verification": "source-matched"
     },
     {
@@ -2638,10 +2692,10 @@
     }
   ],
   "lastRun": {
-    "date": "2026-11-10",
-    "completedAt": "2026-11-10T15:10:23+08:00",
+    "date": "2026-11-11",
+    "completedAt": "2026-11-11T00:24:01+08:00",
     "sourceCount": 6,
-    "addedCount": 0,
+    "addedCount": 1,
     "status": "ready"
   }
 }
