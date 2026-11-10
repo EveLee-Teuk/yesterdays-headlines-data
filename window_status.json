@@ -29,66 +29,34 @@
   "todayAttempt": {
     "date": "2026-11-10",
     "outcome": "ready",
-    "generatedCount": 2,
+    "generatedCount": 0,
     "validationRejected": 0,
     "repairCount": 0,
     "repairGeneratedCount": 0,
-    "validatedCount": 2,
-    "reviewedCount": 2,
-    "approvedCount": 1,
-    "candidateResults": [
-      {
-        "layer": 0,
-        "stage": "generated",
-        "index": 0,
-        "date": "2020-11-10",
-        "title": "“奋斗者”号完成万米级海试首次探底挑战者深渊",
-        "sourceId": "s3",
-        "result": "validated"
-      },
-      {
-        "layer": 0,
-        "stage": "generated",
-        "index": 1,
-        "date": "2020-11-10",
-        "title": "“奋斗者”号在马里亚纳海沟成功坐底10909米",
-        "sourceId": "s5",
-        "result": "validated"
-      }
-    ],
-    "reviewResults": [
-      {
-        "layer": 0,
-        "date": "2020-11-10",
-        "title": "“奋斗者”号完成万米级海试首次探底挑战者深渊",
-        "approved": true
-      },
-      {
-        "layer": 0,
-        "date": "2020-11-10",
-        "title": "“奋斗者”号在马里亚纳海沟成功坐底10909米",
-        "approved": false
-      }
-    ],
+    "validatedCount": 0,
+    "reviewedCount": 0,
+    "approvedCount": 0,
+    "candidateResults": [],
+    "reviewResults": [],
     "modelLayers": [
       {
         "index": 0,
         "sourceUsed": 6,
-        "generated": 2,
-        "validated": 2,
-        "approved": 1
+        "generated": 0,
+        "validated": 0,
+        "approved": 0
       }
     ],
-    "modelCalls": 2,
+    "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-11-10T02:42:39+08:00",
-    "existingVerifiedCount": 1,
+    "attemptedAt": "2026-11-10T15:09:55+08:00",
+    "existingVerifiedCount": 2,
     "searchAttempted": 6,
-    "searchSucceeded": 2,
-    "searchResults": 14,
+    "searchSucceeded": 4,
+    "searchResults": 28,
     "sourceAttempted": 16,
-    "sourceReadable": 11,
+    "sourceReadable": 8,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -105,36 +73,46 @@
       },
       {
         "id": "s4",
-        "url": "https://js.news.cn/20261028/abe04ba673514990adb88e2157489528/c.html"
+        "url": "https://www.news.cn/fortune/20261110/def472f8fb6548e7bddd381377031091/c.html"
       },
       {
         "id": "s5",
-        "url": "https://www.news.cn/politics/2021-11/25/c_1211460966.htm"
+        "url": "https://cq.news.cn/20261110/baaecaa836f948139cffe4c8ec9cf1e1/c.html"
       },
       {
         "id": "s6",
-        "url": "https://www.news.cn/science/dst.htm"
+        "url": "https://js.news.cn/20261028/abe04ba673514990adb88e2157489528/c.html"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 2,
-        "searchResults": 14,
+        "searchSucceeded": 4,
+        "searchResults": 28,
         "sourceAttempted": 16,
-        "sourceReadable": 11,
+        "sourceReadable": 8,
         "sourceUsed": 6,
         "searchErrors": [
-          "DDGSException",
-          "DDGSException",
           "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "gd.news.cn",
+            "host": "zj.news.cn",
             "type": "ReadTimeout"
+          },
+          {
+            "host": "ah.news.cn",
+            "type": "ReadTimeout"
+          },
+          {
+            "host": "www.gd.news.cn",
+            "type": "SSLError"
+          },
+          {
+            "host": "zfcxjw.cq.gov.cn",
+            "type": "ConnectionError"
           }
         ],
         "queries": [
@@ -149,6 +127,6 @@
     ],
     "sourceUsed": 6,
     "publishedVerifiedCount": 2,
-    "completedAt": "2026-11-10T02:43:07+08:00"
+    "completedAt": "2026-11-10T15:10:23+08:00"
   }
 }
