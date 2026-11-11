@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-19",
+  "timezone": "Asia/Shanghai",
+  "status": "ready",
+  "events": [
+    {
+      "date": "2004-11-19",
+      "title": "北京正负电子对撞机重大改造工程电子直线加速器调试出束",
+      "category": "科技",
+      "location": "北京",
+      "summary": "北京正负电子对撞机重大改造工程取得阶段性进展，电子直线加速器完成设备安装并调试出束，标志着改造工程关键环节取得进展。",
+      "id": "history-48fb41f23816b7e7",
+      "sources": [
+        {
+          "name": "ihep.cas.cn",
+          "url": "https://ihep.cas.cn/gk/lsyg/",
+          "date": "2004-11-19",
+          "evidence": "2004年11月19日，北京正负电子对撞机重大改造工程取得阶段性进展，电子直线加速器完成设备安装并调试出束。"
+        }
+      ],
+      "reviewedAt": "2026-11-12",
+      "verification": "source-matched"
+    },
+    {
+      "date": "2014-11-19",
+      "title": "BEPCII对撞亮度创新高",
+      "category": "科技",
+      "location": "北京",
+      "summary": "北京正负电子对撞机重大改造工程（BEPCII）在设计能量1.89GeV下实现620mA双束对撞，对撞亮度达到8.04×10^32 cm^-2 s^-1，再创新高。",
+      "id": "history-c96a346bb25bf0d0",
+      "sources": [
+        {
+          "name": "ihep.cas.cn",
+          "url": "https://ihep.cas.cn/gk/lsyg/",
+          "date": "2014-11-19",
+          "evidence": "2014年11月19日，BEPCII在设计能量（1.89GeV）下，620mA双束对撞，对撞亮度再创新高，达到了8.04×10 32 cm -2 s -1 。"
+        }
+      ],
+      "reviewedAt": "2026-11-12",
+      "verification": "source-matched"
+    }
+  ]
+}

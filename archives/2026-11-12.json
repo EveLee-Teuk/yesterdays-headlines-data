@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-12",
+  "timezone": "Asia/Shanghai",
+  "status": "ready",
+  "events": [
+    {
+      "date": "2008-11-12",
+      "title": "中国第一幅全月球影像图公布",
+      "category": "科技",
+      "location": "中国",
+      "summary": "2008年11月12日，由嫦娥一号卫星拍摄数据制作完成的中国第一幅全月球影像图公布。该图依据嫦娥一号获取的影像数据制作，是中国探月工程取得的阶段性成果。",
+      "id": "history-5d5db650ac9b69be",
+      "sources": [
+        {
+          "name": "新华网",
+          "url": "https://www.news.cn/politics/20240910/4f26c968e02642fabb13920e0ae11323/c.html",
+          "date": "2008-11-12",
+          "evidence": "2008年11月12日 由嫦娥一号拍摄数据制作完成的 “中国第一幅全月球影像图”公布"
+        }
+      ],
+      "reviewedAt": "2026-11-12",
+      "verification": "source-matched"
+    },
+    {
+      "date": "2010-11-12",
+      "title": "第十六届亚运会在广州开幕",
+      "category": "社会",
+      "location": "广州",
+      "summary": "2010年11月12日至27日，第十六届亚运会在广州举行，主题为“激情盛会 和谐亚洲”。来自45个国家和地区的1.4万多名官员和运动员参加本届亚运会，中国体育代表团位居金牌榜和奖牌榜首位。",
+      "id": "history-bdc25ff087318315",
+      "sources": [
+        {
+          "name": "cpc.people.com.cn",
+          "url": "https://cpc.people.com.cn/GB/64162/64165/72301/72313/",
+          "date": "2010-11-12",
+          "evidence": "2010年11月12日至27日  第十六届亚运会在广州举行，主题是“激情盛会  和谐亚洲”。来自45个国家和地区的1.4万多名官员和运动员参加本届亚运会。中国体育代表团位居金牌榜和奖牌榜首位。"
+        }
+      ],
+      "reviewedAt": "2026-11-05",
+      "verification": "source-matched"
+    }
+  ]
+}
