@@ -50,13 +50,13 @@
     "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-11-12T06:39:26+08:00",
+    "attemptedAt": "2026-11-12T15:03:30+08:00",
     "existingVerifiedCount": 2,
     "searchAttempted": 6,
-    "searchSucceeded": 4,
-    "searchResults": 26,
+    "searchSucceeded": 3,
+    "searchResults": 15,
     "sourceAttempted": 16,
-    "sourceReadable": 8,
+    "sourceReadable": 7,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -69,31 +69,32 @@
       },
       {
         "id": "s3",
-        "url": "https://www.news.cn/politics/sjjlzqhjs/index.htm"
+        "url": "https://www.gov.cn/xinwen/2020-11/12/content_5560869.htm"
       },
       {
         "id": "s4",
-        "url": "https://www.news.cn/tech/20251231/4b32e5cbd06a4042b07161f91bd438e5/c.html"
+        "url": "https://www.mot.gov.cn/index.html"
       },
       {
         "id": "s5",
-        "url": "https://www.news.cn/science/dst.htm"
+        "url": "https://www.gov.cn/xinwen/2020-11/12/content_5560928.htm"
       },
       {
         "id": "s6",
-        "url": "https://www.news.cn/politics/leaders/20260314/aa7e3e7a7c414e00bd61e8bc9d3ee679/c.html"
+        "url": "https://www.ynxc.gov.cn/html/2026/focus_1112/3041526.html"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 4,
-        "searchResults": 26,
+        "searchSucceeded": 3,
+        "searchResults": 15,
         "sourceAttempted": 16,
-        "sourceReadable": 8,
+        "sourceReadable": 7,
         "sourceUsed": 6,
         "searchErrors": [
+          "DDGSException",
           "DDGSException",
           "DDGSException"
         ],
@@ -115,6 +116,6 @@
     ],
     "sourceUsed": 6,
     "publishedVerifiedCount": 2,
-    "completedAt": "2026-11-12T06:39:45+08:00"
+    "completedAt": "2026-11-12T15:03:47+08:00"
   }
 }
