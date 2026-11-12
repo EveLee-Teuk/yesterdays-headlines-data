@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-13",
+  "timezone": "Asia/Shanghai",
+  "status": "ready",
+  "events": [
+    {
+      "date": "1940-11-13",
+      "title": "西南联大宣布在四川叙永成立分校",
+      "category": "社会",
+      "location": "四川叙永",
+      "summary": "1940年11月13日，西南联大召开常委会，宣布在四川叙永成立分校，设校务委员会管理，杨振声任主席。分校设文、理、工、法商、师范五个学院和先修班，录取新生616名、先修班53名，均赴叙永学习。",
+      "id": "history-d71ae33c51b92996",
+      "sources": [
+        {
+          "name": "epaper.gmw.cn",
+          "url": "https://epaper.gmw.cn/zhdsb/html/2023-11/22/nw.D110000zhdsb_20231122_1-05.htm",
+          "date": "1940-11-13",
+          "evidence": "1940年11月13日，西南联大召开常委会，会议宣布在四川叙永成立分校，分校设置校务委员会管理学校"
+        }
+      ],
+      "reviewedAt": "2026-11-06",
+      "verification": "source-matched"
+    }
+  ]
+}
