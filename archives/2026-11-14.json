@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-14",
+  "timezone": "Asia/Shanghai",
+  "status": "ready",
+  "events": [
+    {
+      "date": "2013-11-14",
+      "title": "核探测与核电子学国家重点实验室通过建设验收",
+      "category": "科技",
+      "location": "北京",
+      "summary": "2013年11月14日，核探测与核电子学国家重点实验室顺利通过国家科技部组织的建设验收。该实验室依托高能物理研究所建设，此次验收标志着其在核探测与核电子学领域的研究平台建设完成阶段性目标。",
+      "id": "history-c5034bb5a24fc288",
+      "sources": [
+        {
+          "name": "ihep.cas.cn",
+          "url": "https://ihep.cas.cn/gk/lsyg/",
+          "date": "2013-11-14",
+          "evidence": "2013年11月14日，核探测与核电子学国家重点实验室顺利通过国家科技部组织的建设验收。"
+        }
+      ],
+      "reviewedAt": "2026-11-07",
+      "verification": "source-matched"
+    },
+    {
+      "date": "2024-11-14",
+      "title": "我国新能源汽车年度产量首次突破1000万辆",
+      "category": "科技",
+      "location": "湖北武汉",
+      "summary": "2024年11月14日，随着一辆新车驶出生产线，我国新能源汽车产量首次突破年度1000万辆。这一节点被视为中国由汽车大国向汽车强国迈进的重要一步，反映出新能源汽车产业的规模化发展。",
+      "id": "history-9c788ca067ecc62f",
+      "sources": [
+        {
+          "name": "新华网",
+          "url": "https://www.news.cn/politics/leaders/20250101/291fdd9a5a8a4695a6405dcb168ac957/c.html",
+          "date": "2024-11-14",
+          "evidence": "2024年11月14日，随着一辆新车驶出生产线，我国新能源汽车产量首次突破年度1000万辆，中国由汽车大国向汽车强国迈进走出坚实一步。"
+        }
+      ],
+      "reviewedAt": "2026-11-07",
+      "verification": "source-matched"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-21",
+  "timezone": "Asia/Shanghai",
+  "status": "ready",
+  "events": [
+    {
+      "date": "2025-11-21",
+      "title": "中国科学院公布2025年院士增选当选名单",
+      "category": "科技",
+      "location": "北京",
+      "summary": "中国科学院学部工作局发布公告，依据《中国科学院院士章程》及增选工作实施办法等规定，2025年中国科学院选举产生73名中国科学院院士和27名中国科学院外籍院士，并于2025年11月21日予以公布。",
+      "id": "history-9bc48eb015371b38",
+      "sources": [
+        {
+          "name": "中国科学院",
+          "url": "https://www.cas.cn/tz/202511/t20251121_5089455.shtml",
+          "date": "2025-11-21",
+          "evidence": "2025年中国科学院选举产生了73名中国科学院院士和27名中国科学院外籍院士。 现予公布。 中国科学院 2025年11月21日"
+        }
+      ],
+      "reviewedAt": "2026-11-14",
+      "verification": "source-matched"
+    }
+  ]
+}
