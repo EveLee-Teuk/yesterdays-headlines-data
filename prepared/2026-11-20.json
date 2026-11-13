@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-20",
+  "timezone": "Asia/Shanghai",
+  "status": "ready",
+  "events": [
+    {
+      "date": "1999-11-20",
+      "title": "神舟一号无人飞船发射升空",
+      "category": "科技",
+      "location": "酒泉",
+      "summary": "1999年11月20日，中国第一艘载人航天实验飞船神舟一号在酒泉卫星发射中心发射升空，完成空间飞行试验后在内蒙古中部地区成功着陆，中国载人航天工程首次飞行实验成功。",
+      "id": "history-2382246e82576068",
+      "sources": [
+        {
+          "name": "新华网",
+          "url": "https://www.news.cn/politics/20240910/4f26c968e02642fabb13920e0ae11323/c.html",
+          "date": "1999-11-20",
+          "evidence": "1999年11月20日 中国第一艘载人航天实验飞船 神舟一号 在酒泉卫星发射中心发射升空 完成空间飞行试验之后 在内蒙古中部地区成功着陆 中国载人航天工程首次飞行实验成功"
+        }
+      ],
+      "reviewedAt": "2026-11-13",
+      "verification": "source-matched"
+    }
+  ]
+}

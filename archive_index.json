@@ -14,14 +14,14 @@
   "updatedAt": "2026-11-13",
   "lastRun": {
     "date": "2026-11-13",
-    "completedAt": "2026-11-13T00:46:18+08:00",
-    "sourceCount": 1,
+    "completedAt": "2026-11-13T14:33:06+08:00",
+    "sourceCount": 6,
     "addedCount": 0,
     "status": "ready"
   },
   "lastAttempt": {
     "date": "2026-11-13",
     "outcome": "ready",
-    "completedAt": "2026-11-13T00:46:18+08:00"
+    "completedAt": "2026-11-13T14:33:06+08:00"
   }
 }
