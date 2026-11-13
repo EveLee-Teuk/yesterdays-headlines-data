@@ -2763,6 +2763,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "2025-11-14",
+      "title": "神舟二十一号飞船采用3圈自主快速返回方案返回地球",
+      "category": "科技",
+      "location": "东风着陆场",
+      "summary": "2025年11月14日，神舟二十一号飞船返回地球，降落伞在东风着陆场如期绽放。该飞船原定2026年首次实施3圈自主快速返回方案，此次因任务需要提前执行，制导、导航与控制等分系统协同完成，实现5圈变3圈的关键技术突破。",
+      "id": "history-801e744f88549d6b",
+      "sources": [
+        {
+          "name": "新华网",
+          "url": "https://www.news.cn/tech/20260112/6cd8dc5033244364b809ad4b1857ece4/c.html",
+          "date": "2025-11-14",
+          "evidence": "2025年11月14日，神舟二十一号飞船的降落伞花如期绽放，在漫天似火的晚霞中格外美丽。"
+        }
+      ],
+      "reviewedAt": "2026-11-14",
+      "verification": "source-matched"
+    },
+    {
       "date": "2025-11-21",
       "title": "中国科学院公布2025年院士增选当选名单",
       "category": "科技",
@@ -2783,9 +2801,9 @@
   ],
   "lastRun": {
     "date": "2026-11-14",
-    "completedAt": "2026-11-14T00:15:17+08:00",
+    "completedAt": "2026-11-14T05:59:02+08:00",
     "sourceCount": 6,
-    "addedCount": 0,
+    "addedCount": 1,
     "status": "ready"
   }
 }
