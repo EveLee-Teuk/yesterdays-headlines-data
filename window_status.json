@@ -1,33 +1,33 @@
 {
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "failedDates": [],
   "coveragePolicyVersion": 2,
   "restoredDates": [
-    "2026-11-08",
     "2026-11-09",
     "2026-11-10",
     "2026-11-11",
     "2026-11-12",
     "2026-11-13",
-    "2026-11-14"
+    "2026-11-14",
+    "2026-11-15"
   ],
   "todayMinimumMet": true,
   "preparedReadyDates": [
-    "2026-11-15",
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
     "2026-11-20",
-    "2026-11-21"
+    "2026-11-21",
+    "2026-11-22"
   ],
   "preparedMissingDates": [],
   "attemptedDates": [
-    "2026-11-14"
+    "2026-11-15"
   ],
   "historicalRetries": {},
   "todayAttempt": {
-    "date": "2026-11-14",
+    "date": "2026-11-15",
     "outcome": "ready",
     "generatedCount": 0,
     "validationRejected": 0,
@@ -41,7 +41,7 @@
     "modelLayers": [
       {
         "index": 0,
-        "sourceUsed": 6,
+        "sourceUsed": 5,
         "generated": 0,
         "validated": 0,
         "approved": 0
@@ -50,13 +50,13 @@
     "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-11-14T22:59:36+08:00",
-    "existingVerifiedCount": 3,
+    "attemptedAt": "2026-11-15T04:40:20+08:00",
+    "existingVerifiedCount": 1,
     "searchAttempted": 6,
-    "searchSucceeded": 3,
-    "searchResults": 21,
+    "searchSucceeded": 5,
+    "searchResults": 32,
     "sourceAttempted": 16,
-    "sourceReadable": 9,
+    "sourceReadable": 5,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -65,65 +65,63 @@
       },
       {
         "id": "s2",
-        "url": "https://www.news.cn/politics/leaders/20250101/291fdd9a5a8a4695a6405dcb168ac957/c.html"
+        "url": "https://www.cmse.gov.cn/xwzx/202411/t20241115_56056.html"
       },
       {
         "id": "s3",
-        "url": "https://www.news.cn/tech/20260112/6cd8dc5033244364b809ad4b1857ece4/c.html"
+        "url": "https://www.news.cn/fortune/20260918/58fa74bbdd894691ac102467f90ab969/c.html"
       },
       {
         "id": "s4",
-        "url": "https://www.news.cn/tech/20251114/75822ac519304ad3b5141e395de9f190/c.html"
+        "url": "https://www.news.cn/politics/leaders/20241116/037a4719ad724b20a38b9b279bd39b15/c.html"
       },
       {
         "id": "s5",
-        "url": "https://www.news.cn/tech/20240523/16470743c0f1477ea22dc14e83a5a942/c.html"
-      },
-      {
-        "id": "s6",
-        "url": "https://www.news.cn/auto/20241115/990150fedb5240879d826545f60fbbc8/c.html"
+        "url": "https://cpc.people.com.cn/GB/64162/64165/72301/72318/index.html"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 3,
-        "searchResults": 21,
+        "searchSucceeded": 5,
+        "searchResults": 32,
         "sourceAttempted": 16,
-        "sourceReadable": 9,
-        "sourceUsed": 6,
+        "sourceReadable": 5,
+        "sourceUsed": 5,
         "searchErrors": [
-          "DDGSException",
-          "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "tibet.news.cn",
-            "type": "ReadTimeout"
-          },
-          {
-            "host": "ent.people.com.cn",
+            "host": "www.sd.news.cn",
             "type": "SSLError"
           },
           {
-            "host": "gz.people.com.cn",
-            "type": "SSLError"
+            "host": "www.cq.gov.cn",
+            "type": "ConnectionError"
+          },
+          {
+            "host": "jtysj.yibin.gov.cn",
+            "type": "ConnectionError"
+          },
+          {
+            "host": "www.sasac.gov.cn",
+            "type": "ConnectionError"
           }
         ],
         "queries": [
-          "\"11月14日\" 中国 科技 突破 成功 site:news.cn",
-          "\"11月14日\" 中国 公共工程 建成 通车 site:gov.cn",
-          "\"11月14日\" 中国 文化 体育 首次 site:people.com.cn",
-          "\"11月14日\" 中国 医疗 民生 开通 site:chinanews.com",
-          "\"11月14日\" 中国 教育 学校 成立 site:gmw.cn",
-          "\"11月14日\" 中国 历史上的今天 site:cctv.com"
+          "\"11月15日\" 中国 科技 突破 成功 site:news.cn",
+          "\"11月15日\" 中国 公共工程 建成 通车 site:gov.cn",
+          "\"11月15日\" 中国 文化 体育 首次 site:people.com.cn",
+          "\"11月15日\" 中国 医疗 民生 开通 site:chinanews.com",
+          "\"11月15日\" 中国 教育 学校 成立 site:gmw.cn",
+          "\"11月15日\" 中国 历史上的今天 site:cctv.com"
         ]
       }
     ],
-    "sourceUsed": 6,
-    "publishedVerifiedCount": 3,
-    "completedAt": "2026-11-14T23:00:04+08:00"
+    "sourceUsed": 5,
+    "publishedVerifiedCount": 1,
+    "completedAt": "2026-11-15T04:40:44+08:00"
   }
 }
