@@ -29,75 +29,34 @@
   "todayAttempt": {
     "date": "2026-11-14",
     "outcome": "ready",
-    "generatedCount": 2,
-    "validationRejected": 4,
-    "repairCount": 1,
-    "repairGeneratedCount": 2,
+    "generatedCount": 0,
+    "validationRejected": 0,
+    "repairCount": 0,
+    "repairGeneratedCount": 0,
     "validatedCount": 0,
     "reviewedCount": 0,
     "approvedCount": 0,
-    "candidateResults": [
-      {
-        "layer": 0,
-        "stage": "generated",
-        "index": 0,
-        "date": "2025-11-14",
-        "title": "神舟二十号乘组搭乘神舟二十一号飞船返回地球",
-        "sourceId": "s5",
-        "result": "rejected",
-        "reason": "Evidence does not contain the actual historical date"
-      },
-      {
-        "layer": 0,
-        "stage": "generated",
-        "index": 1,
-        "date": "2025-11-14",
-        "title": "陈冬成为首位在轨驻留总时长超400天的中国航天员",
-        "sourceId": "s5",
-        "result": "rejected",
-        "reason": "Evidence does not contain the actual historical date"
-      },
-      {
-        "layer": 0,
-        "stage": "repair",
-        "index": 0,
-        "date": "2025-11-14",
-        "title": "神舟二十号乘组搭乘神舟二十一号飞船返回地球",
-        "sourceId": "s5",
-        "result": "rejected",
-        "reason": "Evidence does not contain the actual historical date"
-      },
-      {
-        "layer": 0,
-        "stage": "repair",
-        "index": 1,
-        "date": "2025-11-14",
-        "title": "陈冬成为首位在轨驻留总时长超400天的中国航天员",
-        "sourceId": "s5",
-        "result": "rejected",
-        "reason": "Evidence does not contain the actual historical date"
-      }
-    ],
+    "candidateResults": [],
     "reviewResults": [],
     "modelLayers": [
       {
         "index": 0,
         "sourceUsed": 6,
-        "generated": 2,
+        "generated": 0,
         "validated": 0,
         "approved": 0
       }
     ],
-    "modelCalls": 2,
+    "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-11-14T14:11:07+08:00",
+    "attemptedAt": "2026-11-14T22:59:36+08:00",
     "existingVerifiedCount": 3,
     "searchAttempted": 6,
     "searchSucceeded": 3,
     "searchResults": 21,
     "sourceAttempted": 16,
-    "sourceReadable": 8,
+    "sourceReadable": 9,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -114,11 +73,11 @@
       },
       {
         "id": "s4",
-        "url": "https://www.news.cn/tech/20240523/16470743c0f1477ea22dc14e83a5a942/c.html"
+        "url": "https://www.news.cn/tech/20251114/75822ac519304ad3b5141e395de9f190/c.html"
       },
       {
         "id": "s5",
-        "url": "https://www.news.cn/tech/20251114/75822ac519304ad3b5141e395de9f190/c.html"
+        "url": "https://www.news.cn/tech/20240523/16470743c0f1477ea22dc14e83a5a942/c.html"
       },
       {
         "id": "s6",
@@ -132,7 +91,7 @@
         "searchSucceeded": 3,
         "searchResults": 21,
         "sourceAttempted": 16,
-        "sourceReadable": 8,
+        "sourceReadable": 9,
         "sourceUsed": 6,
         "searchErrors": [
           "DDGSException",
@@ -141,12 +100,16 @@
         ],
         "sourceErrors": [
           {
-            "host": "jtysj.xinyang.gov.cn",
-            "type": "HTTPError"
+            "host": "tibet.news.cn",
+            "type": "ReadTimeout"
           },
           {
-            "host": "www.jnrd.gov.cn",
-            "type": "ConnectionError"
+            "host": "ent.people.com.cn",
+            "type": "SSLError"
+          },
+          {
+            "host": "gz.people.com.cn",
+            "type": "SSLError"
           }
         ],
         "queries": [
@@ -161,6 +124,6 @@
     ],
     "sourceUsed": 6,
     "publishedVerifiedCount": 3,
-    "completedAt": "2026-11-14T14:11:35+08:00"
+    "completedAt": "2026-11-14T23:00:04+08:00"
   }
 }
