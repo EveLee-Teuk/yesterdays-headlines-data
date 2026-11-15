@@ -1,132 +1,165 @@
 {
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "failedDates": [],
   "coveragePolicyVersion": 2,
   "restoredDates": [
-    "2026-11-09",
     "2026-11-10",
     "2026-11-11",
     "2026-11-12",
     "2026-11-13",
     "2026-11-14",
-    "2026-11-15"
+    "2026-11-15",
+    "2026-11-16"
   ],
   "todayMinimumMet": true,
   "preparedReadyDates": [
-    "2026-11-16",
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
     "2026-11-20",
     "2026-11-21",
-    "2026-11-22"
+    "2026-11-22",
+    "2026-11-23"
   ],
   "preparedMissingDates": [],
   "attemptedDates": [
-    "2026-11-15"
+    "2026-11-16"
   ],
   "historicalRetries": {},
   "todayAttempt": {
-    "date": "2026-11-15",
+    "date": "2026-11-16",
     "outcome": "ready",
-    "generatedCount": 0,
+    "generatedCount": 3,
     "validationRejected": 0,
     "repairCount": 0,
     "repairGeneratedCount": 0,
-    "validatedCount": 0,
-    "reviewedCount": 0,
-    "approvedCount": 0,
-    "candidateResults": [],
-    "reviewResults": [],
+    "validatedCount": 3,
+    "reviewedCount": 3,
+    "approvedCount": 2,
+    "candidateResults": [
+      {
+        "layer": 0,
+        "stage": "generated",
+        "index": 0,
+        "date": "1981-11-16",
+        "title": "中国女排首夺世界杯冠军",
+        "sourceId": "s6",
+        "result": "validated"
+      },
+      {
+        "layer": 0,
+        "stage": "generated",
+        "index": 1,
+        "date": "1952-11-16",
+        "title": "中共中央决定成立国家计划委员会",
+        "sourceId": "s1",
+        "result": "validated"
+      },
+      {
+        "layer": 0,
+        "stage": "generated",
+        "index": 2,
+        "date": "2006-11-16",
+        "title": "黄石师范学院确定首批硕士生导师",
+        "sourceId": "s2",
+        "result": "validated"
+      }
+    ],
+    "reviewResults": [
+      {
+        "layer": 0,
+        "date": "1952-11-16",
+        "title": "中共中央决定成立国家计划委员会",
+        "approved": true
+      },
+      {
+        "layer": 0,
+        "date": "1981-11-16",
+        "title": "中国女排首夺世界杯冠军",
+        "approved": true
+      },
+      {
+        "layer": 0,
+        "date": "2006-11-16",
+        "title": "黄石师范学院确定首批硕士生导师",
+        "approved": false
+      }
+    ],
     "modelLayers": [
       {
         "index": 0,
         "sourceUsed": 6,
-        "generated": 0,
-        "validated": 0,
-        "approved": 0
+        "generated": 3,
+        "validated": 3,
+        "approved": 2
       }
     ],
-    "modelCalls": 1,
+    "modelCalls": 2,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-11-15T23:37:18+08:00",
-    "existingVerifiedCount": 1,
+    "attemptedAt": "2026-11-16T05:00:09+08:00",
+    "existingVerifiedCount": 3,
     "searchAttempted": 6,
-    "searchSucceeded": 4,
-    "searchResults": 28,
-    "sourceAttempted": 16,
-    "sourceReadable": 6,
+    "searchSucceeded": 1,
+    "searchResults": 7,
+    "sourceAttempted": 11,
+    "sourceReadable": 7,
     "supplementalSearches": 0,
     "sources": [
       {
         "id": "s1",
-        "url": "https://ihep.cas.cn/gk/lsyg/"
+        "url": "https://politics.gmw.cn/2021-11/16/content_35307782.htm"
       },
       {
         "id": "s2",
-        "url": "https://www.cmse.gov.cn/xwzx/202411/t20241115_56056.html"
+        "url": "https://www.hbnu.edu.cn/2023/1030/c5817a152568/page.htm"
       },
       {
         "id": "s3",
-        "url": "https://www.news.cn/20261115/b9a8b98bb89f4547a57028cb12c54c97/c.html"
+        "url": "https://tv.cctv.com/2021/11/16/VIDEOA601TMwKrwJJiUDeYLb211116.shtml"
       },
       {
         "id": "s4",
-        "url": "https://www.news.cn/fortune/20260918/58fa74bbdd894691ac102467f90ab969/c.html"
+        "url": "https://tv.cctv.com/2023/11/16/VIDEOHqFUlRn4P2amkgMSeyH231116.shtml"
       },
       {
         "id": "s5",
-        "url": "https://www.news.cn/politics/leaders/20241116/037a4719ad724b20a38b9b279bd39b15/c.html"
+        "url": "https://m.news.cctv.com/2021/08/31/ARTI8P8LQSljzum2ZZ79No2z210831.shtml"
       },
       {
         "id": "s6",
-        "url": "https://www.mot.gov.cn/"
+        "url": "https://m.news.cctv.com/2021/05/03/ARTI0b43F6gcSdrbQI8BRV1l210503.shtml"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 4,
-        "searchResults": 28,
-        "sourceAttempted": 16,
-        "sourceReadable": 6,
+        "searchSucceeded": 1,
+        "searchResults": 7,
+        "sourceAttempted": 11,
+        "sourceReadable": 7,
         "sourceUsed": 6,
         "searchErrors": [
           "DDGSException",
+          "DDGSException",
+          "DDGSException",
+          "DDGSException",
           "DDGSException"
         ],
-        "sourceErrors": [
-          {
-            "host": "jx.news.cn",
-            "type": "ReadTimeout"
-          },
-          {
-            "host": "www.sd.news.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "www.cq.news.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "www.cq.gov.cn",
-            "type": "ConnectionError"
-          }
-        ],
+        "sourceErrors": [],
         "queries": [
-          "\"11月15日\" 中国 科技 突破 成功 site:news.cn",
-          "\"11月15日\" 中国 公共工程 建成 通车 site:gov.cn",
-          "\"11月15日\" 中国 文化 体育 首次 site:people.com.cn",
-          "\"11月15日\" 中国 医疗 民生 开通 site:chinanews.com",
-          "\"11月15日\" 中国 教育 学校 成立 site:gmw.cn",
-          "\"11月15日\" 中国 历史上的今天 site:cctv.com"
+          "\"11月16日\" 中国 科技 突破 成功 site:news.cn",
+          "\"11月16日\" 中国 公共工程 建成 通车 site:gov.cn",
+          "\"11月16日\" 中国 文化 体育 首次 site:people.com.cn",
+          "\"11月16日\" 中国 医疗 民生 开通 site:chinanews.com",
+          "\"11月16日\" 中国 教育 学校 成立 site:gmw.cn",
+          "\"11月16日\" 中国 历史上的今天 site:cctv.com"
         ]
       }
     ],
     "sourceUsed": 6,
-    "publishedVerifiedCount": 1,
-    "completedAt": "2026-11-15T23:37:45+08:00"
+    "publishedVerifiedCount": 5,
+    "completedAt": "2026-11-16T05:00:19+08:00"
   }
 }

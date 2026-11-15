@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-15",
+  "updatedAt": "2026-11-16",
   "events": [
     {
       "date": "1896-10-29",
@@ -252,6 +252,24 @@
         }
       ],
       "reviewedAt": "2026-10-06",
+      "verification": "source-matched"
+    },
+    {
+      "date": "1952-11-16",
+      "title": "中共中央决定成立国家计划委员会",
+      "category": "社会",
+      "location": "北京",
+      "summary": "1952年11月16日，中共中央作出《关于成立国家计划委员会及干部配备方案的决定》，以加强对国家建设的集中领导。根据决定，各级人民政府相继成立地方计委，全国性计划管理机构初步建立。",
+      "id": "history-6618592e38f7cb43",
+      "sources": [
+        {
+          "name": "politics.gmw.cn",
+          "url": "https://politics.gmw.cn/2021-11/16/content_35307782.htm",
+          "date": "1952-11-16",
+          "evidence": "1952年 11月16日 中共中央作出《关于成立国家计划委员会及干部配备方案的决定》。"
+        }
+      ],
+      "reviewedAt": "2026-11-16",
       "verification": "source-matched"
     },
     {
@@ -720,6 +738,24 @@
         }
       ],
       "reviewedAt": "2026-10-11",
+      "verification": "source-matched"
+    },
+    {
+      "date": "1981-11-16",
+      "title": "中国女排首夺世界杯冠军",
+      "category": "社会",
+      "location": "日本大阪",
+      "summary": "1981年11月16日，中国女排在第三届世界杯女子排球赛决赛中，以3比2战胜日本队，首次夺得世界冠军。这是中国篮球、排球、足球三大球在国际比赛中取得的第一个世界冠军。",
+      "id": "history-8d48ba31a376d149",
+      "sources": [
+        {
+          "name": "m.news.cctv.com",
+          "url": "https://m.news.cctv.com/2021/05/03/ARTI0b43F6gcSdrbQI8BRV1l210503.shtml",
+          "date": "1981-11-16",
+          "evidence": "1981年11月16日，中国女排在第三届世界杯女子排球赛的决赛中，以3：2战胜日本队，首次夺得世界冠军。"
+        }
+      ],
+      "reviewedAt": "2026-11-16",
       "verification": "source-matched"
     },
     {
@@ -2315,6 +2351,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "2020-11-23",
+      "title": "贵州宣布最后9个贫困县退出贫困县序列",
+      "category": "民生",
+      "location": "贵州",
+      "summary": "2020年11月23日，贵州省宣布晴隆、望谟、威宁、赫章、纳雍、榕江、从江、紫云、沿河9个县退出贫困县序列，省内所有贫困县全部实现脱贫摘帽。至此，全国832个贫困县全部摘帽。贵州全省建档立卡贫困人口从2012年的923万人减少到2019年底的30.8万人。",
+      "id": "history-fd842267605e8404",
+      "sources": [
+        {
+          "name": "央视网",
+          "url": "https://news.cctv.com/2021/11/23/ARTInfZBz4aoBRVp63vTpSqF211123.shtml",
+          "date": "2020-11-23",
+          "evidence": "2020年11月23日，贵州省宣布，晴隆、望谟、威宁、赫章、纳雍、榕江、从江、紫云、沿河9个县退出贫困县序列，省内所有贫困县全部实现脱贫摘帽。至此，全国832个贫困县全部摘帽。"
+        }
+      ],
+      "reviewedAt": "2026-11-16",
+      "verification": "source-matched"
+    },
+    {
       "id": "poverty-alleviation",
       "date": "2021-02-25",
       "title": "脱贫攻坚战全面胜利的宣告",
@@ -2818,10 +2872,10 @@
     }
   ],
   "lastRun": {
-    "date": "2026-11-15",
-    "completedAt": "2026-11-15T23:37:45+08:00",
+    "date": "2026-11-16",
+    "completedAt": "2026-11-16T05:00:19+08:00",
     "sourceCount": 6,
-    "addedCount": 0,
+    "addedCount": 2,
     "status": "ready"
   }
 }
