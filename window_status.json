@@ -41,7 +41,7 @@
     "modelLayers": [
       {
         "index": 0,
-        "sourceUsed": 5,
+        "sourceUsed": 2,
         "generated": 0,
         "validated": 0,
         "approved": 0
@@ -50,13 +50,13 @@
     "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-11-15T04:40:20+08:00",
+    "attemptedAt": "2026-11-15T14:18:48+08:00",
     "existingVerifiedCount": 1,
     "searchAttempted": 6,
-    "searchSucceeded": 5,
-    "searchResults": 32,
-    "sourceAttempted": 16,
-    "sourceReadable": 5,
+    "searchSucceeded": 0,
+    "searchResults": 0,
+    "sourceAttempted": 3,
+    "sourceReadable": 2,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -66,50 +66,26 @@
       {
         "id": "s2",
         "url": "https://www.cmse.gov.cn/xwzx/202411/t20241115_56056.html"
-      },
-      {
-        "id": "s3",
-        "url": "https://www.news.cn/fortune/20260918/58fa74bbdd894691ac102467f90ab969/c.html"
-      },
-      {
-        "id": "s4",
-        "url": "https://www.news.cn/politics/leaders/20241116/037a4719ad724b20a38b9b279bd39b15/c.html"
-      },
-      {
-        "id": "s5",
-        "url": "https://cpc.people.com.cn/GB/64162/64165/72301/72318/index.html"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 5,
-        "searchResults": 32,
-        "sourceAttempted": 16,
-        "sourceReadable": 5,
-        "sourceUsed": 5,
+        "searchSucceeded": 0,
+        "searchResults": 0,
+        "sourceAttempted": 3,
+        "sourceReadable": 2,
+        "sourceUsed": 2,
         "searchErrors": [
+          "DDGSException",
+          "DDGSException",
+          "DDGSException",
+          "DDGSException",
+          "DDGSException",
           "DDGSException"
         ],
-        "sourceErrors": [
-          {
-            "host": "www.sd.news.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "www.cq.gov.cn",
-            "type": "ConnectionError"
-          },
-          {
-            "host": "jtysj.yibin.gov.cn",
-            "type": "ConnectionError"
-          },
-          {
-            "host": "www.sasac.gov.cn",
-            "type": "ConnectionError"
-          }
-        ],
+        "sourceErrors": [],
         "queries": [
           "\"11月15日\" 中国 科技 突破 成功 site:news.cn",
           "\"11月15日\" 中国 公共工程 建成 通车 site:gov.cn",
@@ -120,8 +96,8 @@
         ]
       }
     ],
-    "sourceUsed": 5,
+    "sourceUsed": 2,
     "publishedVerifiedCount": 1,
-    "completedAt": "2026-11-15T04:40:44+08:00"
+    "completedAt": "2026-11-15T14:18:56+08:00"
   }
 }
