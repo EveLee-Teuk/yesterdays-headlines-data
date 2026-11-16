@@ -29,80 +29,33 @@
   "todayAttempt": {
     "date": "2026-11-16",
     "outcome": "ready",
-    "generatedCount": 3,
+    "generatedCount": 0,
     "validationRejected": 0,
     "repairCount": 0,
     "repairGeneratedCount": 0,
-    "validatedCount": 3,
-    "reviewedCount": 3,
-    "approvedCount": 2,
-    "candidateResults": [
-      {
-        "layer": 0,
-        "stage": "generated",
-        "index": 0,
-        "date": "1981-11-16",
-        "title": "中国女排首夺世界杯冠军",
-        "sourceId": "s6",
-        "result": "validated"
-      },
-      {
-        "layer": 0,
-        "stage": "generated",
-        "index": 1,
-        "date": "1952-11-16",
-        "title": "中共中央决定成立国家计划委员会",
-        "sourceId": "s1",
-        "result": "validated"
-      },
-      {
-        "layer": 0,
-        "stage": "generated",
-        "index": 2,
-        "date": "2006-11-16",
-        "title": "黄石师范学院确定首批硕士生导师",
-        "sourceId": "s2",
-        "result": "validated"
-      }
-    ],
-    "reviewResults": [
-      {
-        "layer": 0,
-        "date": "1952-11-16",
-        "title": "中共中央决定成立国家计划委员会",
-        "approved": true
-      },
-      {
-        "layer": 0,
-        "date": "1981-11-16",
-        "title": "中国女排首夺世界杯冠军",
-        "approved": true
-      },
-      {
-        "layer": 0,
-        "date": "2006-11-16",
-        "title": "黄石师范学院确定首批硕士生导师",
-        "approved": false
-      }
-    ],
+    "validatedCount": 0,
+    "reviewedCount": 0,
+    "approvedCount": 0,
+    "candidateResults": [],
+    "reviewResults": [],
     "modelLayers": [
       {
         "index": 0,
         "sourceUsed": 6,
-        "generated": 3,
-        "validated": 3,
-        "approved": 2
+        "generated": 0,
+        "validated": 0,
+        "approved": 0
       }
     ],
-    "modelCalls": 2,
+    "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-11-16T05:00:09+08:00",
-    "existingVerifiedCount": 3,
+    "attemptedAt": "2026-11-16T14:18:15+08:00",
+    "existingVerifiedCount": 5,
     "searchAttempted": 6,
-    "searchSucceeded": 1,
-    "searchResults": 7,
-    "sourceAttempted": 11,
+    "searchSucceeded": 5,
+    "searchResults": 30,
+    "sourceAttempted": 16,
     "sourceReadable": 7,
     "supplementalSearches": 0,
     "sources": [
@@ -112,42 +65,55 @@
       },
       {
         "id": "s2",
-        "url": "https://www.hbnu.edu.cn/2023/1030/c5817a152568/page.htm"
+        "url": "https://m.news.cctv.com/2021/05/03/ARTI0b43F6gcSdrbQI8BRV1l210503.shtml"
       },
       {
         "id": "s3",
-        "url": "https://tv.cctv.com/2021/11/16/VIDEOA601TMwKrwJJiUDeYLb211116.shtml"
+        "url": "https://www.hbnu.edu.cn/2023/1030/c5817a152568/page.htm"
       },
       {
         "id": "s4",
-        "url": "https://tv.cctv.com/2023/11/16/VIDEOHqFUlRn4P2amkgMSeyH231116.shtml"
+        "url": "https://js.news.cn/20251116/2366a0eb3a8541aebdcefcfea036418e/c.html"
       },
       {
         "id": "s5",
-        "url": "https://m.news.cctv.com/2021/08/31/ARTI8P8LQSljzum2ZZ79No2z210831.shtml"
+        "url": "https://www.news.cn/politics/2021-11/16/c_1128069706.htm"
       },
       {
         "id": "s6",
-        "url": "https://m.news.cctv.com/2021/05/03/ARTI0b43F6gcSdrbQI8BRV1l210503.shtml"
+        "url": "https://cpc.people.com.cn/GB/64162/64165/72301/72319/index.html"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 1,
-        "searchResults": 7,
-        "sourceAttempted": 11,
+        "searchSucceeded": 5,
+        "searchResults": 30,
+        "sourceAttempted": 16,
         "sourceReadable": 7,
         "sourceUsed": 6,
         "searchErrors": [
-          "DDGSException",
-          "DDGSException",
-          "DDGSException",
-          "DDGSException",
           "DDGSException"
         ],
-        "sourceErrors": [],
+        "sourceErrors": [
+          {
+            "host": "zj.news.cn",
+            "type": "ReadTimeout"
+          },
+          {
+            "host": "tj.news.cn",
+            "type": "ReadTimeout"
+          },
+          {
+            "host": "ah.people.com.cn",
+            "type": "SSLError"
+          },
+          {
+            "host": "ah.people.com.cn",
+            "type": "SSLError"
+          }
+        ],
         "queries": [
           "\"11月16日\" 中国 科技 突破 成功 site:news.cn",
           "\"11月16日\" 中国 公共工程 建成 通车 site:gov.cn",
@@ -160,6 +126,6 @@
     ],
     "sourceUsed": 6,
     "publishedVerifiedCount": 5,
-    "completedAt": "2026-11-16T05:00:19+08:00"
+    "completedAt": "2026-11-16T14:18:44+08:00"
   }
 }
