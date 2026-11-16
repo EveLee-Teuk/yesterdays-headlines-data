@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-24",
+  "timezone": "Asia/Shanghai",
+  "status": "ready",
+  "events": [
+    {
+      "date": "1950-11-24",
+      "title": "政务院批准培养少数民族干部及筹办中央民族学院方案",
+      "category": "民生",
+      "location": "北京",
+      "summary": "1950年11月24日，政务院第六十次政务会议批准《培养少数民族干部试行方案》和《筹办中央民族学院的试行方案》，为培养少数民族干部、筹办中央民族学院作出部署。次年6月11日，中央民族学院举行开学典礼。",
+      "id": "history-19dfe8a081448312",
+      "sources": [
+        {
+          "name": "cpc.people.com.cn",
+          "url": "https://cpc.people.com.cn/GB/64162/64165/72301/72329/index.html",
+          "date": "1950-11-24",
+          "evidence": "1950年11月24日　政务院第六十次政务会议批准《培养少数民族干部试行方案》和《筹办中央民族学院的试行方案》。1951年6月11日，中央民族学院举行开学典礼。"
+        }
+      ],
+      "reviewedAt": "2026-11-17",
+      "verification": "source-matched"
+    }
+  ]
+}
