@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-18",
+  "timezone": "Asia/Shanghai",
+  "status": "ready",
+  "events": [
+    {
+      "date": "2006-11-18",
+      "title": "BEPCII储存环完成调试并成功积累束流",
+      "category": "科技",
+      "location": "北京",
+      "summary": "2006年11月18日，北京正负电子对撞机重大改造工程（BEPCII）储存环完成调试，成功积累了束流。这一进展为同年12月25日BEPCII正式开始为用户提供同步辐射光、实现年底供束目标奠定了基础。",
+      "id": "history-65045af214b96245",
+      "sources": [
+        {
+          "name": "ihep.cas.cn",
+          "url": "https://ihep.cas.cn/gk/lsyg/",
+          "date": "2006-11-18",
+          "evidence": "2006年11月18日，BEPCII 储存环完成调试，成功积累了束流。"
+        }
+      ],
+      "reviewedAt": "2026-11-11",
+      "verification": "source-matched"
+    },
+    {
+      "date": "2016-11-18",
+      "title": "神舟十一号飞船返回舱成功着陆",
+      "category": "科技",
+      "location": "内蒙古中部预定区域",
+      "summary": "2016年11月18日13时59分，神舟十一号飞船返回舱在内蒙古中部预定区域成功着陆，执行飞行任务的航天员景海鹏、陈冬身体状态良好，天宫二号与神舟十一号载人飞行任务取得圆满成功。",
+      "id": "history-099cd4f2607f6d70",
+      "sources": [
+        {
+          "name": "fms.news.cn",
+          "url": "https://fms.news.cn/swf/2017qmtt/8_17_2017_kj/index.html",
+          "date": "2016-11-18",
+          "evidence": "2016年11月18日13时59分，神舟十一号飞船返回舱在内蒙古中部预定区域成功着陆，执行飞行任务的航天员景海鹏、陈冬身体状态良好，天宫二号与神舟十一号载人飞行任务取得圆满成功。"
+        }
+      ],
+      "reviewedAt": "2026-11-11",
+      "verification": "source-matched"
+    }
+  ]
+}
