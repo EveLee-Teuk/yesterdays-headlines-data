@@ -29,34 +29,55 @@
   "todayAttempt": {
     "date": "2026-11-17",
     "outcome": "ready",
-    "generatedCount": 0,
-    "validationRejected": 0,
-    "repairCount": 0,
-    "repairGeneratedCount": 0,
+    "generatedCount": 1,
+    "validationRejected": 2,
+    "repairCount": 1,
+    "repairGeneratedCount": 1,
     "validatedCount": 0,
     "reviewedCount": 0,
     "approvedCount": 0,
-    "candidateResults": [],
+    "candidateResults": [
+      {
+        "layer": 0,
+        "stage": "generated",
+        "index": 0,
+        "date": "2024-11-17",
+        "title": "我国首艘大洋钻探船“梦想”号在广州正式入列",
+        "sourceId": "s2",
+        "result": "rejected",
+        "reason": "Evidence does not contain the actual historical date"
+      },
+      {
+        "layer": 0,
+        "stage": "repair",
+        "index": 0,
+        "date": "2024-11-17",
+        "title": "我国首艘大洋钻探船“梦想”号在广州正式入列",
+        "sourceId": "s2",
+        "result": "rejected",
+        "reason": "Evidence does not contain the actual historical date"
+      }
+    ],
     "reviewResults": [],
     "modelLayers": [
       {
         "index": 0,
         "sourceUsed": 6,
-        "generated": 0,
+        "generated": 1,
         "validated": 0,
         "approved": 0
       }
     ],
-    "modelCalls": 1,
+    "modelCalls": 2,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-11-17T02:27:04+08:00",
+    "attemptedAt": "2026-11-17T15:47:53+08:00",
     "existingVerifiedCount": 2,
     "searchAttempted": 6,
-    "searchSucceeded": 4,
-    "searchResults": 28,
+    "searchSucceeded": 3,
+    "searchResults": 21,
     "sourceAttempted": 16,
-    "sourceReadable": 6,
+    "sourceReadable": 7,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -65,19 +86,19 @@
       },
       {
         "id": "s2",
-        "url": "https://www.news.cn/tech/20260226/97d96bbc25f2479aa7bdfa5f0b16474f/c.html"
+        "url": "https://www.gov.cn/yaowen/liebiao/202411/content_6987699.htm"
       },
       {
         "id": "s3",
-        "url": "https://cpc.people.com.cn/GB/64162/64165/72301/72320/index.html"
+        "url": "https://www.jiangmen.gov.cn/home/bmdt/content/post_3587219.html"
       },
       {
         "id": "s4",
-        "url": "https://paper.people.com.cn/rmrbhwb/pc/content/202511/17/content_30115130.html"
+        "url": "https://www.mot.gov.cn/"
       },
       {
         "id": "s5",
-        "url": "https://cpc.people.com.cn/n1/2023/1117/c443712-40120184.html"
+        "url": "https://fgw.wuhan.gov.cn/xwzx/tpxw/202611/t20261117_2880842.html"
       },
       {
         "id": "s6",
@@ -88,38 +109,39 @@
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 4,
-        "searchResults": 28,
+        "searchSucceeded": 3,
+        "searchResults": 21,
         "sourceAttempted": 16,
-        "sourceReadable": 6,
+        "sourceReadable": 7,
         "sourceUsed": 6,
         "searchErrors": [
+          "DDGSException",
           "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "ah.news.cn",
-            "type": "ReadTimeout"
+            "host": "www.henan.gov.cn",
+            "type": "HTTPError"
           },
           {
-            "host": "www.sx.news.cn",
-            "type": "SSLError"
+            "host": "shangqiu.gov.cn",
+            "type": "ConnectionError"
           },
           {
-            "host": "sh.news.cn",
-            "type": "ReadTimeout"
-          },
-          {
-            "host": "gz.news.cn",
-            "type": "ReadTimeout"
+            "host": "shangqiu.gov.cn",
+            "type": "ConnectionError"
           },
           {
             "host": "politics.people.com.cn",
             "type": "SSLError"
           },
           {
-            "host": "dangshi.people.com.cn",
+            "host": "ah.people.com.cn",
+            "type": "SSLError"
+          },
+          {
+            "host": "ent.people.com.cn",
             "type": "SSLError"
           }
         ],
@@ -135,6 +157,6 @@
     ],
     "sourceUsed": 6,
     "publishedVerifiedCount": 2,
-    "completedAt": "2026-11-17T02:27:31+08:00"
+    "completedAt": "2026-11-17T15:48:27+08:00"
   }
 }
