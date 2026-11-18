@@ -50,7 +50,7 @@
     "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-11-18T01:35:29+08:00",
+    "attemptedAt": "2026-11-18T15:17:37+08:00",
     "existingVerifiedCount": 2,
     "searchAttempted": 6,
     "searchSucceeded": 2,
@@ -69,11 +69,11 @@
       },
       {
         "id": "s3",
-        "url": "https://www.news.cn/science/dst.htm"
+        "url": "https://www.mot.gov.cn/"
       },
       {
         "id": "s4",
-        "url": "https://cpc.people.com.cn/n1/2025/1213/c64387-40623527.html"
+        "url": "https://www.mot.gov.cn/xinmeiti/"
       },
       {
         "id": "s5",
@@ -93,27 +93,27 @@
           "DDGSException",
           "DDGSException",
           "DDGSException",
-          "TimeoutException"
+          "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "www.js.news.cn",
-            "type": "SSLError"
+            "host": "www.gs.gov.cn",
+            "type": "HTTPError"
           },
           {
-            "host": "sd.news.cn",
+            "host": "www.cq.gov.cn",
+            "type": "ConnectionError"
+          },
+          {
+            "host": "jtysj.yulin.gov.cn",
             "type": "ReadTimeout"
           },
           {
-            "host": "tj.news.cn",
-            "type": "ReadTimeout"
-          },
-          {
-            "host": "travel.people.com.cn",
+            "host": "xz.people.com.cn",
             "type": "SSLError"
           },
           {
-            "host": "media.people.com.cn",
+            "host": "hi.people.com.cn",
             "type": "SSLError"
           },
           {
@@ -133,6 +133,6 @@
     ],
     "sourceUsed": 5,
     "publishedVerifiedCount": 2,
-    "completedAt": "2026-11-18T01:36:09+08:00"
+    "completedAt": "2026-11-18T15:18:03+08:00"
   }
 }
