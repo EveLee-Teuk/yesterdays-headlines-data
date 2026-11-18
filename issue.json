@@ -1,43 +1,61 @@
 {
   "schemaVersion": 2,
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "timezone": "Asia/Shanghai",
   "status": "ready",
   "events": [
     {
-      "date": "2006-11-18",
-      "title": "BEPCII储存环完成调试并成功积累束流",
+      "date": "2004-11-19",
+      "title": "北京正负电子对撞机重大改造工程电子直线加速器调试出束",
       "category": "科技",
       "location": "北京",
-      "summary": "2006年11月18日，北京正负电子对撞机重大改造工程（BEPCII）储存环完成调试，成功积累了束流。这一进展为同年12月25日BEPCII正式开始为用户提供同步辐射光、实现年底供束目标奠定了基础。",
-      "id": "history-65045af214b96245",
+      "summary": "北京正负电子对撞机重大改造工程取得阶段性进展，电子直线加速器完成设备安装并调试出束，标志着改造工程关键环节取得进展。",
+      "id": "history-48fb41f23816b7e7",
       "sources": [
         {
           "name": "ihep.cas.cn",
           "url": "https://ihep.cas.cn/gk/lsyg/",
-          "date": "2006-11-18",
-          "evidence": "2006年11月18日，BEPCII 储存环完成调试，成功积累了束流。"
+          "date": "2004-11-19",
+          "evidence": "2004年11月19日，北京正负电子对撞机重大改造工程取得阶段性进展，电子直线加速器完成设备安装并调试出束。"
         }
       ],
-      "reviewedAt": "2026-11-11",
+      "reviewedAt": "2026-11-12",
       "verification": "source-matched"
     },
     {
-      "date": "2016-11-18",
-      "title": "神舟十一号飞船返回舱成功着陆",
+      "date": "2014-11-19",
+      "title": "BEPCII对撞亮度创新高",
       "category": "科技",
-      "location": "内蒙古中部预定区域",
-      "summary": "2016年11月18日13时59分，神舟十一号飞船返回舱在内蒙古中部预定区域成功着陆，执行飞行任务的航天员景海鹏、陈冬身体状态良好，天宫二号与神舟十一号载人飞行任务取得圆满成功。",
-      "id": "history-099cd4f2607f6d70",
+      "location": "北京",
+      "summary": "北京正负电子对撞机重大改造工程（BEPCII）在设计能量1.89GeV下实现620mA双束对撞，对撞亮度达到8.04×10^32 cm^-2 s^-1，再创新高。",
+      "id": "history-c96a346bb25bf0d0",
       "sources": [
         {
-          "name": "fms.news.cn",
-          "url": "https://fms.news.cn/swf/2017qmtt/8_17_2017_kj/index.html",
-          "date": "2016-11-18",
-          "evidence": "2016年11月18日13时59分，神舟十一号飞船返回舱在内蒙古中部预定区域成功着陆，执行飞行任务的航天员景海鹏、陈冬身体状态良好，天宫二号与神舟十一号载人飞行任务取得圆满成功。"
+          "name": "ihep.cas.cn",
+          "url": "https://ihep.cas.cn/gk/lsyg/",
+          "date": "2014-11-19",
+          "evidence": "2014年11月19日，BEPCII在设计能量（1.89GeV）下，620mA双束对撞，对撞亮度再创新高，达到了8.04×10 32 cm -2 s -1 。"
         }
       ],
-      "reviewedAt": "2026-11-11",
+      "reviewedAt": "2026-11-12",
+      "verification": "source-matched"
+    },
+    {
+      "date": "2025-11-19",
+      "title": "江门中微子实验发布首个物理成果",
+      "category": "科技",
+      "location": "广东江门",
+      "summary": "2025年11月19日，江门中微子实验在广东省江门市举行发布会，中国科学院高能物理研究所副所长、江门中微子实验国际合作组物理分析负责人温良剑在会上报告了实验的首个物理成果。该实验成员涵盖17个国家和地区、75个科研机构的700多名研究人员。",
+      "id": "history-4fc18654179b5f33",
+      "sources": [
+        {
+          "name": "新华网",
+          "url": "https://www.news.cn/tech/20260226/97d96bbc25f2479aa7bdfa5f0b16474f/c.html",
+          "date": "2025-11-19",
+          "evidence": "2025年11月19日，在广东省江门市举行的发布会上，中国科学院高能物理研究所副所长、江门中微子实验国际合作组物理分析负责人温良剑在报告首个物理成果。"
+        }
+      ],
+      "reviewedAt": "2026-11-19",
       "verification": "source-matched"
     }
   ]

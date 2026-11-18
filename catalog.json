@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-18",
+  "updatedAt": "2026-11-19",
   "events": [
     {
       "date": "1896-10-29",
@@ -669,6 +669,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "1975-11-26",
+      "title": "中国成功发射并回收一颗返回式遥感卫星",
+      "category": "科技",
+      "location": "中国",
+      "summary": "1975年11月26日，中国成功发射一颗返回式遥感人造地球卫星，并按计划顺利回收。这使中国成为继美国、苏联之后第三个掌握卫星回收技术的国家，标志着中国航天遥感与回收技术取得重要突破。",
+      "id": "history-a8381b31e3a2b0a5",
+      "sources": [
+        {
+          "name": "politics.gmw.cn",
+          "url": "https://politics.gmw.cn/2021-11/26/content_35338040.htm",
+          "date": "1975-11-26",
+          "evidence": "1975年 11月26日 中国成功发射一颗返回式遥感人造地球卫星，并按计划顺利回收，成为继美国、苏联之后第三个掌握卫星回收技术的国家。"
+        }
+      ],
+      "reviewedAt": "2026-11-19",
+      "verification": "source-matched"
+    },
+    {
       "date": "1976-10-06",
       "title": "中共中央政治局粉碎“四人帮”",
       "category": "社会",
@@ -988,6 +1006,24 @@
         }
       ],
       "reviewedAt": "2026-09-28",
+      "verification": "source-matched"
+    },
+    {
+      "date": "1990-11-26",
+      "title": "上海证券交易所正式成立",
+      "category": "社会",
+      "location": "上海",
+      "summary": "1990年11月26日，新中国成立以来在中国大陆开业的第一家证券交易所——上海证券交易所正式成立，并于同年12月19日正式开业。这标志着中国证券市场建设迈出重要一步。",
+      "id": "history-3f9140d00f952800",
+      "sources": [
+        {
+          "name": "politics.gmw.cn",
+          "url": "https://politics.gmw.cn/2021-11/26/content_35338040.htm",
+          "date": "1990-11-26",
+          "evidence": "1990年 11月26日 新中国成立以来在中国大陆开业的第一家证券交易所——上海证券交易所正式成立。12月19日，上海证券交易所正式开业。"
+        }
+      ],
+      "reviewedAt": "2026-11-19",
       "verification": "source-matched"
     },
     {
@@ -2889,6 +2925,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "2025-11-19",
+      "title": "江门中微子实验发布首个物理成果",
+      "category": "科技",
+      "location": "广东江门",
+      "summary": "2025年11月19日，江门中微子实验在广东省江门市举行发布会，中国科学院高能物理研究所副所长、江门中微子实验国际合作组物理分析负责人温良剑在会上报告了实验的首个物理成果。该实验成员涵盖17个国家和地区、75个科研机构的700多名研究人员。",
+      "id": "history-4fc18654179b5f33",
+      "sources": [
+        {
+          "name": "新华网",
+          "url": "https://www.news.cn/tech/20260226/97d96bbc25f2479aa7bdfa5f0b16474f/c.html",
+          "date": "2025-11-19",
+          "evidence": "2025年11月19日，在广东省江门市举行的发布会上，中国科学院高能物理研究所副所长、江门中微子实验国际合作组物理分析负责人温良剑在报告首个物理成果。"
+        }
+      ],
+      "reviewedAt": "2026-11-19",
+      "verification": "source-matched"
+    },
+    {
       "date": "2025-11-21",
       "title": "中国科学院公布2025年院士增选当选名单",
       "category": "科技",
@@ -2926,10 +2980,10 @@
     }
   ],
   "lastRun": {
-    "date": "2026-11-18",
-    "completedAt": "2026-11-18T15:18:03+08:00",
-    "sourceCount": 5,
-    "addedCount": 0,
+    "date": "2026-11-19",
+    "completedAt": "2026-11-19T01:12:44+08:00",
+    "sourceCount": 6,
+    "addedCount": 1,
     "status": "ready"
   }
 }
