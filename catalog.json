@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-19",
+  "updatedAt": "2026-11-20",
   "events": [
     {
       "date": "1896-10-29",
@@ -54,6 +54,24 @@
         }
       ],
       "reviewedAt": "2026-10-06",
+      "verification": "source-matched"
+    },
+    {
+      "date": "1927-11-27",
+      "title": "国立音乐院在上海创办",
+      "category": "社会",
+      "location": "上海",
+      "summary": "1927年11月27日，蔡元培与萧友梅共同创办国立音乐院，首任院长为蔡元培。该校后更名为国立音乐专科学校，新中国成立后于1956年定名为上海音乐学院，是中国历史最悠久的高等音乐学府之一。",
+      "id": "history-51f30718efed2213",
+      "sources": [
+        {
+          "name": "topics.gmw.cn",
+          "url": "https://topics.gmw.cn/node_122239.htm",
+          "date": "1927-11-27",
+          "evidence": "上海音乐学院前身是革命家、教育家、思想家蔡元培先生和音乐教育家萧友梅博士于1927年11月27日共同创办的国立音乐院。首任院长为蔡元培先生。"
+        }
+      ],
+      "reviewedAt": "2026-11-20",
       "verification": "source-matched"
     },
     {
@@ -1024,6 +1042,24 @@
         }
       ],
       "reviewedAt": "2026-11-19",
+      "verification": "source-matched"
+    },
+    {
+      "date": "1991-11-27",
+      "title": "葛洲坝水利枢纽二期工程通过国家验收",
+      "category": "民生",
+      "location": "湖北宜昌",
+      "summary": "1991年11月27日，长江葛洲坝水利枢纽第二期工程在湖北宜昌通过国家正式验收，这一大型水利水电工程宣告全部竣工。该工程是长江干流上建设的重要水利水电枢纽，其建成对防洪、发电、航运等具有综合效益。",
+      "id": "history-11a5733ed4978ab9",
+      "sources": [
+        {
+          "name": "politics.gmw.cn",
+          "url": "https://politics.gmw.cn/2021-11/27/content_35341107.htm",
+          "date": "1991-11-27",
+          "evidence": "1991年 11月27日 长江葛洲坝水利枢纽第二期工程在湖北宜昌通过国家正式验收。至此，这一大型水利水电工程宣告全部竣工。"
+        }
+      ],
+      "reviewedAt": "2026-11-20",
       "verification": "source-matched"
     },
     {
@@ -2980,8 +3016,8 @@
     }
   ],
   "lastRun": {
-    "date": "2026-11-19",
-    "completedAt": "2026-11-19T15:16:10+08:00",
+    "date": "2026-11-20",
+    "completedAt": "2026-11-20T01:19:55+08:00",
     "sourceCount": 6,
     "addedCount": 0,
     "status": "ready"

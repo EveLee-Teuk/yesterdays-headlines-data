@@ -1,33 +1,33 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "failedDates": [],
   "coveragePolicyVersion": 2,
   "restoredDates": [
-    "2026-11-13",
     "2026-11-14",
     "2026-11-15",
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
-    "2026-11-19"
+    "2026-11-19",
+    "2026-11-20"
   ],
   "todayMinimumMet": true,
   "preparedReadyDates": [
-    "2026-11-20",
     "2026-11-21",
     "2026-11-22",
     "2026-11-23",
     "2026-11-24",
     "2026-11-25",
-    "2026-11-26"
+    "2026-11-26",
+    "2026-11-27"
   ],
   "preparedMissingDates": [],
   "attemptedDates": [
-    "2026-11-19"
+    "2026-11-20"
   ],
   "historicalRetries": {},
   "todayAttempt": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "outcome": "ready",
     "generatedCount": 0,
     "validationRejected": 0,
@@ -50,68 +50,67 @@
     "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-11-19T15:15:54+08:00",
-    "existingVerifiedCount": 3,
+    "attemptedAt": "2026-11-20T01:19:41+08:00",
+    "existingVerifiedCount": 1,
     "searchAttempted": 6,
-    "searchSucceeded": 2,
-    "searchResults": 14,
+    "searchSucceeded": 3,
+    "searchResults": 15,
     "sourceAttempted": 16,
-    "sourceReadable": 13,
+    "sourceReadable": 11,
     "supplementalSearches": 0,
     "sources": [
       {
         "id": "s1",
-        "url": "https://ihep.cas.cn/gk/lsyg/"
+        "url": "https://www.news.cn/politics/20240910/4f26c968e02642fabb13920e0ae11323/c.html"
       },
       {
         "id": "s2",
-        "url": "https://www.news.cn/tech/20260226/97d96bbc25f2479aa7bdfa5f0b16474f/c.html"
+        "url": "https://politics.gmw.cn/2021-11/20/content_35323921.htm"
       },
       {
         "id": "s3",
-        "url": "https://www.news.cn/politics/20260208/55b60d2465b24beab64afff6ceba2128/c.html"
+        "url": "https://epaper.gmw.cn/gmrb/html/2021-07/11/nw.D110000gmrb_20210711_1-11.htm"
       },
       {
         "id": "s4",
-        "url": "https://www.news.cn/politics/leaders/20260706/37ad1eada26041a991f7d077f2aac775/c.html"
+        "url": "https://difang.gmw.cn/hn/2026-01/22/content_38552346.htm"
       },
       {
         "id": "s5",
-        "url": "https://www.news.cn/science/dst.htm"
+        "url": "https://topics.gmw.cn/node_165053.htm"
       },
       {
         "id": "s6",
-        "url": "https://www.news.cn/politics/leaders/2023-05/30/c_1129655051.htm"
+        "url": "https://epaper.gmw.cn/gmrb/html/2021-12/12/nw.D110000gmrb_20211212_2-07.htm"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 2,
-        "searchResults": 14,
+        "searchSucceeded": 3,
+        "searchResults": 15,
         "sourceAttempted": 16,
-        "sourceReadable": 13,
+        "sourceReadable": 11,
         "sourceUsed": 6,
         "searchErrors": [
-          "DDGSException",
           "DDGSException",
           "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [],
         "queries": [
-          "\"11月19日\" 中国 科技 突破 成功 site:news.cn",
-          "\"11月19日\" 中国 公共工程 建成 通车 site:gov.cn",
-          "\"11月19日\" 中国 文化 体育 首次 site:people.com.cn",
-          "\"11月19日\" 中国 医疗 民生 开通 site:chinanews.com",
-          "\"11月19日\" 中国 教育 学校 成立 site:gmw.cn",
-          "\"11月19日\" 中国 历史上的今天 site:cctv.com"
+          "\"11月20日\" 中国 科技 突破 成功 site:news.cn",
+          "\"11月20日\" 中国 公共工程 建成 通车 site:gov.cn",
+          "\"11月20日\" 中国 文化 体育 首次 site:people.com.cn",
+          "\"11月20日\" 中国 医疗 民生 开通 site:chinanews.com",
+          "\"11月20日\" 中国 教育 学校 成立 site:gmw.cn",
+          "\"11月20日\" 中国 历史上的今天 site:cctv.com"
         ]
       }
     ],
     "sourceUsed": 6,
-    "publishedVerifiedCount": 3,
-    "completedAt": "2026-11-19T15:16:10+08:00"
+    "publishedVerifiedCount": 1,
+    "completedAt": "2026-11-20T01:19:55+08:00"
   }
 }

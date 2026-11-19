@@ -1,61 +1,25 @@
 {
   "schemaVersion": 2,
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "timezone": "Asia/Shanghai",
   "status": "ready",
   "events": [
     {
-      "date": "2004-11-19",
-      "title": "北京正负电子对撞机重大改造工程电子直线加速器调试出束",
+      "date": "1999-11-20",
+      "title": "神舟一号无人飞船发射升空",
       "category": "科技",
-      "location": "北京",
-      "summary": "北京正负电子对撞机重大改造工程取得阶段性进展，电子直线加速器完成设备安装并调试出束，标志着改造工程关键环节取得进展。",
-      "id": "history-48fb41f23816b7e7",
-      "sources": [
-        {
-          "name": "ihep.cas.cn",
-          "url": "https://ihep.cas.cn/gk/lsyg/",
-          "date": "2004-11-19",
-          "evidence": "2004年11月19日，北京正负电子对撞机重大改造工程取得阶段性进展，电子直线加速器完成设备安装并调试出束。"
-        }
-      ],
-      "reviewedAt": "2026-11-12",
-      "verification": "source-matched"
-    },
-    {
-      "date": "2014-11-19",
-      "title": "BEPCII对撞亮度创新高",
-      "category": "科技",
-      "location": "北京",
-      "summary": "北京正负电子对撞机重大改造工程（BEPCII）在设计能量1.89GeV下实现620mA双束对撞，对撞亮度达到8.04×10^32 cm^-2 s^-1，再创新高。",
-      "id": "history-c96a346bb25bf0d0",
-      "sources": [
-        {
-          "name": "ihep.cas.cn",
-          "url": "https://ihep.cas.cn/gk/lsyg/",
-          "date": "2014-11-19",
-          "evidence": "2014年11月19日，BEPCII在设计能量（1.89GeV）下，620mA双束对撞，对撞亮度再创新高，达到了8.04×10 32 cm -2 s -1 。"
-        }
-      ],
-      "reviewedAt": "2026-11-12",
-      "verification": "source-matched"
-    },
-    {
-      "date": "2025-11-19",
-      "title": "江门中微子实验发布首个物理成果",
-      "category": "科技",
-      "location": "广东江门",
-      "summary": "2025年11月19日，江门中微子实验在广东省江门市举行发布会，中国科学院高能物理研究所副所长、江门中微子实验国际合作组物理分析负责人温良剑在会上报告了实验的首个物理成果。该实验成员涵盖17个国家和地区、75个科研机构的700多名研究人员。",
-      "id": "history-4fc18654179b5f33",
+      "location": "酒泉",
+      "summary": "1999年11月20日，中国第一艘载人航天实验飞船神舟一号在酒泉卫星发射中心发射升空，完成空间飞行试验后在内蒙古中部地区成功着陆，中国载人航天工程首次飞行实验成功。",
+      "id": "history-2382246e82576068",
       "sources": [
         {
           "name": "新华网",
-          "url": "https://www.news.cn/tech/20260226/97d96bbc25f2479aa7bdfa5f0b16474f/c.html",
-          "date": "2025-11-19",
-          "evidence": "2025年11月19日，在广东省江门市举行的发布会上，中国科学院高能物理研究所副所长、江门中微子实验国际合作组物理分析负责人温良剑在报告首个物理成果。"
+          "url": "https://www.news.cn/politics/20240910/4f26c968e02642fabb13920e0ae11323/c.html",
+          "date": "1999-11-20",
+          "evidence": "1999年11月20日 中国第一艘载人航天实验飞船 神舟一号 在酒泉卫星发射中心发射升空 完成空间飞行试验之后 在内蒙古中部地区成功着陆 中国载人航天工程首次飞行实验成功"
         }
       ],
-      "reviewedAt": "2026-11-19",
+      "reviewedAt": "2026-11-13",
       "verification": "source-matched"
     }
   ]
