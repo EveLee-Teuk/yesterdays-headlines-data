@@ -1367,6 +1367,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "2001-11-20",
+      "title": "全国土地资源调查工作圆满结束",
+      "category": "民生",
+      "location": "全国",
+      "summary": "历经20年的全国土地资源调查工作于2001年11月20日圆满结束。此次调查摸清我国各级行政区土地总面积为960万平方公里，其中耕地占13.7%，林地占23.9%，牧草地占28%；全国农民集体所有土地439.03万平方公里，国有土地505.48万平方公里。这是我国迄今为止最系统、全面、准确的土地国情国力资料。",
+      "id": "history-41f077799ca08e35",
+      "sources": [
+        {
+          "name": "cpc.people.com.cn",
+          "url": "https://cpc.people.com.cn/GB/64162/64165/72301/72324/index.html",
+          "date": "2001-11-20",
+          "evidence": "2001年11月20日  历经20年的全国土地资源调查工作圆满结束。此次调查摸清我国各级行政区土地总面积为960万平方公里，其中耕地占13.7％，林地占23.9％，牧草地占28％。"
+        }
+      ],
+      "reviewedAt": "2026-11-20",
+      "verification": "source-matched"
+    },
+    {
       "id": "china-wto",
       "date": "2001-12-11",
       "title": "中国正式加入世界贸易组织",
@@ -3017,9 +3035,9 @@
   ],
   "lastRun": {
     "date": "2026-11-20",
-    "completedAt": "2026-11-20T01:19:55+08:00",
-    "sourceCount": 6,
-    "addedCount": 0,
+    "completedAt": "2026-11-20T15:04:45+08:00",
+    "sourceCount": 2,
+    "addedCount": 1,
     "status": "ready"
   }
 }
