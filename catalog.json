@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-20",
+  "updatedAt": "2026-11-21",
   "events": [
     {
       "date": "1896-10-29",
@@ -108,6 +108,24 @@
         }
       ],
       "reviewedAt": "2026-10-10",
+      "verification": "source-matched"
+    },
+    {
+      "date": "1938-11-28",
+      "title": "桂林师范学校停课开展抗战宣传",
+      "category": "社会",
+      "location": "广西桂林",
+      "summary": "为“保卫大广西”，桂林师范学校决定从即日起停课两周开展抗战宣传活动。丰子恺创作《欢送》《凯归》《保国》《轰炸》四幅抗战主题漫画，并带领学生分组下乡宣传，指导学生制作壁报和创作抗战漫画。",
+      "id": "history-45b6d0340d64980b",
+      "sources": [
+        {
+          "name": "光明网",
+          "url": "https://news.gmw.cn/2025-10/17/content_38347940.htm",
+          "date": "1938-11-28",
+          "evidence": "1938年11月28日，为“保卫大广西”，桂林师范学校决定从即日起停课两周以开展抗战宣传活动。丰子恺创作了四幅抗战主题漫画——《欢送》《凯归》《保国》《轰炸》，还带领学生分组下乡宣传，激发群众爱国热情。"
+        }
+      ],
+      "reviewedAt": "2026-11-21",
       "verification": "source-matched"
     },
     {
@@ -2495,6 +2513,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "2020-11-28",
+      "title": "“奋斗者”号完成万米海试返航",
+      "category": "科技",
+      "location": "中国",
+      "summary": "“奋斗者”号全海深载人潜水器成功完成万米海试并胜利返航，标志着我国在全海深载人深潜领域取得重大突破，体现了深海装备技术的进步。",
+      "id": "history-6b9ded9b8fbdc089",
+      "sources": [
+        {
+          "name": "politics.gmw.cn",
+          "url": "https://politics.gmw.cn/2021-11/28/content_35341112.htm",
+          "date": "2020-11-28",
+          "evidence": "2020年 11月28日 “奋斗者”号全海深载人潜水器成功完成万米海试并胜利返航。"
+        }
+      ],
+      "reviewedAt": "2026-11-21",
+      "verification": "source-matched"
+    },
+    {
       "id": "poverty-alleviation",
       "date": "2021-02-25",
       "title": "脱贫攻坚战全面胜利的宣告",
@@ -3034,10 +3070,10 @@
     }
   ],
   "lastRun": {
-    "date": "2026-11-20",
-    "completedAt": "2026-11-20T15:04:45+08:00",
-    "sourceCount": 2,
-    "addedCount": 1,
+    "date": "2026-11-21",
+    "completedAt": "2026-11-21T00:55:49+08:00",
+    "sourceCount": 5,
+    "addedCount": 0,
     "status": "ready"
   }
 }
