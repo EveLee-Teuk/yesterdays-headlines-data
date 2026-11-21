@@ -50,11 +50,11 @@
     "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-11-21T00:55:23+08:00",
+    "attemptedAt": "2026-11-21T14:58:10+08:00",
     "existingVerifiedCount": 1,
     "searchAttempted": 6,
-    "searchSucceeded": 2,
-    "searchResults": 14,
+    "searchSucceeded": 3,
+    "searchResults": 21,
     "sourceAttempted": 16,
     "sourceReadable": 5,
     "supplementalSearches": 0,
@@ -69,28 +69,27 @@
       },
       {
         "id": "s3",
-        "url": "https://www.news.cn/politics/leaders/20260110/a8bc32fedb2c418eb5b0b4701295b8f8/c.html"
+        "url": "https://www.news.cn/20260110/14d8c9d2c1ce4dfb9ffc9996aadb92d3/c.html"
       },
       {
         "id": "s4",
-        "url": "https://tv.cctv.com/2010/11/21/VIDE1355517033530546.shtml"
+        "url": "https://cq.news.cn/news/hot.htm"
       },
       {
         "id": "s5",
-        "url": "https://news.cctv.com/2021/11/21/ARTIxSOX5n4OuEBo9sbSxGGu211121.shtml"
+        "url": "https://www.ezhou.gov.cn/gk/zdlyxxgk/"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 2,
-        "searchResults": 14,
+        "searchSucceeded": 3,
+        "searchResults": 21,
         "sourceAttempted": 16,
         "sourceReadable": 5,
         "sourceUsed": 5,
         "searchErrors": [
-          "DDGSException",
           "DDGSException",
           "DDGSException",
           "DDGSException"
@@ -101,8 +100,16 @@
             "type": "ReadTimeout"
           },
           {
-            "host": "www.cq.news.cn",
-            "type": "SSLError"
+            "host": "www.sc.gov.cn",
+            "type": "ConnectionError"
+          },
+          {
+            "host": "ccsjtysj.changchun.gov.cn",
+            "type": "ReadTimeout"
+          },
+          {
+            "host": "jtys.sz.gov.cn",
+            "type": "ConnectionError"
           }
         ],
         "queries": [
@@ -117,6 +124,6 @@
     ],
     "sourceUsed": 5,
     "publishedVerifiedCount": 1,
-    "completedAt": "2026-11-21T00:55:49+08:00"
+    "completedAt": "2026-11-21T14:58:37+08:00"
   }
 }
