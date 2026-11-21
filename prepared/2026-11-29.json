@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-29",
+  "timezone": "Asia/Shanghai",
+  "status": "ready",
+  "events": [
+    {
+      "date": "1893-11-29",
+      "title": "张之洞上奏设立自强学堂",
+      "category": "社会",
+      "location": "湖北武汉",
+      "summary": "1893年11月29日，湖广总督张之洞向光绪皇帝上奏《设立自强学堂片》，奏告自强学堂的创办情形。自强学堂是湖北、武汉地区开办较早的一所近代新式学堂，分方言、格致、算学、商务四门，其中方言门招选学生在堂肄业，其余三门按月考课。",
+      "id": "history-7cd193b6e91f56dd",
+      "sources": [
+        {
+          "name": "xsg.whu.edu.cn",
+          "url": "https://xsg.whu.edu.cn/info/1261/12011.htm",
+          "date": "1893-11-29",
+          "evidence": "1893年11月29日，湖广总督张之洞上奏光绪皇帝《设立自强学堂片》，奏告自强学堂的创办情形。自强学堂是湖北、武汉地区开办较早的一所近代新式学堂。"
+        }
+      ],
+      "reviewedAt": "2026-11-22",
+      "verification": "source-matched"
+    },
+    {
+      "date": "1951-11-29",
+      "title": "中南民族学院举行开学典礼",
+      "category": "社会",
+      "location": "湖北武汉",
+      "summary": "1951年11月29日，中南民族学院举行开学典礼，中南军政委员会副主席张难先在开学典礼上发表讲话。该校即今中南民族大学的前身，是新中国成立初期为培养少数民族人才而创办的民族院校。",
+      "id": "history-9efabdcfeeb22be6",
+      "sources": [
+        {
+          "name": "www.scuec.edu.cn",
+          "url": "https://www.scuec.edu.cn/dag/info/1081/1427.htm",
+          "date": "1951-11-29",
+          "evidence": "中南民族学院于1951年11月29日举行开学典礼"
+        }
+      ],
+      "reviewedAt": "2026-11-22",
+      "verification": "source-matched"
+    },
+    {
+      "date": "1988-11-29",
+      "title": "华中理工大学系统工程研究所成立",
+      "category": "科技",
+      "location": "湖北武汉",
+      "summary": "1988年11月29日，华中理工大学系统工程研究所成立，陈珽教授出任所长。该研究所的设立为学校系统工程学科的教学与科研提供了专门机构，是该校学科建设中的一项进展。",
+      "id": "history-bb6b19acdcb96c07",
+      "sources": [
+        {
+          "name": "news.hust.edu.cn",
+          "url": "https://news.hust.edu.cn/info/1012/46856.htm",
+          "date": "1988-11-29",
+          "evidence": "1988年11月29日，华中理工大学系统工程研究所成立，陈珽教授出任所长。"
+        }
+      ],
+      "reviewedAt": "2026-11-22",
+      "verification": "source-matched"
+    },
+    {
+      "date": "2006-11-29",
+      "title": "华中科技大学新增5门国家级精品课程",
+      "category": "社会",
+      "location": "湖北武汉",
+      "summary": "2006年11月29日，华中科技大学新增5门国家级精品课程，分别为能源学院“工程传热学”、土木学院“工程力学”、电气学院“电机学”、经济学院“计量经济学”和管理学院“生产运作管理”，主持人依次为刘伟、陈传尧、陈乔夫、唐齐鸣、马士华。",
+      "id": "history-445c75d28304ae9c",
+      "sources": [
+        {
+          "name": "news.hust.edu.cn",
+          "url": "https://news.hust.edu.cn/info/1012/46856.htm",
+          "date": "2006-11-29",
+          "evidence": "2006年11月29日，华中科技大学新增5门国家级精品课程，分别是：能源学院的“工程传热学”（主持人：刘伟）、土木学院的“工程力学”（主持人：陈传尧）、电气学院的“电机学”（主持人：陈乔夫）、经济学院的“计量经济学”（主持人：唐齐鸣）、管理学院的“生产运作管理”（主持人：马士华）。"
+        }
+      ],
+      "reviewedAt": "2026-11-22",
+      "verification": "source-matched"
+    },
+    {
+      "date": "2013-11-29",
+      "title": "华中科技大学承建的巴西孔子学院揭牌",
+      "category": "社会",
+      "location": "巴西米纳斯吉拉斯",
+      "summary": "2013年11月29日，华中科技大学承建的巴西米纳斯吉拉斯联邦大学孔子学院揭牌，这是该校与国外高校共建的第三所孔子学院，也是中国高校在境外合作办学的具体成果。",
+      "id": "history-77286a5d491b0b00",
+      "sources": [
+        {
+          "name": "news.hust.edu.cn",
+          "url": "https://news.hust.edu.cn/info/1012/46856.htm",
+          "date": "2013-11-29",
+          "evidence": "2013年11月29日，华中科技大学承建的巴西米纳斯吉拉斯联邦大学孔子学院揭牌。这也是我校与国外高校共建的第三所孔子学院。"
+        }
+      ],
+      "reviewedAt": "2026-11-22",
+      "verification": "source-matched"
+    }
+  ]
+}
