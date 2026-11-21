@@ -29,13 +29,13 @@
   "todayAttempt": {
     "date": "2026-11-22",
     "outcome": "ready",
-    "generatedCount": 2,
+    "generatedCount": 1,
     "validationRejected": 2,
     "repairCount": 1,
     "repairGeneratedCount": 1,
-    "validatedCount": 1,
-    "reviewedCount": 1,
-    "approvedCount": 1,
+    "validatedCount": 0,
+    "reviewedCount": 0,
+    "approvedCount": 0,
     "candidateResults": [
       {
         "layer": 0,
@@ -43,18 +43,9 @@
         "index": 0,
         "date": "2025-11-22",
         "title": "广州机场第二高速南段建成通车",
-        "sourceId": "s2",
+        "sourceId": "s4",
         "result": "rejected",
         "reason": "Evidence does not contain the actual historical date"
-      },
-      {
-        "layer": 0,
-        "stage": "generated",
-        "index": 1,
-        "date": "2011-11-22",
-        "title": "中国文联第九次全国代表大会、中国作协第八次全国代表大会在北京举行",
-        "sourceId": "s4",
-        "result": "validated"
       },
       {
         "layer": 0,
@@ -62,38 +53,31 @@
         "index": 0,
         "date": "2025-11-22",
         "title": "广州机场第二高速南段建成通车",
-        "sourceId": "s2",
+        "sourceId": "s4",
         "result": "rejected",
         "reason": "Evidence does not contain the actual historical date"
       }
     ],
-    "reviewResults": [
-      {
-        "layer": 0,
-        "date": "2011-11-22",
-        "title": "中国文联第九次全国代表大会、中国作协第八次全国代表大会在北京举行",
-        "approved": true
-      }
-    ],
+    "reviewResults": [],
     "modelLayers": [
       {
         "index": 0,
-        "sourceUsed": 5,
-        "generated": 2,
-        "validated": 1,
-        "approved": 1
+        "sourceUsed": 6,
+        "generated": 1,
+        "validated": 0,
+        "approved": 0
       }
     ],
-    "modelCalls": 3,
+    "modelCalls": 2,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-11-22T00:06:13+08:00",
-    "existingVerifiedCount": 1,
+    "attemptedAt": "2026-11-22T05:37:16+08:00",
+    "existingVerifiedCount": 2,
     "searchAttempted": 6,
     "searchSucceeded": 4,
-    "searchResults": 28,
+    "searchResults": 25,
     "sourceAttempted": 16,
-    "sourceReadable": 5,
+    "sourceReadable": 6,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -102,19 +86,23 @@
       },
       {
         "id": "s2",
-        "url": "https://www.gz.gov.cn/zwfw/zxfw/jtfw/content/post_10561902.html"
-      },
-      {
-        "id": "s3",
-        "url": "https://www.gov.cn/zccfh/2024zccfh/20241122/gwycwh/"
-      },
-      {
-        "id": "s4",
         "url": "https://cpc.people.com.cn/GB/64162/64165/72301/72327/index.html"
       },
       {
+        "id": "s3",
+        "url": "https://www.news.cn/fortune/2023-12/12/c_1130020812.htm"
+      },
+      {
+        "id": "s4",
+        "url": "https://www.gz.gov.cn/zwfw/zxfw/jtfw/content/post_10561902.html"
+      },
+      {
         "id": "s5",
-        "url": "https://paper.people.com.cn/rmrb/pc/content/202511/22/content_30116342.html"
+        "url": "https://www.gov.cn/zccfh/2024zccfh/20241122/gwycwh/"
+      },
+      {
+        "id": "s6",
+        "url": "https://politics.gmw.cn/2021-11/22/content_35324709.htm"
       }
     ],
     "layers": [
@@ -122,15 +110,19 @@
         "name": "themes",
         "searchAttempted": 6,
         "searchSucceeded": 4,
-        "searchResults": 28,
+        "searchResults": 25,
         "sourceAttempted": 16,
-        "sourceReadable": 5,
-        "sourceUsed": 5,
+        "sourceReadable": 6,
+        "sourceUsed": 6,
         "searchErrors": [
           "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [
+          {
+            "host": "gs.news.cn",
+            "type": "ReadTimeout"
+          },
           {
             "host": "www.gov.cn",
             "type": "HTTPError"
@@ -140,16 +132,8 @@
             "type": "ReadTimeout"
           },
           {
-            "host": "society.people.com.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "ent.people.com.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "ent.people.com.cn",
-            "type": "SSLError"
+            "host": "www.mot.gov.cn",
+            "type": "HTTPError"
           }
         ],
         "queries": [
@@ -162,8 +146,8 @@
         ]
       }
     ],
-    "sourceUsed": 5,
+    "sourceUsed": 6,
     "publishedVerifiedCount": 2,
-    "completedAt": "2026-11-22T00:06:36+08:00"
+    "completedAt": "2026-11-22T05:37:44+08:00"
   }
 }
