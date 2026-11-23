@@ -2155,6 +2155,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "2013-11-23",
+      "title": "中国政府宣布划设东海防空识别区",
+      "category": "社会",
+      "location": "中国",
+      "summary": "2013年11月23日，中国政府宣布划设东海防空识别区，并发布航空器识别规则公告和识别区示意图。当日，中国空军在识别区内进行首次空中巡逻。",
+      "id": "history-56fd69831114f630",
+      "sources": [
+        {
+          "name": "politics.gmw.cn",
+          "url": "https://politics.gmw.cn/2021-11/23/content_35324708.htm",
+          "date": "2013-11-23",
+          "evidence": "2013年 11月23日 中国政府宣布划设东海防空识别区，并发布航空器识别规则公告和识别区示意图。当日，中国空军在识别区内进行首次空中巡逻。"
+        }
+      ],
+      "reviewedAt": "2026-11-23",
+      "verification": "source-matched"
+    },
+    {
       "date": "2013-11-29",
       "title": "华中科技大学承建的巴西孔子学院揭牌",
       "category": "社会",
@@ -3233,9 +3251,9 @@
   ],
   "lastRun": {
     "date": "2026-11-23",
-    "completedAt": "2026-11-23T05:45:01+08:00",
-    "sourceCount": 2,
-    "addedCount": 0,
+    "completedAt": "2026-11-23T15:26:56+08:00",
+    "sourceCount": 6,
+    "addedCount": 1,
     "status": "ready"
   }
 }
