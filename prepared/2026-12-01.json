@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-12-01",
+  "timezone": "Asia/Shanghai",
+  "status": "ready",
+  "events": [
+    {
+      "date": "2020-12-01",
+      "title": "FAST入选国家优质工程奖",
+      "category": "科技",
+      "location": "贵州",
+      "summary": "2020年12月1日，500米口径球面射电望远镜FAST入选2020-2021年度第一批国家优质工程奖。国家优质工程奖是经国务院确认的我国工程建设领域设立最早、规格最高、跨行业跨专业的国家级质量奖。",
+      "id": "history-4fbeff3b8c8aaba7",
+      "sources": [
+        {
+          "name": "nao.cas.cn",
+          "url": "https://nao.cas.cn/ndw/dsj/202203/t20220330_6409779.html",
+          "date": "2020-12-01",
+          "evidence": "2020.12.1 FAST 入选 2020-2021 年度第一批国家优质工程奖。"
+        }
+      ],
+      "reviewedAt": "2026-11-24",
+      "verification": "source-matched"
+    },
+    {
+      "date": "2020-12-01",
+      "title": "中国科学院公布“率先行动”计划第一阶段总结评估结果",
+      "category": "科技",
+      "location": "北京",
+      "summary": "2020年12月1日，中国科学院发布“率先行动”计划第一阶段目标任务总结评估结果。国家天文台2项成果入选中科院“率先行动”计划第一阶段重大科技成果及标志性进展，全院共遴选59项；其3项“重大突破”验收全部被评为优秀。",
+      "id": "history-96d8510b317a9a71",
+      "sources": [
+        {
+          "name": "nao.cas.cn",
+          "url": "https://nao.cas.cn/ndw/dsj/202203/t20220330_6409779.html",
+          "date": "2020-12-01",
+          "evidence": "2020.12.1 中国科学院发布“率先行动”计划第一阶段目标任务总结评估结果，国家天文台取得优异成绩。"
+        }
+      ],
+      "reviewedAt": "2026-11-24",
+      "verification": "source-matched"
+    }
+  ]
+}
