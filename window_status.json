@@ -29,45 +29,34 @@
   "todayAttempt": {
     "date": "2026-11-24",
     "outcome": "ready",
-    "generatedCount": 1,
-    "validationRejected": 1,
-    "repairCount": 1,
+    "generatedCount": 0,
+    "validationRejected": 0,
+    "repairCount": 0,
     "repairGeneratedCount": 0,
     "validatedCount": 0,
     "reviewedCount": 0,
     "approvedCount": 0,
-    "candidateResults": [
-      {
-        "layer": 0,
-        "stage": "generated",
-        "index": 0,
-        "date": "2026-11-24",
-        "title": "天保至麻栗坡高速公路正式开通",
-        "sourceId": "s2",
-        "result": "rejected",
-        "reason": "Not a historical event on the requested month/day"
-      }
-    ],
+    "candidateResults": [],
     "reviewResults": [],
     "modelLayers": [
       {
         "index": 0,
-        "sourceUsed": 2,
-        "generated": 1,
+        "sourceUsed": 3,
+        "generated": 0,
         "validated": 0,
         "approved": 0
       }
     ],
-    "modelCalls": 2,
+    "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-11-24T04:06:42+08:00",
+    "attemptedAt": "2026-11-24T17:46:24+08:00",
     "existingVerifiedCount": 1,
     "searchAttempted": 6,
     "searchSucceeded": 4,
-    "searchResults": 28,
+    "searchResults": 22,
     "sourceAttempted": 16,
-    "sourceReadable": 2,
+    "sourceReadable": 3,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -76,7 +65,11 @@
       },
       {
         "id": "s2",
-        "url": "https://jtyst.yn.gov.cn/xyxw/202611/t20261116_4384365.html"
+        "url": "https://www.mot.gov.cn/"
+      },
+      {
+        "id": "s3",
+        "url": "https://www.mot.gov.cn/xinmeiti/"
       }
     ],
     "layers": [
@@ -84,33 +77,25 @@
         "name": "themes",
         "searchAttempted": 6,
         "searchSucceeded": 4,
-        "searchResults": 28,
+        "searchResults": 22,
         "sourceAttempted": 16,
-        "sourceReadable": 2,
-        "sourceUsed": 2,
+        "sourceReadable": 3,
+        "sourceUsed": 3,
         "searchErrors": [
           "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "www.cqck.gov.cn",
-            "type": "ConnectionError"
-          },
-          {
-            "host": "jtysj.yulin.gov.cn",
-            "type": "ReadTimeout"
-          },
-          {
-            "host": "www.yantian.gov.cn",
-            "type": "ConnectionError"
-          },
-          {
             "host": "www.sc.gov.cn",
             "type": "ConnectionError"
           },
           {
-            "host": "travel.people.com.cn",
+            "host": "pic.people.com.cn",
+            "type": "SSLError"
+          },
+          {
+            "host": "ent.people.com.cn",
             "type": "SSLError"
           },
           {
@@ -119,14 +104,6 @@
           },
           {
             "host": "dangshi.people.com.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "military.people.com.cn",
-            "type": "SSLError"
-          },
-          {
-            "host": "politics.people.com.cn",
             "type": "SSLError"
           }
         ],
@@ -140,8 +117,8 @@
         ]
       }
     ],
-    "sourceUsed": 2,
+    "sourceUsed": 3,
     "publishedVerifiedCount": 1,
-    "completedAt": "2026-11-24T04:07:09+08:00"
+    "completedAt": "2026-11-24T17:46:41+08:00"
   }
 }
