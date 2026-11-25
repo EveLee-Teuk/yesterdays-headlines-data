@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-24",
+  "updatedAt": "2026-11-25",
   "events": [
     {
       "date": "1893-11-29",
@@ -3286,9 +3286,9 @@
     }
   ],
   "lastRun": {
-    "date": "2026-11-24",
-    "completedAt": "2026-11-24T17:46:41+08:00",
-    "sourceCount": 3,
+    "date": "2026-11-25",
+    "completedAt": "2026-11-25T08:37:37+08:00",
+    "sourceCount": 1,
     "addedCount": 0,
     "status": "ready"
   }
