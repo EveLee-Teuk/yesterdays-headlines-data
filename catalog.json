@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-25",
+  "updatedAt": "2026-11-26",
   "events": [
     {
       "date": "1893-11-29",
@@ -828,6 +828,24 @@
         }
       ],
       "reviewedAt": "2026-09-29",
+      "verification": "source-matched"
+    },
+    {
+      "date": "1980-12-03",
+      "title": "中共中央、国务院发出《关于普及小学教育若干问题的决定》",
+      "category": "民生",
+      "location": "北京",
+      "summary": "1980年12月3日，中共中央、国务院发出《关于普及小学教育若干问题的决定》，要求在20世纪80年代全国基本实现普及小学教育，有条件的地方进而普及初中教育。这一决定为改革开放初期基础教育发展设定了阶段性目标。",
+      "id": "history-e883daac5e76d4e1",
+      "sources": [
+        {
+          "name": "cpc.people.com.cn",
+          "url": "https://cpc.people.com.cn/GB/64162/64165/74856/74954/index.html",
+          "date": "1980-12-03",
+          "evidence": "1980年12月3日　中共中央、国务院发出《关于普及小学教育若干问题的决定》，要求在20世纪80年代全国基本实现普及小学教育，有条件的地方进而普及初中教育。"
+        }
+      ],
+      "reviewedAt": "2026-11-26",
       "verification": "source-matched"
     },
     {
@@ -2191,6 +2209,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "2013-12-02",
+      "title": "长征三号乙成功发射嫦娥三号探测器",
+      "category": "科技",
+      "location": "西昌",
+      "summary": "2013年12月2日，长征三号乙运载火箭成功发射嫦娥三号探测器。嫦娥三号于12月14日实现落月，开展月面巡视勘察，获得大量工程和科学数据。其着陆器此后仍在工作，成为月球表面工作时间最长的人造航天器。",
+      "id": "history-1d3bdfe46166d26d",
+      "sources": [
+        {
+          "name": "国家航天局",
+          "url": "https://www.cnsa.gov.cn/n6758823/n6758838/c6770256/content.html",
+          "date": "2013-12-02",
+          "evidence": "2013年12月2日，长征三号乙成功发射嫦娥三号探测器，成功实现月球软着陆……"
+        }
+      ],
+      "reviewedAt": "2026-11-26",
+      "verification": "source-matched"
+    },
+    {
       "id": "change-3-landing",
       "date": "2013-12-14",
       "title": "嫦娥三号在月球软着陆",
@@ -2745,6 +2781,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "2021-12-03",
+      "title": "中老铁路全线开通运营",
+      "category": "社会",
+      "location": "昆明、万象",
+      "summary": "2021年12月3日，中老铁路全线开通运营。中车大连公司工程师张彦民参与设计了“澜沧号”动车组，团队针对沿线高温、高湿、高海拔、强紫外线及隧道狭窄等条件反复测试攻关。该铁路开通后客货运输量持续增长，成为连接中国与老挝的铁路通道。",
+      "id": "history-cfe1d8d500290aa5",
+      "sources": [
+        {
+          "name": "新华网",
+          "url": "https://www.news.cn/politics/leaders/20260409/a2d4f5a2ca444aa3bb5df412a33c62c0/c.html",
+          "date": "2021-12-03",
+          "evidence": "2021年12月3日，中老铁路全线开通运营。那一刻，张彦民站在人群之中，望着这列由他参与设计的列车缓缓启程，心里满是自豪。"
+        }
+      ],
+      "reviewedAt": "2026-11-26",
+      "verification": "source-matched"
+    },
+    {
       "date": "2022-10-03",
       "title": "“海基一号”深水导管架平台建成投用",
       "category": "科技",
@@ -2886,6 +2940,24 @@
         }
       ],
       "reviewedAt": "2026-11-23",
+      "verification": "source-matched"
+    },
+    {
+      "date": "2022-12-02",
+      "title": "神舟十四、十五号乘组移交中国空间站钥匙",
+      "category": "科技",
+      "location": "中国空间站",
+      "summary": "2022年12月2日，神舟十四号、神舟十五号两个航天员乘组移交了中国空间站的钥匙。中国航天历史上首次实现6人在轨，中国空间站正式开启长期有人驻留模式。两个乘组于11月30日“胜利会师”，并在“太空家园”中合影留念。",
+      "id": "history-3bbf838eaf42799f",
+      "sources": [
+        {
+          "name": "国家航天局",
+          "url": "https://www.cnsa.gov.cn/n6758823/n6758838/c6841826/content.html",
+          "date": "2022-12-02",
+          "evidence": "2022年12月2日，中国航天历史上首次实现6人在轨，中国空间站正式开启长期有人驻留模式。"
+        }
+      ],
+      "reviewedAt": "2026-11-26",
       "verification": "source-matched"
     },
     {
@@ -3286,9 +3358,9 @@
     }
   ],
   "lastRun": {
-    "date": "2026-11-25",
-    "completedAt": "2026-11-25T08:37:37+08:00",
-    "sourceCount": 1,
+    "date": "2026-11-26",
+    "completedAt": "2026-11-26T02:37:42+08:00",
+    "sourceCount": 6,
     "addedCount": 0,
     "status": "ready"
   }

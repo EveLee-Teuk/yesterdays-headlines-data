@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-12-03",
+  "timezone": "Asia/Shanghai",
+  "status": "ready",
+  "events": [
+    {
+      "date": "1980-12-03",
+      "title": "中共中央、国务院发出《关于普及小学教育若干问题的决定》",
+      "category": "民生",
+      "location": "北京",
+      "summary": "1980年12月3日，中共中央、国务院发出《关于普及小学教育若干问题的决定》，要求在20世纪80年代全国基本实现普及小学教育，有条件的地方进而普及初中教育。这一决定为改革开放初期基础教育发展设定了阶段性目标。",
+      "id": "history-e883daac5e76d4e1",
+      "sources": [
+        {
+          "name": "cpc.people.com.cn",
+          "url": "https://cpc.people.com.cn/GB/64162/64165/74856/74954/index.html",
+          "date": "1980-12-03",
+          "evidence": "1980年12月3日　中共中央、国务院发出《关于普及小学教育若干问题的决定》，要求在20世纪80年代全国基本实现普及小学教育，有条件的地方进而普及初中教育。"
+        }
+      ],
+      "reviewedAt": "2026-11-26",
+      "verification": "source-matched"
+    },
+    {
+      "date": "2021-12-03",
+      "title": "中老铁路全线开通运营",
+      "category": "社会",
+      "location": "昆明、万象",
+      "summary": "2021年12月3日，中老铁路全线开通运营。中车大连公司工程师张彦民参与设计了“澜沧号”动车组，团队针对沿线高温、高湿、高海拔、强紫外线及隧道狭窄等条件反复测试攻关。该铁路开通后客货运输量持续增长，成为连接中国与老挝的铁路通道。",
+      "id": "history-cfe1d8d500290aa5",
+      "sources": [
+        {
+          "name": "新华网",
+          "url": "https://www.news.cn/politics/leaders/20260409/a2d4f5a2ca444aa3bb5df412a33c62c0/c.html",
+          "date": "2021-12-03",
+          "evidence": "2021年12月3日，中老铁路全线开通运营。那一刻，张彦民站在人群之中，望着这列由他参与设计的列车缓缓启程，心里满是自豪。"
+        }
+      ],
+      "reviewedAt": "2026-11-26",
+      "verification": "source-matched"
+    }
+  ]
+}
