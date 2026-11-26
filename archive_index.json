@@ -14,7 +14,7 @@
   "updatedAt": "2026-11-26",
   "lastRun": {
     "date": "2026-11-26",
-    "completedAt": "2026-11-26T02:37:42+08:00",
+    "completedAt": "2026-11-26T16:07:19+08:00",
     "sourceCount": 6,
     "addedCount": 0,
     "status": "ready"
@@ -22,6 +22,6 @@
   "lastAttempt": {
     "date": "2026-11-26",
     "outcome": "ready",
-    "completedAt": "2026-11-26T02:37:42+08:00"
+    "completedAt": "2026-11-26T16:07:19+08:00"
   }
 }
