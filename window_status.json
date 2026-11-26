@@ -1,33 +1,33 @@
 {
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "failedDates": [],
   "coveragePolicyVersion": 2,
   "restoredDates": [
-    "2026-11-20",
     "2026-11-21",
     "2026-11-22",
     "2026-11-23",
     "2026-11-24",
     "2026-11-25",
-    "2026-11-26"
+    "2026-11-26",
+    "2026-11-27"
   ],
   "todayMinimumMet": true,
   "preparedReadyDates": [
-    "2026-11-27",
     "2026-11-28",
     "2026-11-29",
     "2026-11-30",
     "2026-12-01",
     "2026-12-02",
-    "2026-12-03"
+    "2026-12-03",
+    "2026-12-04"
   ],
   "preparedMissingDates": [],
   "attemptedDates": [
-    "2026-11-26"
+    "2026-11-27"
   ],
   "historicalRetries": {},
   "todayAttempt": {
-    "date": "2026-11-26",
+    "date": "2026-11-27",
     "outcome": "ready",
     "generatedCount": 0,
     "validationRejected": 0,
@@ -50,76 +50,85 @@
     "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-11-26T16:07:10+08:00",
+    "attemptedAt": "2026-11-27T02:23:15+08:00",
     "existingVerifiedCount": 2,
     "searchAttempted": 6,
-    "searchSucceeded": 3,
-    "searchResults": 15,
+    "searchSucceeded": 2,
+    "searchResults": 13,
     "sourceAttempted": 16,
-    "sourceReadable": 9,
+    "sourceReadable": 6,
     "supplementalSearches": 0,
     "sources": [
       {
         "id": "s1",
-        "url": "https://politics.gmw.cn/2021-11/26/content_35338040.htm"
+        "url": "https://topics.gmw.cn/node_122239.htm"
       },
       {
         "id": "s2",
-        "url": "https://cpc.people.com.cn/GB/64162/64165/72301/72331/index.html"
+        "url": "https://politics.gmw.cn/2021-11/27/content_35341107.htm"
       },
       {
         "id": "s3",
-        "url": "https://paper.people.com.cn/rmrb/pc/content/202611/26/content_30193161.html"
+        "url": "https://www.mofcom.gov.cn/xwfbzt/2025/swbzklxxwfbh2025n11y27r/index.html"
       },
       {
         "id": "s4",
-        "url": "https://www.chinanews.com/scroll-news/2026/1126/news.shtml"
+        "url": "https://www.gov.cn/xinwen/2025zccfh/14/index.htm"
       },
       {
         "id": "s5",
-        "url": "https://epaper.gmw.cn/gmrb/html/2024-11/26/nw.D110000gmrb_20241126_3-15.htm"
+        "url": "https://cpc.people.com.cn/GB/64162/64165/72301/72332/index.html"
       },
       {
         "id": "s6",
-        "url": "https://epaper.gmw.cn/wzb/html/2015-11/26/nw.D110000wzb_20151126_2-08.htm"
+        "url": "https://paper.people.com.cn/rmrb/html/2023-11/27/nw.D110000renmrb_20231127_2-02.htm"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 3,
-        "searchResults": 15,
+        "searchSucceeded": 2,
+        "searchResults": 13,
         "sourceAttempted": 16,
-        "sourceReadable": 9,
+        "sourceReadable": 6,
         "sourceUsed": 6,
         "searchErrors": [
+          "DDGSException",
           "DDGSException",
           "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "ent.people.com.cn",
-            "type": "SSLError"
+            "host": "www.nhc.gov.cn",
+            "type": "HTTPError"
           },
           {
-            "host": "ent.people.com.cn",
+            "host": "gzw.sc.gov.cn",
+            "type": "ConnectionError"
+          },
+          {
+            "host": "cqck.gov.cn",
+            "type": "ConnectionError"
+          },
+          {
+            "host": "dangshi.people.com.cn",
             "type": "SSLError"
           }
         ],
         "queries": [
-          "\"11月26日\" 中国 科技 突破 成功 site:news.cn",
-          "\"11月26日\" 中国 公共工程 建成 通车 site:gov.cn",
-          "\"11月26日\" 中国 文化 体育 首次 site:people.com.cn",
-          "\"11月26日\" 中国 医疗 民生 开通 site:chinanews.com",
-          "\"11月26日\" 中国 教育 学校 成立 site:gmw.cn",
-          "\"11月26日\" 中国 历史上的今天 site:cctv.com"
+          "\"11月27日\" 中国 科技 突破 成功 site:news.cn",
+          "\"11月27日\" 中国 公共工程 建成 通车 site:gov.cn",
+          "\"11月27日\" 中国 文化 体育 首次 site:people.com.cn",
+          "\"11月27日\" 中国 医疗 民生 开通 site:chinanews.com",
+          "\"11月27日\" 中国 教育 学校 成立 site:gmw.cn",
+          "\"11月27日\" 中国 历史上的今天 site:cctv.com"
         ]
       }
     ],
     "sourceUsed": 6,
     "publishedVerifiedCount": 2,
-    "completedAt": "2026-11-26T16:07:19+08:00"
+    "completedAt": "2026-11-27T02:23:39+08:00"
   }
 }
