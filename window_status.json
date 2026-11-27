@@ -50,12 +50,12 @@
     "modelCalls": 1,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-11-27T02:23:15+08:00",
+    "attemptedAt": "2026-11-27T16:16:42+08:00",
     "existingVerifiedCount": 2,
     "searchAttempted": 6,
     "searchSucceeded": 2,
-    "searchResults": 13,
-    "sourceAttempted": 16,
+    "searchResults": 11,
+    "sourceAttempted": 13,
     "sourceReadable": 6,
     "supplementalSearches": 0,
     "sources": [
@@ -69,19 +69,19 @@
       },
       {
         "id": "s3",
-        "url": "https://www.mofcom.gov.cn/xwfbzt/2025/swbzklxxwfbh2025n11y27r/index.html"
+        "url": "https://news.gmw.cn/2020-04/15/content_33740148.htm"
       },
       {
         "id": "s4",
-        "url": "https://www.gov.cn/xinwen/2025zccfh/14/index.htm"
+        "url": "https://news.gmw.cn/2026-11/27/content_39124573.htm"
       },
       {
         "id": "s5",
-        "url": "https://cpc.people.com.cn/GB/64162/64165/72301/72332/index.html"
+        "url": "https://epaper.gmw.cn/sz/html/2012-12/01/nw.D110000sz_20121201_1-02.htm"
       },
       {
         "id": "s6",
-        "url": "https://paper.people.com.cn/rmrb/html/2023-11/27/nw.D110000renmrb_20231127_2-02.htm"
+        "url": "https://epaper.gmw.cn/gmrb/html/2024-11/27/nw.D110000gmrb_20241127_3-03.htm"
       }
     ],
     "layers": [
@@ -89,8 +89,8 @@
         "name": "themes",
         "searchAttempted": 6,
         "searchSucceeded": 2,
-        "searchResults": 13,
-        "sourceAttempted": 16,
+        "searchResults": 11,
+        "sourceAttempted": 13,
         "sourceReadable": 6,
         "sourceUsed": 6,
         "searchErrors": [
@@ -99,24 +99,7 @@
           "DDGSException",
           "DDGSException"
         ],
-        "sourceErrors": [
-          {
-            "host": "www.nhc.gov.cn",
-            "type": "HTTPError"
-          },
-          {
-            "host": "gzw.sc.gov.cn",
-            "type": "ConnectionError"
-          },
-          {
-            "host": "cqck.gov.cn",
-            "type": "ConnectionError"
-          },
-          {
-            "host": "dangshi.people.com.cn",
-            "type": "SSLError"
-          }
-        ],
+        "sourceErrors": [],
         "queries": [
           "\"11月27日\" 中国 科技 突破 成功 site:news.cn",
           "\"11月27日\" 中国 公共工程 建成 通车 site:gov.cn",
@@ -129,6 +112,6 @@
     ],
     "sourceUsed": 6,
     "publishedVerifiedCount": 2,
-    "completedAt": "2026-11-27T02:23:39+08:00"
+    "completedAt": "2026-11-27T16:16:59+08:00"
   }
 }
