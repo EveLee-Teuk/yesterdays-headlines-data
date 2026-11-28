@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-28",
+  "updatedAt": "2026-11-29",
   "events": [
     {
       "date": "1893-11-29",
@@ -2801,6 +2801,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "2020-12-06",
+      "title": "嫦娥五号上升器与轨道器返回器组合体完成交会对接",
+      "category": "科技",
+      "location": "北京",
+      "summary": "2020年12月6日清晨，嫦娥五号上升器与轨道器返回器组合体完成交会对接，21秒内完成一“抱”一“抓”，使采集到的月球样品踏上来地球的路。报道称此次“太空穿针”由测距精度达0.2米的微波雷达保驾护航。",
+      "id": "history-a6d94c89451c0ff3",
+      "sources": [
+        {
+          "name": "新华网",
+          "url": "https://www.news.cn/politics/2022-10/11/c_1129060682.htm",
+          "date": "2020-12-06",
+          "evidence": "2020年12月6日清晨，一份“宇宙快递”正在交接。21秒内，一“抱”一“抓”，一次堪称“教科书式”的交会对接，让历经千难万险采集到的月球样品一气呵成踏上来地球的路。"
+        }
+      ],
+      "reviewedAt": "2026-11-29",
+      "verification": "source-matched"
+    },
+    {
       "id": "poverty-alleviation",
       "date": "2021-02-25",
       "title": "脱贫攻坚战全面胜利的宣告",
@@ -3481,13 +3499,31 @@
       ],
       "reviewedAt": "2026-11-28",
       "verification": "source-matched"
+    },
+    {
+      "date": "2025-12-06",
+      "title": "我国成功发射卫星互联网低轨14组卫星",
+      "category": "科技",
+      "location": "海南",
+      "summary": "2025年12月6日15时53分，我国在海南商业航天发射场成功发射卫星互联网低轨14组卫星。此次发射是当日完成的航天任务，相关报道将其列为我国前沿领域创新成果之一。",
+      "id": "history-a48008359e7c1285",
+      "sources": [
+        {
+          "name": "新华网",
+          "url": "https://www.news.cn/20260127/f68557f53b664dc1b21b484ea2b06ff9/c.html",
+          "date": "2025-12-06",
+          "evidence": "2025年12月6日15时53分，我国在海南商业航天发射场成功发射成功发射卫星互联网低轨14组卫星。"
+        }
+      ],
+      "reviewedAt": "2026-11-29",
+      "verification": "source-matched"
     }
   ],
   "lastRun": {
-    "date": "2026-11-28",
-    "completedAt": "2026-11-28T15:39:06+08:00",
+    "date": "2026-11-29",
+    "completedAt": "2026-11-29T00:49:20+08:00",
     "sourceCount": 6,
-    "addedCount": 1,
+    "addedCount": 0,
     "status": "ready"
   }
 }
