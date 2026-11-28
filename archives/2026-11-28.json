@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-11-28",
+  "timezone": "Asia/Shanghai",
+  "status": "ready",
+  "events": [
+    {
+      "date": "1938-11-28",
+      "title": "桂林师范学校停课开展抗战宣传",
+      "category": "社会",
+      "location": "广西桂林",
+      "summary": "为“保卫大广西”，桂林师范学校决定从即日起停课两周开展抗战宣传活动。丰子恺创作《欢送》《凯归》《保国》《轰炸》四幅抗战主题漫画，并带领学生分组下乡宣传，指导学生制作壁报和创作抗战漫画。",
+      "id": "history-45b6d0340d64980b",
+      "sources": [
+        {
+          "name": "光明网",
+          "url": "https://news.gmw.cn/2025-10/17/content_38347940.htm",
+          "date": "1938-11-28",
+          "evidence": "1938年11月28日，为“保卫大广西”，桂林师范学校决定从即日起停课两周以开展抗战宣传活动。丰子恺创作了四幅抗战主题漫画——《欢送》《凯归》《保国》《轰炸》，还带领学生分组下乡宣传，激发群众爱国热情。"
+        }
+      ],
+      "reviewedAt": "2026-11-21",
+      "verification": "source-matched"
+    },
+    {
+      "date": "2007-11-28",
+      "title": "嫦娥一号X射线谱仪首次开机成功",
+      "category": "科技",
+      "location": "北京",
+      "summary": "高能所研制的嫦娥一号卫星有效载荷X射线谱仪于10月24日随卫星发射升空，进入环月轨道后，2007年11月28日设备首次开机获得成功，标志着该载荷在月球轨道开始正常工作。",
+      "id": "history-ca4b4e9863911cfc",
+      "sources": [
+        {
+          "name": "ihep.cas.cn",
+          "url": "https://ihep.cas.cn/gk/lsyg/",
+          "date": "2007-11-28",
+          "evidence": "2007年11月28日，高能所研制的嫦娥一号卫星有效载荷X射线谱仪10月24日搭载“嫦娥一号”卫星发射升空后，在环月轨道对设备首次开机获得成功。"
+        }
+      ],
+      "reviewedAt": "2026-11-28",
+      "verification": "source-matched"
+    },
+    {
+      "date": "2016-11-28",
+      "title": "两办印发全面推行河长制意见",
+      "category": "民生",
+      "location": "北京",
+      "summary": "2016年11月28日，中共中央办公厅、国务院办公厅印发《关于全面推行河长制的意见》，推动建立河长制。此后又印发湖长制指导意见，河长制、湖长制于2018年全面建立。",
+      "id": "history-3ebb108e70021e48",
+      "sources": [
+        {
+          "name": "politics.gmw.cn",
+          "url": "https://politics.gmw.cn/2021-11/28/content_35341112.htm",
+          "date": "2016-11-28",
+          "evidence": "2016年 11月28日 中共中央办公厅、国务院办公厅印发《关于全面推行河长制的意见》。"
+        }
+      ],
+      "reviewedAt": "2026-11-28",
+      "verification": "source-matched"
+    },
+    {
+      "date": "2020-11-28",
+      "title": "“奋斗者”号完成万米海试返航",
+      "category": "科技",
+      "location": "中国",
+      "summary": "“奋斗者”号全海深载人潜水器成功完成万米海试并胜利返航，标志着我国在全海深载人深潜领域取得重大突破，体现了深海装备技术的进步。",
+      "id": "history-6b9ded9b8fbdc089",
+      "sources": [
+        {
+          "name": "politics.gmw.cn",
+          "url": "https://politics.gmw.cn/2021-11/28/content_35341112.htm",
+          "date": "2020-11-28",
+          "evidence": "2020年 11月28日 “奋斗者”号全海深载人潜水器成功完成万米海试并胜利返航。"
+        }
+      ],
+      "reviewedAt": "2026-11-21",
+      "verification": "source-matched"
+    },
+    {
+      "date": "2025-11-28",
+      "title": "中欧班列累计开行突破12万列",
+      "category": "社会",
+      "location": "四川成都",
+      "summary": "2025年11月28日，开往波兰马拉舍维奇的X8086次中欧班列从四川成都国际铁路港发车，中欧班列累计开行突破12万列，发送货值超4900亿美元，中国境内128个城市与欧洲、亚洲多国城市实现联通。",
+      "id": "history-585d3384ac37a35b",
+      "sources": [
+        {
+          "name": "www.mot.gov.cn",
+          "url": "https://www.mot.gov.cn/xinwen/jiaotongyaowen/202512/t20251226_4184210.html",
+          "date": "2025-11-28",
+          "evidence": "2025年11月28日，开往波兰马拉舍维奇的X8086次中欧班列从四川成都国际铁路港发车，中欧班列累计开行突破12万列，发送货值超4900亿美元。"
+        }
+      ],
+      "reviewedAt": "2026-11-28",
+      "verification": "source-matched"
+    },
+    {
+      "date": "2025-11-28",
+      "title": "盘兴高铁正式建成通车",
+      "category": "民生",
+      "location": "贵州",
+      "summary": "经过近4年建设，盘州至兴义高速铁路于2025年11月28日正式建成通车，贵州各市（州）行政中心所在地实现高铁通达。线路全长约99公里，桥隧比近91%，贵阳至兴义通行时间缩短至2小时以内。",
+      "id": "history-84486bcf7c7be6c7",
+      "sources": [
+        {
+          "name": "www.tongren.gov.cn",
+          "url": "https://www.tongren.gov.cn/2025/1125/341892.shtml",
+          "date": "2025-11-28",
+          "evidence": "经过近4年的奋战攻坚，盘州至兴义高速铁路将于2025年11月28日正式建成通车，标志着贵州各市（州）行政中心所在地实现高铁通达。"
+        }
+      ],
+      "reviewedAt": "2026-11-28",
+      "verification": "source-matched"
+    }
+  ]
+}

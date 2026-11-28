@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-27",
+  "updatedAt": "2026-11-28",
   "events": [
     {
       "date": "1893-11-29",
@@ -993,6 +993,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "1986-12-05",
+      "title": "国务院作出深化企业改革增强企业活力的若干规定",
+      "category": "社会",
+      "location": "北京",
+      "summary": "1986年12月5日，国务院作出《关于深化企业改革增强企业活力的若干规定》，提出全民所有制小型企业可积极试行租赁、承包经营，全民所有制大中型企业要实行多种形式的经营责任制，各地可以选择少数有条件的全民所有制大中型企业进行股份制试点。",
+      "id": "history-497434332b926959",
+      "sources": [
+        {
+          "name": "cpc.people.com.cn",
+          "url": "https://cpc.people.com.cn/GB/64162/64165/74856/74956/index.html",
+          "date": "1986-12-05",
+          "evidence": "1986年12月5日　国务院作出《关于深化企业改革增强企业活力的若干规定》，提出全民所有制小型企业可积极试行租赁、承包经营，全民所有制大中型企业要实行多种形式的经营责任制，各地可以选择少数有条件的全民所有制大中型企业进行股份制试点。"
+        }
+      ],
+      "reviewedAt": "2026-11-28",
+      "verification": "source-matched"
+    },
+    {
       "date": "1987-10-14",
       "title": "国务院有关方面负责人就台湾同胞赴大陆探亲发表谈话",
       "category": "社会",
@@ -1851,6 +1869,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "2007-11-28",
+      "title": "嫦娥一号X射线谱仪首次开机成功",
+      "category": "科技",
+      "location": "北京",
+      "summary": "高能所研制的嫦娥一号卫星有效载荷X射线谱仪于10月24日随卫星发射升空，进入环月轨道后，2007年11月28日设备首次开机获得成功，标志着该载荷在月球轨道开始正常工作。",
+      "id": "history-ca4b4e9863911cfc",
+      "sources": [
+        {
+          "name": "ihep.cas.cn",
+          "url": "https://ihep.cas.cn/gk/lsyg/",
+          "date": "2007-11-28",
+          "evidence": "2007年11月28日，高能所研制的嫦娥一号卫星有效载荷X射线谱仪10月24日搭载“嫦娥一号”卫星发射升空后，在环月轨道对设备首次开机获得成功。"
+        }
+      ],
+      "reviewedAt": "2026-11-28",
+      "verification": "source-matched"
+    },
+    {
       "id": "beijing-tianjin-rail",
       "date": "2008-08-01",
       "title": "京津城际铁路开通",
@@ -2402,6 +2438,24 @@
         }
       ],
       "reviewedAt": "2026-11-11",
+      "verification": "source-matched"
+    },
+    {
+      "date": "2016-11-28",
+      "title": "两办印发全面推行河长制意见",
+      "category": "民生",
+      "location": "北京",
+      "summary": "2016年11月28日，中共中央办公厅、国务院办公厅印发《关于全面推行河长制的意见》，推动建立河长制。此后又印发湖长制指导意见，河长制、湖长制于2018年全面建立。",
+      "id": "history-3ebb108e70021e48",
+      "sources": [
+        {
+          "name": "politics.gmw.cn",
+          "url": "https://politics.gmw.cn/2021-11/28/content_35341112.htm",
+          "date": "2016-11-28",
+          "evidence": "2016年 11月28日 中共中央办公厅、国务院办公厅印发《关于全面推行河长制的意见》。"
+        }
+      ],
+      "reviewedAt": "2026-11-28",
       "verification": "source-matched"
     },
     {
@@ -3373,13 +3427,49 @@
       ],
       "reviewedAt": "2026-11-18",
       "verification": "source-matched"
+    },
+    {
+      "date": "2025-11-28",
+      "title": "中欧班列累计开行突破12万列",
+      "category": "社会",
+      "location": "四川成都",
+      "summary": "2025年11月28日，开往波兰马拉舍维奇的X8086次中欧班列从四川成都国际铁路港发车，中欧班列累计开行突破12万列，发送货值超4900亿美元，中国境内128个城市与欧洲、亚洲多国城市实现联通。",
+      "id": "history-585d3384ac37a35b",
+      "sources": [
+        {
+          "name": "www.mot.gov.cn",
+          "url": "https://www.mot.gov.cn/xinwen/jiaotongyaowen/202512/t20251226_4184210.html",
+          "date": "2025-11-28",
+          "evidence": "2025年11月28日，开往波兰马拉舍维奇的X8086次中欧班列从四川成都国际铁路港发车，中欧班列累计开行突破12万列，发送货值超4900亿美元。"
+        }
+      ],
+      "reviewedAt": "2026-11-28",
+      "verification": "source-matched"
+    },
+    {
+      "date": "2025-11-28",
+      "title": "盘兴高铁正式建成通车",
+      "category": "民生",
+      "location": "贵州",
+      "summary": "经过近4年建设，盘州至兴义高速铁路于2025年11月28日正式建成通车，贵州各市（州）行政中心所在地实现高铁通达。线路全长约99公里，桥隧比近91%，贵阳至兴义通行时间缩短至2小时以内。",
+      "id": "history-84486bcf7c7be6c7",
+      "sources": [
+        {
+          "name": "www.tongren.gov.cn",
+          "url": "https://www.tongren.gov.cn/2025/1125/341892.shtml",
+          "date": "2025-11-28",
+          "evidence": "经过近4年的奋战攻坚，盘州至兴义高速铁路将于2025年11月28日正式建成通车，标志着贵州各市（州）行政中心所在地实现高铁通达。"
+        }
+      ],
+      "reviewedAt": "2026-11-28",
+      "verification": "source-matched"
     }
   ],
   "lastRun": {
-    "date": "2026-11-27",
-    "completedAt": "2026-11-27T16:16:59+08:00",
-    "sourceCount": 6,
-    "addedCount": 0,
+    "date": "2026-11-28",
+    "completedAt": "2026-11-28T08:00:53+08:00",
+    "sourceCount": 5,
+    "addedCount": 4,
     "status": "ready"
   }
 }
