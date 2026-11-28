@@ -29,13 +29,13 @@
   "todayAttempt": {
     "date": "2026-11-28",
     "outcome": "ready",
-    "generatedCount": 4,
+    "generatedCount": 2,
     "validationRejected": 0,
     "repairCount": 0,
     "repairGeneratedCount": 0,
-    "validatedCount": 4,
-    "reviewedCount": 4,
-    "approvedCount": 4,
+    "validatedCount": 2,
+    "reviewedCount": 2,
+    "approvedCount": 1,
     "candidateResults": [
       {
         "layer": 0,
@@ -50,27 +50,9 @@
         "layer": 0,
         "stage": "generated",
         "index": 1,
-        "date": "2016-11-28",
-        "title": "两办印发全面推行河长制意见",
-        "sourceId": "s3",
-        "result": "validated"
-      },
-      {
-        "layer": 0,
-        "stage": "generated",
-        "index": 2,
-        "date": "2025-11-28",
-        "title": "盘兴高铁正式建成通车",
-        "sourceId": "s4",
-        "result": "validated"
-      },
-      {
-        "layer": 0,
-        "stage": "generated",
-        "index": 3,
-        "date": "2025-11-28",
-        "title": "中欧班列累计开行突破12万列",
-        "sourceId": "s5",
+        "date": "2023-11-28",
+        "title": "中国载人航天工程首次公布空间站组合体全景照片",
+        "sourceId": "s6",
         "result": "validated"
       }
     ],
@@ -79,46 +61,34 @@
         "layer": 0,
         "date": "2007-11-28",
         "title": "嫦娥一号X射线谱仪首次开机成功",
-        "approved": true
+        "approved": false
       },
       {
         "layer": 0,
-        "date": "2016-11-28",
-        "title": "两办印发全面推行河长制意见",
-        "approved": true
-      },
-      {
-        "layer": 0,
-        "date": "2025-11-28",
-        "title": "中欧班列累计开行突破12万列",
-        "approved": true
-      },
-      {
-        "layer": 0,
-        "date": "2025-11-28",
-        "title": "盘兴高铁正式建成通车",
+        "date": "2023-11-28",
+        "title": "中国载人航天工程首次公布空间站组合体全景照片",
         "approved": true
       }
     ],
     "modelLayers": [
       {
         "index": 0,
-        "sourceUsed": 5,
-        "generated": 4,
-        "validated": 4,
-        "approved": 4
+        "sourceUsed": 6,
+        "generated": 2,
+        "validated": 2,
+        "approved": 1
       }
     ],
     "modelCalls": 2,
     "degraded": [],
     "prepare": false,
-    "attemptedAt": "2026-11-28T08:00:17+08:00",
-    "existingVerifiedCount": 2,
+    "attemptedAt": "2026-11-28T15:38:34+08:00",
+    "existingVerifiedCount": 6,
     "searchAttempted": 6,
-    "searchSucceeded": 2,
-    "searchResults": 8,
-    "sourceAttempted": 12,
-    "sourceReadable": 5,
+    "searchSucceeded": 4,
+    "searchResults": 22,
+    "sourceAttempted": 16,
+    "sourceReadable": 8,
     "supplementalSearches": 0,
     "sources": [
       {
@@ -135,48 +105,46 @@
       },
       {
         "id": "s4",
-        "url": "https://www.tongren.gov.cn/2025/1125/341892.shtml"
+        "url": "https://www.mot.gov.cn/xinwen/jiaotongyaowen/202512/t20251226_4184210.html"
       },
       {
         "id": "s5",
-        "url": "https://www.mot.gov.cn/xinwen/jiaotongyaowen/202512/t20251226_4184210.html"
+        "url": "https://www.tongren.gov.cn/2025/1125/341892.shtml"
+      },
+      {
+        "id": "s6",
+        "url": "https://www.news.cn/tech/20250918/db307e3a1ba04a259b502f5322ceb42b/c.html"
       }
     ],
     "layers": [
       {
         "name": "themes",
         "searchAttempted": 6,
-        "searchSucceeded": 2,
-        "searchResults": 8,
-        "sourceAttempted": 12,
-        "sourceReadable": 5,
-        "sourceUsed": 5,
+        "searchSucceeded": 4,
+        "searchResults": 22,
+        "sourceAttempted": 16,
+        "sourceReadable": 8,
+        "sourceUsed": 6,
         "searchErrors": [
-          "DDGSException",
-          "DDGSException",
           "DDGSException",
           "DDGSException"
         ],
         "sourceErrors": [
           {
-            "host": "fgw.guizhou.gov.cn",
-            "type": "ConnectionError"
+            "host": "gx.news.cn",
+            "type": "ReadTimeout"
           },
           {
-            "host": "www.gzlps.gov.cn",
-            "type": "ConnectionError"
+            "host": "www.js.news.cn",
+            "type": "SSLError"
           },
           {
-            "host": "www.guizhou.gov.cn",
-            "type": "ConnectionError"
+            "host": "bj.news.cn",
+            "type": "ReadTimeout"
           },
           {
-            "host": "jt.guizhou.gov.cn",
-            "type": "ConnectionError"
-          },
-          {
-            "host": "zfcxjw.cq.gov.cn",
-            "type": "ConnectionError"
+            "host": "politics.people.com.cn",
+            "type": "SSLError"
           }
         ],
         "queries": [
@@ -189,8 +157,8 @@
         ]
       }
     ],
-    "sourceUsed": 5,
-    "publishedVerifiedCount": 6,
-    "completedAt": "2026-11-28T08:00:53+08:00"
+    "sourceUsed": 6,
+    "publishedVerifiedCount": 7,
+    "completedAt": "2026-11-28T15:39:06+08:00"
   }
 }

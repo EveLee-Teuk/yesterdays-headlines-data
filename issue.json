@@ -77,6 +77,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "2023-11-28",
+      "title": "中国载人航天工程首次公布空间站组合体全景照片",
+      "category": "科技",
+      "location": "中国",
+      "summary": "2023年11月28日，中国载人航天工程首次对外发布由神舟十六号乘组返回地面前手持高清相机、通过飞船绕飞拍摄的空间站组合体全景照片，展示了空间站组合体的整体构型。",
+      "id": "history-cb9c7ce4c778a938",
+      "sources": [
+        {
+          "name": "新华网",
+          "url": "https://www.news.cn/tech/20250918/db307e3a1ba04a259b502f5322ceb42b/c.html",
+          "date": "2023-11-28",
+          "evidence": "2023年11月28日，中国载人航天工程首次对外发布由神舟十六号乘组返回地面前手持高清相机，通过飞船绕飞拍摄的空间站组合体全景照片。"
+        }
+      ],
+      "reviewedAt": "2026-11-28",
+      "verification": "source-matched"
+    },
+    {
       "date": "2025-11-28",
       "title": "中欧班列累计开行突破12万列",
       "category": "社会",

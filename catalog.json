@@ -3141,6 +3141,24 @@
       "verification": "source-matched"
     },
     {
+      "date": "2023-11-28",
+      "title": "中国载人航天工程首次公布空间站组合体全景照片",
+      "category": "科技",
+      "location": "中国",
+      "summary": "2023年11月28日，中国载人航天工程首次对外发布由神舟十六号乘组返回地面前手持高清相机、通过飞船绕飞拍摄的空间站组合体全景照片，展示了空间站组合体的整体构型。",
+      "id": "history-cb9c7ce4c778a938",
+      "sources": [
+        {
+          "name": "新华网",
+          "url": "https://www.news.cn/tech/20250918/db307e3a1ba04a259b502f5322ceb42b/c.html",
+          "date": "2023-11-28",
+          "evidence": "2023年11月28日，中国载人航天工程首次对外发布由神舟十六号乘组返回地面前手持高清相机，通过飞船绕飞拍摄的空间站组合体全景照片。"
+        }
+      ],
+      "reviewedAt": "2026-11-28",
+      "verification": "source-matched"
+    },
+    {
       "date": "2024-10-11",
       "title": "首颗可重复使用返回式技术试验卫星成功回收",
       "category": "科技",
@@ -3467,9 +3485,9 @@
   ],
   "lastRun": {
     "date": "2026-11-28",
-    "completedAt": "2026-11-28T08:00:53+08:00",
-    "sourceCount": 5,
-    "addedCount": 4,
+    "completedAt": "2026-11-28T15:39:06+08:00",
+    "sourceCount": 6,
+    "addedCount": 1,
     "status": "ready"
   }
 }
